@@ -1,0 +1,17 @@
+{
+ "catalog_version": "2026-10-20-v1", "assets": [
+ {"family":"world-city-sample", "source":"https://www.fab.com/listings/4898e707-7855-404b-af0e-a505ee690e68", "priority":0,"state":"identified"},
+ {"family":"city-buildings", "source":"https://www.fab.com/listings/008fe959-5511-428e-93bd-f99b1179f6d5", "priority":0,"state":"identified"},
+ {"family":"city-vehicles", "source":"https://www.fab.com/listings/2909157b-ddfa-4cef-a925-69dc2467021f", "priority":0,"state":"identified"},
+ {"family":"city-crowds", "source":"https://www.fab.com/listings/903037e9-e1ac-4f41-96e8-1683c6fa7ad4", "priority":0,"state":"identified"},
+ {"family":"photogrammetry-environment", "source":"https://www.fab.com/listings/d79688f5-29be-4fb2-a650-2d4a813f5306", "priority":0,"state":"identified"},
+ {"family":"hdri-3d", "source":"https://polyhaven.com/", "priority":0,"state":"identified"},
+ {"family":"surfaces", "source":"https://ambientcg.com/", "priority":0,"state":"identified"},
+ {"family":"megascans-road", "source":"https://www.fab.com/listings/673d4ee4-db90-47a6-8520-38bcb8a43b24", "priority":0,"state":"identified"},
+ {"family":"regional-photogrammetry", "source":"https://www.fab.com/listings/e714ec2e-e31a-4390-a666-abee93c8d579", "priority":1,"state":"candidate-only"},
+ {"family":"airport", "source":"https://www.fab.com/listings/fd569d09-38a5-4c57-89ea-92909b168341", "priority":1,"state":"candidate-only"}
+ ],
+ "unfilled_families":["motorcycles", "scooters", "bicycles", "balloons", "boats", "small-aircraft", "airliner", "cafes", "shops", "food-carts", "ambient-city-sounds", "regional-architecture", "animations"],
+ "states_allowed":["identified", "candidate-only", "downloaded", "validated", "imported", "cooked", "runtime-visible"],
+ "note":"Identified is not acquired. Implementer updates states only with actual file and test evidence."
+}

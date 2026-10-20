@@ -1,0 +1,30 @@
+{
+  "scenario": "synthetic Tampa caf\u00e9; no real TTS/audio or asset transfer executed",
+  "prefetch_plan": {
+    "revision": 0,
+    "staged": [
+      "speech.en.hello-amber",
+      "cafe-exterior-cell.glb",
+      "npc-amber-gesture.glb"
+    ],
+    "staged_bytes": 259000,
+    "decode_ms": 68,
+    "eligible_gates": [
+      "overheard-cafe"
+    ],
+    "expired_gates": [
+      "billboard"
+    ],
+    "digest": "3f80db3840df03be294b96a4b762df7f9f51679bff383e3c0c77705914e0e9a8"
+  },
+  "before_activation": {
+    "world_revision": 0,
+    "committed_events": 0
+  },
+  "after_activation": {
+    "world_revision": 1,
+    "committed_events": 1
+  },
+  "committed_event_hash": "399daab774b72966f79323d7f244873791efa3de0b30bc5060ffe31fc6f5f7a8",
+  "voice_cache_key": "3188553f8aa97a2ba2aa9fca98a435dfd7d8cf9570a93466e32b8c0991fa804a"
+}

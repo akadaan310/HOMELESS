@@ -1,0 +1,160 @@
+{
+  "name": "DARK HOMELESS UE5.8 WORLD OF WORLDS CODEX ONE SHOT",
+  "version": "1.0",
+  "created": "2026-10-20",
+  "start": "CODEX_ONE_SHOT_INSTALL.md",
+  "file_count": 30,
+  "total_input_bytes": 95872255,
+  "files": [
+    {
+      "path": "CODEX_ONE_SHOT_INSTALL.md",
+      "bytes": 10152,
+      "sha256": "f599d64ffc0b8757cfc9e94c4138c7059e5a66d7f57ea47d1bcdb2a886fbaf1b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5013,
+      "sha256": "33d9a925eaa0c11e993e4d6045d542fb4b1ab63c1eec2e21eb13bbb5fb5b583a"
+    },
+    {
+      "path": "config/asset_candidates.json",
+      "bytes": 1841,
+      "sha256": "6c96da003dd488587ad2a38370d91a5db2bef40a71013959495501b589212d65"
+    },
+    {
+      "path": "config/engine_manifest.json",
+      "bytes": 1512,
+      "sha256": "1d340e4906fe7615fb6a3b885137d0f6c3c0942718c24889559d075db5dcde60"
+    },
+    {
+      "path": "harness/BUILD_GRAPH.md",
+      "bytes": 2123,
+      "sha256": "bdfe88910a000cff1a0d8a2e19a957557f120923b093ad8ebc666452d5d386c4"
+    },
+    {
+      "path": "harness/SUBSTRATE_AGENT_HARNESS.md",
+      "bytes": 5360,
+      "sha256": "af53f1b986e43c555c9574c7cdcd7baad9ed8b195f6c090e96b59c683c953b03"
+    },
+    {
+      "path": "inputs/FOUNDATIONS.md",
+      "bytes": 32279,
+      "sha256": "0928400fb8e9a34f9bd343c8b8837b7922ddfd82f945d9882a0fc8619de6a0a7"
+    },
+    {
+      "path": "inputs/HOMELESS_AI_NATIVE_ENGINE_GODSEED_V2.zip",
+      "bytes": 24634,
+      "sha256": "008bf8601b450bf696707c063455a6222511daf21f6fec04c6d3f38eaadf4026"
+    },
+    {
+      "path": "inputs/HOMELESS_AI_NATIVE_ENGINE_V3_BORNE.zip",
+      "bytes": 82146,
+      "sha256": "f224b513b42d7094b9517545b78681682d58642d40570de102220bdab2861510"
+    },
+    {
+      "path": "inputs/Ingrammatica — Breaking Matrices.md",
+      "bytes": 19432,
+      "sha256": "47ffdac44bbe8d4a0c13b48a5c778a8ea56c8dcae3d15206f157356ff338bfa0"
+    },
+    {
+      "path": "inputs/PLICASTRATUM.md",
+      "bytes": 28088,
+      "sha256": "3a11ee1c6998d740cd556847ae8b64115bdac17c21e78efa85c5701e2606fcdd"
+    },
+    {
+      "path": "inputs/al-bab-seven-strata.md",
+      "bytes": 4827,
+      "sha256": "15a033fea26f2a636578504bec40fe6dd194889c2cda7f582385f6fa71a7f357"
+    },
+    {
+      "path": "inputs/homeless-realms-0.1.zip",
+      "bytes": 55851604,
+      "sha256": "4c786d0cbb5b73c56953ccc19f4e4d6456829c5aaac79e071fd01987b30a7c45"
+    },
+    {
+      "path": "inputs/ingram-0.1.zip",
+      "bytes": 39670817,
+      "sha256": "220c6f4771e29816219b8c833f3e749d82e187b98ba91d92f881932861980ec6"
+    },
+    {
+      "path": "inputs/tashkil-kernel-v0.1.zip",
+      "bytes": 31929,
+      "sha256": "f62843e6a3af1b8e9d42dbbd5a7d175f18cfcaddf08415e78a0457d8c86862b8"
+    },
+    {
+      "path": "interfaces/PROTOCOL_CONTRACTS.md",
+      "bytes": 4310,
+      "sha256": "403fa135844e2cfb40ea8882c777b0cb98dd9e9a0229834a456e8b7eea2de1e3"
+    },
+    {
+      "path": "research/ASTROMETRIC_CONSTELLATABLES.md",
+      "bytes": 6255,
+      "sha256": "25253e43f8b9232b8867c3da7da30221a748c22e843526a907e0a2943ec56ba5"
+    },
+    {
+      "path": "research/GRAMMAR_GENERATOR_AND_RUNTIME_SHELL.md",
+      "bytes": 8540,
+      "sha256": "b59535732c8b96c6fe35f147dba49526ca27075b9601d3b4a65aba809d7c04f9"
+    },
+    {
+      "path": "research/OCTAVE_MATHEMATICAL_AUTHORITY.md",
+      "bytes": 6135,
+      "sha256": "f2064013d652008dfec8bd8dc103b93b8d9c1325f3ea5c452227bc861627a41e"
+    },
+    {
+      "path": "research/PURL_SEURL_ACSP_CONTINUITY.md",
+      "bytes": 8971,
+      "sha256": "214c332e1a77fcfb8cb78628f638b4691be34c23442fa47c5179e8430c6a1406"
+    },
+    {
+      "path": "research/REFERENCE_RECONCILIATION.md",
+      "bytes": 4903,
+      "sha256": "cfb2bb929966822ab702834333a8e09b766714af7e6d43152da5a906c9eddf3c"
+    },
+    {
+      "path": "research/SOUND_WEATHER_AND_CAMERA.md",
+      "bytes": 7167,
+      "sha256": "6fcfff1a25ee4bce7fb4a394f6daced416547d751853842e378a73c2ffe11a7c"
+    },
+    {
+      "path": "specs/ANDROID_WEB_AND_ONE_TAP_DELIVERY.md",
+      "bytes": 4862,
+      "sha256": "3bb4a73caaa3c730c113f4b515c49ec8fdd0cbcff67d46d85cb53fea99b1aa1d"
+    },
+    {
+      "path": "specs/MASTER_PRD.md",
+      "bytes": 15847,
+      "sha256": "e9c0ff9a06b8cfde0a738c7c831cc0fd2027dd57606a661cfbd59520d21f61e9"
+    },
+    {
+      "path": "specs/NPC_GAME_THEORY_AND_DARK.md",
+      "bytes": 6964,
+      "sha256": "c713b20fae90a2eb156c76fa3a5f990f545a4cdd644df45bff7df499b1078160"
+    },
+    {
+      "path": "specs/UNREAL_ASSETS_AND_STREAMING.md",
+      "bytes": 10441,
+      "sha256": "413ac28b3a069ef813b6a6654483b34523c60faaf73c6c64f7f0b87aa61a9b05"
+    },
+    {
+      "path": "specs/WORLD_DATA_AND_GEOLOGIC_GRAPH.md",
+      "bytes": 6867,
+      "sha256": "58dd5a1159dee5e31a4e9b476ed593e6499838fc796425525a19dc47ab8cd45f"
+    },
+    {
+      "path": "tests/ACCEPTANCE_MATRIX.md",
+      "bytes": 6932,
+      "sha256": "ccc773c7434445b43ea10d91e9349cdfa5b65ade11ac6384ed053ddf05b31859"
+    },
+    {
+      "path": "tests/PACK_VALIDATION.py",
+      "bytes": 1296,
+      "sha256": "a0528a79c6b63c042b38c896d3bc596192c6514efe78c290dfafc8a62a570a7d"
+    },
+    {
+      "path": "tools/ENV_PRECHECK.py",
+      "bytes": 1008,
+      "sha256": "97b43d171f96469e60c656f84768a0a17e10ec13f254382d13de81344f2eff88"
+    }
+  ]
+}

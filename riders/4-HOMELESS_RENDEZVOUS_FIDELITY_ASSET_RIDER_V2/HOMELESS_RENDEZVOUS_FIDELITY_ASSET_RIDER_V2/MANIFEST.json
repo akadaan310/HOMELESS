@@ -1,0 +1,20 @@
+{
+  "files": {
+    "CODEX_ONE_SHOT_ADDENDUM.md": {
+      "bytes": 2345,
+      "sha256": "3b638b7d68ea27452c46e4cde5e997fd7408562368ac51c274a33c11c7254b55"
+    },
+    "README.md": {
+      "bytes": 687,
+      "sha256": "6dd1f42810b09edf107ac5203e5df170ae763e476792adf4c2f4a16ef650c72b"
+    },
+    "RENDEZVOUS_HIGH_FIDELITY_ASSET_PIPELINE.md": {
+      "bytes": 15071,
+      "sha256": "bbde56ced475aced440146500fc4ab7ac94f4ac851f66d4f74a01c13b8d53baa"
+    },
+    "sources.json": {
+      "bytes": 2385,
+      "sha256": "c1bf84598cc0ce4fec7e414ae761c838da1fc579aa6a4f5b54bff2ea62a3b39b"
+    }
+  }
+}
