@@ -1,9 +1,9 @@
 # Acceptance ledger
 
-Full commission: **FAIL**. {'pass': 37, 'blocked': 80, 'fail': 19}. Generated 2026-10-20T22:33:08.572558+00:00.
+Full commission: **FAIL**. {'pass': 37, 'blocked': 80, 'fail': 19}. Generated 2026-10-20T22:40:00.666529+00:00.
 
-Source commit `2bc368e63346491db1d91048eb1f43b99d6c9dec`; branch `codex/one-shot-implementation`; working tree changes present: `True`.
-Source-content SHA-256 `49e51340de74e9261a7a895337ec1942c3487e4aaf0a5a50209f8dbe1ab9ba68`; build SHA-256 `8e563cd434de745b5cc0068d2689a50ff0233ac6178aa35079a0aa5e757b5efe`.
+Source commit `4b595f73fa1ce5cff1ad9e4ac463b7ef2ef01fbc`; branch `codex/one-shot-implementation`; working tree changes present: `True`.
+Source-content SHA-256 `89c33849fdc8f615113bd00342a0e6ee43339940ff15d76618e5b7e662fe2234`; build SHA-256 `cbfa2d264a370ad8740bab21a9f4a2a3bea2b9db91ac4be224fe091204cfcb5a`.
 
 Every original matrix row, all twelve V3 integrated tasks, and relevant V1/V2 stages remain independent. JSON contains exact thresholds, procedures, oracles, observed values, file hashes and blockers. A passing negative research experiment does not certify the proposed resemblance.
 
@@ -46,13 +46,13 @@ Actual artifact and local test passes do not pass scene fidelity, Oracle ARM, Un
 | N01 | PASS | Virtual actor scale | Executed within the stated fixture scope. |
 | N02 | PASS | NPC rights | Executed within the stated fixture scope. |
 | N03 | PASS | World authorship | Executed within the stated fixture scope. |
-| N04 | FAIL | Founder account | Local operator capability does not independently authenticate Abed Kadaan; production founder identity and device cross-session proof are missing. |
+| N04 | FAIL | Founder account | Local operator capability does not independently authenticate Abed Kadan; production founder identity and device cross-session proof are missing. |
 | D01 | PASS | Android | Executed within the stated fixture scope. |
 | D02 | PASS | Web | Executed within the stated fixture scope. |
 | D03 | BLOCKED | Streaming | No licensed Unreal 5.8 SDK, rendered/cooked map, GPU, or hardware encoder in this environment. |
 | D04 | BLOCKED | Offline fallback | No connected authorized Android device/emulator; Samsung A16/A60, install/startup, audio focus, thermal/power and suspend/rejoin tests not executed. |
 | D05 | PASS | Delivery bundle | Executed within the stated fixture scope. |
-| V1-A01 | BLOCKED | Web build | Public HTTPS deployment and complete3D/NPC story not acceptance-tested. |
+| V1-A01 | BLOCKED | Web build | Private cached HTTPS preview is deployed; complete connected hosted3D/NPC story is not acceptance-tested. |
 | V1-A02 | BLOCKED | Android | No connected authorized Android device/emulator; Samsung A16/A60, install/startup, audio focus, thermal/power and suspend/rejoin tests not executed. |
 | V1-A03 | BLOCKED | Fullscreen | No connected authorized Android device/emulator; Samsung A16/A60, install/startup, audio focus, thermal/power and suspend/rejoin tests not executed. Browser fullscreen/scroll assertions missing. |
 | V1-A04 | BLOCKED | Shared state | No connected authorized Android device/emulator; Samsung A16/A60, install/startup, audio focus, thermal/power and suspend/rejoin tests not executed. |

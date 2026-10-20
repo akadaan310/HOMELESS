@@ -1,0 +1,20 @@
+{
+  "source_commit": "4b595f73fa1ce5cff1ad9e4ac463b7ef2ef01fbc",
+  "artifacts": [
+    {
+      "name": "HOMELESS-Rendezvous-debug.apk",
+      "bytes": 48427964,
+      "sha256": "4fbfa0f8a73b5e5bead15e9903d01eebd4673c0bfb88602474b21412a0e1a037"
+    },
+    {
+      "name": "HOMELESS-Rendezvous-linux-runtime.tar.gz",
+      "bytes": 822859,
+      "sha256": "75d17543a73e4122cce3d9fc6e7189ba699ccb10dd2bf0aa170a0f9772818509"
+    },
+    {
+      "name": "HOMELESS-Rendezvous-web.tar.gz",
+      "bytes": 37873161,
+      "sha256": "0ae83c3340cedbddfefc72b7722ff407a6cc40f52efb91aa9fbb057b93d074b4"
+    }
+  ]
+}

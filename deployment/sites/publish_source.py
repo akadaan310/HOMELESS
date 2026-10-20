@@ -32,6 +32,6 @@ def main():
  commit=run(['git','rev-parse','HEAD']);run(['git','push','-u','origin',credential.get('branch','main')])
  archive=pathlib.Path(a.archive);archive.parent.mkdir(parents=True,exist_ok=True)
  with tarfile.open(archive,'w:gz') as tar:
-  tar.add(checkout/'.openai/hosting.json',arcname='.openai/hosting.json');tar.add(checkout/'dist',arcname='dist')
+  tar.add(checkout/'.openai/hosting.json',arcname='.openai/hosting.json');tar.add(checkout/'SOURCE.json',arcname='SOURCE.json');tar.add(checkout/'dist',arcname='dist')
  print(json.dumps({'project_id':manifest['project_id'],'commit_sha':commit,'archive':str(archive),'sha256':hashlib.sha256(archive.read_bytes()).hexdigest()}),flush=True)
 if __name__=='__main__':main()

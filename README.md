@@ -4,6 +4,8 @@ Founder and founding player: **Abed Kadan (Dark)**. Marina del Rey is his origin
 
 This is a runnable engineering build of the independent **World Loom** engine, the **Rendezvous PlayCanvas** browser/Android adapter, and an Unreal 5.8 integration project. **Full Unreal rendering and final cinematic/device acceptance are not complete.** The exact results and remaining failures are recorded in [the acceptance report](evidence/acceptance.md).
 
+Owner-private browser preview: **https://homeless-rendezvous-dark.daintyaspen11.chatgpt.site**. This is cached origin play; a separately configured HTTPS world service is required for new authoritative events and microphone transcription. Local connected play is described below. The [draft integration PR](https://github.com/akadaan310/HOMELESS/pull/1) retains the full implementation and evidence.
+
 ## Run the connected world locally
 
 On Debian 13 / Linux with Python 3.11+, Node 22+, g++ and bubblewrap:
@@ -28,6 +30,7 @@ A local founder/operator capability is created at `.runtime/worldloom.operator-t
 
 - Android development package: [HOMELESS-Rendezvous-debug.apk](artifacts/android/HOMELESS-Rendezvous-debug.apk), with [checksums](artifacts/android/SHA256SUMS), package metadata, signature verification and device-test status in `evidence/android_*`.
 - Browser build: generated in `web/dist/` and `artifacts/web/`; `npm --prefix web run build` reproduces it. Cached origin projections are separate from the connected authoritative world.
+- Downloadable browser/native archives and their checksums: [artifacts/releases](artifacts/releases). GitHub's separate release-upload endpoint returned HTTP401; these build bytes are committed in the repository.
 - Native executable/library: `artifacts/native/`; actual isolated shell client, JavaScript and Wasm fixtures: `artifacts/runtime/`.
 - Synthesized speech and seven sound classes: `artifacts/voice/` and `artifacts/audio/`, with source/model hashes and measured timing.
 - Unreal project: [Homeless.uproject](unreal/Homeless/Homeless.uproject), build/import/preflight scripts, source art registry, native IPC adapter and official UE5.8 Pixel Streaming infrastructure integration. See [Unreal status](docs/UNREAL.md).
@@ -40,6 +43,8 @@ python3 tools/build_acceptance.py
 ```
 
 The real daemon smoke test exercises CBOR/Unix IPC, typed channels, media preparation without activation, a spoken event, forced restart, identical replay, and duplicate retry. Numerical witnesses compare native C++ with actual Octave. Browser telemetry is a software-renderer measurement, not a Samsung or GPU-host result. See [grammar/world](docs/GRAMMAR_WORLD.md), [geography/sky](docs/GEO_SKY.md), [numerics](docs/NUMERICAL_RESEARCH.md), [speech](docs/VOICE.md), and [protocols](docs/PROTOCOL.md).
+
+Final checks: **98 Python tests and 12 Node tests passed**. Actual Chromium walking/reload/account/audio checks passed, with the final minor input/telemetry delta recorded in `evidence/web_checks.json`. All 90 APK web files match the final browser build byte for byte. Full commission acceptance is **FAIL**, with 19 failed and 80 blocked checks. The latest software-renderer p95 was 8,242.7 ms under concurrent cloud workload. Targets for 30 FPS on named devices, full visual coverage, Arabic ASR, actual Unreal rendering and Oracle execution remain unmet or unverified.
 
 ## Preserved commission and source art
 

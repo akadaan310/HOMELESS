@@ -1,0 +1,22 @@
+{
+  "schema": "homeless.site-deployment.v1",
+  "id": "appgdep_6ad7ecd1afb881919a756f22d645baeb",
+  "project_id": "appgprj_6ad7e345a2ec819192988b20fbb3931e",
+  "title": "HOMELESS — Rendezvous",
+  "version_id": "appgprj_6ad7e345a2ec819192988b20fbb3931e~appgver_c32d73ed2ba8819190cc39b7885dba18",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://homeless-rendezvous-dark.daintyaspen11.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6ad7e345a2ec819192988b20fbb3931e",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-10-20T22:36:26.097718+00:00",
+  "audience": "owner-private",
+  "source_commit": "fd535dcf79f7d6d808d4f2f77a03cce92f078644",
+  "engineering_commit": "4b595f73fa1ce5cff1ad9e4ac463b7ef2ef01fbc",
+  "archive_sha256": "5c922cd7cc55503e112440608ebdb26b7fa07d7f15161b7ef20efcd4eac7981c",
+  "web_revision": "110bb5d19bef65c101f512c10b566e508e167559afc7bee94b4c1c5be0fb5c73",
+  "mode": "static cached origin; no remote World Loom/Oracle/ASR/Unreal host deployed"
+}

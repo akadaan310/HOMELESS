@@ -1,8 +1,8 @@
 {
   "schema": "homeless.deliverables.v1",
-  "observed_utc": "2026-10-20T22:32:59.024238+00:00",
-  "source_tree_sha256": "f623b6b51ebb2c3c7e4dc62ae12d933c2b0f3e23a921618bf45a91d82b585fd3",
-  "git_commit": "2bc368e63346491db1d91048eb1f43b99d6c9dec",
+  "observed_utc": "2026-10-20T22:39:59.932035+00:00",
+  "source_tree_sha256": "b3cd086047474c738be99dc98bafb8ebd276cd222c5c60d26bb3e178c4213906",
+  "git_commit": "4b595f73fa1ce5cff1ad9e4ac463b7ef2ef01fbc",
   "environment": "Linux-6.18.55-x86_64-with-glibc2.41",
   "source_files": [
     {
@@ -367,11 +367,11 @@
     },
     {
       "path": "tools/build_acceptance.py",
-      "sha256": "4ee9aee169985b020ff1e1097c07f5d8fe0b4c2008431b5c5a88cb424e21188f"
+      "sha256": "b62efa8c49673e5b47a722527a0b6f3d196e69b8bbf5f08912ec3315aa2bcec7"
     },
     {
       "path": "tools/build_manifest.py",
-      "sha256": "6df870508d717ecdb468f5d8c231edd458c245162cf4234e6cce54357b131361"
+      "sha256": "531a2413389591a583b1531d79e0a7fa9ef72f6a74bce668b9d5ea6d2983cdcd"
     },
     {
       "path": "tools/export_origin.py",
@@ -1382,6 +1382,21 @@
       "sha256": "4b9a784014144210ec5e3c2d6a67a167ec0613a68f0d3a37617868cedfad2e1a"
     },
     {
+      "path": "artifacts/releases/SHA256SUMS",
+      "bytes": 300,
+      "sha256": "a8f221c22e863ff91e43f622ea01092bb7613dbb6a99fcc7fe6cba95893a367d"
+    },
+    {
+      "path": "artifacts/releases/HOMELESS-Rendezvous-linux-runtime.tar.gz",
+      "bytes": 822859,
+      "sha256": "75d17543a73e4122cce3d9fc6e7189ba699ccb10dd2bf0aa170a0f9772818509"
+    },
+    {
+      "path": "artifacts/releases/HOMELESS-Rendezvous-web.tar.gz",
+      "bytes": 37873161,
+      "sha256": "0ae83c3340cedbddfefc72b7722ff407a6cc40f52efb91aa9fbb057b93d074b4"
+    },
+    {
       "path": "assets/runtime/modular_factory_facade.glb",
       "bytes": 14616560,
       "sha256": "7d716d53667c94ec402fe0c0f353a7ea3ccdf499333ffd74754c00a8ae553f50"
@@ -1586,7 +1601,7 @@
   "oracle_connected": false,
   "android_install_verified": false,
   "notes": [
-    "Git commit may precede final documentation-only commits; source tree hash pins delivered code.",
-    "Build bytes and human/device/render quality have separate acceptance gates."
+    "Git commit may precede final verification, packaging and report commits; the source tree hash pins the listed accompanying files.",
+    "Executable bytes, APK/web equality and human/device/render quality have separate checks."
   ]
 }

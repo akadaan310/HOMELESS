@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Content hashes of actual deliverables and the source tree used to build them."""
+"""Content hashes of actual deliverables and their accompanying source snapshot."""
 import datetime,hashlib,json,pathlib,platform,subprocess
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 
@@ -15,9 +15,9 @@ def main():
   if (ROOT/name).is_file():files.append(ROOT/name)
  source=[{'path':str(p.relative_to(ROOT)),'sha256':sha(p)} for p in sorted(set(files))]
  tree_hash=hashlib.sha256(json.dumps(source,sort_keys=True,separators=(',',':')).encode()).hexdigest();artifacts=[]
- for name in ['artifacts/android','artifacts/native','artifacts/runtime','artifacts/audio','artifacts/voice','artifacts/web','assets/runtime']:
+ for name in ['artifacts/android','artifacts/native','artifacts/runtime','artifacts/audio','artifacts/voice','artifacts/web','artifacts/releases','assets/runtime']:
   for p in (ROOT/name).rglob('*'):
    if p.is_file():artifacts.append({'path':str(p.relative_to(ROOT)),'bytes':p.stat().st_size,'sha256':sha(p)})
- r={'schema':'homeless.deliverables.v1','observed_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_tree_sha256':tree_hash,'git_commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'environment':platform.platform(),'source_files':source,'artifacts':artifacts,'unreal_cooked':False,'oracle_connected':False,'android_install_verified':False,'notes':['Git commit may precede final documentation-only commits; source tree hash pins delivered code.','Build bytes and human/device/render quality have separate acceptance gates.']}
+ r={'schema':'homeless.deliverables.v1','observed_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_tree_sha256':tree_hash,'git_commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'environment':platform.platform(),'source_files':source,'artifacts':artifacts,'unreal_cooked':False,'oracle_connected':False,'android_install_verified':False,'notes':['Git commit may precede final verification, packaging and report commits; the source tree hash pins the listed accompanying files.','Executable bytes, APK/web equality and human/device/render quality have separate checks.']}
  p=ROOT/'artifacts/BUILD_MANIFEST.json';p.write_text(json.dumps(r,indent=2)+'\n');print(json.dumps({'source_tree_sha256':tree_hash,'files':len(artifacts),'artifact_bytes':sum(x['bytes'] for x in artifacts)}))
 if __name__=='__main__':main()
