@@ -1,0 +1,29 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  espeak-ng-data libcxsparse4 libespeak-ng1 libglpk40
+  libgraphicsmagick++-q16-12t64 libgraphicsmagick-q16-3t64 libpcaudio0
+  libportaudio2 libqrupdate1 libqscintilla2-qt6-15 libqscintilla2-qt6-l10n
+  libsonic0 libspqr4 libtext-unidecode-perl libxml-libxml-perl
+  libxml-namespacesupport-perl libxml-sax-base-perl libxml-sax-perl
+  octave-common texinfo texinfo-lib
+Suggested packages:
+  libiodbc2-dev default-libmysqlclient-dev graphicsmagick-dbg
+  libqscintilla2-doc octave-dev openjdk-21-demo openjdk-21-source
+  texlive-plain-generic
+Recommended packages:
+  libwww-perl libxml-sax-expat-perl gnuplot-qt | gnuplot-x11 | gnuplot-nox
+  libopenblas0 | libblis4 pstoedit epstool octave-doc fonts-freefont-otf
+The following NEW packages will be installed:
+  busybox-static espeak-ng espeak-ng-data libcxsparse4 libespeak-ng1 libglpk40
+  libgraphicsmagick++-q16-12t64 libgraphicsmagick-q16-3t64 libpcaudio0
+  libportaudio2 libqrupdate1 libqscintilla2-qt6-15 libqscintilla2-qt6-l10n
+  libsonic0 libspqr4 libtext-unidecode-perl libxml-libxml-perl
+  libxml-namespacesupport-perl libxml-sax-base-perl libxml-sax-perl octave
+  octave-common openjdk-21-jdk-headless texinfo texinfo-lib
+0 upgraded, 25 newly installed, 0 to remove and 7 not upgraded.
+Need to get 0 B/117 MB of archives.
+After this operation, 214 MB of additional disk space will be used.
+Download complete and in download only mode
+W: Unable to read /etc/apt/apt.conf.d/80-applied-apt-retries - open (13: Permission denied)

@@ -1,0 +1,22 @@
+{
+  "status": "fail",
+  "web_revision": "110bb5d19bef65c101f512c10b566e508e167559afc7bee94b4c1c5be0fb5c73",
+  "apk_sha256": "c62ea8455b06c216074be806025387143bd06f14b9292f5af286cf013f96a811",
+  "files_compared": 90,
+  "mismatches": [
+    {
+      "path": "app.js",
+      "reason": "different bytes"
+    },
+    {
+      "path": "build-manifest.json",
+      "reason": "different bytes"
+    },
+    {
+      "path": "sw.js",
+      "reason": "different bytes"
+    }
+  ],
+  "rocketbox_mit_notice_carried": true,
+  "scope": "Embedded static client equality; does not execute Android WebView or certify device behavior."
+}

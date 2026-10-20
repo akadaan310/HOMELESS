@@ -1,0 +1,58 @@
+{
+  "schema": "homeless.web-checks.v1",
+  "browser_build_revision": "05c20625a58fcdfd72eff65dc0d61d57fe3666a942aac51a0d408083dc4aeb9a",
+  "final_web_revision": "110bb5d19bef65c101f512c10b566e508e167559afc7bee94b4c1c5be0fb5c73",
+  "post_browser_delta": "Final web adds a second stale-ASR/cancel check immediately before fetch and bounds diagnostic audio-event memory to1000; scene/physics/render/voice selection unchanged. Final Node12 tests pass.",
+  "functional": {
+    "status": "PASS",
+    "procedure": "Real Chromium software WebGL2; trusted pointer Enter + held keyboard W; real imported GLBs and Rapier; reload latest durable journal and authenticate same account",
+    "errors": [],
+    "movement_m": 0.44113187269114784,
+    "position_restored": true,
+    "account_resumed": true
+  },
+  "performance": {
+    "status": "FAIL",
+    "scope": "Cloud CPU SwiftShader, concurrent Gradle/assets tasks; not Samsung hardware",
+    "frame_p50_ms": 880,
+    "frame_p95_ms": 8242.699999999255,
+    "p95_target_ms": 40,
+    "source_assets_ready_ms": 122389.20000000112,
+    "cold_source_target_ms": 15000,
+    "render_resolution": [
+      400,
+      260
+    ],
+    "allocated_gpu_bytes": {
+      "tex": 271878512,
+      "vb": 6400996,
+      "ib": 1188078,
+      "ub": 35744,
+      "sb": 0
+    },
+    "draw_calls": 595,
+    "mesh_triangle_inventory": 329369
+  },
+  "audio": {
+    "status": "PARTIAL",
+    "context": "running",
+    "decoded_buffers": 16,
+    "actual_npc_source_starts": [
+      "cedar-haven.report-a08a885c",
+      "amber-cafe.sign-c9f25b13",
+      "river-walk.pattern-f012858d"
+    ],
+    "occlusion_changes": 8,
+    "limits": "Headless output muted; no human headphone listening, physical-device mix, mic or onset/underrun certification."
+  },
+  "device": {
+    "status": "BLOCKED",
+    "reason": "No authorized Android device/emulator, Samsung A60/A16, physical microphone or Unreal GPU host available."
+  },
+  "evidence": [
+    "evidence/web_browser.json",
+    "evidence/web_play.png",
+    "evidence/web_unit_tests.log",
+    "evidence/android_device_test.json"
+  ]
+}

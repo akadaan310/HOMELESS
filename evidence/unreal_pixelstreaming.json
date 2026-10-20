@@ -1,0 +1,20 @@
+{
+  "status": "built-and-http-served",
+  "repository": "EpicGamesExt/PixelStreamingInfrastructure",
+  "branch": "UE5.8",
+  "commit": "4c1fd4830cde8c6dd441b9c72ec8864b2f7f29bd",
+  "package": "@epicgames-ps/wilbur@3.1.0",
+  "http_test": {
+    "url": "http://127.0.0.1:8081/",
+    "html_bytes": 1409,
+    "status": 200
+  },
+  "streamer_connected": false,
+  "webrtc_video_received": false,
+  "remaining_blockers": [
+    "UE5.8 SDK missing",
+    "GPU encoder unavailable",
+    "no cooked HOMELESS executable",
+    "public TLS endpoint/TURN not provisioned"
+  ]
+}

@@ -32,7 +32,23 @@ class WorldSession(Engine):
    try:
     if len(canonical(q).encode())>MAX_MESSAGE:raise ValueError('message budget exceeded')
     if not isinstance(payload,dict):raise ValueError('payload must be a map')
+    if op in ['query','resolve','inspect'] and str(q.get('program','')).startswith('purl://dark/journey/'):
+     from urllib.parse import urlsplit
+     path=urlsplit(q['program']).path;parts=path.strip('/').split('/')
+     if len(parts)!=3 or parts[0]!='journey' or parts[2]!='program':raise ValueError('invalid journey program address')
+     session_id=parts[1];actor=q.get('actor','guest');token=q.get('capability','')
+     owner=actor=='player:'+session_id and self.store.authorized(token,actor,'world.play')
+     if not owner and not self.store.authorized(token,actor,'*'):return {'status':'refused','warnings':['journey owner capability required']}
+     context=q.get('context_hash');context=context.removeprefix('sha256:') if isinstance(context,str) else context
+     events=self.store.state(context)['sessions'].get(session_id,[])
+     steps=[{'kind':e.get('journey_kind','walk'),'position':e['position']} for e in events]
+     return self._ok({'grammar':'journey.observation.v1','program':{'sort':'JourneyObservation','steps':steps},'address':q['program'],
+      'witness':{'request_hashes':[e.get('request_hash') for e in events],'trace_digest':digest(steps)},
+      'provenance':'authenticated client observations; physical motion and route admissibility are not independently proven'})
     if op in ['world.query','state']:return self._ok(self.snapshot())
+    if op=='mission.opportunity':
+     if self.world is None:raise ValueError('world module unavailable')
+     return self.world.dispatch(op,payload,actor=q.get('actor','guest'))
     if op=='billboard.inspect':
      check=self.store.checkpoint();return self._ok({'program':'purl://dark/continuity/checkpoint','grammar':'typed read -> checkpoint -> verify','witness':check,'output':{'committed_events':check['count'],'state_hash':check['state_hash']},'exit_code':0,'source':'actual durable ledger; no host paths or credentials'})
     if op in ['grammar.compile','grammar.validate','grammar.expand','grammatical.run','model.describe']:

@@ -1,0 +1,62 @@
+{
+  "canonical_id": "world://asset/urban_street_03",
+  "category": "hdr-environment",
+  "color_space": {
+    "Diffuse": "sRGB",
+    "Rough": "linear",
+    "hdri": "linear HDR radiance",
+    "nor_gl": "linear"
+  },
+  "cook_status": "not-cooked",
+  "files": [
+    {
+      "bytes": 100628444,
+      "master_ref": "assets/originals/sha256/31/310f024954b3dcc0a646861635b1fea857eb40297029776fd9f48dd262d98791",
+      "path": "assets/originals/urban_street_03/urban_street_03_8k.hdr",
+      "publisher_md5": "85328703df4f55e1e6f02415a05cda81",
+      "sha256": "310f024954b3dcc0a646861635b1fea857eb40297029776fd9f48dd262d98791",
+      "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/8k/urban_street_03_8k.hdr"
+    },
+    {
+      "bytes": 6487160,
+      "master_ref": "assets/originals/sha256/65/65d92f6ca47c6f2577b8863d98b1bcf611028ad3a39646a7a6a9fee456ddbc82",
+      "path": "assets/originals/urban_street_03/urban_street_03_2k.hdr",
+      "publisher_md5": "1c344c0621a919471753c8ed47bf71e5",
+      "sha256": "65d92f6ca47c6f2577b8863d98b1bcf611028ad3a39646a7a6a9fee456ddbc82",
+      "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/urban_street_03_2k.hdr"
+    }
+  ],
+  "id": "urban_street_03",
+  "import_status": "not-imported",
+  "license": "CC0-1.0",
+  "normal_map_convention": "OpenGL +Y",
+  "quality_gate": "source bytes validated; rendered BRDF/exposure gate pending",
+  "scene_test": "not-rendered",
+  "source_file": "assets/originals/urban_street_03/urban_street_03_8k.hdr",
+  "status": "verified",
+  "surface_low_variants": {
+    "hdri": {
+      "bytes": 1633950,
+      "format": "hdr",
+      "path": "assets/runtime/urban_street_03_1k.hdr",
+      "publisher_md5": "dd4e2fd0f98a6c7e9ff4cbd903e38829",
+      "resolution": "1k",
+      "sha256": "145c1e911e763c43a28ba5800888606b79acd1830f43fe9793f24da3478b5d8b",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/urban_street_03_1k.hdr",
+      "url": "/assets/runtime/urban_street_03_1k.hdr"
+    }
+  },
+  "surface_variants": {
+    "hdri": {
+      "bytes": 6487160,
+      "format": "hdr",
+      "path": "assets/runtime/urban_street_03_2k.hdr",
+      "resolution": "2k",
+      "sha256": "65d92f6ca47c6f2577b8863d98b1bcf611028ad3a39646a7a6a9fee456ddbc82",
+      "source": "publisher-authored 2K derivative;8K source retained",
+      "url": "/assets/runtime/urban_street_03_2k.hdr"
+    }
+  },
+  "url": "https://polyhaven.com/a/urban_street_03",
+  "variants": {}
+}

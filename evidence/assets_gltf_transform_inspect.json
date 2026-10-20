@@ -1,0 +1,26 @@
+{
+  "tool": "@gltf-transform/cli4.2.1",
+  "results": [
+    {
+      "asset": "tampa_fictional_frontage",
+      "returncode": 0,
+      "report": "evidence/assets_inspect_tampa_fictional_frontage.txt"
+    },
+    {
+      "asset": "rocketbox_male_adult_01",
+      "returncode": 0,
+      "report": "evidence/assets_inspect_rocketbox_male_adult_01.txt"
+    },
+    {
+      "asset": "car_concept.low",
+      "returncode": 0,
+      "report": "evidence/assets_inspect_car_concept_low.txt"
+    },
+    {
+      "asset": "jacaranda_tree",
+      "returncode": 0,
+      "report": "evidence/assets_inspect_jacaranda_tree.txt"
+    }
+  ],
+  "runtime_importer": "independent metadata inspection only; PlayCanvas and Blender evidence separate"
+}

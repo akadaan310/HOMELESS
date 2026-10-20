@@ -6,6 +6,8 @@ class Session(unittest.TestCase):
    p=pathlib.Path(t)/'world.db';w=WorldSession(p);s=w.open_player();headers={'actor':s['actor'],'capability':s['token'],'session':s['session']}
    q={**headers,'operation':'journey.append','event_id':'walk-1','payload':{'kind':'walk','position':[1,0,2]}}
    a=w.invoke(q);self.assertEqual(a['status'],'ok');self.assertIsNotNone(a['commit_id']);self.assertEqual(w.invoke(q)['commit_id'],a['commit_id'])
+   read={'operation':'query','program':'purl://dark/journey/'+s['session']+'/program','payload':{},**headers}
+   self.assertEqual(w.invoke(read)['data']['program']['steps'],[{'kind':'walk','position':[1,0,2]}]);self.assertEqual(w.invoke({**read,'capability':'bad'})['status'],'refused')
    self.assertEqual(w.invoke({**q,'actor':'dark','event_id':'forged'})['status'],'refused')
    check=w.store.checkpoint();w.close();w=WorldSession(p)
    self.assertEqual(w.store.checkpoint(),check);self.assertEqual(len(w.store.state()['sessions'][s['session']]),1);w.close()
@@ -16,6 +18,14 @@ class Session(unittest.TestCase):
  def test_invalid_operation_returns_typed_error(self):
   with tempfile.TemporaryDirectory() as t:
    w=WorldSession(pathlib.Path(t)/'db');self.assertEqual(w.invoke({'operation':[],'payload':{}})['status'],'error');w.close()
+ def test_optional_mission_is_pure_until_consented_acceptance_and_survives_restart(self):
+  with tempfile.TemporaryDirectory() as t:
+   path=pathlib.Path(t)/'db';w=WorldSession(path);player=w.open_player()
+   offer=w.invoke({'operation':'mission.opportunity','payload':{'goal':'learn-route-pattern'}})
+   self.assertEqual(offer['status'],'ok');self.assertTrue(offer['data']['evidence']);self.assertEqual(w.store.verify()['count'],0)
+   q={'operation':'mission.accept','payload':{'goal':offer['data']['goal'],'evidence':offer['data']['evidence'],'consent':True},'actor':player['actor'],'capability':player['token'],'session':player['session'],'event_id':'optional-mission'}
+   result=w.invoke(q);self.assertEqual(result['status'],'ok');self.assertIsNotNone(result['commit_id']);w.close();w=WorldSession(path)
+   self.assertTrue(w.world.missions);self.assertEqual(w.invoke(q)['commit_id'],result['commit_id']);w.close()
  def test_shell_query_sees_current_frozen_world_without_deadlock(self):
   import json
   with tempfile.TemporaryDirectory() as t:

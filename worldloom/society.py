@@ -140,7 +140,7 @@ class World:
         self.actors={};self.events=[];self.decisions=[];self.cohorts={};self.invitations={}
         self.proposals={};self.signs={'tampa-shop':{'name':'Amber Fold','kind':'cafe','source_kind':'constructed-fiction','revision':1}}
         self.journeys={};self.missions={};self.heard={};self._event_ids={};self._conversation_slot=-1
-        self.founder={'actor_id':'founder','display_name':'Dark','legal_name':'Abed Kadaan','historical_source_spelling':'Abed Kadan',
+        self.founder={'actor_id':'founder','display_name':'Dark','legal_name':'Abed Kadan','historical_source_spelling':'Abed Kadaan','name_assurance':'user-declared; not independent identity verification',
                       'origin':'Marina del Rey','identity_kind':'authentic-founder','authority_source':'authenticated-session-capability'}
         self.conversations=[]
         for i in range(24):
@@ -336,7 +336,11 @@ class World:
                             'speaker_actor':target,'text':text,'response_text':text,'decision':decision,'outcome':'npc-coauthors' if selected=='endorse' else 'npc-declines'}
                 if npc['activity']=='sleep' or (intent['act'] not in ('greet','clarify','decline') and npc['needs']['energy']<.3):
                     intent.update({'act':'decline','response_text':'I need to rest. Perhaps another time.','text':'I need to rest. Perhaps another time.'})
-                if intent['act']=='learn':intent['outcome']='npc-teaches'
+                if intent['act']=='learn':
+                    intent['outcome']='npc-teaches'
+                    witnessed={m['event_id'] for m in npc['memory']}
+                    evidence=[e['id'] for e in self.events if e['id'] in witnessed][-3:]
+                    intent['opportunity']=self.mission_opportunity({'goal':'learn-route-pattern','evidence':evidence})
                 if intent['act']=='look_up':intent['outcome']='npc-notices-sky-cue'
             if intent['act']!='clarify':self.emit('dialogue.act',actor,p.get('position',[0,0,0]),{'act':intent['act'],'target':target})
             return intent

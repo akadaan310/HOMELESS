@@ -1,5 +1,5 @@
 #!/bin/sh
 set -eu
 cd "$(dirname "$0")/.."
-python3 -m unittest discover -s tests -p 'test_*.py' -v
+python3 -m pytest tests -q
 npm --prefix web test

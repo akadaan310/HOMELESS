@@ -27,7 +27,7 @@
         ],
         "warnings": []
       },
-      "snapshot_hash": "13ae94f26eb4d300671ebed2271ed620eabd8fcc7050c8f03d56504d9d2efc89",
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
       "effect_policy": "projection-only; no world activation",
       "grammar_revision": "finite-discourse-grammar.v1"
     },
@@ -57,7 +57,7 @@
         ],
         "warnings": []
       },
-      "snapshot_hash": "13ae94f26eb4d300671ebed2271ed620eabd8fcc7050c8f03d56504d9d2efc89",
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
       "effect_policy": "projection-only; no world activation",
       "grammar_revision": "finite-discourse-grammar.v1"
     },
@@ -78,9 +78,43 @@
             "dialogue.act"
           ],
           "speaker_actor": "npc:0",
-          "outcome": "npc-teaches"
+          "outcome": "npc-teaches",
+          "opportunity": {
+            "goal": "learn-route-pattern",
+            "allowable_acts": [
+              "observe",
+              "approach",
+              "overhear",
+              "converse",
+              "learn",
+              "compare",
+              "report",
+              "return",
+              "decline"
+            ],
+            "steps": [
+              "observe",
+              "compare",
+              "learn",
+              "report"
+            ],
+            "evidence": [
+              "ambient:cafe:0"
+            ],
+            "requires_consent": true,
+            "completion_invariant": "evidence-recorded-and-reported",
+            "failure_and_refusal": [
+              "declined",
+              "evidence-unavailable"
+            ],
+            "budget": {
+              "max_plan_steps": 16
+            },
+            "policy_revision": "organic-learning.v1",
+            "address": "purl://dark/mission/e626e4ef39883ab0a73292dcd3e92dc8a16c35b9b974bad7b975672daaed1be3"
+          }
         },
-        "trace_digest": "c28ff42df81d3184afb0dac27fe3c4f6b1a58420808567f63875b027b7587e98",
+        "trace_digest": "54bcb282fb5c9e3970825a2fefb57125c241e2326e70363a6c7760254c3e2692",
         "effects": [],
         "source_versions": [
           "world.v1",
@@ -88,7 +122,7 @@
         ],
         "warnings": []
       },
-      "snapshot_hash": "13ae94f26eb4d300671ebed2271ed620eabd8fcc7050c8f03d56504d9d2efc89",
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
       "effect_policy": "projection-only; no world activation",
       "grammar_revision": "finite-discourse-grammar.v1"
     },
@@ -118,7 +152,7 @@
         ],
         "warnings": []
       },
-      "snapshot_hash": "13ae94f26eb4d300671ebed2271ed620eabd8fcc7050c8f03d56504d9d2efc89",
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
       "effect_policy": "projection-only; no world activation",
       "grammar_revision": "finite-discourse-grammar.v1"
     },
@@ -148,7 +182,7 @@
         ],
         "warnings": []
       },
-      "snapshot_hash": "13ae94f26eb4d300671ebed2271ed620eabd8fcc7050c8f03d56504d9d2efc89",
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
       "effect_policy": "projection-only; no world activation",
       "grammar_revision": "finite-discourse-grammar.v1"
     },
@@ -179,7 +213,7 @@
         ],
         "warnings": []
       },
-      "snapshot_hash": "13ae94f26eb4d300671ebed2271ed620eabd8fcc7050c8f03d56504d9d2efc89",
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
       "effect_policy": "projection-only; no world activation",
       "grammar_revision": "finite-discourse-grammar.v1"
     },
@@ -207,7 +241,7 @@
         ],
         "warnings": []
       },
-      "snapshot_hash": "13ae94f26eb4d300671ebed2271ed620eabd8fcc7050c8f03d56504d9d2efc89",
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
       "effect_policy": "projection-only; no world activation",
       "grammar_revision": "finite-discourse-grammar.v1"
     }

@@ -33,8 +33,9 @@
     "founder": {
       "actor_id": "founder",
       "display_name": "Dark",
-      "legal_name": "Abed Kadaan",
-      "historical_source_spelling": "Abed Kadan",
+      "legal_name": "Abed Kadan",
+      "historical_source_spelling": "Abed Kadaan",
+      "name_assurance": "user-declared; not independent identity verification",
       "origin": "Marina del Rey",
       "identity_kind": "authentic-founder",
       "authority_source": "authenticated-session-capability"
@@ -2419,14 +2420,14 @@
   "continuity": {
     "valid": true,
     "count": 1,
-    "head": "7154f7a8ba992bba2055ca2b97091411863df19bdaae1d8f65b7bdd787837ef0",
-    "state_hash": "2def65ae5923bce03dfecc5f81d6b1181a32d53e68490e032c07a9c26318fa1f"
+    "head": "f14846ec41b93cc7e2b34ce7edc5f0b9d074961593961f339b66c43b073885a1",
+    "state_hash": "aaa3b4d6a90e8720d77d2d04e09539a8d951b4f5aaf09b36e063e6eff863deb3"
   },
   "objects": {},
   "mode": "cached-authoritative-snapshot-offline",
   "clock": {
     "monotonic_engine_tick": 1,
-    "real_UTC": "2026-10-20T22:06:27Z",
+    "real_UTC": "2026-10-20T22:15:42Z",
     "world_epoch": "2026-10-20T19:00:00Z",
     "presentation_clock": 0.016666666666666666
   },
@@ -2441,12 +2442,12 @@
     "witness": {
       "valid": true,
       "count": 1,
-      "head": "7154f7a8ba992bba2055ca2b97091411863df19bdaae1d8f65b7bdd787837ef0",
-      "state_hash": "2def65ae5923bce03dfecc5f81d6b1181a32d53e68490e032c07a9c26318fa1f"
+      "head": "f14846ec41b93cc7e2b34ce7edc5f0b9d074961593961f339b66c43b073885a1",
+      "state_hash": "aaa3b4d6a90e8720d77d2d04e09539a8d951b4f5aaf09b36e063e6eff863deb3"
     },
     "output": {
       "committed_events": 1,
-      "state_hash": "2def65ae5923bce03dfecc5f81d6b1181a32d53e68490e032c07a9c26318fa1f"
+      "state_hash": "aaa3b4d6a90e8720d77d2d04e09539a8d951b4f5aaf09b36e063e6eff863deb3"
     },
     "exit_code": 0,
     "source": "actual durable ledger; no host paths or credentials"

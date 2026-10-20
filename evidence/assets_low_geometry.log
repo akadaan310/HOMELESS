@@ -1,0 +1,4 @@
+info: car_concept.glb (9.95 MB) → car_concept.low.simplified.glb (4.16 MB)
+info: street_lamp_01.glb (5.02 MB) → street_lamp_01.low.simplified.glb (4.59 MB)
+{"id": "car_concept", "bytes": 4156020, "triangles_before": 213347, "triangles_after": 52814, "bounds_max_delta": 0.003950834274291992}
+{"id": "street_lamp_01", "bytes": 1542144, "triangles_before": 30610, "triangles_after": 12377, "bounds_max_delta": 0.0003198087215423584}

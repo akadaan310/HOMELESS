@@ -191,5 +191,11 @@
   "missing_referenced_files": [
     "harness/VERIFICATION_HARNESS.md"
   ],
-  "upstream_policy": "Original ZIP and extracted input archives unchanged; derived code outside masterpack/upstream"
+  "upstream_policy": "Original ZIP and extracted input archives unchanged; derived code outside masterpack/upstream",
+  "final_recheck": {
+    "utc": "2026-10-20T22:30:49.030832+00:00",
+    "bytes": 95551079,
+    "sha256": "263e7c172e2a9ec9fabb6e916dd6fef03226fa3e21cb78c59c2fe42a0b98db95",
+    "passed": true
+  }
 }

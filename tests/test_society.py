@@ -16,7 +16,7 @@ class WorldTests(unittest.TestCase):
 
     def test_founder_identity_and_ambient_life_preexist_entry(self):
         s = World().snapshot()
-        self.assertEqual(s['founder']['legal_name'], 'Abed Kadaan')
+        self.assertEqual(s['founder']['legal_name'], 'Abed Kadan')
         self.assertEqual(s['founder']['origin'], 'Marina del Rey')
         self.assertTrue(s['conversations'])
         self.assertGreater(len(s['actors']), 10)

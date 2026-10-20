@@ -1,0 +1,18 @@
+[
+  {
+    "command": [
+      "scripts/build_unreal.sh"
+    ],
+    "exit_code": 2,
+    "stderr": "BLOCKED UE_SDK_MISSING: set UE_ROOT to a licensed Unreal Engine 5.8 installation. See evidence/unreal_preflight.json.",
+    "expected_blocked": true
+  },
+  {
+    "command": [
+      "scripts/launch_unreal.sh"
+    ],
+    "exit_code": 2,
+    "stderr": "BLOCKED UE_COOK_MISSING: run scripts/build_unreal.sh with a licensed UE5.8 SDK and GPU host.",
+    "expected_blocked": true
+  }
+]

@@ -1,0 +1,11 @@
+test_actual_archived_source_hashes (test_assets.AssetTests.test_actual_archived_source_hashes) ... ok
+test_catalog_does_not_invent_cinematic_acceptance (test_assets.AssetTests.test_catalog_does_not_invent_cinematic_acceptance) ... ok
+test_glb_rejects_truncated_payload (test_assets.AssetTests.test_glb_rejects_truncated_payload) ... ok
+test_shipped_derivative_hashes (test_assets.AssetTests.test_shipped_derivative_hashes) ... ok
+test_source_fidelity_and_rig_survive_packing (test_assets.AssetTests.test_source_fidelity_and_rig_survive_packing) ... ok
+test_unreal_preflight_exposes_exact_blockers (test_assets.AssetTests.test_unreal_preflight_exposes_exact_blockers) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 4.290s
+
+OK

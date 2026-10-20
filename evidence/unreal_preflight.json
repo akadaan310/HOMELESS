@@ -1,0 +1,28 @@
+{
+  "schema": "worldloom.unreal-preflight.v1",
+  "ue_root": null,
+  "build_version": null,
+  "gpu": null,
+  "pixel_streaming2_plugin": null,
+  "project": "unreal/Homeless/Homeless.uproject",
+  "source_project_present": true,
+  "imported_map_present": false,
+  "compiled": false,
+  "cooked": false,
+  "rendered": false,
+  "status": "blocked",
+  "blockers": [
+    {
+      "code": "UE_SDK_MISSING",
+      "detail": "Unreal Engine5.8 SDK not installed. Set UE_ROOT to a licensed installation; acquisition requires Epic account/source access."
+    },
+    {
+      "code": "GPU_ENCODER_UNAVAILABLE",
+      "detail": "No NVIDIA GPU/driver observable via nvidia-smi; rendering/NVENC/WebRTC performance cannot be verified."
+    },
+    {
+      "code": "UE_SCENE_NOT_IMPORTED",
+      "detail": "TampaEntry.umap is created by tools/unreal_import.py after source import; it does not exist yet."
+    }
+  ]
+}

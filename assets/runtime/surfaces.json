@@ -1,0 +1,220 @@
+{
+  "schema": "worldloom.surface-library.v1",
+  "surfaces": [
+    {
+      "canonical_id": "world://asset/asphalt_02",
+      "category": "pbr-road-surface",
+      "color_space": {
+        "Diffuse": "sRGB",
+        "Rough": "linear",
+        "hdri": "linear HDR radiance",
+        "nor_gl": "linear"
+      },
+      "cook_status": "not-cooked",
+      "files": [
+        {
+          "bytes": 38807606,
+          "master_ref": "assets/originals/sha256/ea/ea18f546e3513364a74ae5fe268328fdecca3bb9c702fa3d516262c73cf85c00",
+          "path": "assets/originals/asphalt_02/asphalt_02_diff_8k.jpg",
+          "publisher_md5": "2dd679f3e3565b183a5f9747a80905d8",
+          "sha256": "ea18f546e3513364a74ae5fe268328fdecca3bb9c702fa3d516262c73cf85c00",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/asphalt_02/asphalt_02_diff_8k.jpg"
+        },
+        {
+          "bytes": 3075676,
+          "master_ref": "assets/originals/sha256/28/28f5ba8690553f192c0e5e1a5ff40f34765b4b93f4cc7059b1a3e9c795b6c28c",
+          "path": "assets/originals/asphalt_02/asphalt_02_diff_2k.jpg",
+          "publisher_md5": "336af399fd98a39ab986d8b3bf73b4ff",
+          "sha256": "28f5ba8690553f192c0e5e1a5ff40f34765b4b93f4cc7059b1a3e9c795b6c28c",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/asphalt_02/asphalt_02_diff_2k.jpg"
+        },
+        {
+          "bytes": 63123714,
+          "master_ref": "assets/originals/sha256/68/68c6c49ae31f78594b9525f224467daeec2cb87e7004e51ba40d928080ad7687",
+          "path": "assets/originals/asphalt_02/asphalt_02_nor_gl_8k.jpg",
+          "publisher_md5": "9f9000e9c5a79548c72f7f600014c2d1",
+          "sha256": "68c6c49ae31f78594b9525f224467daeec2cb87e7004e51ba40d928080ad7687",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/asphalt_02/asphalt_02_nor_gl_8k.jpg"
+        },
+        {
+          "bytes": 4943950,
+          "master_ref": "assets/originals/sha256/ff/ffe49db71a0fd34c1e259625df66a302a237597d6ef655307987ec4e45bc6f21",
+          "path": "assets/originals/asphalt_02/asphalt_02_nor_gl_2k.jpg",
+          "publisher_md5": "77ebd1cc0b020ccaa1c6b58f103d1f75",
+          "sha256": "ffe49db71a0fd34c1e259625df66a302a237597d6ef655307987ec4e45bc6f21",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/asphalt_02/asphalt_02_nor_gl_2k.jpg"
+        },
+        {
+          "bytes": 30902883,
+          "master_ref": "assets/originals/sha256/e4/e455fd78980f1d095f43f89be62904c4c6e1a501f161a1d0e506762deb922c02",
+          "path": "assets/originals/asphalt_02/asphalt_02_rough_8k.jpg",
+          "publisher_md5": "ee661f87ae43ed99cd17fb2da048e7ac",
+          "sha256": "e455fd78980f1d095f43f89be62904c4c6e1a501f161a1d0e506762deb922c02",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/asphalt_02/asphalt_02_rough_8k.jpg"
+        },
+        {
+          "bytes": 2230457,
+          "master_ref": "assets/originals/sha256/b9/b9a516b61b7040a9245ac206642d5f767ad9589a0169c4a1668221429e8a998c",
+          "path": "assets/originals/asphalt_02/asphalt_02_rough_2k.jpg",
+          "publisher_md5": "6fe669ab38640ef2009d6a28d1ad5ee9",
+          "sha256": "b9a516b61b7040a9245ac206642d5f767ad9589a0169c4a1668221429e8a998c",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/asphalt_02/asphalt_02_rough_2k.jpg"
+        }
+      ],
+      "id": "asphalt_02",
+      "import_status": "not-imported",
+      "license": "CC0-1.0",
+      "normal_map_convention": "OpenGL +Y",
+      "quality_gate": "source bytes validated; rendered BRDF/exposure gate pending",
+      "scene_test": "not-rendered",
+      "source_file": "assets/originals/asphalt_02/asphalt_02_diff_8k.jpg",
+      "status": "verified",
+      "surface_low_variants": {
+        "Diffuse": {
+          "bytes": 706797,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "jpg",
+          "path": "assets/runtime/asphalt_02_diff_1k.jpg",
+          "resolution": "1k",
+          "sha256": "9fbc6f644064c7d95d24c4bb8b0a43208415620abebfdb151f04c9af86101487",
+          "source": "source-preserving texture-cost derivative;8K master retained",
+          "url": "/assets/runtime/asphalt_02_diff_1k.jpg"
+        },
+        "Rough": {
+          "bytes": 576990,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "jpg",
+          "path": "assets/runtime/asphalt_02_rough_1k.jpg",
+          "resolution": "1k",
+          "sha256": "0623ec2059dbad7c6980e9d920e3888af877b2c5edd8f8d9b94f9ccd33a5b177",
+          "source": "source-preserving texture-cost derivative;8K master retained",
+          "url": "/assets/runtime/asphalt_02_rough_1k.jpg"
+        },
+        "nor_gl": {
+          "bytes": 1187165,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "jpg",
+          "path": "assets/runtime/asphalt_02_nor_gl_1k.jpg",
+          "resolution": "1k",
+          "sha256": "45995c71d2f213339296a428d23beb3c9cbaf4a8d13cc3dfd86357f47f2b9555",
+          "source": "source-preserving texture-cost derivative;8K master retained",
+          "url": "/assets/runtime/asphalt_02_nor_gl_1k.jpg"
+        }
+      },
+      "surface_variants": {
+        "Diffuse": {
+          "bytes": 3075676,
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "format": "jpg",
+          "path": "assets/runtime/asphalt_02_diff_2k.jpg",
+          "resolution": "2k",
+          "sha256": "28f5ba8690553f192c0e5e1a5ff40f34765b4b93f4cc7059b1a3e9c795b6c28c",
+          "source": "publisher-authored 2K derivative;8K source retained",
+          "url": "/assets/runtime/asphalt_02_diff_2k.jpg"
+        },
+        "Rough": {
+          "bytes": 2230457,
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "format": "jpg",
+          "path": "assets/runtime/asphalt_02_rough_2k.jpg",
+          "resolution": "2k",
+          "sha256": "b9a516b61b7040a9245ac206642d5f767ad9589a0169c4a1668221429e8a998c",
+          "source": "publisher-authored 2K derivative;8K source retained",
+          "url": "/assets/runtime/asphalt_02_rough_2k.jpg"
+        },
+        "nor_gl": {
+          "bytes": 4943950,
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "format": "jpg",
+          "path": "assets/runtime/asphalt_02_nor_gl_2k.jpg",
+          "resolution": "2k",
+          "sha256": "ffe49db71a0fd34c1e259625df66a302a237597d6ef655307987ec4e45bc6f21",
+          "source": "publisher-authored 2K derivative;8K source retained",
+          "url": "/assets/runtime/asphalt_02_nor_gl_2k.jpg"
+        }
+      },
+      "url": "https://polyhaven.com/a/asphalt_02",
+      "variants": {}
+    },
+    {
+      "canonical_id": "world://asset/urban_street_03",
+      "category": "hdr-environment",
+      "color_space": {
+        "Diffuse": "sRGB",
+        "Rough": "linear",
+        "hdri": "linear HDR radiance",
+        "nor_gl": "linear"
+      },
+      "cook_status": "not-cooked",
+      "files": [
+        {
+          "bytes": 100628444,
+          "master_ref": "assets/originals/sha256/31/310f024954b3dcc0a646861635b1fea857eb40297029776fd9f48dd262d98791",
+          "path": "assets/originals/urban_street_03/urban_street_03_8k.hdr",
+          "publisher_md5": "85328703df4f55e1e6f02415a05cda81",
+          "sha256": "310f024954b3dcc0a646861635b1fea857eb40297029776fd9f48dd262d98791",
+          "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/8k/urban_street_03_8k.hdr"
+        },
+        {
+          "bytes": 6487160,
+          "master_ref": "assets/originals/sha256/65/65d92f6ca47c6f2577b8863d98b1bcf611028ad3a39646a7a6a9fee456ddbc82",
+          "path": "assets/originals/urban_street_03/urban_street_03_2k.hdr",
+          "publisher_md5": "1c344c0621a919471753c8ed47bf71e5",
+          "sha256": "65d92f6ca47c6f2577b8863d98b1bcf611028ad3a39646a7a6a9fee456ddbc82",
+          "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/urban_street_03_2k.hdr"
+        }
+      ],
+      "id": "urban_street_03",
+      "import_status": "not-imported",
+      "license": "CC0-1.0",
+      "normal_map_convention": "OpenGL +Y",
+      "quality_gate": "source bytes validated; rendered BRDF/exposure gate pending",
+      "scene_test": "not-rendered",
+      "source_file": "assets/originals/urban_street_03/urban_street_03_8k.hdr",
+      "status": "verified",
+      "surface_low_variants": {
+        "hdri": {
+          "bytes": 1633950,
+          "format": "hdr",
+          "path": "assets/runtime/urban_street_03_1k.hdr",
+          "publisher_md5": "dd4e2fd0f98a6c7e9ff4cbd903e38829",
+          "resolution": "1k",
+          "sha256": "145c1e911e763c43a28ba5800888606b79acd1830f43fe9793f24da3478b5d8b",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/urban_street_03_1k.hdr",
+          "url": "/assets/runtime/urban_street_03_1k.hdr"
+        }
+      },
+      "surface_variants": {
+        "hdri": {
+          "bytes": 6487160,
+          "format": "hdr",
+          "path": "assets/runtime/urban_street_03_2k.hdr",
+          "resolution": "2k",
+          "sha256": "65d92f6ca47c6f2577b8863d98b1bcf611028ad3a39646a7a6a9fee456ddbc82",
+          "source": "publisher-authored 2K derivative;8K source retained",
+          "url": "/assets/runtime/urban_street_03_2k.hdr"
+        }
+      },
+      "url": "https://polyhaven.com/a/urban_street_03",
+      "variants": {}
+    }
+  ]
+}

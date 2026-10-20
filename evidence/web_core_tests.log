@@ -1,0 +1,12 @@
+✔ journey survives restart, remains bounded and never merges over server events (6.741759ms)
+✔ endpoint requires explicit supported scheme and no embedded credentials (0.415816ms)
+✔ speech remains text and bounded, never source execution (0.191088ms)
+✔ fixed clock clamps background delta and bounds catchup (0.42482ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 121.226051

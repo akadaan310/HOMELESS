@@ -1,0 +1,14 @@
+# Preserve immutable inputs and packaged binary artifacts byte for byte.
+masterpack/** -text -whitespace
+riders/** -text -whitespace
+*.glb -text
+*.apk -text
+*.opus -text
+*.wav -text
+*.hdr -text
+
+# Captured command output and official generated/vendor templates retain formatting.
+evidence/** -whitespace
+artifacts/assets/pixel-streaming-www/** -whitespace
+android/gradlew.bat -whitespace
+android/build.gradle -whitespace

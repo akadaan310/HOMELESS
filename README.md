@@ -1,6 +1,6 @@
 # HOMELESS / Dark — World of Worlds
 
-Founder and founding player: **Abed Kadaan (Dark)**. Marina del Rey is his origin; the first world entry is the sourced North Dale Mabry × West Spruce intersection in Tampa.
+Founder and founding player: **Abed Kadan (Dark)**. Marina del Rey is his origin; the first world entry is the sourced North Dale Mabry × West Spruce intersection in Tampa.
 
 This is a runnable engineering build of the independent **World Loom** engine, the **Rendezvous PlayCanvas** browser/Android adapter, and an Unreal 5.8 integration project. **Full Unreal rendering and final cinematic/device acceptance are not complete.** The exact results and remaining failures are recorded in [the acceptance report](evidence/acceptance.md).
 
@@ -22,7 +22,7 @@ Open **http://127.0.0.1:8080**. Enter, walk with WASD/arrows or touch, listen to
 
 The shipped speech clips work without installing speech models. Optional microphone transcription and voice regeneration use [requirements-voice.txt](requirements-voice.txt), [the voice build tools](docs/VOICE.md), and pinned model downloads; baseline language generation remains symbolic. Mic capture is push-to-talk and transcripts require review before sending.
 
-A local founder/operator capability is created at `.runtime/worldloom.operator-token`; enter it in the client’s optional operator settings to obtain founder privileges. It is not included in any build or repository. This is local operator authentication, not independent real-world identity verification. For an HTTPS gateway intentionally used by the APK, explicitly configure `--allowed-origin https://localhost`; default writes allow only the same origin.
+A local founder/operator capability is created at `.runtime/worldloom.operator-token` for explicit authenticated operator requests through the engine API. It is not included in any build or repository. The browser creates a guest player account; founder account federation remains a deployment requirement. This is local operator authentication, not independent real-world identity verification. For an HTTPS gateway intentionally used by the APK, explicitly configure `--allowed-origin https://localhost`; default writes allow only the same origin.
 
 ## Artifacts and checks
 
@@ -33,6 +33,7 @@ A local founder/operator capability is created at `.runtime/worldloom.operator-t
 - Unreal project: [Homeless.uproject](unreal/Homeless/Homeless.uproject), build/import/preflight scripts, source art registry, native IPC adapter and official UE5.8 Pixel Streaming infrastructure integration. See [Unreal status](docs/UNREAL.md).
 
 ```sh
+python3 -m pip install -r requirements-dev.txt
 sh scripts/test.sh
 python3 tools/integration_smoke.py
 python3 tools/build_acceptance.py

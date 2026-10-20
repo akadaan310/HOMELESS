@@ -1,0 +1,10 @@
+{
+  "repository":"https://github.com/EpicGamesExt/PixelStreamingInfrastructure.git",
+  "branch":"UE5.8",
+  "commit":"4c1fd4830cde8c6dd441b9c72ec8864b2f7f29bd",
+  "engine_plugin":"PixelStreaming2",
+  "verified_branch_exists":true,
+  "genuine_frontend":"Frontend/implementations/typescript",
+  "signalling":"SignallingWebServer",
+  "renderer_status":"blocked: UE SDK/GPU/cooked executable absent"
+}

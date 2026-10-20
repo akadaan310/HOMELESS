@@ -1,0 +1,6 @@
+{
+  "status": "observed-and-corrected",
+  "source_failure": "Renderer placement overwrote glTF root0.01scale and -90degree rotation, creating100xavatar and misorientedvehicle. SourceJson confirms authored transforms; placeModel regression preserves full localmatrix.",
+  "followup_failure": "Preserved *_failed_transform and *_failed_animation contain the subsequent failedanimation stategraph run afterwrapperfix, including actual JSexceptions. They are not mislabelled as original giant-avatar framebuffer.",
+  "original_framebuffer": "Original giant-avatar screenshot was inspected in tooltranscript and later overwritten; no originalframebuffer hash claimed."
+}

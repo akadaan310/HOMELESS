@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "assembled_frontage_bays": 6,
+      "category": "modern-commercial-storefronts",
+      "distinct_complete_storefronts": 1,
+      "obtained_source_kits": 2,
+      "reason": "Two professional source architecture kits and one fictional composed frontage are not20 distinct complete modern storefront modules.",
+      "required": 20,
+      "status": "FAIL"
+    },
+    {
+      "category": "roadside-asset-classes",
+      "obtained": 9,
+      "reason": "Nine acquired classes; traffic signal/road-sign system still unfilled.",
+      "required": 10,
+      "status": "FAIL"
+    },
+    {
+      "category": "detailed-passenger-vehicle",
+      "obtained": 1,
+      "other_fixture": "covered_car is static covered artwork, not a moving vehicle replacement",
+      "status": "SOURCE-VERIFIED; road-contact/rig/glass/headlight render gate pending"
+    },
+    {
+      "category": "rigged-authored-human",
+      "obtained": 3,
+      "status": "SOURCE-VERIFIED; final continuous contact/material/face-quality acceptance pending"
+    },
+    {
+      "category": "retail-cafe-fixture",
+      "obtained": 1,
+      "status": "SOURCE-VERIFIED; complete cafe interior still unfilled"
+    },
+    {
+      "category": "natural-environment",
+      "obtained_hdr": 1,
+      "obtained_vegetation": 1,
+      "status": "SOURCE-VERIFIED; regional palm set/rain assets unfilled"
+    },
+    {
+      "category": "aircraft",
+      "obtained": 1,
+      "status": "SOURCE-VERIFIED; airline/airport/balloon absent"
+    },
+    {
+      "category": "water-transport",
+      "obtained": 0,
+      "reason": "No acquired boats/ferries/cargo/cruise/yachts with maritime rig/audio.",
+      "status": "FAIL"
+    },
+    {
+      "category": "surface-PBR",
+      "obtained": 1,
+      "status": "SOURCE-VERIFIED; BRDF buffer fixture pending"
+    },
+    {
+      "category": "KTX2-GPU-compression",
+      "obtained_runtime_verified": 0,
+      "reason": "Baseline JPEG/PNG GLB is shipped; no exact-runtime KTX2/BasisU importer roundtrip completed.",
+      "status": "FAIL"
+    }
+  ],
+  "engine_render_acceptance": "BLOCKED: UE SDK/GPU missing",
+  "real_device_acceptance": "BLOCKED: device unavailable",
+  "source_rule": "Retrieved/verified/imported/cooked/rendered are separate claims. Candidate listings never count as installed.",
+  "visual_content_acceptance": "FAIL"
+}

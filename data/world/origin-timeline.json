@@ -37,7 +37,7 @@
         }
       ],
       "world_revision": 2,
-      "world_snapshot_hash": "30cc12a409c9ac6f6f6629ed9f55cd7b9ab6a4c886aa2ecf0cd7d8f35da5f259",
+      "world_snapshot_hash": "194387d9e5a1869073b9e1603dbcad094b643d5110cc36b294ca0bdb362e865e",
       "source": "deterministic witnessed server-world replay; offline presentation only"
     },
     {
@@ -76,7 +76,7 @@
         }
       ],
       "world_revision": 4,
-      "world_snapshot_hash": "10672e714bd1a936cef2b0e024c665e7294a14d982917a709de019ece8099ee1",
+      "world_snapshot_hash": "2e66774ea7bab9128ad14b57b3e2be5466a9685200bce005383f3baa009f6ba5",
       "source": "deterministic witnessed server-world replay; offline presentation only"
     },
     {
@@ -115,7 +115,7 @@
         }
       ],
       "world_revision": 6,
-      "world_snapshot_hash": "239e2ced3ace2d0efbe1f61c23931a94e71efacdad34da8599cbd06faf52cc46",
+      "world_snapshot_hash": "11bbac9953056c1d52544a997d77e7215597b97b6291b4d20fd10bcbe76e34c9",
       "source": "deterministic witnessed server-world replay; offline presentation only"
     },
     {
@@ -154,7 +154,7 @@
         }
       ],
       "world_revision": 8,
-      "world_snapshot_hash": "74e152cad60eb0e67db9875b9323b79c29fd7d1e7ce3120be0ab5ea2f79cbae3",
+      "world_snapshot_hash": "78ebb53085f94c0158991a2be793574666e046be814958c9868b6f96601fa6cf",
       "source": "deterministic witnessed server-world replay; offline presentation only"
     },
     {
@@ -193,7 +193,7 @@
         }
       ],
       "world_revision": 10,
-      "world_snapshot_hash": "677a5e60f29067473ab1a2bc5b1748e9482a8074ebd1cfa7e4735da7fecc6b39",
+      "world_snapshot_hash": "69af87ce81e9df20f1434497f8d7e2a423b68f48da39e4fb3327a1227c3b9587",
       "source": "deterministic witnessed server-world replay; offline presentation only"
     },
     {
@@ -232,7 +232,7 @@
         }
       ],
       "world_revision": 12,
-      "world_snapshot_hash": "32027e3a6d352194e63f3d3198442e9763a518caea4b7552da99d2d48f2478ca",
+      "world_snapshot_hash": "ca7a700f4502695223e1ac858f2bfbb244b5ea797f5e5e8a33516f68f2ae61cc",
       "source": "deterministic witnessed server-world replay; offline presentation only"
     },
     {
@@ -271,7 +271,7 @@
         }
       ],
       "world_revision": 14,
-      "world_snapshot_hash": "2e49d2f4ffc23654aad3a64e235eefd7885e7d4ccb1e40dc8637207071542d2e",
+      "world_snapshot_hash": "01584dec14329216223adb84a913463e0911fab26a25f5b6e79fddacc0a8a9c6",
       "source": "deterministic witnessed server-world replay; offline presentation only"
     },
     {
@@ -310,7 +310,7 @@
         }
       ],
       "world_revision": 16,
-      "world_snapshot_hash": "332e3607c35dc59fde078891c7f5f8cf41ccdb917528cad3d44d4f826b48f70e",
+      "world_snapshot_hash": "64dfacb36336067f235d250322f8ece882e8f846c54d60c4b64d9b95c69ed1c1",
       "source": "deterministic witnessed server-world replay; offline presentation only"
     }
   ]
