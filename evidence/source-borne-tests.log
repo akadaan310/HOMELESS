@@ -1,0 +1,37 @@
+✔ A1 keyed chance is a pure function of its address (81.605374ms)
+✔ B1 nothing is realized until someone looks (lazy), and a fixed thing never changes (0.962755ms)
+✔ B2 observation pins: a reactive sign does not change in front of you; it follows the facts at the next epoch (8.39783ms)
+✔ B3 epochal things turn over each epoch; live things re-realize at every look (1.524776ms)
+✔ B4 dev time uses the same ledger: a commit is an event; the build it invalidates can say which commit (0.401975ms)
+✔ C1 the world replays exactly: same spec, same roots, same events (250.745534ms)
+✔ D1 causal cone: with keyed chance, everything that disappears when a deed is undone was borne by that deed (72.670236ms)
+✔ D2 fake butterflies: a shared random stream makes undoing one deed change unrelated places (20.753296ms)
+✔ D3 light cone: no difference travels faster than one street per tick (132.206435ms)
+✔ D4 every undone deed gets a class; masked deeds exist and so do scars (memory without ripples) (1789.755707ms)
+✔ E1 the butterfly dial: spectral radius of the coupling decides whether cascades die out (6701.400866ms)
+✔ F1 attribution: independent deeds always add up; under social amplification they often do not, and Shapley shares sum to the whole (1701.732724ms)
+✔ G1 recurring cascade shapes are mined and promoted into letters that unfold back (34.980547ms)
+✔ G2 a MOVEMENT is a place where many people's ripples meet; it is reproducible from the ledger (247.275172ms)
+✔ H1 firmament: Polaris stands at the observer's latitude; a convergence raises the same stars for anyone who recomputes (9.573839ms)
+✔ H2 the sunset is computed, not painted: the sun sits on the horizon over Los Angeles near 18:12 local on 20 Oct 2026 (0.295104ms)
+✔ A1 closure: a returning alphabet is complete, a terminating one is severed (5.566978ms)
+✔ B1 explicate/implicate round-trips at rank 1 and rank 2 (36.490742ms)
+✔ B2 implicate refuses a word that is not a fold of the rules (0.441296ms)
+✔ C1 the latch returns home from any state (2.450203ms)
+✔ C2 same string, different program — at holonomy depth a crossing is remembered (7.707271ms)
+✔ C3 a loop that undoes itself is forgotten at holonomy depth, remembered at chain depth (0.467938ms)
+✔ C4 inadmissible events are rejected, never narrated (3.158316ms)
+✔ D1 mining finds the crossing and the visit; promotion makes them letters that unfold back (15.314645ms)
+✔ E1 why 5, 7, 12: stacked fifths give two step sizes exactly at 2,3,5,7,12,17,29,41,53 (26.789922ms)
+✔ E2 three-gap theorem holds for any generator (never more than 3 step sizes) (70.478323ms)
+✔ F1 harness: the cheapest walk that obeys the house rules, not the cheapest walk (15.764274ms)
+✔ G1 walk-words are invariant under rotation, scaling and translation (0.513939ms)
+✔ G2 tri-world walks exist and become rare as the word grows (seeded, synthetic cities) (328.109315ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11396.768158

@@ -1,0 +1,40 @@
+{
+  "observed_utc": "2026-10-20T21:46:18.356003+00:00",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "cpu_count": 5,
+  "cpu_affinity": 5,
+  "commands": {
+    "python3": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "node": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "git": "/usr/local/bin/git",
+    "g++": "/usr/bin/g++",
+    "java": "/usr/bin/java",
+    "javac": null,
+    "adb": null,
+    "gradle": null,
+    "octave": null,
+    "UnrealEditor": null,
+    "RunUAT.sh": null,
+    "nvidia-smi": null,
+    "ffmpeg": "/usr/bin/ffmpeg",
+    "bwrap": "/usr/bin/bwrap",
+    "curl": "/usr/bin/curl"
+  },
+  "provisioned": {
+    "octave": "/workspace/HOMELESS/.cache/bin/octave",
+    "jdk": "/workspace/HOMELESS/.cache/sysroot/usr/lib/jvm/java-21-openjdk-amd64",
+    "busybox": "/workspace/HOMELESS/.cache/sysroot/usr/bin/busybox"
+  },
+  "devices": {
+    "/dev/kvm": false,
+    "/dev/dri": false,
+    "/dev/nvidia0": false
+  },
+  "remote_oracle": "no configured credentials/outbound identity; not connected",
+  "licensed_unreal_assets": "no Unreal/Fab entitlement configured",
+  "memory": [
+    "MemTotal:       18440112 kB",
+    "MemFree:        16116756 kB",
+    "MemAvailable:   17644496 kB"
+  ]
+}

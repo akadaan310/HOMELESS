@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.cache/
+.runtime/
+upstream/
+masterpack/
+android/.gradle/
+android/**/build/
+unreal/**/Intermediate/
+unreal/**/Saved/
+unreal/**/Binaries/

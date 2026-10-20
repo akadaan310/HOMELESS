@@ -1,0 +1,10 @@
+test_corruption_detected (test_protocol.Continuity.test_corruption_detected) ... ok
+test_dedup_conflict_restart_and_hash_chain (test_protocol.Continuity.test_dedup_conflict_restart_and_hash_chain) ... ok
+test_malformed_nonfinite_unknown_and_parent_conflict (test_protocol.Continuity.test_malformed_nonfinite_unknown_and_parent_conflict) ... ok
+test_read_is_pure_and_founder_string_is_not_authority (test_protocol.Continuity.test_read_is_pure_and_founder_string_is_not_authority) ... ok
+test_revoke_scoped_capability (test_protocol.Continuity.test_revoke_scoped_capability) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK
