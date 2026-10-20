@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "description": "Verified concrete source candidates and tooling; not yet downloaded or ingested. All asset acquisition statuses are CANDIDATE until proven otherwise.",
+  "candidates": [
+    {"name":"Poly Haven Model Collection","category":"3d-models","url":"https://polyhaven.com/models","status":"candidate","format":"glTF/FBX/Blend/USD variants","purpose":"urban props, foliage, selected architecture, vehicles"},
+    {"name":"Poly Haven Covered Car","category":"vehicle-prop","url":"https://polyhaven.com/a/covered_car","status":"candidate","format":"glTF","purpose":"high-res PBR source/parity fixture; non-drivable"},
+    {"name":"Poly Haven Street Lamp 01","category":"street-furniture","url":"https://polyhaven.com/a/street_lamp_01","status":"candidate","format":"glTF","purpose":"night PBR, glass, metal and reflective roadside source fixture"},
+    {"name":"Poly Haven Road and Material Collection","category":"pbr-textures","url":"https://polyhaven.com/textures/asphalt-bitumen/roads","status":"candidate","purpose":"road and puddle shader inputs"},
+    {"name":"Poly Haven HDRIs","category":"environment-lighting","url":"https://polyhaven.com/hdris","status":"candidate","purpose":"reflection/exposure light probes"},
+    {"name":"ambientCG","category":"pbr-materials","url":"https://ambientcg.com/","status":"candidate","purpose":"urban roads, buildings and interior materials"},
+    {"name":"PlayCanvas Gaussian Streamed SOG","category":"streaming-format","url":"https://developer.playcanvas.com/user-manual/gaussian-splatting/formats/streamed-sog/","status":"documentation-reviewed","purpose":"camera-local photoreal-scene streaming"},
+    {"name":"PlayCanvas GLB Model Import","category":"runtime-import","url":"https://developer.playcanvas.com/user-manual/assets/models/building/","status":"documentation-reviewed","purpose":"rigged models, morphology, materials"},
+    {"name":"Unreal GLTF Exporter 5.8","category":"interchange","url":"https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Miscellaneous/ExporttoGLTF?lang=en-US","status":"documentation-reviewed","purpose":"selected Unreal mesh/material/animation GLB interchange"},
+    {"name":"glTF Transform","category":"optimization-tool","url":"https://gltf-transform.dev/cli","status":"documentation-reviewed","purpose":"GLB inspection and deliberate optimization"}
+  ]
+}

@@ -1,0 +1,15 @@
+✔ same seed + actions => same trace and outcome (17.614285ms)
+✔ invalid physical reachability rejected (0.172528ms)
+✔ resource conservation: cannot offer same item twice (0.616334ms)
+✔ declining choice does not force player punishment (0.75806ms)
+✔ valid event trace reproduces (0.696523ms)
+✔ inspecting never mutates state (0.308789ms)
+✔ manifest marks effectful operations non-safe (0.249994ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 28.8098

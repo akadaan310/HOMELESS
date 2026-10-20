@@ -1,0 +1,39 @@
+Config file configured as: /workspace/HOMELESS/.cache/pixel-streaming-ue5.8/SignallingWebServer/config.json
+[22:06:18.970] [32minfo[39m: @epicgames-ps/wilbur v3.1.0 starting...
+[22:06:18.973] [32minfo[39m: Config:
+[22:06:18.973] [32minfo[39m: "log_folder": "/workspace/HOMELESS/.runtime/pixel-streaming-logs"
+[22:06:18.974] [32minfo[39m: "log_level_console": "info"
+[22:06:18.974] [32minfo[39m: "log_level_file": "info"
+[22:06:18.975] [32minfo[39m: "streamer_port": "8888"
+[22:06:18.975] [32minfo[39m: "player_port": "8081"
+[22:06:18.976] [32minfo[39m: "sfu_port": "8889"
+[22:06:18.976] [32minfo[39m: "max_players": "0"
+[22:06:18.977] [32minfo[39m: "player_keepalive_timeout": "30000"
+[22:06:18.977] [32minfo[39m: "serve": true
+[22:06:18.977] [32minfo[39m: "http_root": "/workspace/HOMELESS/artifacts/assets/pixel-streaming-www"
+[22:06:18.977] [32minfo[39m: "homepage": "player.html"
+[22:06:18.978] [32minfo[39m: "https": false
+[22:06:18.978] [32minfo[39m: "https_port": 443
+[22:06:18.978] [32minfo[39m: "ssl_key_path": "certificates/client-key.pem"
+[22:06:18.978] [32minfo[39m: "ssl_cert_path": "certificates/client-cert.pem"
+[22:06:18.978] [32minfo[39m: "https_redirect": true
+[22:06:18.978] [32minfo[39m: "rest_api": false
+[22:06:18.978] [32minfo[39m: "cors": false
+[22:06:18.978] [32minfo[39m: "cors_allowed_origins": ""
+[22:06:18.978] [32minfo[39m: "cors_allowed_methods": ""
+[22:06:18.978] [32minfo[39m: "cors_allowed_headers": ""
+[22:06:18.978] [32minfo[39m: "cors_credentials": false
+[22:06:18.978] [32minfo[39m: "peer_options": ""
+[22:06:18.978] [32minfo[39m: "peer_options_file": ""
+[22:06:18.979] [32minfo[39m: "turn_secret": ""
+[22:06:18.979] [32minfo[39m: "turn_secret_file": ""
+[22:06:18.979] [32minfo[39m: "turn_ttl": "86400"
+[22:06:18.979] [32minfo[39m: "reverseProxy": false
+[22:06:18.979] [32minfo[39m: "reverseProxyNumProxies": 1
+[22:06:18.979] [32minfo[39m: "log_config": true
+[22:06:18.979] [32minfo[39m: "stdin": false
+[22:06:18.979] [32minfo[39m: "save": false
+[22:06:18.981] [32minfo[39m: Static file serving enabled.
+[22:06:19.000] [32minfo[39m: Listening for streamer connections on port 8888
+[22:06:19.000] [32minfo[39m: Listening for SFU connections on port 8889
+[22:06:19.007] [32minfo[39m: Http server listening on port 8081

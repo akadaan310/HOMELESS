@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-20T21:53:12.320285+00:00",
+  "results": [
+    {
+      "command": "python -m pytest tests/test_sky.py -q",
+      "exit_code": 0,
+      "stdout": ".........                                                                [100%]\n9 passed in 0.73s\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m pytest -q",
+      "exit_code": 2,
+      "stdout": "\n==================================== ERRORS ====================================\n___________________ ERROR collecting tests/test_bootstrap.py ___________________\nImportError while importing test module '/workspace/HOMELESS/tests/test_bootstrap.py'.\nHint: make sure your test modules/packages have valid Python names.\nTraceback:\n/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py:90: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ntests/test_bootstrap.py:5: in <module>\n    from worldloom.bootstrap import BootstrapScheduler\nE   ModuleNotFoundError: No module named 'worldloom.bootstrap'\n=========================== short test summary info ============================\nERROR tests/test_bootstrap.py\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 0.39s\n",
+      "stderr": ""
+    }
+  ]
+}

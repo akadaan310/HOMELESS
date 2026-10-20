@@ -1,0 +1,37 @@
+{
+  "rider_version": "1.0",
+  "source_masterpack_sha256": "263e7c172e2a9ec9fabb6e916dd6fef03226fa3e21cb78c59c2fe42a0b98db95",
+  "preserve_masterpack": true,
+  "files": [
+    {
+      "path": "RENDERER_ASSETS_PHYSICS.md",
+      "bytes": 3798,
+      "sha256": "6a5d7df6b7668145bcab916b4f6eda799b9ac4a740fdca27fd5d786e5e972a5c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2006,
+      "sha256": "1485d5b40202f196b3fa3e3e45a0f15a70908c37b31eef084911b8bbf77a7204"
+    },
+    {
+      "path": "ORIGINAL_MASTERPACK_SHA256.txt",
+      "bytes": 121,
+      "sha256": "3fa6632fd280f8df0e8e63ec5fadbeb2952186262dc200ab225ab6ae97e4f1ca"
+    },
+    {
+      "path": "CODEX_ONE_SHOT.md",
+      "bytes": 3487,
+      "sha256": "4cd72d93457fef71feaac5ade91a1494236e2d5cec7821877b0abe4cda35481b"
+    },
+    {
+      "path": "PERFORMANCE_BUILD_GATES.md",
+      "bytes": 6079,
+      "sha256": "4ea8eeaaca1a9240b8a2605b2a85fb23ee805bca1b5aa458fda9e6d4a6174dfa"
+    },
+    {
+      "path": "RENDEZVOUS_RELEASE_DIRECTIVE.md",
+      "bytes": 14059,
+      "sha256": "38567a4251ed667631a93712e7c1da0f890769eb46381dc0590995cf452c024b"
+    }
+  ]
+}

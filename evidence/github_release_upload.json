@@ -1,0 +1,13 @@
+{
+  "release_tag": "rendezvous-engineering-2026-10-20",
+  "initial_upload_status": "failed",
+  "http_status": 401,
+  "endpoint": "uploads.github.com",
+  "message": "Bad credentials",
+  "fallback": "Artifacts are committed under artifacts/android and artifacts/releases. A release without uploaded attachments links these exact repository files.",
+  "fallback_release_status": "published-prerelease",
+  "fallback_release_url": "https://github.com/akadaan310/HOMELESS/releases/tag/rendezvous-engineering-2026-10-20",
+  "fallback_release_target": "7c4bfb1c91d6fdcb8764d8e03db2fdb93934bcb9",
+  "uploaded_attachment_count": 0,
+  "original_masterpack_release_modified": false
+}

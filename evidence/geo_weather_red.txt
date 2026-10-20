@@ -1,0 +1,20 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_ ActualSourceTests.test_weather_snapshot_respects_its_actual_15_minute_interval _
+
+self = <test_geo.ActualSourceTests testMethod=test_weather_snapshot_respects_its_actual_15_minute_interval>
+
+    def test_weather_snapshot_respects_its_actual_15_minute_interval(self):
+        live=geo.weather_field(epoch='2026-10-20T19:20:00Z')
+        early=geo.weather_field(epoch='2026-10-20T19:00:00Z')
+        late=geo.weather_field(epoch='2026-10-20T19:30:00Z')
+        self.assertEqual(live['status'],'snapshot')
+>       self.assertEqual(early['status'],'stale')
+E       AssertionError: 'snapshot' != 'stale'
+E       - snapshot
+E       + stale
+
+tests/test_geo.py:111: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_geo.py::ActualSourceTests::test_weather_snapshot_respects_its_actual_15_minute_interval
+1 failed, 12 deselected in 0.10s

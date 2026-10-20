@@ -1,0 +1,224 @@
+{
+  "construct": "bounded symbolic grammar and predictive gate reference implementation",
+  "claim_status": "construction; no novel theorem claimed",
+  "grammar_certificates": {
+    "walk": {
+      "passed": true,
+      "heldout_passed": 1,
+      "fixture_digest": "1f42dc31545577be3d30b47994297aa6726e74be4e89c44e845a037f7ff793a5",
+      "checks": [
+        "type-safety",
+        "admissibility",
+        "counterexamples",
+        "heldout",
+        "bounded-evaluator"
+      ]
+    },
+    "audio": {
+      "passed": true,
+      "heldout_passed": 2,
+      "fixture_digest": "ce4e61088c354e2f5312052265aa4a03470a0294b375c6572f2ba6870b324b5d",
+      "checks": [
+        "type-safety",
+        "admissibility",
+        "counterexamples",
+        "heldout",
+        "bounded-evaluator"
+      ]
+    },
+    "naming": {
+      "passed": true,
+      "heldout_passed": 2,
+      "fixture_digest": "5ad7fcb56f2381a15708d3ec226c7cb90e93bac91266e9df871273e723daee9e",
+      "checks": [
+        "type-safety",
+        "admissibility",
+        "counterexamples",
+        "heldout",
+        "bounded-evaluator"
+      ]
+    },
+    "haven": {
+      "passed": true,
+      "heldout_passed": 1,
+      "fixture_digest": "0252c97853e0d3d58b5dc421a1a76ed126ddebe66ab50db4634fa7e15887ab5a",
+      "checks": [
+        "type-safety",
+        "admissibility",
+        "counterexamples",
+        "heldout",
+        "bounded-evaluator"
+      ]
+    }
+  },
+  "fuzz": {
+    "seed": "deterministic-enumeration-0..79",
+    "positive": 80,
+    "negative": 80
+  },
+  "world_replay_equal": true,
+  "actors": 24,
+  "lazy_capacity": 8190000000,
+  "tick_60_seconds_wall_ms": 12.079,
+  "realms_backend": "REALMS-0.1-original",
+  "ride_equilibria": {
+    "equilibria": [
+      [
+        "share",
+        "share"
+      ],
+      [
+        "separate",
+        "separate"
+      ]
+    ],
+    "selected": [
+      "share",
+      "share"
+    ],
+    "tie_break": "share",
+    "solver": "pure-Nash-enumeration.v1",
+    "payoffs": {
+      "share/share": [
+        3,
+        3
+      ],
+      "share/separate": [
+        0,
+        2
+      ],
+      "separate/share": [
+        2,
+        0
+      ],
+      "separate/separate": [
+        2,
+        2
+      ]
+    },
+    "residual": 0.0,
+    "tolerance": 0.0
+  },
+  "realms_social_impact": {
+    "backend": "REALMS-0.1-original",
+    "shares": {
+      "player": 11.5,
+      "npc:1": 0.5
+    },
+    "total": 12,
+    "counterfactual": {
+      "causal_reach_events": 895,
+      "counterfactual_npcs": 12,
+      "factual_touched": 12,
+      "twin_touched": 0
+    },
+    "spectral_radius": 0.5355523895305863,
+    "seed": 7,
+    "graph": {
+      "0": [
+        1,
+        2
+      ],
+      "1": [
+        0,
+        2,
+        3
+      ],
+      "2": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "3": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "4": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "5": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "6": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "7": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "8": [
+        6,
+        7,
+        9,
+        10
+      ],
+      "9": [
+        7,
+        8,
+        10,
+        11
+      ],
+      "10": [
+        8,
+        9,
+        11
+      ],
+      "11": [
+        9,
+        10
+      ]
+    },
+    "solver": "REALMS exact permutation Shapley",
+    "limitation": "small declared synthetic social graph; not real social causation"
+  },
+  "integration_apis": [
+    "Ingram.KN3.fit/logprob",
+    "Ingram.Tower.fit/implicate/explicate/address/unaddress",
+    "REALMS.ActivityModel.schedule/check",
+    "REALMS.EventModel",
+    "REALMS.society.impact/shapley",
+    "WorldSession._gate -> BootstrapScheduler"
+  ],
+  "not_proven": [
+    "real-world social causation",
+    "unrestricted grammar induction",
+    "globally optimal greedy scheduling",
+    "physical microphone",
+    "Samsung performance",
+    "Oracle ARM measurements",
+    "Unreal rendering"
+  ],
+  "verification": {
+    "targeted_tests": 32,
+    "historical_ingram": {
+      "tests": 19,
+      "result": "passed",
+      "note": "upstream test warns unclosed HTTP socket"
+    },
+    "historical_realms": {
+      "tests": 16,
+      "result": "passed"
+    },
+    "rider_reference_kernel": {
+      "tests": 17,
+      "result": "passed"
+    },
+    "full_suite": "root owns definitive full verification; prior run82 had two asset variants KeyErrors and HTTP stale conflict error during concurrent changes"
+  },
+  "gate_integration_evidence": "grammar_world_gate_integration.json",
+  "startup_navigation": "hash-pinned compiled actual OSM footway route, avoids live route search at daemon startup"
+}

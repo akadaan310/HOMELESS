@@ -1,0 +1,249 @@
+{
+  "mode": "cached-utterance-preview",
+  "previews": [
+    {
+      "input": "hello",
+      "result": {
+        "status": "ok",
+        "data": {
+          "act": "greet",
+          "semantic_act": "greet",
+          "confidence": 1.0,
+          "locale": "en-US",
+          "text": "Hello. We were just talking about the sign.",
+          "response_text": "Hello. We were just talking about the sign.",
+          "transcript_retained": false,
+          "provenance": "finite-discourse-grammar.v1",
+          "effects_permitted": [
+            "dialogue.act"
+          ],
+          "speaker_actor": "npc:0"
+        },
+        "trace_digest": "345948dbeb2982cd0caef8274f42437553feca0eae7dbea9a7f12435cb34172a",
+        "effects": [],
+        "source_versions": [
+          "world.v1",
+          "scheduled-independent.v1"
+        ],
+        "warnings": []
+      },
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
+      "effect_policy": "projection-only; no world activation",
+      "grammar_revision": "finite-discourse-grammar.v1"
+    },
+    {
+      "input": "no thanks",
+      "result": {
+        "status": "ok",
+        "data": {
+          "act": "decline",
+          "semantic_act": "decline",
+          "confidence": 1.0,
+          "locale": "en-US",
+          "text": "Of course. You can keep exploring.",
+          "response_text": "Of course. You can keep exploring.",
+          "transcript_retained": false,
+          "provenance": "finite-discourse-grammar.v1",
+          "effects_permitted": [
+            "dialogue.act"
+          ],
+          "speaker_actor": "npc:0"
+        },
+        "trace_digest": "0fc891ab22ffa6a9c63aecb5b2b390622d1b961de306e553954131e96525fd57",
+        "effects": [],
+        "source_versions": [
+          "world.v1",
+          "scheduled-independent.v1"
+        ],
+        "warnings": []
+      },
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
+      "effect_policy": "projection-only; no world activation",
+      "grammar_revision": "finite-discourse-grammar.v1"
+    },
+    {
+      "input": "teach me",
+      "result": {
+        "status": "ok",
+        "data": {
+          "act": "learn",
+          "semantic_act": "learn",
+          "confidence": 1.0,
+          "locale": "en-US",
+          "text": "We can compare the turns in a recorded walk.",
+          "response_text": "We can compare the turns in a recorded walk.",
+          "transcript_retained": false,
+          "provenance": "finite-discourse-grammar.v1",
+          "effects_permitted": [
+            "dialogue.act"
+          ],
+          "speaker_actor": "npc:0",
+          "outcome": "npc-teaches",
+          "opportunity": {
+            "goal": "learn-route-pattern",
+            "allowable_acts": [
+              "observe",
+              "approach",
+              "overhear",
+              "converse",
+              "learn",
+              "compare",
+              "report",
+              "return",
+              "decline"
+            ],
+            "steps": [
+              "observe",
+              "compare",
+              "learn",
+              "report"
+            ],
+            "evidence": [
+              "ambient:cafe:0"
+            ],
+            "requires_consent": true,
+            "completion_invariant": "evidence-recorded-and-reported",
+            "failure_and_refusal": [
+              "declined",
+              "evidence-unavailable"
+            ],
+            "budget": {
+              "max_plan_steps": 16
+            },
+            "policy_revision": "organic-learning.v1",
+            "address": "purl://dark/mission/e626e4ef39883ab0a73292dcd3e92dc8a16c35b9b974bad7b975672daaed1be3"
+          }
+        },
+        "trace_digest": "54bcb282fb5c9e3970825a2fefb57125c241e2326e70363a6c7760254c3e2692",
+        "effects": [],
+        "source_versions": [
+          "world.v1",
+          "scheduled-independent.v1"
+        ],
+        "warnings": []
+      },
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
+      "effect_policy": "projection-only; no world activation",
+      "grammar_revision": "finite-discourse-grammar.v1"
+    },
+    {
+      "input": "show the report",
+      "result": {
+        "status": "ok",
+        "data": {
+          "act": "report",
+          "semantic_act": "report",
+          "confidence": 1.0,
+          "locale": "en-US",
+          "text": "The haven has the witnessed world record.",
+          "response_text": "The haven has the witnessed world record.",
+          "transcript_retained": false,
+          "provenance": "finite-discourse-grammar.v1",
+          "effects_permitted": [
+            "dialogue.act"
+          ],
+          "speaker_actor": "npc:0"
+        },
+        "trace_digest": "4989db5c3484c5e4edd37f72869d770a0bb6dd9c7e692f93af044fe8d3269e16",
+        "effects": [],
+        "source_versions": [
+          "world.v1",
+          "scheduled-independent.v1"
+        ],
+        "warnings": []
+      },
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
+      "effect_policy": "projection-only; no world activation",
+      "grammar_revision": "finite-discourse-grammar.v1"
+    },
+    {
+      "input": "can i ride",
+      "result": {
+        "status": "ok",
+        "data": {
+          "act": "ride",
+          "semantic_act": "ride",
+          "confidence": 1.0,
+          "locale": "en-US",
+          "text": "Where would you like to go?",
+          "response_text": "Where would you like to go?",
+          "transcript_retained": false,
+          "provenance": "finite-discourse-grammar.v1",
+          "effects_permitted": [
+            "dialogue.act"
+          ],
+          "speaker_actor": "npc:0"
+        },
+        "trace_digest": "52d424cef343ee56bc3696a887efda659dd4a3ee5079314bf00bb8fcbd5c6aeb",
+        "effects": [],
+        "source_versions": [
+          "world.v1",
+          "scheduled-independent.v1"
+        ],
+        "warnings": []
+      },
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
+      "effect_policy": "projection-only; no world activation",
+      "grammar_revision": "finite-discourse-grammar.v1"
+    },
+    {
+      "input": "look up",
+      "result": {
+        "status": "ok",
+        "data": {
+          "act": "look_up",
+          "semantic_act": "look_up",
+          "confidence": 1.0,
+          "locale": "en-US",
+          "text": "Look above the street. That cue belongs to our fictional sky layer.",
+          "response_text": "Look above the street. That cue belongs to our fictional sky layer.",
+          "transcript_retained": false,
+          "provenance": "finite-discourse-grammar.v1",
+          "effects_permitted": [
+            "dialogue.act"
+          ],
+          "speaker_actor": "npc:0",
+          "outcome": "npc-notices-sky-cue"
+        },
+        "trace_digest": "0b045f4ac5960758356094d8d9aea1062a63dfb47ccac6308d4cf38834eeb369",
+        "effects": [],
+        "source_versions": [
+          "world.v1",
+          "scheduled-independent.v1"
+        ],
+        "warnings": []
+      },
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
+      "effect_policy": "projection-only; no world activation",
+      "grammar_revision": "finite-discourse-grammar.v1"
+    },
+    {
+      "input": "something unclear",
+      "result": {
+        "status": "ok",
+        "data": {
+          "act": "clarify",
+          "semantic_act": "clarify",
+          "confidence": 1.0,
+          "locale": "en-US",
+          "text": "Did you want to talk, learn a pattern, or ask about a ride?",
+          "response_text": "Did you want to talk, learn a pattern, or ask about a ride?",
+          "transcript_retained": false,
+          "provenance": "finite-discourse-grammar.v1",
+          "effects_permitted": [],
+          "speaker_actor": "npc:0"
+        },
+        "trace_digest": "88f395284b5c5e0703945d71b1e069aaaf42ea74bda94c26f2e84c6faf83d377",
+        "effects": [],
+        "source_versions": [
+          "world.v1",
+          "scheduled-independent.v1"
+        ],
+        "warnings": []
+      },
+      "snapshot_hash": "cf86b578a72f18b92ca3ee72defc853e87aa5e95604c75df06162a8b4ccd44fa",
+      "effect_policy": "projection-only; no world activation",
+      "grammar_revision": "finite-discourse-grammar.v1"
+    }
+  ]
+}

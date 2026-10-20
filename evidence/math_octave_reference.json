@@ -1,0 +1,1 @@
+{"solver":"GNU Octave","version":"9.4.0","qp":{"status":0,"primal":[2,-1],"objective":-14,"gradient":[-2,4],"kkt_inf":0},"lp":{"primal":[3,0],"objective":3,"errnum":0,"status":5},"ode":{"equation":"dy/dt=-0.7*y","final":0.18243018787632588,"analytic":0.1824301878756539,"residual":6.71962485654376e-13,"samples":537}}

@@ -1,0 +1,15 @@
+test_corruption_detected (test_protocol.Continuity.test_corruption_detected) ... ok
+test_dedup_conflict_restart_and_hash_chain (test_protocol.Continuity.test_dedup_conflict_restart_and_hash_chain) ... ok
+test_malformed_nonfinite_unknown_and_parent_conflict (test_protocol.Continuity.test_malformed_nonfinite_unknown_and_parent_conflict) ... ok
+test_read_is_pure_and_founder_string_is_not_authority (test_protocol.Continuity.test_read_is_pure_and_founder_string_is_not_authority) ... ok
+test_revoke_scoped_capability (test_protocol.Continuity.test_revoke_scoped_capability) ... ok
+test_real_daemon_kill_restart_and_cbor (test_session.IPC.test_real_daemon_kill_restart_and_cbor) ... ok
+test_actual_javascript_budgets_and_no_system (test_workers.Workers.test_actual_javascript_budgets_and_no_system) ... ok
+test_actual_wasm_and_import_rejection (test_workers.Workers.test_actual_wasm_and_import_rejection) ... ok
+test_real_shell_pipes_proposals_and_clock (test_workers.Workers.test_real_shell_pipes_proposals_and_clock) ... ok
+test_shell_host_isolation_and_output_and_timeout (test_workers.Workers.test_shell_host_isolation_and_output_and_timeout) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.171s
+
+OK

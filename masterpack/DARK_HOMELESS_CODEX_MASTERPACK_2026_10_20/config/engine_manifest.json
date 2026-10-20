@@ -1,0 +1,11 @@
+{
+  "spec_version": "2026-10-20-v1",
+  "product": {"name": "HOMELESS", "codename": "Dark / World of Worlds", "founder_player": "Abed Kadan", "entry_region": "North Dale Mabry Highway at West Spruce Street, Tampa, Florida", "origin_history": "Marina del Rey, California"},
+  "render_stack": {"primary": "Unreal Engine 5.8", "methods": ["City Sample PCG", "Nanite", "Lumen", "MetaHuman Collections", "MassEntity", "Chaos", "Niagara", "MetaSounds", "World Partition", "Pixel Streaming 2"], "low_fidelity_engine_fallback": false},
+  "adapters": ["world/geo", "world/transport", "world/sky", "world/weather", "world/population", "grammar/generator", "ingram/usage", "model/actor", "model/mission", "model/asset", "model/sound", "model/sky", "model/portal", "math/reference", "math/runtime", "purl", "seurl", "acsp/local-ipc", "shell/worker", "script/quickjs", "script/wasm", "unreal", "android", "web"],
+  "client_targets": ["PC/desktop", "browser/WebRTC", "Android installable APK"],
+  "android_profiles": {"primary_reported": "Samsung Galaxy A60", "minimum_test_profile": "Samsung Galaxy A16-like"},
+  "data_scope": "globally-addressable; detail-streamed", "geographic_tampa_only": false,
+  "source_claim_rules": ["measured", "estimated", "constructed", "synthetic-fallback", "unknown"],
+  "delivery": {"single_commission": true, "require_machine_test_evidence": true, "required_artifact": "APK when toolchain and execution host permit; else truthful blocker + buildable source", "research_findings_jsonl": true}
+}

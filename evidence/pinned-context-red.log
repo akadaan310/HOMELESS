@@ -1,0 +1,24 @@
+test_corruption_detected (test_protocol.Continuity.test_corruption_detected) ... ok
+test_dedup_conflict_restart_and_hash_chain (test_protocol.Continuity.test_dedup_conflict_restart_and_hash_chain) ... ok
+test_incomplete_typed_effects_never_enter_the_ledger (test_protocol.Continuity.test_incomplete_typed_effects_never_enter_the_ledger) ... ok
+test_malformed_nonfinite_unknown_and_parent_conflict (test_protocol.Continuity.test_malformed_nonfinite_unknown_and_parent_conflict) ... ok
+test_operator_revocation_survives_restart (test_protocol.Continuity.test_operator_revocation_survives_restart) ... ok
+test_pinned_context_replays_old_version_without_side_effects (test_protocol.Continuity.test_pinned_context_replays_old_version_without_side_effects) ... FAIL
+test_public_observer_does_not_gain_private_npc_memory (test_protocol.Continuity.test_public_observer_does_not_gain_private_npc_memory) ... ok
+test_read_is_pure_and_founder_string_is_not_authority (test_protocol.Continuity.test_read_is_pure_and_founder_string_is_not_authority) ... ok
+test_revoke_scoped_capability (test_protocol.Continuity.test_revoke_scoped_capability) ... ok
+
+======================================================================
+FAIL: test_pinned_context_replays_old_version_without_side_effects (test_protocol.Continuity.test_pinned_context_replays_old_version_without_side_effects)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/HOMELESS/tests/test_protocol.py", line 45, in test_pinned_context_replays_old_version_without_side_effects
+    self.assertEqual(before,after);self.assertEqual(after['data']['objects']['cafe']['text'],'Golden Haven')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'req[66 chars]t': 'Golden Haven', 'author': 'dark', 'event_i[357 chars]5af'} != {'req[66 chars]t': 'Second Name', 'author': 'dark', 'event_id[356 chars]f6f'}
+Diff is 1103 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.210s
+
+FAILED (failures=1)

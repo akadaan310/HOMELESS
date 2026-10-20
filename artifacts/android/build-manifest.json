@@ -1,0 +1,14 @@
+{
+  "package": "world.homeless.rendezvous",
+  "version": "1.0",
+  "minSDK": 23,
+  "targetSDK": 35,
+  "compileSDK": 35,
+  "signing": "Android debug certificate; development build",
+  "bytes": 48427964,
+  "sha256": "4fbfa0f8a73b5e5bead15e9903d01eebd4673c0bfb88602474b21412a0e1a037",
+  "renderer": "PlayCanvas 2.23.3 / WebGL2",
+  "physics": "Rapier WASM 0.19.3",
+  "wrapper": "Capacitor 7.4.3 / Kotlin native lifecycle",
+  "device_verification": "BLOCKED: no attached Android device"
+}

@@ -1,0 +1,63 @@
+{
+  "observed_utc": "2026-10-20",
+  "records": [
+    {
+      "repo": "https://github.com/akadaan310/anwaa",
+      "default_branch": "claude/physics-gaming-engine-fschnl",
+      "head": "b90afafe009855c49ea7ffa32061f51a606eb597",
+      "commit_date": "2026-09-21T19:58:25Z",
+      "commit_message": "Serve the demo at the site root on Vercel\n\nThe deployment was healthy \u2014 every file was served correctly, with\n/demo/index.html and /src/index.js both returning 200 and the right MIME\ntypes. The root URL 404'd simply because the repository has no index.html at\nits top level, so \"/\" matched nothing.\n\nAdd a vercel.json rewriting \"/\" to /demo/index.html, which mirrors what\ntools/serve.mjs already does locally.\n\nA rewrite keeps the browser's URL at \"/\", so the page's relative \"./app.js\"\nwould have resolved to \"/app.js\" and 404'd. The script reference is now\nabsolute (/demo/app.js); its own imports resolve against the module URL rather\nthan the page URL, so the rest of the graph is unaffected and the demo works\nwhether it is reached at \"/\" or \"/demo/index.html\".\n\nAlso add a favicon, which removes the only console error in the capture run,\nand point tools/shoot.mjs at the root so it exercises the path production\nserves.\n\nVerified: all seven scenes load and render from \"/\" with a clean console.\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01Fz2mYTTEYng6geydDasJ3m",
+      "files": [
+        {
+          "path": "evidence/geo_repo_anwaa_README.md",
+          "sha256": "529e37d44307583244c106087338f4ca873b57c124a4feded591a4470f6b5a61"
+        },
+        {
+          "path": "evidence/geo_repo_anwaa_head.json",
+          "sha256": "480b775b9c2cb0d5ba782bfe4681638f658931cc023f3677e46c479590b7a539"
+        },
+        {
+          "path": "evidence/geo_repo_anwaa_src_physics_forces.js",
+          "sha256": "9ebb25b5f17b3e344d895efd00749758fffe8010be891bbde3464e40da2e013c"
+        },
+        {
+          "path": "evidence/geo_repo_anwaa_src_physics_world.js",
+          "sha256": "503f31c15d42826542aefc3d581bd9a08b7120c78fa1a60e4431fdd7c94a1c84"
+        },
+        {
+          "path": "evidence/geo_repo_anwaa_tree.json",
+          "sha256": "b387392d038a3b38a8385d1fe30f656dd79dabde9f5af51235e5ffeb6c2bafdc"
+        }
+      ],
+      "assessment": "Canvas2D UI physics engine; celestial style is constructed, not astrometric data",
+      "changed_upstream": false
+    },
+    {
+      "repo": "https://github.com/akadaan310/MUSA",
+      "default_branch": "master",
+      "head": "d797135727787124d18193f04af26d6c3fed03a5",
+      "commit_date": "2026-09-28T23:08:30Z",
+      "commit_message": "Najwa: invitation to Hu + how-I-think collection",
+      "files": [
+        {
+          "path": "evidence/geo_repo_MUSA_head.json",
+          "sha256": "d1e321c6e03ec7b73f7b86a6fb7d6aada994ca70e3ebf3551fb08f70b2918811"
+        },
+        {
+          "path": "evidence/geo_repo_MUSA_luna-agent_README.md",
+          "sha256": "b73cd91097692eedb7cc674023c2ea3b0eb8c9a5ba81d3ceb89406f3d03bafe3"
+        },
+        {
+          "path": "evidence/geo_repo_MUSA_luna-agent_harness-bakeoff_README.md",
+          "sha256": "eda146bb470a97ce1f23bade256ef9057eef9a21ce90f8f0d9558c2df503defa"
+        },
+        {
+          "path": "evidence/geo_repo_MUSA_tree.json",
+          "sha256": "f4761a425a57b93fc5f07d2eb7d52c2750409eb52f09e28756360304a4d42c82"
+        }
+      ],
+      "assessment": "Luna agent protocol/document staging; no geographical source adapter observed in pinned tree",
+      "changed_upstream": false
+    }
+  ]
+}

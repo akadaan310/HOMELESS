@@ -1,0 +1,317 @@
+{
+  "mode": "cached-authoritative-replay-offline",
+  "episodes": [
+    {
+      "time_seconds": 1.0,
+      "conversations": [
+        {
+          "episode_id": "tampa-cafe-independent",
+          "act_id": "cafe:0",
+          "speaker_actor": "npc:0",
+          "participants": [
+            "npc:0",
+            "npc:1",
+            "npc:2"
+          ],
+          "source_context_hash": "d922e160091b67e4c2418e48b7a95e21c74a4a4bec721422a41ff6f6dddcf200",
+          "semantic_act": "statement",
+          "canonical_content": {
+            "phrase_id": "cafe.sign"
+          },
+          "utterance_variant_id": "cafe.sign",
+          "phrase_id": "cafe.sign",
+          "exact_text": "The new sign says Amber Fold. I like the sound of it.",
+          "text": "The new sign says Amber Fold. I like the sound of it.",
+          "voice_id": "amber",
+          "locale": "en-US",
+          "speaker_style": "conversational",
+          "world_timestamp": 0,
+          "position": [
+            14.5506,
+            0.0,
+            13.3381
+          ],
+          "audibility_range": 22,
+          "provenance": "independent-conversation-grammar.v1",
+          "addresses_player": false
+        }
+      ],
+      "world_revision": 2,
+      "world_snapshot_hash": "194387d9e5a1869073b9e1603dbcad094b643d5110cc36b294ca0bdb362e865e",
+      "source": "deterministic witnessed server-world replay; offline presentation only"
+    },
+    {
+      "time_seconds": 9.0,
+      "conversations": [
+        {
+          "episode_id": "tampa-cafe-independent",
+          "act_id": "cafe:1",
+          "speaker_actor": "npc:1",
+          "participants": [
+            "npc:0",
+            "npc:1",
+            "npc:2"
+          ],
+          "source_context_hash": "eeded5baa1fb79c3f61602bc0b1c3dd47c076fe5bb2502c4143666fbb957d7ed",
+          "semantic_act": "statement",
+          "canonical_content": {
+            "phrase_id": "walk.pattern"
+          },
+          "utterance_variant_id": "walk.pattern",
+          "phrase_id": "walk.pattern",
+          "exact_text": "The walk we recorded bends left, then right by the corner.",
+          "text": "The walk we recorded bends left, then right by the corner.",
+          "voice_id": "river",
+          "locale": "en-US",
+          "speaker_style": "conversational",
+          "world_timestamp": 8,
+          "position": [
+            18.5504,
+            0.0,
+            13.3019
+          ],
+          "audibility_range": 22,
+          "provenance": "independent-conversation-grammar.v1",
+          "addresses_player": false
+        }
+      ],
+      "world_revision": 4,
+      "world_snapshot_hash": "2e66774ea7bab9128ad14b57b3e2be5466a9685200bce005383f3baa009f6ba5",
+      "source": "deterministic witnessed server-world replay; offline presentation only"
+    },
+    {
+      "time_seconds": 17.0,
+      "conversations": [
+        {
+          "episode_id": "tampa-cafe-independent",
+          "act_id": "cafe:2",
+          "speaker_actor": "npc:2",
+          "participants": [
+            "npc:0",
+            "npc:1",
+            "npc:2"
+          ],
+          "source_context_hash": "b36dfcf04ed09b17fb9f44ea619dcc2e39ff3489be92adcd8fe497771a9a3589",
+          "semantic_act": "statement",
+          "canonical_content": {
+            "phrase_id": "haven.report"
+          },
+          "utterance_variant_id": "haven.report",
+          "phrase_id": "haven.report",
+          "exact_text": "We can bring the record to the haven when we meet.",
+          "text": "We can bring the record to the haven when we meet.",
+          "voice_id": "cedar",
+          "locale": "en-US",
+          "speaker_style": "conversational",
+          "world_timestamp": 16,
+          "position": [
+            21.8721,
+            0.0,
+            11.8939
+          ],
+          "audibility_range": 22,
+          "provenance": "independent-conversation-grammar.v1",
+          "addresses_player": false
+        }
+      ],
+      "world_revision": 6,
+      "world_snapshot_hash": "11bbac9953056c1d52544a997d77e7215597b97b6291b4d20fd10bcbe76e34c9",
+      "source": "deterministic witnessed server-world replay; offline presentation only"
+    },
+    {
+      "time_seconds": 25.0,
+      "conversations": [
+        {
+          "episode_id": "tampa-cafe-independent",
+          "act_id": "cafe:3",
+          "speaker_actor": "npc:0",
+          "participants": [
+            "npc:0",
+            "npc:1",
+            "npc:2"
+          ],
+          "source_context_hash": "72aeed64648e6869df0817a82a2cd50726d879da061f78089fbf0b2700d62a0d",
+          "semantic_act": "statement",
+          "canonical_content": {
+            "phrase_id": "cafe.sign"
+          },
+          "utterance_variant_id": "cafe.sign",
+          "phrase_id": "cafe.sign",
+          "exact_text": "The new sign says Amber Fold. I like the sound of it.",
+          "text": "The new sign says Amber Fold. I like the sound of it.",
+          "voice_id": "amber",
+          "locale": "en-US",
+          "speaker_style": "conversational",
+          "world_timestamp": 24,
+          "position": [
+            14.5506,
+            0.0,
+            13.3381
+          ],
+          "audibility_range": 22,
+          "provenance": "independent-conversation-grammar.v1",
+          "addresses_player": false
+        }
+      ],
+      "world_revision": 8,
+      "world_snapshot_hash": "78ebb53085f94c0158991a2be793574666e046be814958c9868b6f96601fa6cf",
+      "source": "deterministic witnessed server-world replay; offline presentation only"
+    },
+    {
+      "time_seconds": 33.0,
+      "conversations": [
+        {
+          "episode_id": "tampa-cafe-independent",
+          "act_id": "cafe:4",
+          "speaker_actor": "npc:1",
+          "participants": [
+            "npc:0",
+            "npc:1",
+            "npc:2"
+          ],
+          "source_context_hash": "510e066917ed366ec4a02f2ef87a4b27176a24ebcf34591ee9e2e4e2df8f0943",
+          "semantic_act": "statement",
+          "canonical_content": {
+            "phrase_id": "walk.pattern"
+          },
+          "utterance_variant_id": "walk.pattern",
+          "phrase_id": "walk.pattern",
+          "exact_text": "The walk we recorded bends left, then right by the corner.",
+          "text": "The walk we recorded bends left, then right by the corner.",
+          "voice_id": "river",
+          "locale": "en-US",
+          "speaker_style": "conversational",
+          "world_timestamp": 32,
+          "position": [
+            18.5504,
+            0.0,
+            13.3019
+          ],
+          "audibility_range": 22,
+          "provenance": "independent-conversation-grammar.v1",
+          "addresses_player": false
+        }
+      ],
+      "world_revision": 10,
+      "world_snapshot_hash": "69af87ce81e9df20f1434497f8d7e2a423b68f48da39e4fb3327a1227c3b9587",
+      "source": "deterministic witnessed server-world replay; offline presentation only"
+    },
+    {
+      "time_seconds": 41.0,
+      "conversations": [
+        {
+          "episode_id": "tampa-cafe-independent",
+          "act_id": "cafe:5",
+          "speaker_actor": "npc:2",
+          "participants": [
+            "npc:0",
+            "npc:1",
+            "npc:2"
+          ],
+          "source_context_hash": "12a4393a7c2175c95412fedcef5296d66169e02b3aeb2276e6e0c5cfb9c1bbc1",
+          "semantic_act": "statement",
+          "canonical_content": {
+            "phrase_id": "haven.report"
+          },
+          "utterance_variant_id": "haven.report",
+          "phrase_id": "haven.report",
+          "exact_text": "We can bring the record to the haven when we meet.",
+          "text": "We can bring the record to the haven when we meet.",
+          "voice_id": "cedar",
+          "locale": "en-US",
+          "speaker_style": "conversational",
+          "world_timestamp": 40,
+          "position": [
+            21.8721,
+            0.0,
+            11.8939
+          ],
+          "audibility_range": 22,
+          "provenance": "independent-conversation-grammar.v1",
+          "addresses_player": false
+        }
+      ],
+      "world_revision": 12,
+      "world_snapshot_hash": "ca7a700f4502695223e1ac858f2bfbb244b5ea797f5e5e8a33516f68f2ae61cc",
+      "source": "deterministic witnessed server-world replay; offline presentation only"
+    },
+    {
+      "time_seconds": 49.0,
+      "conversations": [
+        {
+          "episode_id": "tampa-cafe-independent",
+          "act_id": "cafe:6",
+          "speaker_actor": "npc:0",
+          "participants": [
+            "npc:0",
+            "npc:1",
+            "npc:2"
+          ],
+          "source_context_hash": "599ba78ef0dd5e5b1dfdd1e3ea09af71fa8548ddb3ffb8a5614ace863148b521",
+          "semantic_act": "statement",
+          "canonical_content": {
+            "phrase_id": "cafe.sign"
+          },
+          "utterance_variant_id": "cafe.sign",
+          "phrase_id": "cafe.sign",
+          "exact_text": "The new sign says Amber Fold. I like the sound of it.",
+          "text": "The new sign says Amber Fold. I like the sound of it.",
+          "voice_id": "amber",
+          "locale": "en-US",
+          "speaker_style": "conversational",
+          "world_timestamp": 48,
+          "position": [
+            14.5506,
+            0.0,
+            13.3381
+          ],
+          "audibility_range": 22,
+          "provenance": "independent-conversation-grammar.v1",
+          "addresses_player": false
+        }
+      ],
+      "world_revision": 14,
+      "world_snapshot_hash": "01584dec14329216223adb84a913463e0911fab26a25f5b6e79fddacc0a8a9c6",
+      "source": "deterministic witnessed server-world replay; offline presentation only"
+    },
+    {
+      "time_seconds": 57.0,
+      "conversations": [
+        {
+          "episode_id": "tampa-cafe-independent",
+          "act_id": "cafe:7",
+          "speaker_actor": "npc:1",
+          "participants": [
+            "npc:0",
+            "npc:1",
+            "npc:2"
+          ],
+          "source_context_hash": "5178282127cb6b82cea0cec5b080ea870098584d1bb254499a12dde01e25a0fd",
+          "semantic_act": "statement",
+          "canonical_content": {
+            "phrase_id": "walk.pattern"
+          },
+          "utterance_variant_id": "walk.pattern",
+          "phrase_id": "walk.pattern",
+          "exact_text": "The walk we recorded bends left, then right by the corner.",
+          "text": "The walk we recorded bends left, then right by the corner.",
+          "voice_id": "river",
+          "locale": "en-US",
+          "speaker_style": "conversational",
+          "world_timestamp": 56,
+          "position": [
+            18.5504,
+            0.0,
+            13.3019
+          ],
+          "audibility_range": 22,
+          "provenance": "independent-conversation-grammar.v1",
+          "addresses_player": false
+        }
+      ],
+      "world_revision": 16,
+      "world_snapshot_hash": "64dfacb36336067f235d250322f8ece882e8f846c54d60c4b64d9b95c69ed1c1",
+      "source": "deterministic witnessed server-world replay; offline presentation only"
+    }
+  ]
+}

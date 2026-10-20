@@ -1,0 +1,37 @@
+{
+  "status": "executed",
+  "model": "kokoro-v1.0.int8.onnx",
+  "weights_sha256": "6e742170d309016e5891a994e1ce1559c702a2ccd0075e67ef7157974f6406cb",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+  "source": "https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0",
+  "cold_load_ms": 5735.939579000842,
+  "records": [
+    {
+      "text": "Good evening. The street is quiet.",
+      "voice": "af_heart",
+      "file": "artifacts/voice/kokoro_evaluation_0.wav",
+      "sample_rate": 24000,
+      "duration_ms": 1898.6666666666667,
+      "elapsed_ms": 13018.917888999567,
+      "real_time_factor": 6.8568738881669065,
+      "sha256": "4c826abb070e3ebe5ab85314b0ba37dc0069a1bdb6627ef02f21e25120ad672f"
+    },
+    {
+      "text": "Would you like to walk with us?",
+      "voice": "af_heart",
+      "file": "artifacts/voice/kokoro_evaluation_1.wav",
+      "sample_rate": 24000,
+      "duration_ms": 1450.6666666666667,
+      "elapsed_ms": 5462.936900999921,
+      "real_time_factor": 3.765811282858401,
+      "sha256": "8d2134c982832db1db472cbdfb7193c3d69bb951a0f389c4495a208324b47e3e"
+    }
+  ],
+  "environment": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "max_rss_kib": 352332,
+  "limitations": [
+    "CPU x86 container; not reported Oracle ARM64",
+    "two synthetic evaluation lines; human audio quality ranking not measured",
+    "Arabic not included in this English contender test"
+  ]
+}

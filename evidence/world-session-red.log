@@ -1,0 +1,21 @@
+test_world_session (unittest.loader._FailedTest.test_world_session) ... ERROR
+
+======================================================================
+ERROR: test_world_session (unittest.loader._FailedTest.test_world_session)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_world_session
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/HOMELESS/tests/test_world_session.py", line 2, in <module>
+    from worldloom.session import WorldSession
+ModuleNotFoundError: No module named 'worldloom.session'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

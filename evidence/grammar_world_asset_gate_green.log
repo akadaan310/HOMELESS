@@ -1,0 +1,15 @@
+test_activation_is_proposal_requires_live_predicates_and_capability (test_bootstrap.BootstrapTests.test_activation_is_proposal_requires_live_predicates_and_capability) ... ok
+test_changed_hash_invalidates_reservation (test_bootstrap.BootstrapTests.test_changed_hash_invalidates_reservation) ... ok
+test_expiry_and_low_battery_reduce_prefetch (test_bootstrap.BootstrapTests.test_expiry_and_low_battery_reduce_prefetch) ... ok
+test_order_invariance_conflict_detection_and_eviction (test_bootstrap.BootstrapTests.test_order_invariance_conflict_detection_and_eviction) ... ok
+test_plan_deterministic_bounded_and_does_not_commit_world (test_bootstrap.BootstrapTests.test_plan_deterministic_bounded_and_does_not_commit_world) ... ok
+test_resource_hash_verified_and_atomic_reservation (test_bootstrap.BootstrapTests.test_resource_hash_verified_and_atomic_reservation) ... ok
+test_retreat_cancels_and_cache_reuses (test_bootstrap.BootstrapTests.test_retreat_cancels_and_cache_reuses) ... ok
+test_stale_invalid_and_stationary_far_do_not_stage (test_bootstrap.BootstrapTests.test_stale_invalid_and_stationary_far_do_not_stage) ... ok
+test_world_session_prepares_assets_animation_report_and_cancels_on_retreat (test_bootstrap.BootstrapTests.test_world_session_prepares_assets_animation_report_and_cancels_on_retreat) ... ok
+test_world_session_uses_scheduler_without_ledger_commit (test_bootstrap.BootstrapTests.test_world_session_uses_scheduler_without_ledger_commit) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.533s
+
+OK

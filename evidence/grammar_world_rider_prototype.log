@@ -1,0 +1,22 @@
+test_activation_requires_proximity_and_approval (test_gate_kernel.KernelTest.test_activation_requires_proximity_and_approval) ... ok
+test_actual_event_commits_once (test_gate_kernel.KernelTest.test_actual_event_commits_once) ... ok
+test_admissibility_matters (test_gate_kernel.KernelTest.test_admissibility_matters) ... ok
+test_byte_budget_enforced (test_gate_kernel.KernelTest.test_byte_budget_enforced) ... ok
+test_conflicting_resource_declaration_refused (test_gate_kernel.KernelTest.test_conflicting_resource_declaration_refused) ... ok
+test_decode_budget_enforced (test_gate_kernel.KernelTest.test_decode_budget_enforced) ... ok
+test_deduplicate_shared_resource (test_gate_kernel.KernelTest.test_deduplicate_shared_resource) ... ok
+test_invalid_inputs_rejected (test_gate_kernel.KernelTest.test_invalid_inputs_rejected) ... ok
+test_near_stationary_may_prepare (test_gate_kernel.KernelTest.test_near_stationary_may_prepare) ... ok
+test_new_event_old_revision_refused (test_gate_kernel.KernelTest.test_new_event_old_revision_refused) ... ok
+test_order_invariance (test_gate_kernel.KernelTest.test_order_invariance) ... ok
+test_plan_is_deterministic (test_gate_kernel.KernelTest.test_plan_is_deterministic) ... ok
+test_prepare_does_not_activate (test_gate_kernel.KernelTest.test_prepare_does_not_activate) ... ok
+test_retreat_cancels (test_gate_kernel.KernelTest.test_retreat_cancels) ... ok
+test_stale_revision_refused (test_gate_kernel.KernelTest.test_stale_revision_refused) ... ok
+test_stationary_far_does_not_predict (test_gate_kernel.KernelTest.test_stationary_far_does_not_predict) ... ok
+test_voice_key_stable_and_revision_sensitive (test_gate_kernel.KernelTest.test_voice_key_stable_and_revision_sensitive) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.001s
+
+OK

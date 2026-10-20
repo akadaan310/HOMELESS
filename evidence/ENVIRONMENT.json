@@ -1,0 +1,57 @@
+{
+  "observed_utc": "2026-10-20T22:22:11.381402+00:00",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "cpu_count": 5,
+  "cpu_affinity": 5,
+  "commands": {
+    "python3": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "node": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "git": "/usr/local/bin/git",
+    "g++": "/usr/bin/g++",
+    "java": "/usr/bin/java",
+    "javac": null,
+    "adb": null,
+    "gradle": null,
+    "octave": null,
+    "UnrealEditor": null,
+    "RunUAT.sh": null,
+    "nvidia-smi": null,
+    "ffmpeg": "/usr/bin/ffmpeg",
+    "bwrap": "/usr/bin/bwrap",
+    "curl": "/usr/bin/curl"
+  },
+  "provisioned": {
+    "octave": "/workspace/HOMELESS/.cache/bin/octave",
+    "jdk": "/workspace/HOMELESS/.cache/sysroot/usr/lib/jvm/java-21-openjdk-amd64",
+    "busybox": "/workspace/HOMELESS/.cache/sysroot/usr/bin/busybox",
+    "android_sdk": "/workspace/HOMELESS/.cache/android-tools/sdk",
+    "gradle": "/workspace/HOMELESS/.cache/android-tools/gradle-8.10.2/bin/gradle",
+    "blender": "/usr/bin/blender"
+  },
+  "devices": {
+    "/dev/kvm": false,
+    "/dev/dri": false,
+    "/dev/nvidia0": false
+  },
+  "remote_oracle": "no configured credentials/outbound identity; not connected",
+  "licensed_unreal_assets": "no Unreal/Fab entitlement configured",
+  "memory": [
+    "MemTotal:       18440112 kB",
+    "MemFree:        16116756 kB",
+    "MemAvailable:   17644496 kB"
+  ],
+  "cpu_cgroup_quota": "400000 100000",
+  "versions": {
+    "python": "Python 3.12.14",
+    "node": "v24.19.0",
+    "g++": "g++ (Debian 14.2.0-19) 14.2.0",
+    "jdk": "javac 21.0.12.1",
+    "android_adb": "Android Debug Bridge version 1.0.41"
+  },
+  "cgroup": {
+    "cpu.max": "400000 100000",
+    "memory.max": "17179869184",
+    "memory.current": "12732440576",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+  }
+}

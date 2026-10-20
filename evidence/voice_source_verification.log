@@ -1,0 +1,6 @@
+data/voice/models/en_US-libritts_r-medium.onnx 78580914
+data/voice/models/en_US-libritts_r-medium.onnx.json 20123
+data/voice/models/ar_JO-kareem-low.onnx 63201294
+data/voice/models/ar_JO-kareem-low.onnx.json 5022
+data/voice/asr/moonshine-tiny-en-int8.tar.bz2 107600538
+data/voice/asr/whisper-tiny.tar.bz2 116204861

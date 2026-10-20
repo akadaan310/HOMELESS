@@ -1,0 +1,73 @@
+{
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "numpy": "2.3.5",
+  "benchmark": [
+    {
+      "row_count": 10000,
+      "source_kind": "actual HYG subset",
+      "index_build_ms": 11.105715999292443,
+      "index_peak_allocated_bytes": 741743,
+      "resident_array_bytes": 1040000,
+      "queries": 20,
+      "query_median_ms": 0.023444499674951658,
+      "query_p95_ms": 0.1039756498357747,
+      "candidate_result_counts": [
+        87,
+        0,
+        32,
+        0
+      ]
+    },
+    {
+      "row_count": 100000,
+      "source_kind": "actual HYG subset",
+      "index_build_ms": 40.05692899954738,
+      "index_peak_allocated_bytes": 7401735,
+      "resident_array_bytes": 10400000,
+      "queries": 20,
+      "query_median_ms": 0.050809500862669665,
+      "query_p95_ms": 0.1992106985198916,
+      "candidate_result_counts": [
+        87,
+        226,
+        156,
+        248
+      ]
+    },
+    {
+      "row_count": 119625,
+      "source_kind": "actual HYG subset",
+      "index_build_ms": 49.55178300042462,
+      "index_peak_allocated_bytes": 8853977,
+      "resident_array_bytes": 12441000,
+      "queries": 20,
+      "query_median_ms": 0.056997499996214174,
+      "query_p95_ms": 0.14243599862311387,
+      "candidate_result_counts": [
+        172,
+        232,
+        200,
+        250
+      ]
+    },
+    {
+      "row_count": 1000000,
+      "source_kind": "synthetic capacity stress by repeated real HYG rows; not one million distinct measured stars",
+      "index_build_ms": 866.4204589986184,
+      "index_peak_allocated_bytes": 74001719,
+      "resident_array_bytes": 104000000,
+      "queries": 20,
+      "query_median_ms": 0.1799080000637332,
+      "query_p95_ms": 0.6068667993531562,
+      "candidate_result_counts": [
+        1463,
+        2082,
+        1681,
+        2000
+      ]
+    }
+  ],
+  "gaia_ingested": false,
+  "million_distinct_observed_sources_verified": false,
+  "gap": "Gaia-scale real ingest remains open; million-row measurement is capacity stress only."
+}

@@ -1,0 +1,25 @@
+
+> homeless-rendezvous@0.1.0 test
+> node --test ../tests/test_web*.mjs
+
+✔ loaded GLB animation subassets bind their track names and survive idle, walking and talking updates (29.456205ms)
+✔ ambient voice rejects stale phrase-ID cache after canonical text changes; exact matching voice alone marks heard (19.777899ms)
+✔ journey survives restart, remains bounded and never merges over server events (38.922696ms)
+✔ endpoint requires explicit supported scheme and no embedded credentials (0.537536ms)
+✔ speech remains text and bounded, never source execution (37.106127ms)
+✔ fixed clock clamps background delta and bounds catchup (0.456251ms)
+✔ authenticated session resumes and explicit retry id remains stable; refusal is rejected (1.602069ms)
+✔ offline upload envelope stays immutable after lost acknowledgement and moving; acknowledgements persist immediately (0.827207ms)
+✔ stale recognition cannot replace typed text after new dialog, new capture or cancel (0.983919ms)
+✔ touch and drag cancel, lost capture, focus loss and hidden lifecycle clear movement (8.030488ms)
+✔ world placement preserves authored glTF root scale, rotation, translation and bone name (25.653534ms)
+using deprecated parameters for the initialization function; pass a single object instead
+✔ actual WASM capsule controller stops at fixed collision wall (208.875323ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6203.749802

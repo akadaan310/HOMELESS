@@ -1,0 +1,6 @@
+FBX version: 7700
+FBX version: 7700
+SOURCE_STRIDE [{"gender_prefix": "m", "source": "assets/originals/rocketbox/Assets/Animations/all_animations_max_motextr_xy/m_walk_neutral_01.max.fbx", "source_clip_frame_range": [1.0, 37.0], "fps": 30, "duration_s": 1.2, "pelvis_world_displacement_m": [-5.306739225829915e-08, -1.2140403985977173, 0.0], "nominal_planar_speed_mps": 1.0117003321647653, "scope": "authored source root path; match playback rate to actual actor speed to reduce foot slide"}, {"gender_prefix": "f", "source": "assets/originals/rocketbox/Assets/Animations/all_animations_max_motextr_xy/f_walk_neutral_01.max.fbx", "source_clip_frame_range": [1.0, 37.0], "fps": 30, "duration_s": 1.2, "pelvis_world_displacement_m": [0.0, -1.4565207958221436, 0.0], "nominal_planar_speed_mps": 1.2137673298517864, "scope": "authored source root path; match playback rate to actual actor speed to reduce foot slide"}]
+Blender 4.3.2
+
+Blender quit

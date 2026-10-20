@@ -1,0 +1,94 @@
+{
+  "animations": [
+    {
+      "channels": 240,
+      "name": "Idle"
+    },
+    {
+      "channels": 240,
+      "name": "Walking"
+    },
+    {
+      "channels": 240,
+      "name": "Talking"
+    }
+  ],
+  "bones": [
+    80
+  ],
+  "collision_test": "pending separate proxy/navmesh verification",
+  "format": "glTF-2.0",
+  "images": [
+    {
+      "format": "JPEG",
+      "height": 2048,
+      "mode": "RGB",
+      "name": "m002_body_normal",
+      "width": 2048
+    },
+    {
+      "format": "JPEG",
+      "height": 2048,
+      "mode": "RGB",
+      "name": "m002_body_color",
+      "width": 2048
+    },
+    {
+      "format": "JPEG",
+      "height": 2048,
+      "mode": "RGB",
+      "name": "m002_head_normal",
+      "width": 2048
+    },
+    {
+      "format": "JPEG",
+      "height": 2048,
+      "mode": "RGB",
+      "name": "m002_head_color",
+      "width": 2048
+    },
+    {
+      "format": "PNG",
+      "height": 2048,
+      "mode": "RGBA",
+      "name": "m002_opacity_color",
+      "width": 2048
+    }
+  ],
+  "issues": [],
+  "materials": 3,
+  "mesh_count": 1,
+  "mesh_node_scales": [
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "mesh_space_bounds": {
+    "max": [
+      0.6741141080856323,
+      1.8227522373199463,
+      0.19597244262695312
+    ],
+    "min": [
+      -0.6741140484809875,
+      -0.0009260925580747426,
+      -0.14381255209445953
+    ]
+  },
+  "mikk_tspace": "tangents preserved if present; UE recomputation pending",
+  "missing_uv_primitives": 0,
+  "nonmanifold_index_edges": 0,
+  "normal_map_convention": "glTF/OpenGL (+Y); Unreal import must convert",
+  "normal_winding_disagreement_fraction": 0.012103281334050565,
+  "normals_max_unit_error": 1.1242576825054584e-07,
+  "open_index_edges": 1952,
+  "passed": true,
+  "rig_contact_test": "not-run",
+  "skins": 1,
+  "triangles": 7440,
+  "triangles_degenerate": 4,
+  "units": "glTF meters; authored node transforms preserved",
+  "vertices": 4803
+}

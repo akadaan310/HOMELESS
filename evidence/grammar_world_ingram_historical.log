@@ -1,0 +1,27 @@
+test_address_roundtrip_all_scripts (test_ingram.P1Tower.test_address_roundtrip_all_scripts) ... ok
+test_bijective_numeral_roundtrip (test_ingram.P1Tower.test_bijective_numeral_roundtrip) ... ok
+test_corruption_detected (test_ingram.P1Tower.test_corruption_detected) ... ok
+test_fold_unfold_identity (test_ingram.P1Tower.test_fold_unfold_identity) ... ok
+test_closure_converges_to_common_core (test_ingram.P2Lexicon.test_closure_converges_to_common_core) ... ok
+test_path_exists (test_ingram.P2Lexicon.test_path_exists) ... ok
+test_resolution_rate (test_ingram.P2Lexicon.test_resolution_rate) ... ok
+test_er_scene (test_ingram.P3Glossary.test_er_scene) ... ok
+test_sense_selection (test_ingram.P3Glossary.test_sense_selection) ... ok
+test_generation_meets_anchors_and_harness (test_ingram.P4Duality.test_generation_meets_anchors_and_harness) ... ok
+test_harness_separates_real_from_shuffled (test_ingram.P4Duality.test_harness_separates_real_from_shuffled) ... ok
+test_in_grammar_prefers_natural_order (test_ingram.P4Duality.test_in_grammar_prefers_natural_order) ... ok
+test_two_kinds_of_undefined (test_ingram.P5Arithmetic.test_two_kinds_of_undefined) ... ok
+test_every_reply_is_recorded_and_chain_verifies (test_ingram.P6P7Conversation.test_every_reply_is_recorded_and_chain_verifies) ... ok
+test_hi_converses (test_ingram.P6P7Conversation.test_hi_converses) ... ok
+test_identity_depths (test_ingram.P6P7Conversation.test_identity_depths) ... ok
+test_refuses_to_invent (test_ingram.P6P7Conversation.test_refuses_to_invent) ... ok
+test_research_glossary_overrides_general (test_ingram.P6P7Conversation.test_research_glossary_overrides_general) ... ok
+test_get_is_pure_post_records (test_ingram.P8Server.test_get_is_pure_post_records) ... /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py:589: ResourceWarning: unclosed <socket.socket fd=3, family=2, type=1, proto=0, laddr=('127.0.0.1', 43063)>
+  if method() is not None:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 76.111s
+
+OK

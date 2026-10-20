@@ -1,0 +1,7 @@
+test_session_auth_and_duplicate_cross_client (test_http.HTTP.test_session_auth_and_duplicate_cross_client) ... ok
+test_static_traversal_and_secret_protection (test_http.HTTP.test_static_traversal_and_secret_protection) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.261s
+
+OK

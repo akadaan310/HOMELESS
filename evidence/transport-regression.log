@@ -1,0 +1,6 @@
+test_invalid_frame_returns_error_then_server_still_handles_valid_request (test_transport_errors.Framing.test_invalid_frame_returns_error_then_server_still_handles_valid_request) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.966s
+
+OK

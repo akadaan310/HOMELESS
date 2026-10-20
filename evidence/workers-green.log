@@ -1,0 +1,9 @@
+test_actual_javascript_budgets_and_no_system (test_workers.Workers.test_actual_javascript_budgets_and_no_system) ... ok
+test_actual_wasm_and_import_rejection (test_workers.Workers.test_actual_wasm_and_import_rejection) ... ok
+test_real_shell_pipes_proposals_and_clock (test_workers.Workers.test_real_shell_pipes_proposals_and_clock) ... ok
+test_shell_host_isolation_and_output_and_timeout (test_workers.Workers.test_shell_host_isolation_and_output_and_timeout) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.218s
+
+OK

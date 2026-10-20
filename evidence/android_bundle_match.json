@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "web_revision": "110bb5d19bef65c101f512c10b566e508e167559afc7bee94b4c1c5be0fb5c73",
+  "apk_sha256": "4fbfa0f8a73b5e5bead15e9903d01eebd4673c0bfb88602474b21412a0e1a037",
+  "files_compared": 90,
+  "mismatches": [],
+  "rocketbox_mit_notice_carried": true,
+  "scope": "Embedded static client equality; does not execute Android WebView or certify device behavior."
+}

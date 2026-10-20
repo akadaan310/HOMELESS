@@ -1,0 +1,24 @@
+{
+  "source_commit": "7c4bfb1c91d6fdcb8764d8e03db2fdb93934bcb9",
+  "remote_tree_sha": "7c4bfb1c91d6fdcb8764d8e03db2fdb93934bcb9",
+  "artifacts": [
+    {
+      "path": "artifacts/android/HOMELESS-Rendezvous-debug.apk",
+      "local_git_blob": "a5bb8a7eba7936c7e461c32050466aa5af48c073",
+      "remote_git_blob": "a5bb8a7eba7936c7e461c32050466aa5af48c073",
+      "passed": true
+    },
+    {
+      "path": "artifacts/releases/HOMELESS-Rendezvous-web.tar.gz",
+      "local_git_blob": "53bf8f67df8b73103532b89030765f60d045cc0a",
+      "remote_git_blob": "53bf8f67df8b73103532b89030765f60d045cc0a",
+      "passed": true
+    },
+    {
+      "path": "artifacts/releases/HOMELESS-Rendezvous-linux-runtime.tar.gz",
+      "local_git_blob": "25fa0cf7b8afc75f55a77b75f456487708ac52da",
+      "remote_git_blob": "25fa0cf7b8afc75f55a77b75f456487708ac52da",
+      "passed": true
+    }
+  ]
+}

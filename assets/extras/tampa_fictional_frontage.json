@@ -1,0 +1,626 @@
+{
+  "canonical_id": "world://asset/tampa-fictional-frontage",
+  "category": "assembled-source-commercial-frontage",
+  "cook_status": "not-cooked",
+  "files": [],
+  "id": "tampa_fictional_frontage",
+  "import_status": "not-imported",
+  "license": "CC0-1.0",
+  "quality_gate": "art direction, collision and rendered fixture pending",
+  "scene_test": "not-rendered",
+  "source_claim": "constructed fictional arrangement of acquired source mesh modules; not measured Tampa facade",
+  "source_file": "assets/recipes/tampa_fictional_frontage.gltf",
+  "source_mesh_pieces": 30,
+  "status": "verified",
+  "url": "https://polyhaven.com/a/modular_factory_facade",
+  "variant_identity": "source meshes/materials retained; arrangement changed by recipe",
+  "variants": {
+    "rendezvous-low": {
+      "bytes": 8255144,
+      "metrics": {
+        "animations": [],
+        "bones": [],
+        "collision_test": "pending separate proxy/navmesh verification",
+        "format": "glTF-2.0",
+        "images": [
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_trim_01_nor_gl",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_trim_01_diff",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_trim_01_rough",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_windows_nor_gl",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_windows_diff",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_windows_rough",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_windows_diff-modular_factory_facade_windows_alpha",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_brick_nor_gl",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_brick_diff",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_brick_rough",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_doors_nor_gl",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_doors_diff",
+            "width": 512
+          },
+          {
+            "format": "JPEG",
+            "height": 512,
+            "mode": "RGB",
+            "name": "modular_factory_facade_doors_metal-modular_factory_facade_doors_rough",
+            "width": 512
+          }
+        ],
+        "issues": [],
+        "materials": 5,
+        "mesh_count": 5,
+        "mesh_node_scales": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "mesh_space_bounds": {
+          "max": [
+            3.5762786865234375e-06,
+            3.0,
+            0.06778641045093536
+          ],
+          "min": [
+            -3.0000038146972656,
+            0.0,
+            -0.205000102519989
+          ]
+        },
+        "mikk_tspace": "tangents preserved if present; UE recomputation pending",
+        "missing_uv_primitives": 0,
+        "nonmanifold_index_edges": 0,
+        "normal_map_convention": "glTF/OpenGL (+Y); Unreal import must convert",
+        "normal_winding_disagreement_fraction": 0.0,
+        "normals_max_unit_error": 1.2263766846487556e-07,
+        "open_index_edges": 2856,
+        "passed": true,
+        "rig_contact_test": "not-run",
+        "skins": 0,
+        "triangles": 3738,
+        "triangles_degenerate": 0,
+        "units": "glTF meters; authored node transforms preserved",
+        "vertices": 3598
+      },
+      "path": "assets/runtime/tampa_fictional_frontage.low.glb",
+      "render_status": "exact-runtime material/device parity pending",
+      "sha256": "34c7a40d70b9aa96cb79f888013fd3507a0728049b2e6b166d946622dc9a77d0",
+      "silhouette_deviation": 0,
+      "texture_limit": 512,
+      "topology_deviation": 0,
+      "url": "/assets/runtime/tampa_fictional_frontage.low.glb"
+    },
+    "rendezvous-medium": {
+      "bytes": 13198980,
+      "metrics": {
+        "animations": [],
+        "bones": [],
+        "collision_test": "pending separate proxy/navmesh verification",
+        "format": "glTF-2.0",
+        "images": [
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_trim_01_nor_gl",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_trim_01_diff",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_trim_01_rough",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_windows_nor_gl",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_windows_diff",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_windows_rough",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_windows_diff-modular_factory_facade_windows_alpha",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_brick_nor_gl",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_brick_diff",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_brick_rough",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_doors_nor_gl",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_doors_diff",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "modular_factory_facade_doors_metal-modular_factory_facade_doors_rough",
+            "width": 1024
+          }
+        ],
+        "issues": [],
+        "materials": 5,
+        "mesh_count": 5,
+        "mesh_node_scales": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "mesh_space_bounds": {
+          "max": [
+            3.5762786865234375e-06,
+            3.0,
+            0.06778641045093536
+          ],
+          "min": [
+            -3.0000038146972656,
+            0.0,
+            -0.205000102519989
+          ]
+        },
+        "mikk_tspace": "tangents preserved if present; UE recomputation pending",
+        "missing_uv_primitives": 0,
+        "nonmanifold_index_edges": 0,
+        "normal_map_convention": "glTF/OpenGL (+Y); Unreal import must convert",
+        "normal_winding_disagreement_fraction": 0.0,
+        "normals_max_unit_error": 1.2263766846487556e-07,
+        "open_index_edges": 2856,
+        "passed": true,
+        "rig_contact_test": "not-run",
+        "skins": 0,
+        "triangles": 3738,
+        "triangles_degenerate": 0,
+        "units": "glTF meters; authored node transforms preserved",
+        "vertices": 3598
+      },
+      "path": "assets/runtime/tampa_fictional_frontage.glb",
+      "recommended_transform": {
+        "position": [
+          6,
+          0,
+          -5
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "render_status": "not-rendered",
+      "sha256": "8534f11d1c7cc22468459358d015cfe31ad15e7ad21eee1deae0e2fab9f0e0da",
+      "texture_limit": 1024,
+      "url": "/assets/runtime/tampa_fictional_frontage.glb",
+      "world_bounds": {
+        "max": [
+          18,
+          6.16,
+          0.07
+        ],
+        "min": [
+          0,
+          0,
+          -0.21
+        ]
+      }
+    }
+  }
+}

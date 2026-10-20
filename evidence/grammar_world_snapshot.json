@@ -1,0 +1,4248 @@
+{
+  "schema_version": 1,
+  "seed": 7,
+  "revision": 5,
+  "tick": 2,
+  "world_time": 85.0,
+  "clock": {
+    "world_epoch": "2026-10-20T14:01:25+00:00",
+    "logical_tick": 2,
+    "driver": "world-seconds"
+  },
+  "rng": {
+    "algorithm": "sha256-keyed-stateless.v1",
+    "seed": 7,
+    "position": "keys=(seed,actor,logical-tick)"
+  },
+  "cell": "tampa-dale-mabry-spruce",
+  "origin": {
+    "lat": 27.95946425,
+    "lon": -82.5055696,
+    "height": 0,
+    "source_kind": "source-confirmed",
+    "source_ref": "osm:tampa",
+    "source_node_ids": [
+      "2057042478",
+      "1603574189"
+    ],
+    "method": "midpoint of shared OSM junction nodes",
+    "terrain": "ellipsoidal origin 0; terrain height absent"
+  },
+  "founder": {
+    "actor_id": "founder",
+    "display_name": "Dark",
+    "legal_name": "Abed Kadaan",
+    "historical_source_spelling": "Abed Kadan",
+    "origin": "Marina del Rey",
+    "identity_kind": "authentic-founder",
+    "authority_source": "authenticated-session-capability"
+  },
+  "population": {
+    "capacity": 8190000000,
+    "active": 24,
+    "cohort_background": 8189999976,
+    "decrements_on_player_join": false,
+    "source_kind": "synthetic-capacity"
+  },
+  "actors": [
+    {
+      "actor_id": "npc:0",
+      "numeric_id": 0,
+      "name": "Mira 1",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 0
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "vendor",
+      "age": 27,
+      "chronotype_h": -0.7012,
+      "sociability": 0.3046,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.5747,
+        "hunger": 0.0747
+      },
+      "preferences": {
+        "conversation": 0.1493983980609972
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [
+        {
+          "event_id": "ambient:cafe:0",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 0.0,
+          "expires_at": 604800.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:7",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 60.0,
+          "expires_at": 604860.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:10",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 85.0,
+          "expires_at": 604885.0,
+          "source_version": "world-observation.v1"
+        }
+      ],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        8.5509,
+        0.0,
+        13.3924
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "walk",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "eat",
+        "rest",
+        "rest",
+        "socialize",
+        "walk",
+        "shop",
+        "walk",
+        "rest",
+        "socialize",
+        "socialize",
+        "worship",
+        "sleep",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:1",
+      "numeric_id": 1,
+      "name": "Rami 1",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 1
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "driver",
+      "age": 24,
+      "chronotype_h": -0.8172,
+      "sociability": 0.264,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.5457,
+        "hunger": 0.0457
+      },
+      "preferences": {
+        "conversation": 0.09141178396298755
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [
+        {
+          "event_id": "ambient:cafe:0",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 0.0,
+          "expires_at": 604800.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:7",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 60.0,
+          "expires_at": 604860.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:10",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 85.0,
+          "expires_at": 604885.0,
+          "source_version": "world-observation.v1"
+        }
+      ],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        12.5507,
+        0.0,
+        13.3562
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "socialize",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "eat",
+        "walk",
+        "shop",
+        "rest",
+        "rest",
+        "walk",
+        "socialize",
+        "rest",
+        "rest",
+        "rest",
+        "shop",
+        "sleep",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:2",
+      "numeric_id": 2,
+      "name": "Sana 1",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 2
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "teacher",
+      "age": 55,
+      "chronotype_h": 0.4333,
+      "sociability": 0.7017,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.8583,
+        "hunger": 0.3583
+      },
+      "preferences": {
+        "conversation": 0.7166701178804857
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [
+        {
+          "event_id": "ambient:cafe:0",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 0.0,
+          "expires_at": 604800.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:7",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 60.0,
+          "expires_at": 604860.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:10",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 85.0,
+          "expires_at": 604885.0,
+          "source_version": "world-observation.v1"
+        }
+      ],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        16.5505,
+        0.0,
+        13.32
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "walk",
+        "rest",
+        "socialize",
+        "eat",
+        "shop",
+        "shop",
+        "rest",
+        "shop",
+        "socialize",
+        "walk",
+        "rest",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:3",
+      "numeric_id": 3,
+      "name": "Jules 1",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 3
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "nurse",
+      "age": 21,
+      "chronotype_h": -0.9574,
+      "sociability": 0.2149,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.5107,
+        "hunger": 0.0107
+      },
+      "preferences": {
+        "conversation": 0.021308799646487797
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [
+        {
+          "event_id": "ambient:cafe:0",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 0.0,
+          "expires_at": 604800.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:7",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 60.0,
+          "expires_at": 604860.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:10",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 85.0,
+          "expires_at": 604885.0,
+          "source_version": "world-observation.v1"
+        }
+      ],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        20.5504,
+        0.0,
+        13.2838
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "rest",
+        "rest",
+        "socialize",
+        "shop",
+        "rest",
+        "eat",
+        "rest",
+        "walk",
+        "walk",
+        "walk",
+        "walk",
+        "walk",
+        "rest",
+        "rest",
+        "socialize",
+        "socialize",
+        "rest",
+        "sleep",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:4",
+      "numeric_id": 4,
+      "name": "Nora 1",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 4
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "cook",
+      "age": 32,
+      "chronotype_h": -0.5186,
+      "sociability": 0.3685,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.6203,
+        "hunger": 0.1203
+      },
+      "preferences": {
+        "conversation": 0.24067532228735988
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [
+        {
+          "event_id": "ambient:cafe:0",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 0.0,
+          "expires_at": 604800.0,
+          "source_version": "world-observation.v1"
+        }
+      ],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        28.7175,
+        0.0,
+        -82.9749
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "commute",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "walk",
+        "walk",
+        "walk",
+        "walk",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "walk",
+        "rest",
+        "walk",
+        "sleep",
+        "sleep",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:5",
+      "numeric_id": 5,
+      "name": "Tariq 1",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 5
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "barista",
+      "age": 33,
+      "chronotype_h": -0.4487,
+      "sociability": 0.393,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.6378,
+        "hunger": 0.1378
+      },
+      "preferences": {
+        "conversation": 0.27565961190305477
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [
+        {
+          "event_id": "ambient:cafe:0",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 0.0,
+          "expires_at": 604800.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:7",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 60.0,
+          "expires_at": 604860.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:10",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 85.0,
+          "expires_at": 604885.0,
+          "source_version": "world-observation.v1"
+        }
+      ],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        25.7608,
+        0.0,
+        7.8448
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "exercise",
+        "wake",
+        "eat",
+        "socialize",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "walk",
+        "rest",
+        "socialize",
+        "shop",
+        "rest",
+        "sleep",
+        "sleep",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:6",
+      "numeric_id": 6,
+      "name": "Mira 2",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 6
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "courier",
+      "age": 61,
+      "chronotype_h": 0.6464,
+      "sociability": 0.7762,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.9116,
+        "hunger": 0.4116
+      },
+      "preferences": {
+        "conversation": 0.8231752836569288
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [
+        {
+          "event_id": "ambient:cafe:0",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 0.0,
+          "expires_at": 604800.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:7",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 60.0,
+          "expires_at": 604860.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:10",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 85.0,
+          "expires_at": 604885.0,
+          "source_version": "world-observation.v1"
+        }
+      ],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        25.8689,
+        0.0,
+        3.8463
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "walk",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "walk",
+        "walk",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "walk",
+        "socialize",
+        "walk",
+        "walk",
+        "socialize",
+        "worship",
+        "shop",
+        "walk",
+        "walk"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:7",
+      "numeric_id": 7,
+      "name": "Rami 2",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 7
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "musician",
+      "age": 57,
+      "chronotype_h": 0.4822,
+      "sociability": 0.7188,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.8706,
+        "hunger": 0.3706
+      },
+      "preferences": {
+        "conversation": 0.7411086825043534
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [
+        {
+          "event_id": "ambient:cafe:0",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 0.0,
+          "expires_at": 604800.0,
+          "source_version": "world-observation.v1"
+        }
+      ],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        25.977,
+        0.0,
+        -0.1522
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "sleep",
+      "mood": "calm",
+      "schedule": [
+        "socialize",
+        "socialize",
+        "rest",
+        "rest",
+        "walk",
+        "walk",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "walk",
+        "wake",
+        "eat",
+        "worship",
+        "walk",
+        "socialize",
+        "shop",
+        "socialize",
+        "socialize",
+        "rest",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "eat"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:8",
+      "numeric_id": 8,
+      "name": "Sana 2",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 0
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "vendor",
+      "age": 63,
+      "chronotype_h": 0.7419,
+      "sociability": 0.8096,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.9355,
+        "hunger": 0.4355
+      },
+      "preferences": {
+        "conversation": 0.8709258026110103
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [
+        {
+          "event_id": "ambient:cafe:0",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 0.0,
+          "expires_at": 604800.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:7",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 60.0,
+          "expires_at": 604860.0,
+          "source_version": "world-observation.v1"
+        },
+        {
+          "event_id": "ambient:cafe:10",
+          "type": "direct-observation",
+          "kind": "speak",
+          "scope": "local",
+          "confidence": 1.0,
+          "observed_at": 85.0,
+          "expires_at": 604885.0,
+          "source_version": "world-observation.v1"
+        }
+      ],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        26.0847,
+        0.0,
+        -4.1508
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "rest",
+        "wake",
+        "eat",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "rest",
+        "eat",
+        "rest",
+        "rest",
+        "rest",
+        "rest",
+        "socialize",
+        "socialize",
+        "rest",
+        "walk"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:9",
+      "numeric_id": 9,
+      "name": "Jules 2",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 1
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "driver",
+      "age": 51,
+      "chronotype_h": 0.2622,
+      "sociability": 0.6418,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.8155,
+        "hunger": 0.3155
+      },
+      "preferences": {
+        "conversation": 0.6310902083307508
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        26.1925,
+        0.0,
+        -8.1493
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "exercise",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "walk",
+        "socialize",
+        "walk",
+        "walk",
+        "eat",
+        "rest",
+        "walk",
+        "walk",
+        "walk",
+        "socialize",
+        "rest",
+        "walk",
+        "walk",
+        "socialize",
+        "socialize"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:10",
+      "numeric_id": 10,
+      "name": "Nora 2",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 2
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "teacher",
+      "age": 62,
+      "chronotype_h": 0.7127,
+      "sociability": 0.7994,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.9282,
+        "hunger": 0.4282
+      },
+      "preferences": {
+        "conversation": 0.8563285425893832
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        26.2782,
+        0.0,
+        -12.1484
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "socialize",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "eat",
+        "rest",
+        "socialize",
+        "socialize",
+        "socialize",
+        "socialize",
+        "socialize",
+        "socialize",
+        "socialize",
+        "walk"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:11",
+      "numeric_id": 11,
+      "name": "Tariq 2",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 3
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "nurse",
+      "age": 21,
+      "chronotype_h": -0.9555,
+      "sociability": 0.2156,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.5111,
+        "hunger": 0.0111
+      },
+      "preferences": {
+        "conversation": 0.022231190550803692
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        28.2896,
+        0.0,
+        -14.1276
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "rest",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "walk",
+        "exercise",
+        "rest",
+        "worship",
+        "eat",
+        "rest",
+        "rest",
+        "rest",
+        "rest",
+        "rest",
+        "exercise",
+        "walk",
+        "rest",
+        "exercise",
+        "sleep",
+        "sleep",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:12",
+      "numeric_id": 12,
+      "name": "Mira 3",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 4
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "cook",
+      "age": 33,
+      "chronotype_h": -0.4496,
+      "sociability": 0.3927,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.6376,
+        "hunger": 0.1376
+      },
+      "preferences": {
+        "conversation": 0.2752174580336513
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        27.7796,
+        0.0,
+        -105.7126
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "walk",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "walk",
+        "rest",
+        "rest",
+        "walk",
+        "walk",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "worship",
+        "exercise",
+        "rest",
+        "walk",
+        "sleep",
+        "sleep",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:13",
+      "numeric_id": 13,
+      "name": "Rami 3",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 5
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "barista",
+      "age": 64,
+      "chronotype_h": 0.7833,
+      "sociability": 0.8242,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.9458,
+        "hunger": 0.4458
+      },
+      "preferences": {
+        "conversation": 0.8916474436992607
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        30.1692,
+        0.0,
+        -20.2485
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "rest",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "walk",
+        "wake",
+        "eat",
+        "socialize",
+        "socialize",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "walk",
+        "rest",
+        "walk",
+        "eat",
+        "walk",
+        "walk",
+        "walk",
+        "walk",
+        "walk",
+        "socialize",
+        "walk",
+        "shop",
+        "socialize"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:14",
+      "numeric_id": 14,
+      "name": "Sana 3",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 6
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "courier",
+      "age": 35,
+      "chronotype_h": -0.4,
+      "sociability": 0.41,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.65,
+        "hunger": 0.15
+      },
+      "preferences": {
+        "conversation": 0.3000033322660567
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        30.2013,
+        0.0,
+        -24.2484
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "walk",
+        "wake",
+        "eat",
+        "exercise",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "exercise",
+        "walk",
+        "eat",
+        "rest",
+        "rest",
+        "rest",
+        "walk",
+        "rest",
+        "rest",
+        "rest",
+        "sleep",
+        "sleep",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:15",
+      "numeric_id": 15,
+      "name": "Jules 3",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 7
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "musician",
+      "age": 61,
+      "chronotype_h": 0.6454,
+      "sociability": 0.7759,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.9113,
+        "hunger": 0.4113
+      },
+      "preferences": {
+        "conversation": 0.8226813041261831
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        30.2334,
+        0.0,
+        -28.2483
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "sleep",
+      "mood": "calm",
+      "schedule": [
+        "work",
+        "commute",
+        "rest",
+        "walk",
+        "rest",
+        "socialize",
+        "socialize",
+        "socialize",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "shop",
+        "wake",
+        "eat",
+        "socialize",
+        "worship",
+        "rest",
+        "rest",
+        "exercise",
+        "socialize",
+        "shop",
+        "socialize",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:16",
+      "numeric_id": 16,
+      "name": "Nora 3",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 0
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "vendor",
+      "age": 37,
+      "chronotype_h": -0.3091,
+      "sociability": 0.4418,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.6727,
+        "hunger": 0.1727
+      },
+      "preferences": {
+        "conversation": 0.34545305785812164
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        30.2654,
+        0.0,
+        -32.2481
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "commute",
+        "walk",
+        "walk",
+        "eat",
+        "socialize",
+        "shop",
+        "socialize",
+        "exercise",
+        "exercise",
+        "rest",
+        "rest",
+        "rest",
+        "rest",
+        "socialize",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:17",
+      "numeric_id": 17,
+      "name": "Tariq 3",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 1
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "driver",
+      "age": 24,
+      "chronotype_h": -0.8199,
+      "sociability": 0.263,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.545,
+        "hunger": 0.045
+      },
+      "preferences": {
+        "conversation": 0.09003066424995665
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        30.2975,
+        0.0,
+        -36.248
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "eat",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "walk",
+        "walk",
+        "walk",
+        "rest",
+        "eat",
+        "socialize",
+        "rest",
+        "rest",
+        "rest",
+        "walk",
+        "rest",
+        "rest",
+        "exercise",
+        "sleep",
+        "sleep",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:18",
+      "numeric_id": 18,
+      "name": "Mira 4",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 2
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "teacher",
+      "age": 62,
+      "chronotype_h": 0.7132,
+      "sociability": 0.7996,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.9283,
+        "hunger": 0.4283
+      },
+      "preferences": {
+        "conversation": 0.856620481024106
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        30.3294,
+        0.0,
+        -40.2479
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "walk",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "walk",
+        "walk",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "commute",
+        "rest",
+        "rest",
+        "eat",
+        "walk",
+        "walk",
+        "rest",
+        "walk",
+        "rest",
+        "socialize",
+        "rest",
+        "rest",
+        "rest"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:19",
+      "numeric_id": 19,
+      "name": "Rami 4",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 3
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "nurse",
+      "age": 64,
+      "chronotype_h": 0.788,
+      "sociability": 0.8258,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.947,
+        "hunger": 0.447
+      },
+      "preferences": {
+        "conversation": 0.8939781161433926
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        30.3676,
+        0.0,
+        -44.2477
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "rest",
+        "wake",
+        "eat",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "socialize",
+        "socialize",
+        "walk",
+        "socialize",
+        "walk",
+        "eat",
+        "walk",
+        "walk",
+        "rest",
+        "walk",
+        "walk",
+        "walk",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:20",
+      "numeric_id": 20,
+      "name": "Sana 4",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 4
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "cook",
+      "age": 61,
+      "chronotype_h": 0.6785,
+      "sociability": 0.7875,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.9196,
+        "hunger": 0.4196
+      },
+      "preferences": {
+        "conversation": 0.8392478679815447
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        59.7795,
+        0.0,
+        -105.6131
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "shop",
+      "mood": "calm",
+      "schedule": [
+        "socialize",
+        "walk",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "walk",
+        "shop",
+        "rest",
+        "walk",
+        "shop",
+        "walk",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "rest",
+        "rest",
+        "rest",
+        "walk"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:21",
+      "numeric_id": 21,
+      "name": "Jules 4",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 5
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "barista",
+      "age": 47,
+      "chronotype_h": 0.1004,
+      "sociability": 0.5852,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.7751,
+        "hunger": 0.2751
+      },
+      "preferences": {
+        "conversation": 0.5502229093990809
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        28.3132,
+        0.0,
+        -51.8186
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "walk",
+        "rest",
+        "rest",
+        "walk",
+        "socialize",
+        "walk",
+        "rest",
+        "socialize",
+        "socialize",
+        "sleep"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:22",
+      "numeric_id": 22,
+      "name": "Nora 4",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 6
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "courier",
+      "age": 67,
+      "chronotype_h": 0.8927,
+      "sociability": 0.8624,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.9732,
+        "hunger": 0.4732
+      },
+      "preferences": {
+        "conversation": 0.9463509483126882
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        26.5697,
+        0.0,
+        -55.3963
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "work",
+      "mood": "calm",
+      "schedule": [
+        "rest",
+        "rest",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "rest",
+        "walk",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "rest",
+        "worship",
+        "socialize",
+        "socialize",
+        "socialize",
+        "walk",
+        "walk"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    },
+    {
+      "actor_id": "npc:23",
+      "numeric_id": 23,
+      "name": "Tariq 4",
+      "synthetic": true,
+      "world_cell": "virtual:0",
+      "role": "resident",
+      "appearance": {
+        "preset": 7
+      },
+      "culture_language_metadata": {
+        "locale": "en-US",
+        "source_kind": "constructed"
+      },
+      "occupation": "musician",
+      "age": 64,
+      "chronotype_h": 0.7882,
+      "sociability": 0.8259,
+      "goals": [
+        "keep-schedule",
+        "maintain-relationships"
+      ],
+      "needs": {
+        "energy": 0.947,
+        "hunger": 0.447
+      },
+      "preferences": {
+        "conversation": 0.8940922400811506
+      },
+      "knowledge_distribution": {},
+      "beliefs": {},
+      "relationships": {},
+      "capabilities": [
+        "dialogue",
+        "walk",
+        "refuse"
+      ],
+      "policies": [
+        "consent-required",
+        "local-observation"
+      ],
+      "memory": [],
+      "autonomy_budget": 16,
+      "render_LOD": "virtual",
+      "position": [
+        26.1915,
+        0.0,
+        -59.3467
+      ],
+      "orientation": [
+        0,
+        0,
+        1
+      ],
+      "active": true,
+      "activity": "sleep",
+      "mood": "calm",
+      "schedule": [
+        "shop",
+        "rest",
+        "rest",
+        "worship",
+        "socialize",
+        "socialize",
+        "shop",
+        "walk",
+        "walk",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "wake",
+        "eat",
+        "eat",
+        "socialize",
+        "rest",
+        "rest",
+        "walk",
+        "rest",
+        "rest",
+        "walk",
+        "commute",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "commute",
+        "walk"
+      ],
+      "schedule_day": 0,
+      "identity_source": "seeded-synthetic-not-real-resident"
+    }
+  ],
+  "events": [
+    {
+      "kind": "speak",
+      "actor": "npc:0",
+      "position": [
+        8.5509,
+        0.0,
+        13.3924
+      ],
+      "payload": {
+        "text": "The new sign says Amber Fold. I like the sound of it.",
+        "phrase_id": "cafe.sign",
+        "belief_type": "character-statement"
+      },
+      "world_time": 0.0,
+      "id": "ambient:cafe:0",
+      "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+      "observers": [
+        "npc:0",
+        "npc:1",
+        "npc:2",
+        "npc:3",
+        "npc:4",
+        "npc:5",
+        "npc:6",
+        "npc:7",
+        "npc:8"
+      ],
+      "revision": 1,
+      "hash": "ba539d1b25ae9f6152a1e2e74cff02aea298ae68699a6cbc87ff6032209de2d3"
+    },
+    {
+      "kind": "speak",
+      "actor": "npc:1",
+      "position": [
+        12.5507,
+        0.0,
+        13.3562
+      ],
+      "payload": {
+        "text": "The walk we recorded bends left, then right by the corner.",
+        "phrase_id": "walk.pattern",
+        "belief_type": "character-statement"
+      },
+      "world_time": 60.0,
+      "id": "ambient:cafe:7",
+      "previous": "ba539d1b25ae9f6152a1e2e74cff02aea298ae68699a6cbc87ff6032209de2d3",
+      "observers": [
+        "npc:0",
+        "npc:1",
+        "npc:2",
+        "npc:3",
+        "npc:5",
+        "npc:6",
+        "npc:8"
+      ],
+      "revision": 3,
+      "hash": "9183df1d2707827c25e665a180db857b43ffa4340766f56e6519f03b37ecb799"
+    },
+    {
+      "kind": "speak",
+      "actor": "npc:1",
+      "position": [
+        12.5507,
+        0.0,
+        13.3562
+      ],
+      "payload": {
+        "text": "The walk we recorded bends left, then right by the corner.",
+        "phrase_id": "walk.pattern",
+        "belief_type": "character-statement"
+      },
+      "world_time": 85.0,
+      "id": "ambient:cafe:10",
+      "previous": "9183df1d2707827c25e665a180db857b43ffa4340766f56e6519f03b37ecb799",
+      "observers": [
+        "npc:0",
+        "npc:1",
+        "npc:2",
+        "npc:3",
+        "npc:5",
+        "npc:6",
+        "npc:8"
+      ],
+      "revision": 5,
+      "hash": "84832d79aec33ce0190c660dc990e2dae3c870f2eb1a9bb9446c1ca66e5eb7d7"
+    }
+  ],
+  "decisions": [
+    {
+      "actor_id": "npc:0",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 0.8747,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.5747
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "2be98246332fb7c9208dbc1f910ee0796f6c76d47c0befd5a35b57164e98669e"
+    },
+    {
+      "actor_id": "npc:1",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 0.8457,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.5457
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "54a672534bf86339db798bd23ff2a4aa810047c2da5106ec70178963bb849858"
+    },
+    {
+      "actor_id": "npc:2",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 1.1583,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.8583
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "ffc0c3117e48de188ef1dace33c2cac8548833d44f72aced5bdea2507a51e52d"
+    },
+    {
+      "actor_id": "npc:3",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 0.8107,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.5107
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "585b93c68766ee45a9bd17a43b857c5529f429f5aab324d93408211f2883d047"
+    },
+    {
+      "actor_id": "npc:4",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "commute",
+        "decline",
+        "rest",
+        "walk"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "commute",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "commute": 3,
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 0.9203
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.6203
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "12be6e62646186a8631ff2cd607a62d8b4a2c6a767f72a710cbd09ef8dfe8d97"
+    },
+    {
+      "actor_id": "npc:5",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 0.9378,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.6378
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "db712afd8e73836ecd414158ea4d5a8278ecb405c71137ac45686a25974d25fd"
+    },
+    {
+      "actor_id": "npc:6",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 1.2116,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.9116
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "943144b8faa3b1c1218d31529bada9709a3572f5f1004dc7dd768ad0adab2c78"
+    },
+    {
+      "actor_id": "npc:7",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "sleep",
+        "walk"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "sleep",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "sleep": 3,
+        "walk": 1.1706
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.8706
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "b1cc81276a4bfeb108efb071b65e04a7c095a305b899a8b59508255c5fe0bdcd"
+    },
+    {
+      "actor_id": "npc:8",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 1.2355,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.9355
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "99a2a70c7776a8f3959bd0253df4bb8bee517432189790780ca0b5b88a450be8"
+    },
+    {
+      "actor_id": "npc:9",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 1.1155,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.8155
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "6c33cfb2013741d7ceac5247529337a16fa02c3030189939891b9ebb287a02b0"
+    },
+    {
+      "actor_id": "npc:10",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 1.2282,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.9282
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "26e2b956c617babc57194fd4d07693a212e07d00b91ca74140184eefd65122c8"
+    },
+    {
+      "actor_id": "npc:11",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 0.8111,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.5111
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "f3905bf21f73bf5ae5aece198cf50a0f01232ef2bbd7b760d0c005a92fcc3566"
+    },
+    {
+      "actor_id": "npc:12",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "walk",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 3.6376
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.6376
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "c8ccbc614adf8ad69fd90715bab7b5b0efa6c38b4bb94fb45b94423c1be6ab7f"
+    },
+    {
+      "actor_id": "npc:13",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 1.2458,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.9458
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "bbaafeee28f620a2a8ff2be85e599126b87bb6367c8a236cd843e4cebeee2d6e"
+    },
+    {
+      "actor_id": "npc:14",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 0.95,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.65
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "1f414e141fe08c4bb1cb3e9fe870e3fc2c5e749e4ecbd6f22dbdbe52d443e33f"
+    },
+    {
+      "actor_id": "npc:15",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "sleep",
+        "walk"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "sleep",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "sleep": 3,
+        "walk": 1.2113
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.9113
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "137e9734c3f8e9da5d8d2ff749e0bdafd233fe3a918d86ce28a36ecfda77868e"
+    },
+    {
+      "actor_id": "npc:16",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 0.9727,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.6727
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "3420e0a3b846867748ac35f3f6449fec7a72b6517817e28b33b0248655bb100a"
+    },
+    {
+      "actor_id": "npc:17",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 0.845,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.545
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "48bcffc306292134f2daaaf3bd908b6e16086f3551469779ac40663afd9f48b4"
+    },
+    {
+      "actor_id": "npc:18",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 1.2283,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.9283
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "41c3aa3140fa04895a9f441035e367775b47ef3446f27379b52d5e988a08481b"
+    },
+    {
+      "actor_id": "npc:19",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 1.247,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.947
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "4238e0ceb5a21e6045d37c721c957090d7833054cec7b07866f83921cd8a4d84"
+    },
+    {
+      "actor_id": "npc:20",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "shop",
+        "walk"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "shop",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "shop": 3,
+        "walk": 1.2196
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.9196
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "84b5d3fcb0bd72d7ee9541747608e0177fd5aad613ad5b393c7e0ca1c7745f8d"
+    },
+    {
+      "actor_id": "npc:21",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 1.0751,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.7751
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "bf1c9c8ae635a52414a5732bff3e86a072dc22f6208eadebd128bff78bf0003d"
+    },
+    {
+      "actor_id": "npc:22",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "walk",
+        "work"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "work",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "walk": 1.2732,
+        "work": 3
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.9732
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "6470fb807c3edd63867ea1bf630b9146c64156c0f846fd47f39a7a0eeebb7258"
+    },
+    {
+      "actor_id": "npc:23",
+      "world_tick": 2,
+      "world_state_revision": 4,
+      "available_actions": [
+        "decline",
+        "rest",
+        "sleep",
+        "walk"
+      ],
+      "constraints": [
+        "own-schedule",
+        "finite-energy",
+        "local-navigation"
+      ],
+      "objective": "maximize-declared-personal-utility",
+      "selected_action": "sleep",
+      "policy_id": "scheduled-independent.v1",
+      "utility_estimates": {
+        "decline": 0.3,
+        "rest": 0.3,
+        "sleep": 3,
+        "walk": 1.247
+      },
+      "solver": "enumerated-best-response.v1",
+      "seed": 7,
+      "witness": {
+        "tie_break": "lexicographic-action-name",
+        "inputs": {
+          "schedule_slot": 20,
+          "energy": 0.947
+        },
+        "constraints": [
+          "own-schedule",
+          "finite-energy",
+          "local-navigation"
+        ],
+        "residual": 0.0,
+        "tolerance": 0.0
+      },
+      "causality_hash": "0b3b96a084509b91e76567d42f6cf65c4426fd7b6216ebbf5ad756d740d13f4b"
+    }
+  ],
+  "cohorts": {},
+  "invitations": {},
+  "proposals": {},
+  "signs": {
+    "tampa-shop": {
+      "name": "Amber Fold",
+      "kind": "cafe",
+      "source_kind": "constructed-fiction",
+      "revision": 1
+    }
+  },
+  "journeys": {},
+  "missions": {},
+  "conversations": [
+    {
+      "episode_id": "tampa-cafe-independent",
+      "act_id": "cafe:10",
+      "speaker_actor": "npc:1",
+      "participants": [
+        "npc:0",
+        "npc:1",
+        "npc:2"
+      ],
+      "source_context_hash": "897f133011563edf80283120f4513188963b08ce270607b35424f12efc341a24",
+      "semantic_act": "statement",
+      "canonical_content": {
+        "phrase_id": "walk.pattern"
+      },
+      "utterance_variant_id": "walk.pattern",
+      "phrase_id": "walk.pattern",
+      "exact_text": "The walk we recorded bends left, then right by the corner.",
+      "text": "The walk we recorded bends left, then right by the corner.",
+      "voice_id": "river",
+      "locale": "en-US",
+      "speaker_style": "conversational",
+      "world_timestamp": 80,
+      "position": [
+        12.5507,
+        0.0,
+        13.3562
+      ],
+      "audibility_range": 22,
+      "provenance": "independent-conversation-grammar.v1",
+      "addresses_player": false
+    }
+  ],
+  "conversation_slot": 10,
+  "heard": {},
+  "mission_opportunities": [
+    {
+      "goal": "learn-route-pattern",
+      "allowable_acts": [
+        "observe",
+        "approach",
+        "overhear",
+        "converse",
+        "learn",
+        "compare",
+        "report",
+        "return",
+        "decline"
+      ],
+      "steps": [
+        "observe",
+        "compare",
+        "learn",
+        "report"
+      ],
+      "evidence": [
+        "ambient:cafe:10",
+        "ambient:cafe:7"
+      ],
+      "requires_consent": true,
+      "completion_invariant": "evidence-recorded-and-reported",
+      "failure_and_refusal": [
+        "declined",
+        "evidence-unavailable"
+      ],
+      "budget": {
+        "max_plan_steps": 16
+      },
+      "policy_revision": "organic-learning.v1",
+      "address": "purl://dark/mission/8f91e99b2d05351f9fc0269e649eb788d815167ca97ec7862ff91b2943f031ed"
+    }
+  ],
+  "navigation": {
+    "source": "source-confirmed OSM pedestrian path; movement remains synthetic",
+    "certificate": {
+      "source_graph_1": {
+        "city": "tampa",
+        "source_url": "https://www.openstreetmap.org/api/0.6/map?bbox=-82.516,27.952,-82.498,27.967",
+        "sha256": "4d66584a9cc11492440f3b61834b5ad5e08a814c9face1dcefe69ec2829f1b91",
+        "normalized_sha256": "8492aaeb7900a5653c2d7c5b7964c32100b9c81ae787b916913601f6ce8a2fe5",
+        "license": "ODbL 1.0",
+        "attribution": "© OpenStreetMap contributors",
+        "revision": "OSM API 0.6 live snapshot; per-object versions/timestamps preserved"
+      },
+      "source_graph_2": null,
+      "chart_rev_1": "ground.osm.wgs84.v1",
+      "route_nodes_1": [
+        "4520926405",
+        "6952194837",
+        "8066816892",
+        "6952194840",
+        "4520926406",
+        "6952194839",
+        "8066816958",
+        "8066816957",
+        "10922315485",
+        "6903707655",
+        "10922315484",
+        "8066816894",
+        "8066816897",
+        "8066816898",
+        "8066816899",
+        "10922315480",
+        "6903821855",
+        "10922315481",
+        "8066816900",
+        "8066816901",
+        "8066816902",
+        "8066816903",
+        "8066816904",
+        "6903858712",
+        "6507385651",
+        "10922910362"
+      ],
+      "route_nodes_2": [],
+      "feature_map": {
+        "turn_degrees": [
+          -40.9573,
+          -47.0659,
+          90.05675,
+          -91.05561,
+          -10.73617,
+          11.02289,
+          85.47625,
+          -85.84344,
+          -91.50399,
+          66.36807,
+          26.23469,
+          88.70487
+        ],
+        "word": [
+          "L2",
+          "L3",
+          "R3",
+          "L3",
+          "S5",
+          "S5",
+          "R2",
+          "L2",
+          "L3",
+          "R2",
+          "S2",
+          "R4"
+        ],
+        "junction_degrees": [
+          2,
+          3,
+          3,
+          3,
+          5,
+          5,
+          2,
+          2,
+          3,
+          2,
+          2,
+          4
+        ],
+        "length_ratios": [
+          0.0617463,
+          0.0331804,
+          0.1166413,
+          0.019165,
+          0.1363396,
+          0.12148,
+          0.0418712,
+          0.0127832,
+          0.1278975,
+          0.0228355,
+          0.0125076,
+          0.0249389,
+          0.2686137
+        ],
+        "chart_nodes": [
+          "4520926405",
+          "6952194837",
+          "6952194840",
+          "8066816958",
+          "8066816957",
+          "6903707655",
+          "6903821855",
+          "8066816900",
+          "8066816901",
+          "8066816902",
+          "8066816903",
+          "8066816904",
+          "6903858712",
+          "10922910362"
+        ],
+        "units": "degrees and dimensionless ratios",
+        "projection_loss": "degree-two geometric points collapsed; no building/POI features used"
+      },
+      "transform": "WGS84 to local ENU; geodesic edge lengths",
+      "score": null,
+      "calibration": null,
+      "confidence": "OSM tag-based access; current ground conditions unverified",
+      "fictional_portal_effect": false,
+      "content_hash": "39065c878ae30b74785e4c6c795ef6d03fb83cd4c725721ca3f9cce9b5462c57"
+    },
+    "limitation": "tag-inferred pedestrian access; no dynamic crowd collision solver"
+  },
+  "background": {
+    "method": "aggregate-synthetic-cohorts",
+    "activity_phase": 0,
+    "individual_ticks": 24
+  },
+  "model_versions": {
+    "world": "world.v1",
+    "registry": "111d1e48afcec169bca3d2eb16d90bd4b45f007c4ca03514030d9480dd0594a7",
+    "activity_backend": "REALMS-0.1-original"
+  }
+}

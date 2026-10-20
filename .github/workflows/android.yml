@@ -1,0 +1,31 @@
+name: Reproduce Android development APK
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  android:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: android-actions/setup-android@v3
+      - run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0' 'platform-tools'
+      - run: npm --prefix web ci
+      - run: GRADLE=./android/gradlew bash scripts/build_android.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HOMELESS-Rendezvous-debug
+          path: |
+            artifacts/android/
+            evidence/android_aapt.txt
+            evidence/android_signature.txt

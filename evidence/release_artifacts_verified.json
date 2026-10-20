@@ -1,0 +1,14 @@
+[
+  {
+    "name": "HOMELESS-Rendezvous-debug.apk",
+    "passed": true
+  },
+  {
+    "name": "HOMELESS-Rendezvous-linux-runtime.tar.gz",
+    "passed": true
+  },
+  {
+    "name": "HOMELESS-Rendezvous-web.tar.gz",
+    "passed": true
+  }
+]

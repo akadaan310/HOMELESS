@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HOMELESS</string>
+    <string name="title_activity_main">HOMELESS</string>
+    <string name="package_name">world.homeless.rendezvous</string>
+    <string name="custom_url_scheme">world.homeless.rendezvous</string>
+</resources>

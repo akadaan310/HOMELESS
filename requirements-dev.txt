@@ -1,0 +1,7 @@
+# Source reproduction and asset-QA dependencies; not needed for shipped speech playback.
+Pillow==12.3.0
+pytest==9.1.1
+nltk==3.10.3
+shapely==2.2.0
+scipy==1.17.0
+matplotlib==3.10.8

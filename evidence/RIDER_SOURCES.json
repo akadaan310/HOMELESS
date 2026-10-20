@@ -1,0 +1,27 @@
+[
+  {
+    "file": "5-HOMELESS_RENDEZVOUS_RELEASE_RIDER_V1.zip",
+    "bytes": 16839,
+    "sha256": "c84c44769c8d71c8e8bac70249fc5798777823653ea2a30809af29bbf46a36a0"
+  },
+  {
+    "file": "4-HOMELESS_RENDEZVOUS_FIDELITY_ASSET_RIDER_V2.zip",
+    "bytes": 10873,
+    "sha256": "5163b063d47473df0ba3f8747df4e7eca2bcdba71b549f22c7f10c37f6fca1c1"
+  },
+  {
+    "file": "3-RENDEZVOUS_HIGH_FIDELITY_ASSET_PIPELINE.md",
+    "bytes": 15071,
+    "sha256": "bbde56ced475aced440146500fc4ab7ac94f4ac851f66d4f74a01c13b8d53baa"
+  },
+  {
+    "file": "2-CODEX_ONE_SHOT_ADDENDUM.md",
+    "bytes": 2345,
+    "sha256": "3b638b7d68ea27452c46e4cde5e997fd7408562368ac51c274a33c11c7254b55"
+  },
+  {
+    "file": "1-HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3.zip",
+    "bytes": 46338,
+    "sha256": "fbf50b98e30d36fee7507ecddb55b902309d8d5131ed1dfd0f76dbcb2f4220f7"
+  }
+]

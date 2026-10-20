@@ -1,0 +1,55 @@
+npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+
+  gltf-transform 4.2.1 — Command-line interface (CLI) for the glTF Transform SDK.
+
+  USAGE — simplify
+  
+    ▸ gltf-transform simplify <input> <output> [OPTIONS...]
+
+
+  Simplify mesh, reducing number of vertices.
+  
+  Simplification algorithm producing meshes with fewer triangles and
+  vertices. Simplification is lossy, but the algorithm aims to
+  preserve visual quality as much as possible, for given parameters.
+  
+  The algorithm aims to reach the target --ratio, while minimizing error. If
+  error exceeds the specified --error threshold, the algorithm will quit
+  before reaching the target ratio. Examples:
+  
+  - ratio=0.5, error=0.001: Aims for 50% simplification, constrained to 0.1% error.
+  - ratio=0.5, error=1: Aims for 50% simplification, unconstrained by error.
+  - ratio=0.0, error=0.01: Aims for maximum simplification, constrained to 1% error.
+  
+  Topology, particularly split vertices, will also limit the simplifier. For
+  best results, apply a 'weld' operation before simplification.
+  
+  Based on the meshoptimizer library (https://github.com/zeux/meshoptimizer).
+
+
+  ARGUMENTS
+
+    <input>                              Path to read glTF 2.0 (.glb, .gltf) model              
+    <output>                             Path to write output                                   
+
+  OPTIONS
+
+    --error <error>                      Limit on error, as a fraction of mesh radius           
+                                         number, default: 0.0001                                
+    --lock-border <bool>                 Whether to lock topological borders of the mesh        
+                                         boolean                                                
+    --ratio <ratio>                      Target ratio (0–1) of vertices to keep                 
+                                         number, default: 0                                     
+
+  GLOBAL OPTIONS
+
+    -h, --help                           Display global help or command-related help.           
+    -V, --version                        Display version.                                       
+    -v, --verbose                        Verbose mode: will also output debug messages.         
+    --allow-net                          Allows reads from network requests.                    
+                                         boolean                                                
+    --vertex-layout <layout>             Vertex buffer layout preset.                           
+                                         one of "interleaved","separate", default: "interleaved"
+    --config <path>                      Installs custom commands or extensions. (EXPERIMENTAL) 
+

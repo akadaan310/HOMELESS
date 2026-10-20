@@ -1,0 +1,11 @@
+// Custom-material function. Source PBR design is retained; wetness varies with
+// a spatial drainage/puddle mask rather than making every surface uniformly glossy.
+void WorldLoomWetSurface(float3 DryBaseColor, float DryRoughness, float Wetness,
+    float PuddleMask, float Drainage, out float3 BaseColor, out float Roughness,
+    out float ClearCoat)
+{
+    float W = saturate(Wetness) * saturate(PuddleMask - Drainage * 0.5);
+    BaseColor = DryBaseColor * lerp(1.0, 0.68, W);
+    Roughness = clamp(lerp(DryRoughness, 0.055, W), 0.045, 1.0);
+    ClearCoat = W;
+}

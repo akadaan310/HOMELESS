@@ -1,0 +1,56 @@
+22:10:45 | INFO: Data are loaded, start creating Blender stuff
+22:10:45 | INFO: Blender create Mesh node Mesh
+22:10:46 | INFO: glTF import finished in 0.91s
+QC ACTIONS rocketbox_male_adult_05 [('Idle_Bip01', [0.0, 280.0]), ('Talking_Bip01', [0.0, 852.7999877929688]), ('Walking_Bip01', [0.0, 28.80000114440918])]
+Blender 4.3.2
+Fra:14 Mem:146.44M (Peak 146.44M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | m009_hipoly_81_bones_opacity
+Fra:14 Mem:149.63M (Peak 150.72M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:14 Mem:149.44M (Peak 150.72M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading m009_opacity_color
+Fra:14 Mem:149.44M (Peak 150.72M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading m009_body_color
+Fra:14 Mem:149.44M (Peak 150.72M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading m009_head_color
+Fra:14 Mem:165.44M (Peak 165.44M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading m009_body_normal
+Fra:14 Mem:197.44M (Peak 197.44M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading m009_head_normal
+Fra:14 Mem:193.86M (Peak 325.47M) | Time:00:01.65 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Waiting for render to start
+Fra:14 Mem:193.87M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:14 Mem:193.87M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Scene
+Fra:14 Mem:193.87M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Shaders
+Fra:14 Mem:193.95M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Procedurals
+Fra:14 Mem:193.95M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Background
+Fra:14 Mem:193.95M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Camera
+Fra:14 Mem:193.95M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:14 Mem:193.95M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Objects
+Fra:14 Mem:193.95M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:14 Mem:193.95M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:14 Mem:193.95M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:14 Mem:193.95M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:14 Mem:193.95M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Meshes
+Fra:14 Mem:194.07M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:14 Mem:194.66M (Peak 325.47M) | Time:00:01.66 | Mem:80.00M, Peak:80.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:14 Mem:194.66M (Peak 325.47M) | Time:00:01.66 | Mem:80.60M, Peak:80.60M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:14 Mem:194.66M (Peak 325.47M) | Time:00:01.66 | Mem:80.60M, Peak:80.60M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:14 Mem:194.66M (Peak 325.47M) | Time:00:01.66 | Mem:80.84M, Peak:80.84M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:14 Mem:194.66M (Peak 325.47M) | Time:00:01.68 | Mem:81.13M, Peak:81.37M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:14 Mem:194.66M (Peak 325.47M) | Time:00:01.68 | Mem:81.13M, Peak:81.37M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.68 | Mem:81.13M, Peak:81.37M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.43M, Peak:81.43M | Scene, ViewLayer | Updating Objects Flags
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.43M, Peak:81.43M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.43M, Peak:81.43M | Scene, ViewLayer | Updating Images
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.43M, Peak:81.43M | Scene, ViewLayer | Updating Camera Volume
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.43M, Peak:81.43M | Scene, ViewLayer | Updating Lookup Tables
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.51M, Peak:81.51M | Scene, ViewLayer | Updating Lights
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.51M, Peak:81.51M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.51M, Peak:81.51M | Scene, ViewLayer | Updating Integrator
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.51M, Peak:81.51M | Scene, ViewLayer | Updating Film
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.43M, Peak:81.51M | Scene, ViewLayer | Updating Lookup Tables
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.51M, Peak:81.51M | Scene, ViewLayer | Updating Baking
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.51M, Peak:81.51M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:14 Mem:194.97M (Peak 325.47M) | Time:00:01.69 | Mem:81.51M, Peak:81.51M | Scene, ViewLayer | Sample 0/12
+Fra:14 Mem:198.37M (Peak 325.47M) | Time:00:01.77 | Remaining:00:00.91 | Mem:84.90M, Peak:84.90M | Scene, ViewLayer | Sample 1/12
+Fra:14 Mem:199.87M (Peak 325.47M) | Time:00:02.66 | Mem:84.90M, Peak:84.90M | Scene, ViewLayer | Sample 12/12
+Fra:14 Mem:199.87M (Peak 325.47M) | Time:00:02.66 | Mem:84.90M, Peak:84.90M | Scene, ViewLayer | Finished
+Saved: '/workspace/HOMELESS/evidence/assets_motion_rocketbox_male_adult_05.png'
+Time: 00:03.03 (Saving: 00:00.36)
+
+HOMELESS_MOTION_QA [{"asset": "rocketbox_male_adult_05", "clips": {"Idle": {"frames": [0.0, 280.0], "min_mesh_floor_z_m": -5.53131103515625e-05, "max_mesh_floor_z_m": 0.00390934944152832, "sampled_height_range_m": [1.7998955249786377, 1.807858169078827], "catastrophic_extent": false, "upright_human_bounds_warning": false, "ground_penetration_warning": false}, "Walking": {"frames": [0.0, 28.80000114440918], "min_mesh_floor_z_m": -0.005124688148498535, "max_mesh_floor_z_m": 0.026852190494537354, "sampled_height_range_m": [1.7744519114494324, 1.7994571924209595], "catastrophic_extent": false, "upright_human_bounds_warning": false, "ground_penetration_warning": false}, "Talking": {"frames": [0.0, 852.7999877929688], "min_mesh_floor_z_m": 0.002526521682739258, "max_mesh_floor_z_m": 0.004169106483459473, "sampled_height_range_m": [1.7847486734390259, 1.8055622577667236], "catastrophic_extent": false, "upright_human_bounds_warning": false, "ground_penetration_warning": false}}}]
+
+Blender quit

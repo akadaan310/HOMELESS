@@ -1,0 +1,80 @@
+{
+  "pack": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3",
+  "created": "2026-10-20",
+  "relationship": "additive; original commission and source rider bytes unchanged",
+  "demonstrated_tests": 17,
+  "real_speech_synthesized": false,
+  "real_game_built": false,
+  "files": [
+    {
+      "path": "CODEX_ONE_SHOT.md",
+      "bytes": 4533,
+      "sha256": "b4b2d764a9395aec58c707a8fb2cc8c4526e39f82188f34d5b02415869534a9a"
+    },
+    {
+      "path": "DIEGETIC_WORLD_EXPERIENCE.md",
+      "bytes": 6325,
+      "sha256": "44aaec9d539fe917c954ba5eba776d0ebcf3bbdaa21c08d886f758f3cd6f80c9"
+    },
+    {
+      "path": "GRAMMATICALS_BOOTSTRAP_GATES.md",
+      "bytes": 10028,
+      "sha256": "760b76268b2bf164af814e8b4bb4d000a19543028bd1e04b5cd96bfbbe17a3ad"
+    },
+    {
+      "path": "NPC_VOICE_AND_ORACLE.md",
+      "bytes": 9763,
+      "sha256": "d58c5fef754586b2155bedee0e7cbc223cf78d4255cafac0e92f2d99cfbcb364"
+    },
+    {
+      "path": "PROTOTYPE_DEMO.json",
+      "bytes": 829,
+      "sha256": "7b71ffa6f281f94b039dfe86b69f54984bc3884b827462dced7acad8eb56a67f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2024,
+      "sha256": "572c74df7f08f33c4c12665c4746e7913043c090a65ed921568c3f77c609ec27"
+    },
+    {
+      "path": "VERIFICATION_AND_INTEGRATION.md",
+      "bytes": 6151,
+      "sha256": "fdf7ba569e41dda36b8a05597be74a90e573a1eb296cd9693e4d1fcf46649eaf"
+    },
+    {
+      "path": "prototype/demo.py",
+      "bytes": 1323,
+      "sha256": "bb43df57f13841502352715293c3a789df50392efd85426d52bc245a63c8a3b0"
+    },
+    {
+      "path": "prototype/gate_kernel.py",
+      "bytes": 5809,
+      "sha256": "d376b83e42f9cc5b5dbc5f6c7f54898b1c1724d2644323d26d11a04569a13ec1"
+    },
+    {
+      "path": "prototype/test_gate_kernel.py",
+      "bytes": 4720,
+      "sha256": "74e55610bd7a73aa2fc54a2605b3e7a297701db4caa9ba14922d87277a1919c5"
+    },
+    {
+      "path": "source_riders/CODEX_ONE_SHOT_ADDENDUM.md",
+      "bytes": 2345,
+      "sha256": "3b638b7d68ea27452c46e4cde5e997fd7408562368ac51c274a33c11c7254b55"
+    },
+    {
+      "path": "source_riders/PERFORMANCE_BUILD_GATES.md",
+      "bytes": 6079,
+      "sha256": "4ea8eeaaca1a9240b8a2605b2a85fb23ee805bca1b5aa458fda9e6d4a6174dfa"
+    },
+    {
+      "path": "source_riders/RENDEZVOUS_HIGH_FIDELITY_ASSET_PIPELINE.md",
+      "bytes": 15071,
+      "sha256": "bbde56ced475aced440146500fc4ab7ac94f4ac851f66d4f74a01c13b8d53baa"
+    },
+    {
+      "path": "source_riders/RENDEZVOUS_RELEASE_DIRECTIVE.md",
+      "bytes": 14059,
+      "sha256": "38567a4251ed667631a93712e7c1da0f890769eb46381dc0590995cf452c024b"
+    }
+  ]
+}

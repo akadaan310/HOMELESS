@@ -1,0 +1,465 @@
+{
+  "animation_sets": [
+    "Idle",
+    "Walking",
+    "Talking"
+  ],
+  "attribution": "Microsoft and Rocketbox contributors; assets/runtime/ROCKETBOX-LICENSE.txt",
+  "canonical_id": "world://asset/rocketbox_female_adult_03",
+  "category": "realistic-rigged-human",
+  "cook_status": "not-cooked",
+  "files": [
+    {
+      "bytes": 791312,
+      "master_ref": "assets/originals/sha256/d8/d8930ca41e72166310622c9ffacd752d93459518ca5e59c84a32b07a10acaebd",
+      "path": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Export/Female_Adult_03.fbx",
+      "sha256": "d8930ca41e72166310622c9ffacd752d93459518ca5e59c84a32b07a10acaebd",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Female_Adult_03/Export/Female_Adult_03.fbx"
+    },
+    {
+      "bytes": 2397744,
+      "master_ref": "assets/originals/sha256/91/918c3de818a49b58d21e6106ffe8622c5fe84e518f2fd172a36db2fe89146901",
+      "path": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Export/Female_Adult_03_facial.fbx",
+      "sha256": "918c3de818a49b58d21e6106ffe8622c5fe84e518f2fd172a36db2fe89146901",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Female_Adult_03/Export/Female_Adult_03_facial.fbx"
+    },
+    {
+      "bytes": 400279,
+      "master_ref": "assets/originals/sha256/87/87f8bddf274657d1ac10c9e58ce906bfbe8648fa752eca34505ecaa1d8af434f",
+      "path": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Female_Adult_03.png",
+      "sha256": "87f8bddf274657d1ac10c9e58ce906bfbe8648fa752eca34505ecaa1d8af434f",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Female_Adult_03/Female_Adult_03.png"
+    },
+    {
+      "bytes": 12582956,
+      "master_ref": "assets/originals/sha256/fc/fc22fd6bd6686d5638bab7d24cdb435d180e6065325796b41b1966f047843e2c",
+      "path": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_body_color.tga",
+      "sha256": "fc22fd6bd6686d5638bab7d24cdb435d180e6065325796b41b1966f047843e2c",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_body_color.tga"
+    },
+    {
+      "bytes": 12582956,
+      "master_ref": "assets/originals/sha256/32/32dcbdb41b263b0286313bb1ff3bce05dd45e177080aefe4da9f42aa64af4993",
+      "path": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_body_normal.tga",
+      "sha256": "32dcbdb41b263b0286313bb1ff3bce05dd45e177080aefe4da9f42aa64af4993",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_body_normal.tga"
+    },
+    {
+      "bytes": 12582956,
+      "master_ref": "assets/originals/sha256/e0/e00d7111fe7cad599a511c85335c4070a3a0e381b70b4cec3a2d72af3c772cf6",
+      "path": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_body_specular.tga",
+      "sha256": "e00d7111fe7cad599a511c85335c4070a3a0e381b70b4cec3a2d72af3c772cf6",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_body_specular.tga"
+    },
+    {
+      "bytes": 12582956,
+      "master_ref": "assets/originals/sha256/4c/4c45609d3385a5358378424f72615637e061ff56c66343a71045adc04b7a27df",
+      "path": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_head_color.tga",
+      "sha256": "4c45609d3385a5358378424f72615637e061ff56c66343a71045adc04b7a27df",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_head_color.tga"
+    },
+    {
+      "bytes": 12582956,
+      "master_ref": "assets/originals/sha256/8b/8b42537bb2d57cb5255b71072a424a0385e5c799af0e0fcfb5d8adefd7290aeb",
+      "path": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_head_normal.tga",
+      "sha256": "8b42537bb2d57cb5255b71072a424a0385e5c799af0e0fcfb5d8adefd7290aeb",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_head_normal.tga"
+    },
+    {
+      "bytes": 12582956,
+      "master_ref": "assets/originals/sha256/cb/cbf4fc752c09c94f326ac3611441c9b686d9028411b83e35577d348982bc44d2",
+      "path": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_head_specular.tga",
+      "sha256": "cbf4fc752c09c94f326ac3611441c9b686d9028411b83e35577d348982bc44d2",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_head_specular.tga"
+    },
+    {
+      "bytes": 16777260,
+      "master_ref": "assets/originals/sha256/31/31c5ae34c355c71aef8ec8c67ece37009f385a1081db378df5e7987158aec523",
+      "path": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_opacity_color.tga",
+      "sha256": "31c5ae34c355c71aef8ec8c67ece37009f385a1081db378df5e7987158aec523",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Adults/Female_Adult_03/Textures/f003_opacity_color.tga"
+    },
+    {
+      "bytes": 2418544,
+      "master_ref": "assets/originals/sha256/81/818cc185af21390575f7fbfdeb3012ba2ce5969fbcb220ea725a2617b339a6e2",
+      "path": "assets/originals/rocketbox/Assets/Animations/all_animations_max_motextr_static/m_idle_neutral_01.max.fbx",
+      "sha256": "818cc185af21390575f7fbfdeb3012ba2ce5969fbcb220ea725a2617b339a6e2",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_idle_neutral_01.max.fbx"
+    },
+    {
+      "bytes": 5977648,
+      "master_ref": "assets/originals/sha256/4c/4c2b9ff481a9538dafbbe7f6aa6ffd6b948b5d34bb16a1e2052e943bbbbd3cd8",
+      "path": "assets/originals/rocketbox/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_neutral_01.max.fbx",
+      "sha256": "4c2b9ff481a9538dafbbe7f6aa6ffd6b948b5d34bb16a1e2052e943bbbbd3cd8",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_neutral_01.max.fbx"
+    },
+    {
+      "bytes": 2959360,
+      "master_ref": "assets/originals/sha256/fd/fd68b33ea9e290dc734ca8c3a71ef5842bb2dfe719853ff84f6336d06d39fdcb",
+      "path": "assets/originals/rocketbox/Assets/Animations/all_animations_max_motextr_static/f_idle_neutral_01.max.fbx",
+      "sha256": "fd68b33ea9e290dc734ca8c3a71ef5842bb2dfe719853ff84f6336d06d39fdcb",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_idle_neutral_01.max.fbx"
+    },
+    {
+      "bytes": 4761664,
+      "master_ref": "assets/originals/sha256/fe/fee2c764dcfac6f2edd85e73e11b1a13aac305372cbd657207d4c947b21a2476",
+      "path": "assets/originals/rocketbox/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_neutral_01.max.fbx",
+      "sha256": "fee2c764dcfac6f2edd85e73e11b1a13aac305372cbd657207d4c947b21a2476",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_static/f_gestic_talk_neutral_01.max.fbx"
+    },
+    {
+      "bytes": 1066,
+      "master_ref": "assets/originals/sha256/17/17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352",
+      "path": "assets/originals/rocketbox/LICENSE.md",
+      "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/LICENSE.md"
+    },
+    {
+      "bytes": 5345,
+      "master_ref": "assets/originals/sha256/bc/bcf8013e3d5817a5dee5d1770b9943278189cd76b2d9b2abc243db99b703ecd6",
+      "path": "assets/originals/rocketbox/README.md",
+      "sha256": "bcf8013e3d5817a5dee5d1770b9943278189cd76b2d9b2abc243db99b703ecd6",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/README.md"
+    },
+    {
+      "bytes": 994336,
+      "master_ref": "assets/originals/sha256/e6/e6805ae6b6b49fe10f06c1b17b14ddde90d09b9fea689ac34793df252f44dcd0",
+      "path": "assets/originals/rocketbox/Assets/Animations/all_animations_max_motextr_xy/m_walk_neutral_01.max.fbx",
+      "sha256": "e6805ae6b6b49fe10f06c1b17b14ddde90d09b9fea689ac34793df252f44dcd0",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/m_walk_neutral_01.max.fbx"
+    },
+    {
+      "bytes": 993792,
+      "master_ref": "assets/originals/sha256/20/20238709c689d46f5864aebaa58918cc1233cb9045b24aa4d58cf2752786a73b",
+      "path": "assets/originals/rocketbox/Assets/Animations/all_animations_max_motextr_xy/f_walk_neutral_01.max.fbx",
+      "sha256": "20238709c689d46f5864aebaa58918cc1233cb9045b24aa4d58cf2752786a73b",
+      "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Animations/all_animations_max_motextr_xy/f_walk_neutral_01.max.fbx"
+    }
+  ],
+  "id": "rocketbox_female_adult_03",
+  "import_status": "not-imported",
+  "license": "MIT",
+  "motion_smoke": {
+    "evidence": "evidence/assets_motion_qa.json",
+    "scope": "actual CPU lookdev and sampled deformed meshes; continuous foot contact, BRDF and device gates pending",
+    "status": "passed-sampled-rig-smoke"
+  },
+  "quality_gate": "source/rig verified; contact, material and actual scene art review pending",
+  "retarget": "named publisher Biped bones, in-place XY matrix bake; contact QA pending",
+  "scene_test": "not-rendered",
+  "source_claim": "professional authored Rocketbox civilian with licensed rig, textures, matched source animation",
+  "source_file": "assets/converted/rocketbox_female_adult_03.glb",
+  "source_master": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Export/Female_Adult_03.fbx",
+  "source_metrics": {
+    "animations": [
+      {
+        "channels": 240,
+        "name": "Idle"
+      },
+      {
+        "channels": 240,
+        "name": "Walking"
+      },
+      {
+        "channels": 240,
+        "name": "Talking"
+      }
+    ],
+    "bones": [
+      80
+    ],
+    "collision_test": "pending separate proxy/navmesh verification",
+    "format": "glTF-2.0",
+    "images": [
+      {
+        "format": "PNG",
+        "height": 2048,
+        "mode": "RGB",
+        "name": "f003_body_normal",
+        "width": 2048
+      },
+      {
+        "format": "PNG",
+        "height": 2048,
+        "mode": "RGB",
+        "name": "f003_body_color",
+        "width": 2048
+      },
+      {
+        "format": "PNG",
+        "height": 2048,
+        "mode": "RGB",
+        "name": "f003_head_normal",
+        "width": 2048
+      },
+      {
+        "format": "PNG",
+        "height": 2048,
+        "mode": "RGB",
+        "name": "f003_head_color",
+        "width": 2048
+      },
+      {
+        "format": "PNG",
+        "height": 2048,
+        "mode": "RGBA",
+        "name": "f003_opacity_color",
+        "width": 2048
+      }
+    ],
+    "issues": [],
+    "materials": 3,
+    "mesh_count": 1,
+    "mesh_node_scales": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "mesh_space_bounds": {
+      "max": [
+        0.6086204051971436,
+        1.7388135194778442,
+        0.12407106906175613
+      ],
+      "min": [
+        -0.6086204051971436,
+        -7.981331873452291e-05,
+        -0.20162667334079742
+      ]
+    },
+    "mikk_tspace": "tangents preserved if present; UE recomputation pending",
+    "missing_uv_primitives": 0,
+    "nonmanifold_index_edges": 0,
+    "normal_map_convention": "glTF/OpenGL (+Y); Unreal import must convert",
+    "normal_winding_disagreement_fraction": 0.006841876629018245,
+    "normals_max_unit_error": 1.2204176802477207e-07,
+    "open_index_edges": 2986,
+    "passed": true,
+    "rig_contact_test": "not-run",
+    "skins": 1,
+    "triangles": 9208,
+    "triangles_degenerate": 0,
+    "units": "glTF meters; authored node transforms preserved",
+    "vertices": 6230
+  },
+  "status": "verified",
+  "url": "https://github.com/microsoft/Microsoft-Rocketbox",
+  "variants": {
+    "rendezvous-low": {
+      "bytes": 5102796,
+      "metrics": {
+        "animations": [
+          {
+            "channels": 240,
+            "name": "Idle"
+          },
+          {
+            "channels": 240,
+            "name": "Walking"
+          },
+          {
+            "channels": 240,
+            "name": "Talking"
+          }
+        ],
+        "bones": [
+          80
+        ],
+        "collision_test": "pending separate proxy/navmesh verification",
+        "format": "glTF-2.0",
+        "images": [
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "f003_body_normal",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "f003_body_color",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "f003_head_normal",
+            "width": 1024
+          },
+          {
+            "format": "JPEG",
+            "height": 1024,
+            "mode": "RGB",
+            "name": "f003_head_color",
+            "width": 1024
+          },
+          {
+            "format": "PNG",
+            "height": 1024,
+            "mode": "RGBA",
+            "name": "f003_opacity_color",
+            "width": 1024
+          }
+        ],
+        "issues": [],
+        "materials": 3,
+        "mesh_count": 1,
+        "mesh_node_scales": [
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "mesh_space_bounds": {
+          "max": [
+            0.6086204051971436,
+            1.7388135194778442,
+            0.12407106906175613
+          ],
+          "min": [
+            -0.6086204051971436,
+            -7.981331873452291e-05,
+            -0.20162667334079742
+          ]
+        },
+        "mikk_tspace": "tangents preserved if present; UE recomputation pending",
+        "missing_uv_primitives": 0,
+        "nonmanifold_index_edges": 0,
+        "normal_map_convention": "glTF/OpenGL (+Y); Unreal import must convert",
+        "normal_winding_disagreement_fraction": 0.006841876629018245,
+        "normals_max_unit_error": 1.2204176802477207e-07,
+        "open_index_edges": 2986,
+        "passed": true,
+        "rig_contact_test": "not-run",
+        "skins": 1,
+        "triangles": 9208,
+        "triangles_degenerate": 0,
+        "units": "glTF meters; authored node transforms preserved",
+        "vertices": 6230
+      },
+      "path": "assets/runtime/rocketbox_female_adult_03.low.glb",
+      "render_status": "not-rendered",
+      "rig_deviation": 0,
+      "sha256": "ec6fa51fc3a3944e6475343dfb8c4c0061cf46732cda7916dee1e59d5de0388c",
+      "silhouette_deviation": 0,
+      "texture_limit": 1024,
+      "topology_deviation": 0,
+      "url": "/assets/runtime/rocketbox_female_adult_03.low.glb"
+    },
+    "rendezvous-medium": {
+      "bytes": 13812992,
+      "material_conversion": "Original diffuse+normal images retained. Legacy specular map archived; roughness0.72 approximation requires BRDF lookdev.",
+      "metrics": {
+        "animations": [
+          {
+            "channels": 240,
+            "name": "Idle"
+          },
+          {
+            "channels": 240,
+            "name": "Walking"
+          },
+          {
+            "channels": 240,
+            "name": "Talking"
+          }
+        ],
+        "bones": [
+          80
+        ],
+        "collision_test": "pending separate proxy/navmesh verification",
+        "format": "glTF-2.0",
+        "images": [
+          {
+            "format": "JPEG",
+            "height": 2048,
+            "mode": "RGB",
+            "name": "f003_body_normal",
+            "width": 2048
+          },
+          {
+            "format": "JPEG",
+            "height": 2048,
+            "mode": "RGB",
+            "name": "f003_body_color",
+            "width": 2048
+          },
+          {
+            "format": "JPEG",
+            "height": 2048,
+            "mode": "RGB",
+            "name": "f003_head_normal",
+            "width": 2048
+          },
+          {
+            "format": "JPEG",
+            "height": 2048,
+            "mode": "RGB",
+            "name": "f003_head_color",
+            "width": 2048
+          },
+          {
+            "format": "PNG",
+            "height": 2048,
+            "mode": "RGBA",
+            "name": "f003_opacity_color",
+            "width": 2048
+          }
+        ],
+        "issues": [],
+        "materials": 3,
+        "mesh_count": 1,
+        "mesh_node_scales": [
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "mesh_space_bounds": {
+          "max": [
+            0.6086204051971436,
+            1.7388135194778442,
+            0.12407106906175613
+          ],
+          "min": [
+            -0.6086204051971436,
+            -7.981331873452291e-05,
+            -0.20162667334079742
+          ]
+        },
+        "mikk_tspace": "tangents preserved if present; UE recomputation pending",
+        "missing_uv_primitives": 0,
+        "nonmanifold_index_edges": 0,
+        "normal_map_convention": "glTF/OpenGL (+Y); Unreal import must convert",
+        "normal_winding_disagreement_fraction": 0.006841876629018245,
+        "normals_max_unit_error": 1.2204176802477207e-07,
+        "open_index_edges": 2986,
+        "passed": true,
+        "rig_contact_test": "not-run",
+        "skins": 1,
+        "triangles": 9208,
+        "triangles_degenerate": 0,
+        "units": "glTF meters; authored node transforms preserved",
+        "vertices": 6230
+      },
+      "path": "assets/runtime/rocketbox_female_adult_03.glb",
+      "render_status": "CPU sampled-rig smoke rendered; final PlayCanvas/device acceptance separate",
+      "scale_m": 1,
+      "sha256": "56407e5144635de6173b38051501705704fce9f18bce0dd55dfa5b4f4b787048",
+      "texture_limit": 2048,
+      "topology_deviation": 0,
+      "url": "/assets/runtime/rocketbox_female_adult_03.glb"
+    },
+    "unreal-source": {
+      "path": "assets/originals/rocketbox/Assets/Avatars/Adults/Female_Adult_03/Export/Female_Adult_03.fbx",
+      "status": "source-ready; import pending"
+    }
+  }
+}

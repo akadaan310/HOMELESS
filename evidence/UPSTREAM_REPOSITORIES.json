@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "purl",
+    "branch": "claude/purl-protocol-research-bxevq5",
+    "head": "3df4452a3624b3f5492bf23c2dacc49d8d2b33c7"
+  },
+  {
+    "repository": "snad",
+    "branch": "main",
+    "head": "790f09605d376be08e240f67b99f53fbc53d7b1b"
+  },
+  {
+    "repository": "substrateIO",
+    "branch": "claude/research-substrate-bootstrap-bfd02a",
+    "head": "7ace119a544fc736f0d4ec1d72cded9dad0a83e3"
+  },
+  {
+    "repository": "seurl",
+    "branch": "master",
+    "head": "620ff955b87857c3eb7a7700a81b6a4d0217400a"
+  },
+  {
+    "repository": "grammarinnumbers",
+    "branch": "claude/happy-newton-r2t17c",
+    "head": "2a94f8a6be686078a9dad88863be9aafc5e6379b"
+  },
+  {
+    "repository": "computationalgrammartheory",
+    "branch": "ccr-04ad16b1-q42wck",
+    "head": "bfe32fc37f7fa61d50da50ecd2aa7fa97c0dd5a1"
+  }
+]

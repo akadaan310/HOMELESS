@@ -1,0 +1,302 @@
+{
+  "environment": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "processor": "",
+    "python": "3.12.14",
+    "cpu_count": 5
+  },
+  "reference": {
+    "solver": "GNU Octave",
+    "version": "9.4.0",
+    "qp": {
+      "status": 0,
+      "primal": [
+        2,
+        -1
+      ],
+      "objective": -14,
+      "gradient": [
+        -2,
+        4
+      ],
+      "kkt_inf": 0
+    },
+    "lp": {
+      "primal": [
+        3,
+        0
+      ],
+      "objective": 3,
+      "errnum": 0,
+      "status": 5
+    },
+    "ode": {
+      "equation": "dy/dt=-0.7*y",
+      "final": 0.18243018787632587,
+      "analytic": 0.1824301878756539,
+      "residual": 6.71962485654376e-13,
+      "samples": 537
+    }
+  },
+  "runtime": {
+    "qp": {
+      "status": "optimal-certified",
+      "primal": [
+        2.0,
+        -1.0
+      ],
+      "dual": null,
+      "objective_value": -14.0,
+      "residuals": {
+        "primal_inf": 0,
+        "kkt_inf": 0
+      },
+      "optimality_gap": 0,
+      "seed": 7,
+      "solver": "worldloom-native-1",
+      "numerical_policy": {
+        "float": "IEEE754 binary64",
+        "tolerance": 1e-09,
+        "fast_math": false
+      },
+      "proof": "separable convex quadratic; signed bound KKT suffices",
+      "resource_usage": {
+        "coordinates": 2,
+        "iterations": 1
+      },
+      "units": "declared-dimensionless-fixture",
+      "witness_hash": "6c571300a4c55e3871537cbf1e3f14d8ec7653a3ecd688382e678653b0d170c2"
+    },
+    "ode": {
+      "status": "approximate-feasible",
+      "primal": [
+        0.1824301878859344
+      ],
+      "dual": null,
+      "objective_value": null,
+      "residuals": {
+        "analytic_error": 1.0280498674575256e-11
+      },
+      "optimality_gap": null,
+      "seed": 7,
+      "solver": "worldloom-native-1",
+      "numerical_policy": {
+        "float": "IEEE754 binary64",
+        "tolerance": 1e-09,
+        "fast_math": false
+      },
+      "equation": "dy/dt = -rate*y",
+      "resource_usage": {
+        "steps": 400,
+        "evaluations": 1600
+      },
+      "units": {
+        "time": "s",
+        "rate": "s^-1"
+      },
+      "witness_hash": "ed05291cef83fc2a352062952ae7fc4351f05789c6eea05e2b97c947b30c6730"
+    },
+    "cli": {
+      "solver": "worldloom-native-1",
+      "status": 0,
+      "qp": [
+        2,
+        -1
+      ],
+      "ode": 0.1824301878859344
+    }
+  },
+  "comparison": {
+    "qp_primal_max_abs": 0.0,
+    "ode_final_abs": 9.60853618892088e-12,
+    "tolerance": 1e-08,
+    "pass": true
+  },
+  "camera": [
+    {
+      "fps": 24.0,
+      "metrics": {
+        "jerk_max_m_s3": 25.00000000000007,
+        "jerk_p95_m_s3": 25.00000000000007,
+        "jerk_p99_m_s3": 25.00000000000007,
+        "roll_jitter_deg": 0,
+        "angular_velocity_deg_s": 0,
+        "collision_violations": 0,
+        "target_framing_normalized_rmse": 0.3336962056312807,
+        "occlusion_exposure_s": null,
+        "common_time_path_error_m": 0.0
+      },
+      "baseline": {
+        "jerk_p99_m_s3": 266.57854161248906
+      },
+      "witness_hash": "e7d8200640d5277ad1d74adcde262f4de443f6f8a02118c57eff1e982464b6d3"
+    },
+    {
+      "fps": 30.0,
+      "metrics": {
+        "jerk_max_m_s3": 25.00000000000007,
+        "jerk_p95_m_s3": 25.00000000000007,
+        "jerk_p99_m_s3": 25.00000000000007,
+        "roll_jitter_deg": 0,
+        "angular_velocity_deg_s": 0,
+        "collision_violations": 0,
+        "target_framing_normalized_rmse": 0.33353748501791325,
+        "occlusion_exposure_s": null,
+        "common_time_path_error_m": 0.0
+      },
+      "baseline": {
+        "jerk_p99_m_s3": 266.57854161248906
+      },
+      "witness_hash": "65226363bb3d9269caca5e3177d3df4145fdb51443b23bf342ecd926c85d4622"
+    },
+    {
+      "fps": 60.0,
+      "metrics": {
+        "jerk_max_m_s3": 25.00000000000007,
+        "jerk_p95_m_s3": 25.00000000000007,
+        "jerk_p99_m_s3": 25.00000000000007,
+        "roll_jitter_deg": 0,
+        "angular_velocity_deg_s": 0,
+        "collision_violations": 0,
+        "target_framing_normalized_rmse": 0.33321690847642765,
+        "occlusion_exposure_s": null,
+        "common_time_path_error_m": 0.0
+      },
+      "baseline": {
+        "jerk_p99_m_s3": 266.57854161248906
+      },
+      "witness_hash": "3a69128fcb62b44168529e77ce3cc2967a604be884553a8b480632d32273c391"
+    },
+    {
+      "fps": 90.0,
+      "metrics": {
+        "jerk_max_m_s3": 25.00000000000007,
+        "jerk_p95_m_s3": 25.00000000000007,
+        "jerk_p99_m_s3": 25.00000000000007,
+        "roll_jitter_deg": 0,
+        "angular_velocity_deg_s": 0,
+        "collision_violations": 0,
+        "target_framing_normalized_rmse": 0.33310911472296406,
+        "occlusion_exposure_s": null,
+        "common_time_path_error_m": 0.0
+      },
+      "baseline": {
+        "jerk_p99_m_s3": 266.57854161248906
+      },
+      "witness_hash": "a0e2b131beb2825b03e894d88888adde24d38b866034c96552a2158302510fce"
+    }
+  ],
+  "weather": {
+    "divergence_inf_s_1": 5.319818659662208e-14,
+    "speed_max_m_s": 4.94668418812062,
+    "wetness_min": 0.562878824904526,
+    "wetness_max": 0.562878824904526,
+    "cfl_dt_max_s": 0.4043112363637377
+  },
+  "negotiation": [
+    {
+      "outcome": "agreement",
+      "chosen": {
+        "id": "share-route",
+        "utility": [
+          3,
+          2
+        ]
+      },
+      "feasible_actions": [
+        "share-route"
+      ],
+      "independent_utilities": [
+        {
+          "id": "share-route",
+          "utility": [
+            3,
+            2
+          ]
+        },
+        {
+          "id": "rush",
+          "utility": [
+            5,
+            -2
+          ]
+        }
+      ],
+      "reservation": [
+        0,
+        0
+      ],
+      "objective": "maximize minimum individual surplus, then joint surplus",
+      "tie_break": "lexicographic action id",
+      "may_decline": true,
+      "unknowns": []
+    },
+    {
+      "outcome": "refusal",
+      "chosen": null,
+      "feasible_actions": [],
+      "independent_utilities": [
+        {
+          "id": "demand",
+          "utility": [
+            4,
+            -3
+          ]
+        }
+      ],
+      "reservation": [
+        0,
+        0
+      ],
+      "objective": "maximize minimum individual surplus, then joint surplus",
+      "tie_break": "lexicographic action id",
+      "may_decline": true,
+      "unknowns": []
+    },
+    {
+      "outcome": "indeterminate-conflict",
+      "chosen": null,
+      "feasible_actions": [],
+      "independent_utilities": [
+        {
+          "id": "east",
+          "utility": [
+            3,
+            -1
+          ]
+        },
+        {
+          "id": "west",
+          "utility": [
+            -1,
+            3
+          ]
+        }
+      ],
+      "reservation": [
+        0,
+        0
+      ],
+      "objective": "maximize minimum individual surplus, then joint surplus",
+      "tie_break": "lexicographic action id",
+      "may_decline": true,
+      "unknowns": [
+        "meeting time preference"
+      ]
+    }
+  ],
+  "performance": {
+    "qp_cpu_p50_ms": 0.016139,
+    "qp_cpu_p95_ms": 0.024661,
+    "qp_cpu_max_ms": 0.10208,
+    "trials": 200,
+    "scope": "native kernel through Python wrapper; not game-thread measurement"
+  },
+  "reference_sha256": "bc13ec298ed84194224c8c6b246296505dabbcb5bdb20c5eb73424334155c349",
+  "limitations": [
+    "A06 engine foreground thread budget requires UE runtime trace",
+    "V06 occlusion, collision with scene meshes, image horizon and network jitter require rendered-engine verification",
+    "V09 vector field is exported; genuine Niagara/material light response requires UE runtime verification"
+  ],
+  "witness_hash": "e918105b75a069e0439306a3894382b7b73c14e0b47e428c88e5d59bec54836b"
+}

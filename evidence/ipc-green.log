@@ -1,0 +1,6 @@
+test_real_daemon_kill_restart_and_cbor (test_session.IPC.test_real_daemon_kill_restart_and_cbor) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.171s
+
+OK

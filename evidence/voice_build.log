@@ -1,0 +1,35 @@
+{
+  "clips": 23,
+  "voices": {
+    "amber": {
+      "model": "en_US-libritts_r-medium",
+      "speaker_index": 0,
+      "locale": "en-US",
+      "license": "CC BY 4.0 dataset; Piper GPL-3.0 runtime"
+    },
+    "river": {
+      "model": "en_US-libritts_r-medium",
+      "speaker_index": 4,
+      "locale": "en-US",
+      "license": "CC BY 4.0 dataset; Piper GPL-3.0 runtime"
+    },
+    "cedar": {
+      "model": "en_US-libritts_r-medium",
+      "speaker_index": 10,
+      "locale": "en-US",
+      "license": "CC BY 4.0 dataset; Piper GPL-3.0 runtime"
+    },
+    "yusuf": {
+      "model": "ar_JO-kareem-low",
+      "speaker_index": 0,
+      "locale": "ar-JO",
+      "license": "dataset model card says See URL; redistribution review unresolved; local evaluation"
+    }
+  },
+  "loads": [
+    {
+      "model": "en_US-libritts_r-medium",
+      "cold_load_ms": 11512.52726599887
+    }
+  ]
+}
