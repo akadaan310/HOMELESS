@@ -28,6 +28,8 @@ A local founder/operator capability is created at `.runtime/worldloom.operator-t
 
 ## Artifacts and checks
 
+Downloads: [Rendezvous engineering prerelease](https://github.com/akadaan310/HOMELESS/releases/tag/rendezvous-engineering-2026-10-20). Its links point to the committed build files; GitHub release attachments are unavailable under this session's upload credentials.
+
 - Android development package: [HOMELESS-Rendezvous-debug.apk](artifacts/android/HOMELESS-Rendezvous-debug.apk), with [checksums](artifacts/android/SHA256SUMS), package metadata, signature verification and device-test status in `evidence/android_*`.
 - Browser build: generated in `web/dist/` and `artifacts/web/`; `npm --prefix web run build` reproduces it. Cached origin projections are separate from the connected authoritative world.
 - Downloadable browser/native archives and their checksums: [artifacts/releases](artifacts/releases). GitHub's separate release-upload endpoint returned HTTP401; these build bytes are committed in the repository.

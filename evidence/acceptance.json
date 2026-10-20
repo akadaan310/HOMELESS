@@ -1,6 +1,6 @@
 {
   "schema": "worldloom.acceptance.v1",
-  "generated_utc": "2026-10-20T22:40:00.666529+00:00",
+  "generated_utc": "2026-10-20T22:42:18.970532+00:00",
   "full_commission_status": "fail",
   "summary": {
     "pass": 37,
@@ -10,7 +10,7 @@
   "acceptance_rule": "All original checks and additive rider gates retain independent statuses; local unit/artifact passes do not certify cinematic rendering,physical device,Oracle or Unreal.",
   "build_hash": "cbfa2d264a370ad8740bab21a9f4a2a3bea2b9db91ac4be224fe091204cfcb5a",
   "source_hash": "89c33849fdc8f615113bd00342a0e6ee43339940ff15d76618e5b7e662fe2234",
-  "source_commit": "4b595f73fa1ce5cff1ad9e4ac463b7ef2ef01fbc",
+  "source_commit": "7c4bfb1c91d6fdcb8764d8e03db2fdb93934bcb9",
   "source_branch": "codex/one-shot-implementation",
   "worktree_dirty": true,
   "source_file_hashes": {
@@ -5947,7 +5947,7 @@
         }
       },
       "data_revision": {
-        "README.md": "6e764d1029ac33314d50f0ff1cac54f3b30cd732d93447574a73424f2d373298",
+        "README.md": "c353d3aa5de58000858a12e78f1ff15948d720eef5ddd425cc8b9ed42659382a",
         "docs/IMPLEMENTATION_PLAN.md": "19cafa987e1d68fbb570a7c284399a1a62641d4be70ce825ad596c53d3887ba4",
         "evidence/ENVIRONMENT.json": "055d5d6eee1cb881a220de8f785679a0bd92ba77cf0343c3d4faa55cb8f168b7",
         "artifacts/web/build-manifest.json": "12920cc0f8042758de636ccae33cf8d39cee2751f826449e112fe91e3a98fd6c",
@@ -6001,7 +6001,7 @@
         "scripts/build_unreal.sh"
       ],
       "missing_evidence": [],
-      "witness_hash": "d906ee69f32309facf23fdf7e9a38efd0a895081c748f0ffbee5156fcbb4d767",
+      "witness_hash": "0926c41834d807945dc785af9003b46dfcc6f981e0b9a3dac2902830646076d2",
       "confidence": "executed-fixture-only",
       "blocker": null,
       "requirement_source": "masterpack/DARK_HOMELESS_CODEX_MASTERPACK_2026_10_20/tests/ACCEPTANCE_MATRIX.md",
@@ -9498,7 +9498,7 @@
             "dex_present": true
           }
         ],
-        "commit": "4b595f73fa1ce5cff1ad9e4ac463b7ef2ef01fbc",
+        "commit": "7c4bfb1c91d6fdcb8764d8e03db2fdb93934bcb9",
         "worktree_dirty": true
       },
       "threshold": "Actual live URL/APK link,commit/hash,hardware/software baseline,integration trace,remaining blockers",
@@ -19205,8 +19205,8 @@
       "bytes": 2654
     },
     "README.md": {
-      "sha256": "6e764d1029ac33314d50f0ff1cac54f3b30cd732d93447574a73424f2d373298",
-      "bytes": 6284
+      "sha256": "c353d3aa5de58000858a12e78f1ff15948d720eef5ddd425cc8b9ed42659382a",
+      "bytes": 6550
     },
     "docs/IMPLEMENTATION_PLAN.md": {
       "sha256": "19cafa987e1d68fbb570a7c284399a1a62641d4be70ce825ad596c53d3887ba4",
@@ -19271,9 +19271,9 @@
   ],
   "artifact_manifest_input": {
     "schema": "homeless.deliverables.v1",
-    "observed_utc": "2026-10-20T22:39:59.932035+00:00",
+    "observed_utc": "2026-10-20T22:42:18.166271+00:00",
     "source_tree_sha256": "b3cd086047474c738be99dc98bafb8ebd276cd222c5c60d26bb3e178c4213906",
-    "git_commit": "4b595f73fa1ce5cff1ad9e4ac463b7ef2ef01fbc",
+    "git_commit": "7c4bfb1c91d6fdcb8764d8e03db2fdb93934bcb9",
     "environment": "Linux-6.18.55-x86_64-with-glibc2.41",
     "source_files": [
       {
