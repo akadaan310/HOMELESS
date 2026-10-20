@@ -1,0 +1,1663 @@
+{
+  "status": "ok",
+  "source_catalog": "HYG",
+  "source_release": "4.1",
+  "source_sha256": "d9f69fd86bbf90a4e4d52b4c5c53eacfa6dfc0bfdef85bfd94f095e0bebe4ebd",
+  "solar_system": [
+    {
+      "body": "Sun",
+      "at": "2026-10-20T02:00:00+00:00",
+      "ra_deg": 204.420889579,
+      "dec_deg": -10.160207096,
+      "source_sha256": "62d3b75bc58c86111f407f05a4f9045fc964f451d5eb7e868f4245325b29c649",
+      "source_model": "JPL Horizons DE441",
+      "frame": "ICRF astrometric, geocentric; light-time corrected",
+      "source_kind": "observed_reference_ephemeris",
+      "tolerance_deg": 1e-09,
+      "status": "ok",
+      "quality_mask": "confirmed_factual_reference",
+      "altitude_deg": -41.07663649526633,
+      "azimuth_deg": 281.19146865227356,
+      "horizon_quality": "approximate geocentric direction; lunar topocentric parallax omitted"
+    },
+    {
+      "body": "Moon",
+      "at": "2026-10-20T02:00:00+00:00",
+      "ra_deg": 314.700410493,
+      "dec_deg": -18.579649525,
+      "source_sha256": "746539dc20457c0a9ee33f5172694d539c93f6af711a00b1697ab5e0defeda20",
+      "source_model": "JPL Horizons DE441",
+      "frame": "ICRF astrometric, geocentric; light-time corrected",
+      "source_kind": "observed_reference_ephemeris",
+      "tolerance_deg": 1e-09,
+      "status": "ok",
+      "quality_mask": "confirmed_factual_reference",
+      "altitude_deg": 39.333088992519876,
+      "azimuth_deg": 206.02668924603182,
+      "horizon_quality": "approximate geocentric direction; lunar topocentric parallax omitted"
+    }
+  ],
+  "observer_coords": {
+    "lat": 27.9506,
+    "lon": -82.5056,
+    "height_m": 0.0
+  },
+  "at": "2026-10-20T02:00:00+00:00",
+  "epoch": 2026.8002283105022,
+  "equinox": 2026.8002283105022,
+  "visible_count": 4296,
+  "returned_count": 100,
+  "stars": [
+    {
+      "source_id": "hyg:90979",
+      "name": "Vega",
+      "ra_deg": 279.46156132360466,
+      "dec_deg": 38.81006967555928,
+      "source_ra_deg": 279.2346,
+      "source_dec_deg": 38.783692,
+      "magnitude": 0.03,
+      "altitude_deg": 42.28549768207371,
+      "azimuth_deg": 298.4556214821707,
+      "unit_vector": [
+        0.12809405847625946,
+        -0.7686272958774899,
+        0.626740769549212
+      ]
+    },
+    {
+      "source_id": "hyg:24549",
+      "name": "Capella",
+      "ra_deg": 79.66838302563112,
+      "dec_deg": 46.02220421660711,
+      "source_ra_deg": 79.17225,
+      "source_dec_deg": 45.997991,
+      "magnitude": 0.08,
+      "altitude_deg": 11.117852850051785,
+      "azimuth_deg": 43.4526255296475,
+      "unit_vector": [
+        0.12453358026276264,
+        0.6831210315201065,
+        0.7196089519189182
+      ]
+    },
+    {
+      "source_id": "hyg:97338",
+      "name": "Altair",
+      "ra_deg": 298.0225955783175,
+      "dec_deg": 8.940919133393333,
+      "source_ra_deg": 297.69582,
+      "source_dec_deg": 8.868322,
+      "magnitude": 0.76,
+      "altitude_deg": 49.486619464907356,
+      "azimuth_deg": 249.50457222169524,
+      "unit_vector": [
+        0.4641110104526176,
+        -0.8720360435648884,
+        0.15541592164365436
+      ]
+    },
+    {
+      "source_id": "hyg:21368",
+      "name": "Aldebaran",
+      "ra_deg": 69.36544277612361,
+      "dec_deg": 16.56093976634529,
+      "source_ra_deg": 68.98015500000001,
+      "source_dec_deg": 16.509301,
+      "magnitude": 0.87,
+      "altitude_deg": 4.851777906914021,
+      "azimuth_deg": 73.81166149066676,
+      "unit_vector": [
+        0.33778733240026915,
+        0.8970255157443088,
+        0.28503498412224276
+      ]
+    },
+    {
+      "source_id": "hyg:118360",
+      "name": "",
+      "ra_deg": 79.66509089055705,
+      "dec_deg": 46.02509902236882,
+      "source_ra_deg": 79.16889,
+      "source_dec_deg": 46.000842,
+      "magnitude": 0.96,
+      "altitude_deg": 11.121254672415523,
+      "azimuth_deg": 43.45117242162538,
+      "unit_vector": [
+        0.12456630848855554,
+        0.6830781064173433,
+        0.7196440337575452
+      ]
+    },
+    {
+      "source_id": "hyg:113008",
+      "name": "Fomalhaut",
+      "ra_deg": 344.78125693149076,
+      "dec_deg": -29.47961436722786,
+      "source_ra_deg": 344.41256999999996,
+      "source_dec_deg": -29.622236,
+      "magnitude": 1.17,
+      "altitude_deg": 31.96543572835332,
+      "azimuth_deg": 171.03512208740923,
+      "unit_vector": [
+        0.8400019128770464,
+        -0.2285185673922757,
+        -0.49211385950802566
+      ]
+    },
+    {
+      "source_id": "hyg:101767",
+      "name": "Deneb",
+      "ra_deg": 310.58658633205516,
+      "dec_deg": 45.37719389786922,
+      "source_ra_deg": 310.35798,
+      "source_dec_deg": 45.280338,
+      "magnitude": 1.25,
+      "altitude_deg": 63.360178175615374,
+      "azimuth_deg": 317.6660276367909,
+      "unit_vector": [
+        0.45700263293003796,
+        -0.5334468185937195,
+        0.711746503487901
+      ]
+    },
+    {
+      "source_id": "hyg:25364",
+      "name": "Elnath",
+      "ra_deg": 81.99713797982834,
+      "dec_deg": 28.627471894214526,
+      "source_ra_deg": 81.57297,
+      "source_dec_deg": 28.60745,
+      "magnitude": 1.65,
+      "altitude_deg": 0.658151535575503,
+      "azimuth_deg": 57.566467401243706,
+      "unit_vector": [
+        0.12220307451619775,
+        0.8692050152686341,
+        0.47911277379197725
+      ]
+    },
+    {
+      "source_id": "hyg:108922",
+      "name": "Alnair",
+      "ra_deg": 332.47711086614737,
+      "dec_deg": -46.83001163749555,
+      "source_ra_deg": 332.058135,
+      "source_dec_deg": -46.960975,
+      "magnitude": 1.73,
+      "altitude_deg": 15.14978893611997,
+      "azimuth_deg": 182.52911340323217,
+      "unit_vector": [
+        0.606735671115979,
+        -0.31615473216338785,
+        -0.7293270944686884
+      ]
+    },
+    {
+      "source_id": "hyg:15824",
+      "name": "Mirfak",
+      "ra_deg": 51.562708614823265,
+      "dec_deg": 49.954229786885335,
+      "source_ra_deg": 51.08067,
+      "source_dec_deg": 49.86118,
+      "magnitude": 1.79,
+      "altitude_deg": 30.06344370895596,
+      "azimuth_deg": 46.036552200121726,
+      "unit_vector": [
+        0.39997417522540996,
+        0.5039676433336412,
+        0.7655307137048709
+      ]
+    },
+    {
+      "source_id": "hyg:89906",
+      "name": "Kaus Australis",
+      "ra_deg": 276.4875289131355,
+      "dec_deg": -34.36925722614838,
+      "source_ra_deg": 276.04302,
+      "source_dec_deg": -34.384616,
+      "magnitude": 1.79,
+      "altitude_deg": 6.016734374995448,
+      "azimuth_deg": 225.69035020383018,
+      "unit_vector": [
+        0.09326129398081771,
+        -0.8201309419748737,
+        -0.5645241970548561
+      ]
+    },
+    {
+      "source_id": "hyg:28288",
+      "name": "Menkalinan",
+      "ra_deg": 90.3739705627843,
+      "dec_deg": 44.947093651367986,
+      "source_ra_deg": 89.88223500000001,
+      "source_dec_deg": 44.947433,
+      "magnitude": 1.9,
+      "altitude_deg": 4.219003249266941,
+      "azimuth_deg": 40.29074306557626,
+      "unit_vector": [
+        -0.004619525376147401,
+        0.7077443390372338,
+        0.7064535445066775
+      ]
+    },
+    {
+      "source_id": "hyg:100425",
+      "name": "Peacock",
+      "ra_deg": 306.9375041556608,
+      "dec_deg": -56.64661687572459,
+      "source_ra_deg": 306.411885,
+      "source_dec_deg": -56.73509,
+      "magnitude": 1.94,
+      "altitude_deg": 1.8805026988806817,
+      "azimuth_deg": 195.5219055410568,
+      "unit_vector": [
+        0.33039954984375997,
+        -0.4394514976075486,
+        -0.8352954679115191
+      ]
+    },
+    {
+      "source_id": "hyg:11734",
+      "name": "Polaris",
+      "ra_deg": 46.78737386034725,
+      "dec_deg": 89.37453851756011,
+      "source_ra_deg": 37.94625,
+      "source_dec_deg": 89.264109,
+      "magnitude": 1.97,
+      "altitude_deg": 28.155281037945198,
+      "azimuth_deg": 0.6697053288290529,
+      "unit_vector": [
+        0.007474369143941058,
+        0.007955880614497307,
+        0.9999404171097137
+      ]
+    },
+    {
+      "source_id": "hyg:9861",
+      "name": "Hamal",
+      "ra_deg": 32.17267742168971,
+      "dec_deg": 23.58789099350002,
+      "source_ra_deg": 31.793325000000003,
+      "source_dec_deg": 23.462423,
+      "magnitude": 2.01,
+      "altitude_deg": 39.700094651917794,
+      "azimuth_deg": 81.47449621072371,
+      "unit_vector": [
+        0.7757242512409604,
+        0.4879831716116439,
+        0.4001553576556138
+      ]
+    },
+    {
+      "source_id": "hyg:3413",
+      "name": "Diphda",
+      "ra_deg": 11.233316054350402,
+      "dec_deg": -17.83993340815587,
+      "source_ra_deg": 10.89735,
+      "source_dec_deg": -17.986605,
+      "magnitude": 2.04,
+      "altitude_deg": 32.93148812768116,
+      "azimuth_deg": 139.19031494507433,
+      "unit_vector": [
+        0.9336793374101622,
+        0.18543774869926674,
+        -0.3063588357639917
+      ]
+    },
+    {
+      "source_id": "hyg:92564",
+      "name": "Nunki",
+      "ra_deg": 284.23134310412075,
+      "dec_deg": -26.26095823656539,
+      "source_ra_deg": 283.81635,
+      "source_dec_deg": -26.296722,
+      "magnitude": 2.05,
+      "altitude_deg": 16.399974340688793,
+      "azimuth_deg": 227.2893616398226,
+      "unit_vector": [
+        0.22046430977312576,
+        -0.8692666137220734,
+        -0.4424602155950513
+      ]
+    },
+    {
+      "source_id": "hyg:676",
+      "name": "Alpheratz",
+      "ra_deg": 2.4447219968718605,
+      "dec_deg": 29.238304035211463,
+      "source_ra_deg": 2.096865,
+      "source_dec_deg": 29.090432,
+      "magnitude": 2.07,
+      "altitude_deg": 66.8343464404227,
+      "azimuth_deg": 80.47157813259702,
+      "unit_vector": [
+        0.8718015308101856,
+        0.03722100929499213,
+        0.4884431260076029
+      ]
+    },
+    {
+      "source_id": "hyg:5436",
+      "name": "Mirach",
+      "ra_deg": 17.810366250890823,
+      "dec_deg": 35.7619231141925,
+      "source_ra_deg": 17.43291,
+      "source_dec_deg": 35.620558,
+      "magnitude": 2.07,
+      "altitude_deg": 53.95735460971619,
+      "azimuth_deg": 66.71881133358394,
+      "unit_vector": [
+        0.7725627726413812,
+        0.2481969639615191,
+        0.5844185395835301
+      ]
+    },
+    {
+      "source_id": "hyg:72380",
+      "name": "Kochab",
+      "ra_deg": 222.6640742880576,
+      "dec_deg": 74.0458889429673,
+      "source_ra_deg": 222.676575,
+      "source_dec_deg": 74.155505,
+      "magnitude": 2.07,
+      "altitude_deg": 20.75028470970416,
+      "azimuth_deg": 344.3479258366998,
+      "unit_vector": [
+        -0.20212088922792779,
+        -0.18627727431670763,
+        0.9614821491899108
+      ]
+    },
+    {
+      "source_id": "hyg:111768",
+      "name": "Tiaki",
+      "ra_deg": 341.0637088944323,
+      "dec_deg": -46.743650987582214,
+      "source_ra_deg": 340.666725,
+      "source_dec_deg": -46.884577,
+      "magnitude": 2.07,
+      "altitude_deg": 15.168015525880515,
+      "azimuth_deg": 176.44000114490848,
+      "unit_vector": [
+        0.6481772264362153,
+        -0.22237944733385995,
+        -0.7282950394812134
+      ]
+    },
+    {
+      "source_id": "hyg:85769",
+      "name": "Rasalhague",
+      "ra_deg": 264.0448293097345,
+      "dec_deg": 12.542496077841001,
+      "source_ra_deg": 263.733615,
+      "source_dec_deg": 12.560035,
+      "magnitude": 2.08,
+      "altitude_deg": 21.605901639094515,
+      "azimuth_deg": 273.1112402830391,
+      "unit_vector": [
+        -0.1012743189789632,
+        -0.9708673714263749,
+        0.21716366964800726
+      ]
+    },
+    {
+      "source_id": "hyg:14540",
+      "name": "Algol",
+      "ra_deg": 47.480925035067045,
+      "dec_deg": 41.056893871112855,
+      "source_ra_deg": 47.04222,
+      "source_dec_deg": 40.955648,
+      "magnitude": 2.09,
+      "altitude_deg": 31.327608417703974,
+      "azimuth_deg": 56.80559752892992,
+      "unit_vector": [
+        0.509619091767156,
+        0.5557800585624785,
+        0.6568081209993578
+      ]
+    },
+    {
+      "source_id": "hyg:9618",
+      "name": "Almach",
+      "ra_deg": 31.389118127797556,
+      "dec_deg": 42.45699291999355,
+      "source_ra_deg": 30.97476,
+      "source_dec_deg": 42.329725,
+      "magnitude": 2.1,
+      "altitude_deg": 43.39387570924411,
+      "azimuth_deg": 56.63397115298146,
+      "unit_vector": [
+        0.6298093182016765,
+        0.38427308456913306,
+        0.6750366058089466
+      ]
+    },
+    {
+      "source_id": "hyg:4417",
+      "name": "Cih",
+      "ra_deg": 14.587218926433119,
+      "dec_deg": 60.861237882092325,
+      "source_ra_deg": 14.177145,
+      "source_dec_deg": 60.71674,
+      "magnitude": 2.15,
+      "altitude_deg": 48.229759360048924,
+      "azimuth_deg": 27.093332070162663,
+      "unit_vector": [
+        0.471230509812123,
+        0.122634109769503,
+        0.8734430042900616
+      ]
+    },
+    {
+      "source_id": "hyg:76035",
+      "name": "Alphecca",
+      "ra_deg": 233.95583728592794,
+      "dec_deg": 26.625937568072636,
+      "source_ra_deg": 233.67192,
+      "source_dec_deg": 26.714693,
+      "magnitude": 2.22,
+      "altitude_deg": 2.5594182333032407,
+      "azimuth_deg": 298.9556929986082,
+      "unit_vector": [
+        -0.5260087688049382,
+        -0.7228166875692738,
+        0.4481638219576587
+      ]
+    },
+    {
+      "source_id": "hyg:65173",
+      "name": "Mizar",
+      "ra_deg": 201.24982125979724,
+      "dec_deg": 54.786014515753806,
+      "source_ra_deg": 200.981205,
+      "source_dec_deg": 54.925362,
+      "magnitude": 2.23,
+      "altitude_deg": 1.3775698929593652,
+      "azimuth_deg": 335.8389183798346,
+      "unit_vector": [
+        -0.5374259882377486,
+        -0.20899160667615135,
+        0.8170041710454118
+      ]
+    },
+    {
+      "source_id": "hyg:100128",
+      "name": "Sadr",
+      "ra_deg": 305.7977349185239,
+      "dec_deg": 40.34369010257751,
+      "source_ra_deg": 305.557095,
+      "source_dec_deg": 40.256679,
+      "magnitude": 2.23,
+      "altitude_deg": 62.25528736269132,
+      "azimuth_deg": 304.4367043330702,
+      "unit_vector": [
+        0.4458156231423911,
+        -0.6181901161280621,
+        0.6473711535770917
+      ]
+    },
+    {
+      "source_id": "hyg:3172",
+      "name": "Schedar",
+      "ra_deg": 10.51137152479563,
+      "dec_deg": 56.683880440985284,
+      "source_ra_deg": 10.126740000000002,
+      "source_dec_deg": 56.537331,
+      "magnitude": 2.24,
+      "altitude_deg": 52.344970295784634,
+      "azimuth_deg": 30.58362772834637,
+      "unit_vector": [
+        0.5400406903751833,
+        0.10020149379788419,
+        0.8356528665539107
+      ]
+    },
+    {
+      "source_id": "hyg:87561",
+      "name": "Eltanin",
+      "ra_deg": 269.3073805751234,
+      "dec_deg": 51.486716785986296,
+      "source_ra_deg": 269.151555,
+      "source_dec_deg": 51.488895,
+      "magnitude": 2.24,
+      "altitude_deg": 35.73082647356589,
+      "azimuth_deg": 315.1920277084767,
+      "unit_vector": [
+        -0.007527271363788469,
+        -0.622650559286,
+        0.7824638146308411
+      ]
+    },
+    {
+      "source_id": "hyg:744",
+      "name": "Caph",
+      "ra_deg": 2.655135623607716,
+      "dec_deg": 59.29749946661038,
+      "source_ra_deg": 2.293305,
+      "source_dec_deg": 59.14978,
+      "magnitude": 2.28,
+      "altitude_deg": 53.73248436579217,
+      "azimuth_deg": 22.74214005478974,
+      "unit_vector": [
+        0.5100323122485045,
+        0.02365226863508106,
+        0.859829989387936
+      ]
+    },
+    {
+      "source_id": "hyg:106972",
+      "name": "Enif",
+      "ra_deg": 326.3755860987744,
+      "dec_deg": 9.999022273038474,
+      "source_ra_deg": 326.04649500000005,
+      "source_dec_deg": 9.875011,
+      "magnitude": 2.38,
+      "altitude_deg": 69.87675801914556,
+      "azimuth_deg": 208.74172871170072,
+      "unit_vector": [
+        0.8200374689412177,
+        -0.5453353977812453,
+        0.1736313723359131
+      ]
+    },
+    {
+      "source_id": "hyg:2076",
+      "name": "Ankaa",
+      "ra_deg": 6.900694277579588,
+      "dec_deg": -42.16044150890236,
+      "source_ra_deg": 6.5708400000000005,
+      "source_dec_deg": -42.305981,
+      "magnitude": 2.4,
+      "altitude_deg": 14.331242488238422,
+      "azimuth_deg": 156.89768378515353,
+      "unit_vector": [
+        0.7358983617719409,
+        0.089062534637359,
+        -0.6712089585705355
+      ]
+    },
+    {
+      "source_id": "hyg:83755",
+      "name": "Sabik",
+      "ra_deg": 257.9793390952114,
+      "dec_deg": -15.755746100105341,
+      "source_ra_deg": 257.59452,
+      "source_dec_deg": -15.72491,
+      "magnitude": 2.43,
+      "altitude_deg": 2.7806700634033525,
+      "azimuth_deg": 250.51697134970817,
+      "unit_vector": [
+        -0.20043949008419248,
+        -0.9413244307300502,
+        -0.27153697156287143
+      ]
+    },
+    {
+      "source_id": "hyg:113521",
+      "name": "Scheat",
+      "ra_deg": 346.26932689887667,
+      "dec_deg": 28.228651119531296,
+      "source_ra_deg": 345.943515,
+      "source_dec_deg": 28.082789,
+      "magnitude": 2.44,
+      "altitude_deg": 80.9796234941224,
+      "azimuth_deg": 85.82707616443936,
+      "unit_vector": [
+        0.8558880736552944,
+        -0.20912851100308588,
+        0.4729914071738108
+      ]
+    },
+    {
+      "source_id": "hyg:104861",
+      "name": "Alderamin",
+      "ra_deg": 319.8038587328523,
+      "dec_deg": 62.6997671071149,
+      "source_ra_deg": 319.64445,
+      "source_dec_deg": 62.585573,
+      "magnitude": 2.45,
+      "altitude_deg": 53.65702695023655,
+      "azimuth_deg": 347.497874632321,
+      "unit_vector": [
+        0.35033740395086393,
+        -0.29601761859725917,
+        0.8886153683529093
+      ]
+    },
+    {
+      "source_id": "hyg:102157",
+      "name": "Aljanah",
+      "ra_deg": 311.82405306481644,
+      "dec_deg": 34.07194917588078,
+      "source_ra_deg": 311.55267000000003,
+      "source_dec_deg": 33.970256,
+      "magnitude": 2.48,
+      "altitude_deg": 68.41586788150292,
+      "azimuth_deg": 292.5066408087114,
+      "unit_vector": [
+        0.5523711647421631,
+        -0.6172718140623825,
+        0.5602335262419789
+      ]
+    },
+    {
+      "source_id": "hyg:113603",
+      "name": "Markab",
+      "ra_deg": 346.52448027597654,
+      "dec_deg": 15.3499400124729,
+      "source_ra_deg": 346.19022,
+      "source_dec_deg": 15.205264,
+      "magnitude": 2.49,
+      "altitude_deg": 74.09335068582774,
+      "azimuth_deg": 140.2174069166003,
+      "unit_vector": [
+        0.9377787208817736,
+        -0.2247170242482535,
+        0.26471367489110587
+      ]
+    },
+    {
+      "source_id": "hyg:14100",
+      "name": "Menkar",
+      "ra_deg": 45.9209305645206,
+      "dec_deg": 4.19326834217647,
+      "source_ra_deg": 45.56988,
+      "source_dec_deg": 4.089734,
+      "magnitude": 2.54,
+      "altitude_deg": 19.718581368840297,
+      "azimuth_deg": 95.86845311311892,
+      "unit_vector": [
+        0.6937882094734134,
+        0.7164574212448912,
+        0.07312102255025842
+      ]
+    },
+    {
+      "source_id": "hyg:93213",
+      "name": "Ascella",
+      "ra_deg": 286.07865267982845,
+      "dec_deg": -29.839288152630242,
+      "source_ra_deg": 285.65297999999996,
+      "source_dec_deg": -29.880105,
+      "magnitude": 2.6,
+      "altitude_deg": 15.048987699981428,
+      "azimuth_deg": 223.45299624741492,
+      "unit_vector": [
+        0.24023898935593965,
+        -0.8334929154522177,
+        -0.49756887752772416
+      ]
+    },
+    {
+      "source_id": "hyg:8884",
+      "name": "Sheratan",
+      "ra_deg": 29.03163694099289,
+      "dec_deg": 20.93791406324372,
+      "source_ra_deg": 28.66002,
+      "source_dec_deg": 20.808035,
+      "magnitude": 2.64,
+      "altitude_deg": 41.61926209552176,
+      "azimuth_deg": 86.00137828928739,
+      "unit_vector": [
+        0.8166168551585208,
+        0.4532477512967305,
+        0.3573561078468712
+      ]
+    },
+    {
+      "source_id": "hyg:6672",
+      "name": "Ruchbah",
+      "ra_deg": 21.897738851227587,
+      "dec_deg": 60.37356476777564,
+      "source_ra_deg": 21.453239999999997,
+      "source_dec_deg": 60.235283,
+      "magnitude": 2.66,
+      "altitude_deg": 45.36451216743578,
+      "azimuth_deg": 30.32174274671194,
+      "unit_vector": [
+        0.4586766179028262,
+        0.18436579182796092,
+        0.8692669411595461
+      ]
+    },
+    {
+      "source_id": "hyg:22961",
+      "name": "Hassaleh",
+      "ra_deg": 74.68586251917701,
+      "dec_deg": 33.205907045886285,
+      "source_ra_deg": 74.24840999999999,
+      "source_dec_deg": 33.16609,
+      "magnitude": 2.69,
+      "altitude_deg": 8.37568557061126,
+      "azimuth_deg": 56.73388490113871,
+      "unit_vector": [
+        0.22098378405633984,
+        0.806998268023695,
+        0.5476494888073005
+      ]
+    },
+    {
+      "source_id": "hyg:89653",
+      "name": "Kaus Media",
+      "ra_deg": 275.6772922404795,
+      "dec_deg": -29.814094829428008,
+      "source_ra_deg": 275.24850000000004,
+      "source_dec_deg": -29.828103,
+      "magnitude": 2.72,
+      "altitude_deg": 8.389177909289087,
+      "azimuth_deg": 229.6706981257682,
+      "unit_vector": [
+        0.08583192725350439,
+        -0.8633872551343243,
+        -0.4971874173142019
+      ]
+    },
+    {
+      "source_id": "hyg:96970",
+      "name": "Tarazed",
+      "ra_deg": 296.8833778077137,
+      "dec_deg": 10.680333834292297,
+      "source_ra_deg": 296.56491000000005,
+      "source_dec_deg": 10.613261,
+      "magnitude": 2.72,
+      "altitude_deg": 49.456210604996365,
+      "azimuth_deg": 252.6901852097616,
+      "unit_vector": [
+        0.4443426836875966,
+        -0.8764773914663757,
+        0.1853293330846525
+      ]
+    },
+    {
+      "source_id": "hyg:80089",
+      "name": "Athebyne",
+      "ra_deg": 246.09007481409193,
+      "dec_deg": 61.45405304599086,
+      "source_ra_deg": 245.99790000000002,
+      "source_dec_deg": 61.514213,
+      "magnitude": 2.73,
+      "altitude_deg": 24.333838160627874,
+      "azimuth_deg": 328.3683830245222,
+      "unit_vector": [
+        -0.19367799503383795,
+        -0.4368549165515642,
+        0.8784341842872456
+      ]
+    },
+    {
+      "source_id": "hyg:86475",
+      "name": "Cebalrai",
+      "ra_deg": 266.199362598149,
+      "dec_deg": 4.558164622297895,
+      "source_ra_deg": 265.868145,
+      "source_dec_deg": 4.567303,
+      "magnitude": 2.76,
+      "altitude_deg": 19.914962841009356,
+      "azimuth_deg": 264.4597410475184,
+      "unit_vector": [
+        -0.06607535258907309,
+        -0.9946448580540769,
+        0.07947108988062937
+      ]
+    },
+    {
+      "source_id": "hyg:80571",
+      "name": "Kornephoros",
+      "ra_deg": 247.84336536683912,
+      "dec_deg": 21.432886431268706,
+      "source_ra_deg": 247.55502,
+      "source_dec_deg": 21.489613,
+      "magnitude": 2.78,
+      "altitude_deg": 11.364849811518166,
+      "azimuth_deg": 288.3781791614612,
+      "unit_vector": [
+        -0.3510592700851018,
+        -0.8621090975930824,
+        0.36541112836715456
+      ]
+    },
+    {
+      "source_id": "hyg:84086",
+      "name": "Rasalgethi",
+      "ra_deg": 258.96773870897124,
+      "dec_deg": 14.361634569673159,
+      "source_ra_deg": 258.661905,
+      "source_dec_deg": 14.390333,
+      "magnitude": 2.78,
+      "altitude_deg": 17.915573694187017,
+      "azimuth_deg": 277.0979039303219,
+      "unit_vector": [
+        -0.18538153116395903,
+        -0.9508465799821963,
+        0.24804126519486025
+      ]
+    },
+    {
+      "source_id": "hyg:85410",
+      "name": "Rastaban",
+      "ra_deg": 262.75998799363646,
+      "dec_deg": 52.28247340205364,
+      "source_ra_deg": 262.608195,
+      "source_dec_deg": 52.301387,
+      "magnitude": 2.79,
+      "altitude_deg": 31.74778388431571,
+      "azimuth_deg": 316.4473405489325,
+      "unit_vector": [
+        -0.07709882856663854,
+        -0.6068913694052529,
+        0.791036431762197
+      ]
+    },
+    {
+      "source_id": "hyg:81444",
+      "name": "",
+      "ra_deg": 250.5746231887116,
+      "dec_deg": 31.555357643515205,
+      "source_ra_deg": 250.32169500000003,
+      "source_dec_deg": 31.602726,
+      "magnitude": 2.81,
+      "altitude_deg": 17.74099165982923,
+      "azimuth_deg": 296.8882790251926,
+      "unit_vector": [
+        -0.2834020685654549,
+        -0.8036275428122804,
+        0.5233221187436258
+      ]
+    },
+    {
+      "source_id": "hyg:90217",
+      "name": "Kaus Borealis",
+      "ra_deg": 277.4060483858889,
+      "dec_deg": -25.404388944163156,
+      "source_ra_deg": 276.992685,
+      "source_dec_deg": -25.4217,
+      "magnitude": 2.82,
+      "altitude_deg": 12.36698724064522,
+      "azimuth_deg": 232.15464787597847,
+      "unit_vector": [
+        0.11643593735007352,
+        -0.8957666873616096,
+        -0.42900432900685076
+      ]
+    },
+    {
+      "source_id": "hyg:1065",
+      "name": "Algenib",
+      "ra_deg": 3.654879331621791,
+      "dec_deg": 15.332461576241913,
+      "source_ra_deg": 3.30897,
+      "source_dec_deg": 15.183596,
+      "magnitude": 2.83,
+      "altitude_deg": 61.50334218532246,
+      "azimuth_deg": 110.48661427041638,
+      "unit_vector": [
+        0.9624462817174756,
+        0.06147754769707422,
+        0.2644194885732883
+      ]
+    },
+    {
+      "source_id": "hyg:18201",
+      "name": "",
+      "ra_deg": 58.95590000880854,
+      "dec_deg": 31.960981450698956,
+      "source_ra_deg": 58.533,
+      "source_dec_deg": 31.883635,
+      "magnitude": 2.84,
+      "altitude_deg": 19.914479835099318,
+      "azimuth_deg": 63.56854820432919,
+      "unit_vector": [
+        0.4375224334082002,
+        0.7268917187939958,
+        0.5293416188183936
+      ]
+    },
+    {
+      "source_id": "hyg:17661",
+      "name": "Alcyone",
+      "ra_deg": 57.270847250368185,
+      "dec_deg": 24.185922255687373,
+      "source_ra_deg": 56.87115,
+      "source_dec_deg": 24.105137,
+      "magnitude": 2.85,
+      "altitude_deg": 18.35891028925755,
+      "azimuth_deg": 71.78481139151853,
+      "unit_vector": [
+        0.4932089837152555,
+        0.7673927943670557,
+        0.4096989108309743
+      ]
+    },
+    {
+      "source_id": "hyg:107213",
+      "name": "Deneb Algedi",
+      "ra_deg": 327.1290447465752,
+      "dec_deg": -16.004436823056626,
+      "source_ra_deg": 326.760165,
+      "source_dec_deg": -16.127286,
+      "magnitude": 2.85,
+      "altitude_deg": 45.20411794839592,
+      "azimuth_deg": 192.20882639949,
+      "unit_vector": [
+        0.8073410645142258,
+        -0.5217120020601176,
+        -0.2757117923764965
+      ]
+    },
+    {
+      "source_id": "hyg:96858",
+      "name": "Fawaris",
+      "ra_deg": 296.45299643306936,
+      "dec_deg": 45.19739120284983,
+      "source_ra_deg": 296.24361,
+      "source_dec_deg": 45.13081,
+      "magnitude": 2.86,
+      "altitude_deg": 54.31475043111177,
+      "azimuth_deg": 309.6548291806349,
+      "unit_vector": [
+        0.31390320505303987,
+        -0.6308880080593237,
+        0.7095386523258393
+      ]
+    },
+    {
+      "source_id": "hyg:109784",
+      "name": "",
+      "ra_deg": 335.0785721378797,
+      "dec_deg": -60.12481153387699,
+      "source_ra_deg": 334.625565,
+      "source_dec_deg": -60.259587,
+      "magnitude": 2.87,
+      "altitude_deg": 1.9209896095978398,
+      "azimuth_deg": 180.4823549966341,
+      "unit_vector": [
+        0.4517313053703787,
+        -0.20989206915021777,
+        -0.8671125342515896
+      ]
+    },
+    {
+      "source_id": "hyg:93846",
+      "name": "Albaldah",
+      "ra_deg": 287.8389409849987,
+      "dec_deg": -20.97867572742048,
+      "source_ra_deg": 287.440965,
+      "source_dec_deg": -21.023615,
+      "magnitude": 2.88,
+      "altitude_deg": 22.449341897505143,
+      "azimuth_deg": 228.87039850316194,
+      "unit_vector": [
+        0.2860360586581308,
+        -0.8888220964450179,
+        -0.35802046592116177
+      ]
+    },
+    {
+      "source_id": "hyg:18485",
+      "name": "",
+      "ra_deg": 59.91523834807914,
+      "dec_deg": 40.08533649247332,
+      "source_ra_deg": 59.46345,
+      "source_dec_deg": 40.010215,
+      "magnitude": 2.9,
+      "altitude_deg": 21.962450436577036,
+      "azimuth_deg": 55.10832900017475,
+      "unit_vector": [
+        0.38352290010621404,
+        0.6620174586056196,
+        0.6439278450226206
+      ]
+    },
+    {
+      "source_id": "hyg:105936",
+      "name": "Sadalsuud",
+      "ra_deg": 323.24195280972856,
+      "dec_deg": -5.451960334371975,
+      "source_ra_deg": 322.88973,
+      "source_dec_deg": -5.571172,
+      "magnitude": 2.9,
+      "altitude_deg": 54.38570307384324,
+      "azimuth_deg": 202.26331154754286,
+      "unit_vector": [
+        0.7975454466289118,
+        -0.5957299270592671,
+        -0.09501112865054272
+      ]
+    },
+    {
+      "source_id": "hyg:14292",
+      "name": "",
+      "ra_deg": 46.68897193755442,
+      "dec_deg": 53.609218683640954,
+      "source_ra_deg": 46.19913,
+      "source_dec_deg": 53.50644,
+      "magnitude": 2.91,
+      "altitude_deg": 33.43699298452192,
+      "azimuth_deg": 42.126315416654684,
+      "unit_vector": [
+        0.40697184129581215,
+        0.43170151979767046,
+        0.8049892658891035
+      ]
+    },
+    {
+      "source_id": "hyg:111804",
+      "name": "Matar",
+      "ra_deg": 341.0655663994795,
+      "dec_deg": 30.362046142464205,
+      "source_ra_deg": 340.75056,
+      "source_dec_deg": 30.221245,
+      "magnitude": 2.93,
+      "altitude_deg": 84.99810528796257,
+      "azimuth_deg": 59.975968445653685,
+      "unit_vector": [
+        0.8161603931308824,
+        -0.27998226526045694,
+        0.5054623070260204
+      ]
+    },
+    {
+      "source_id": "hyg:108728",
+      "name": "Sadalmelik",
+      "ra_deg": 331.78983426549627,
+      "dec_deg": -0.18865702751971872,
+      "source_ra_deg": 331.445985,
+      "source_dec_deg": -0.319851,
+      "magnitude": 2.95,
+      "altitude_deg": 61.56614198855544,
+      "azimuth_deg": 188.96802508519545,
+      "unit_vector": [
+        0.8812148186286243,
+        -0.4727045606777196,
+        -0.0032926803374828404
+      ]
+    },
+    {
+      "source_id": "hyg:88361",
+      "name": "Alnasl",
+      "ra_deg": 271.88254587209786,
+      "dec_deg": -30.4211018989667,
+      "source_ra_deg": 271.452045,
+      "source_dec_deg": -30.424091,
+      "magnitude": 2.98,
+      "altitude_deg": 5.430169499201194,
+      "azimuth_deg": 231.22684236474916,
+      "unit_vector": [
+        0.028328064091006196,
+        -0.8618618155417974,
+        -0.5063513915215921
+      ]
+    },
+    {
+      "source_id": "hyg:93452",
+      "name": "Okab",
+      "ra_deg": 286.66052259101474,
+      "dec_deg": 13.905160457808421,
+      "source_ra_deg": 286.352535,
+      "source_dec_deg": 13.863478,
+      "magnitude": 2.99,
+      "altitude_deg": 42.12997603750015,
+      "azimuth_deg": 263.5051985034952,
+      "unit_vector": [
+        0.27829869790054534,
+        -0.9299453258890025,
+        0.24031547100438216
+      ]
+    },
+    {
+      "source_id": "hyg:10041",
+      "name": "",
+      "ra_deg": 32.78699442999443,
+      "dec_deg": 35.11271969439029,
+      "source_ra_deg": 32.38587,
+      "source_dec_deg": 34.987297,
+      "magnitude": 3.0,
+      "altitude_deg": 41.75086114898279,
+      "azimuth_deg": 66.47235765184007,
+      "unit_vector": [
+        0.687702580812988,
+        0.4429731681861698,
+        0.5751868675571994
+      ]
+    },
+    {
+      "source_id": "hyg:74868",
+      "name": "Pherkad",
+      "ra_deg": 230.17695050417183,
+      "dec_deg": 71.73860001767083,
+      "source_ra_deg": 230.182245,
+      "source_dec_deg": 71.834016,
+      "magnitude": 3.0,
+      "altitude_deg": 21.679485901338577,
+      "azimuth_deg": 341.07361057650473,
+      "unit_vector": [
+        -0.20067697305534932,
+        -0.24066305124943585,
+        0.9496367980700062
+      ]
+    },
+    {
+      "source_id": "hyg:107742",
+      "name": "Aldhanab",
+      "ra_deg": 328.8854980672957,
+      "dec_deg": -37.23747608844531,
+      "source_ra_deg": 328.48212,
+      "source_dec_deg": -37.364852,
+      "magnitude": 3.0,
+      "altitude_deg": 24.466143333129864,
+      "azimuth_deg": 186.25963583628692,
+      "unit_vector": [
+        0.681599481342524,
+        -0.4114024258643002,
+        -0.6051199806869472
+      ]
+    },
+    {
+      "source_id": "hyg:17316",
+      "name": "",
+      "ra_deg": 56.21141409666674,
+      "dec_deg": 47.870733459519435,
+      "source_ra_deg": 55.73124,
+      "source_dec_deg": 47.787551,
+      "magnitude": 3.01,
+      "altitude_deg": 26.668434342813,
+      "azimuth_deg": 47.69989734473333,
+      "unit_vector": [
+        0.37305512086182074,
+        0.5575033067676601,
+        0.7416332919589685
+      ]
+    },
+    {
+      "source_id": "hyg:23361",
+      "name": "Almaaz",
+      "ra_deg": 75.9744974745279,
+      "dec_deg": 43.86005951007394,
+      "source_ra_deg": 75.492225,
+      "source_dec_deg": 43.823308,
+      "magnitude": 3.03,
+      "altitude_deg": 12.412903045096654,
+      "azimuth_deg": 46.65523953685248,
+      "unit_vector": [
+        0.1747453693130935,
+        0.6995387914946721,
+        0.6928993686660453
+      ]
+    },
+    {
+      "source_id": "hyg:95648",
+      "name": "Albireo",
+      "ra_deg": 292.9505963922806,
+      "dec_deg": 28.01749440791249,
+      "source_ra_deg": 292.680345,
+      "source_dec_deg": 27.959681,
+      "magnitude": 3.05,
+      "altitude_deg": 52.14920759396062,
+      "azimuth_deg": 280.59300150853676,
+      "unit_vector": [
+        0.34423826439517313,
+        -0.8129226794359217,
+        0.46974113571723813
+      ]
+    },
+    {
+      "source_id": "hyg:100020",
+      "name": "Dabih",
+      "ra_deg": 305.6285552090752,
+      "dec_deg": -14.694745923935116,
+      "source_ra_deg": 305.25280499999997,
+      "source_dec_deg": -14.781367,
+      "magnitude": 3.05,
+      "altitude_deg": 38.16657736753896,
+      "azimuth_deg": 218.52889572035184,
+      "unit_vector": [
+        0.5634742310709526,
+        -0.7862243353406024,
+        -0.2536692441689109
+      ]
+    },
+    {
+      "source_id": "hyg:94081",
+      "name": "Altais",
+      "ra_deg": 288.13816267312654,
+      "dec_deg": 67.70867898831543,
+      "source_ra_deg": 288.138375,
+      "source_dec_deg": 67.661541,
+      "magnitude": 3.07,
+      "altitude_deg": 41.16926737679358,
+      "azimuth_deg": 338.04201618256275,
+      "unit_vector": [
+        0.11808466338432543,
+        -0.3604672601416499,
+        0.9252671866219956
+      ]
+    },
+    {
+      "source_id": "hyg:89364",
+      "name": "",
+      "ra_deg": 274.86017359764224,
+      "dec_deg": -36.750874980392155,
+      "source_ra_deg": 274.406895,
+      "source_dec_deg": -36.761686,
+      "magnitude": 3.1,
+      "altitude_deg": 3.47875361393558,
+      "azimuth_deg": 224.69554526436605,
+      "unit_vector": [
+        0.06788492718306632,
+        -0.798363743248692,
+        -0.5983368366792127
+      ]
+    },
+    {
+      "source_id": "hyg:101445",
+      "name": "",
+      "ra_deg": 309.85997143390546,
+      "dec_deg": -47.195852502400854,
+      "source_ra_deg": 309.39173999999997,
+      "source_dec_deg": -47.291502,
+      "magnitude": 3.11,
+      "altitude_deg": 11.229707854220283,
+      "azimuth_deg": 197.8008641177459,
+      "unit_vector": [
+        0.4354971509484521,
+        -0.5215888150632468,
+        -0.7336806795307473
+      ]
+    },
+    {
+      "source_id": "hyg:84121",
+      "name": "Sarin",
+      "ra_deg": 259.0334689412159,
+      "dec_deg": 24.809294213698287,
+      "source_ra_deg": 258.75796499999996,
+      "source_dec_deg": 24.839204,
+      "magnitude": 3.12,
+      "altitude_deg": 22.13966259370055,
+      "azimuth_deg": 287.27362450826155,
+      "unit_vector": [
+        -0.17267860357308165,
+        -0.8911332676386384,
+        0.41959933171506997
+      ]
+    },
+    {
+      "source_id": "hyg:84122",
+      "name": "",
+      "ra_deg": 258.99546611986875,
+      "dec_deg": 36.780402424207786,
+      "source_ra_deg": 258.76182,
+      "source_dec_deg": 36.809162,
+      "magnitude": 3.16,
+      "altitude_deg": 26.05167639189983,
+      "azimuth_deg": 299.6753871945458,
+      "unit_vector": [
+        -0.15288804869774153,
+        -0.7862086655676687,
+        0.5987496795420462
+      ]
+    },
+    {
+      "source_id": "hyg:83638",
+      "name": "Aldhibah",
+      "ra_deg": 257.2175266378697,
+      "dec_deg": 65.68178744947714,
+      "source_ra_deg": 257.19671999999997,
+      "source_dec_deg": 65.714683,
+      "magnitude": 3.17,
+      "altitude_deg": 29.841266219831116,
+      "azimuth_deg": 332.2407319972629,
+      "unit_vector": [
+        -0.091111723724083,
+        -0.4015983378650692,
+        0.9112724229471888
+      ]
+    },
+    {
+      "source_id": "hyg:91754",
+      "name": "",
+      "ra_deg": 281.8323140991175,
+      "dec_deg": -26.96071360814908,
+      "source_ra_deg": 281.4141,
+      "source_dec_deg": -26.990778,
+      "magnitude": 3.17,
+      "altitude_deg": 14.35351279390749,
+      "azimuth_deg": 228.27442787540676,
+      "unit_vector": [
+        0.182762970975532,
+        -0.8723787997880278,
+        -0.4533794504833638
+      ]
+    },
+    {
+      "source_id": "hyg:23712",
+      "name": "Haedus",
+      "ra_deg": 77.09983170361966,
+      "dec_deg": 41.267871928923284,
+      "source_ra_deg": 76.6287,
+      "source_dec_deg": 41.234474,
+      "magnitude": 3.18,
+      "altitude_deg": 10.477854269898245,
+      "azimuth_deg": 48.607692773519595,
+      "unit_vector": [
+        0.16780455323744928,
+        0.7326632650084276,
+        0.659580299902878
+      ]
+    },
+    {
+      "source_id": "hyg:82745",
+      "name": "",
+      "ra_deg": 254.73458042371357,
+      "dec_deg": 9.33527569864818,
+      "source_ra_deg": 254.417085,
+      "source_dec_deg": 9.375033,
+      "magnitude": 3.19,
+      "altitude_deg": 11.987534567701934,
+      "azimuth_deg": 274.3048239218645,
+      "unit_vector": [
+        -0.2598038356061418,
+        -0.9519398283824501,
+        0.16221137488945828
+      ]
+    },
+    {
+      "source_id": "hyg:104394",
+      "name": "",
+      "ra_deg": 318.51969487331746,
+      "dec_deg": 30.33794224249938,
+      "source_ra_deg": 318.234105,
+      "source_dec_deg": 30.226916,
+      "magnitude": 3.21,
+      "altitude_deg": 74.52337935645858,
+      "azimuth_deg": 283.08977130511255,
+      "unit_vector": [
+        0.6465912046043295,
+        -0.5716594643506494,
+        0.5050992684083503
+      ]
+    },
+    {
+      "source_id": "hyg:116361",
+      "name": "Errai",
+      "ra_deg": 355.11905444401964,
+      "dec_deg": 77.78185223583051,
+      "source_ra_deg": 354.83729999999997,
+      "source_dec_deg": 77.632276,
+      "magnitude": 3.21,
+      "altitude_deg": 39.40355892228496,
+      "azimuth_deg": 5.134759330213585,
+      "unit_vector": [
+        0.21086691002451607,
+        -0.018007031297121404,
+        0.977348910615128
+      ]
+    },
+    {
+      "source_id": "hyg:89684",
+      "name": "",
+      "ra_deg": 275.67434001341036,
+      "dec_deg": -2.8897440082333032,
+      "source_ra_deg": 275.32750500000003,
+      "source_dec_deg": -2.898825,
+      "magnitude": 3.23,
+      "altitude_deg": 24.362841479673744,
+      "azimuth_deg": 252.36643705513052,
+      "unit_vector": [
+        0.09874837434529649,
+        -0.9938345789221705,
+        -0.05041416767886982
+      ]
+    },
+    {
+      "source_id": "hyg:105691",
+      "name": "Alfirk",
+      "ra_deg": 322.248689265737,
+      "dec_deg": 70.67868538066817,
+      "source_ra_deg": 322.16492999999997,
+      "source_dec_deg": 70.560716,
+      "magnitude": 3.23,
+      "altitude_deg": 46.56445116208475,
+      "azimuth_deg": 353.409552708533,
+      "unit_vector": [
+        0.26160724621185905,
+        -0.2025675449864202,
+        0.9436779315251694
+      ]
+    },
+    {
+      "source_id": "hyg:99156",
+      "name": "",
+      "ra_deg": 303.17156572173616,
+      "dec_deg": -0.7401566804119512,
+      "source_ra_deg": 302.826195,
+      "source_dec_deg": -0.821461,
+      "magnitude": 3.24,
+      "altitude_deg": 47.37263702377473,
+      "azimuth_deg": 233.26834070780126,
+      "unit_vector": [
+        0.5471022404180597,
+        -0.8369661096297986,
+        -0.01291781176126466
+      ]
+    },
+    {
+      "source_id": "hyg:92902",
+      "name": "Sulafat",
+      "ra_deg": 284.9866886999453,
+      "dec_deg": 32.727837594412705,
+      "source_ra_deg": 284.735925,
+      "source_dec_deg": 32.689557,
+      "magnitude": 3.25,
+      "altitude_deg": 46.09286997333052,
+      "azimuth_deg": 289.34834703574336,
+      "unit_vector": [
+        0.21754226639515312,
+        -0.812633927989786,
+        0.5406491111724424
+      ]
+    },
+    {
+      "source_id": "hyg:3086",
+      "name": "",
+      "ra_deg": 10.191877763420601,
+      "dec_deg": 31.007335752394358,
+      "source_ra_deg": 9.83193,
+      "source_dec_deg": 30.861024,
+      "magnitude": 3.27,
+      "altitude_deg": 60.234087967262155,
+      "azimuth_deg": 75.70563282589572,
+      "unit_vector": [
+        0.8435768937775134,
+        0.151659986566374,
+        0.5151478164171612
+      ]
+    },
+    {
+      "source_id": "hyg:84711",
+      "name": "",
+      "ra_deg": 260.914431815626,
+      "dec_deg": -25.02381115444285,
+      "source_ra_deg": 260.502405,
+      "source_dec_deg": -24.999545,
+      "magnitude": 3.27,
+      "altitude_deg": 0.40816446767509984,
+      "azimuth_deg": 241.14176368173213,
+      "unit_vector": [
+        -0.14308672690762012,
+        -0.8947633918339062,
+        -0.4229948713835049
+      ]
+    },
+    {
+      "source_id": "hyg:112776",
+      "name": "Skat",
+      "ra_deg": 344.0173263936797,
+      "dec_deg": -15.677697766336399,
+      "source_ra_deg": 343.662555,
+      "source_dec_deg": -15.82082,
+      "magnitude": 3.27,
+      "altitude_deg": 45.69356527978853,
+      "azimuth_deg": 168.98062112489362,
+      "unit_vector": [
+        0.9255800910653307,
+        -0.26510293465915974,
+        -0.27022570021853093
+      ]
+    },
+    {
+      "source_id": "hyg:75229",
+      "name": "Edasich",
+      "ra_deg": 231.38249442272397,
+      "dec_deg": 58.87292096219834,
+      "source_ra_deg": 231.23241000000002,
+      "source_dec_deg": 58.966065,
+      "magnitude": 3.29,
+      "altitude_deg": 16.596454243638814,
+      "azimuth_deg": 328.54427093024475,
+      "unit_vector": [
+        -0.3226304635224621,
+        -0.40389904328652676,
+        0.8560228658391724
+      ]
+    },
+    {
+      "source_id": "hyg:5154",
+      "name": "",
+      "ra_deg": 16.818412290523746,
+      "dec_deg": -46.57524646896063,
+      "source_ra_deg": 16.521105,
+      "source_dec_deg": -46.718414,
+      "magnitude": 3.32,
+      "altitude_deg": 6.859829384287778,
+      "azimuth_deg": 153.11864608943594,
+      "unit_vector": [
+        0.6579988331166129,
+        0.19889230871641245,
+        -0.7262777603304614
+      ]
+    },
+    {
+      "source_id": "hyg:14318",
+      "name": "",
+      "ra_deg": 46.72599664430689,
+      "dec_deg": 38.94216443108747,
+      "source_ra_deg": 46.29405,
+      "source_dec_deg": 38.840274,
+      "magnitude": 3.32,
+      "altitude_deg": 31.460695921667195,
+      "azimuth_deg": 59.36926766036069,
+      "unit_vector": [
+        0.5331594712393382,
+        0.5662896555188975,
+        0.6285356030330164
+      ]
+    },
+    {
+      "source_id": "hyg:87775",
+      "name": "",
+      "ra_deg": 270.1256518869046,
+      "dec_deg": -9.774649858054362,
+      "source_ra_deg": 269.75662500000004,
+      "source_dec_deg": -9.773632,
+      "magnitude": 3.32,
+      "altitude_deg": 15.99780773604314,
+      "azimuth_deg": 249.38653235065811,
+      "unit_vector": [
+        0.00216120129778167,
+        -0.9854807403075249,
+        -0.16977349525730834
+      ]
+    },
+    {
+      "source_id": "hyg:93569",
+      "name": "",
+      "ra_deg": 287.1527999362621,
+      "dec_deg": -27.628805562079386,
+      "source_ra_deg": 286.73505,
+      "source_dec_deg": -27.670423,
+      "magnitude": 3.32,
+      "altitude_deg": 17.288474394466622,
+      "azimuth_deg": 224.35946717175813,
+      "unit_vector": [
+        0.2612913142858153,
+        -0.8465640285361085,
+        -0.46374151708414746
+      ]
+    },
+    {
+      "source_id": "hyg:8867",
+      "name": "Segin",
+      "ra_deg": 29.088562756369843,
+      "dec_deg": 63.80065408124824,
+      "source_ra_deg": 28.598760000000002,
+      "source_dec_deg": 63.670101,
+      "magnitude": 3.35,
+      "altitude_deg": 40.92213780181783,
+      "azimuth_deg": 27.833215317809568,
+      "unit_vector": [
+        0.3858094536001897,
+        0.21463792527174486,
+        0.897263409789881
+      ]
+    },
+    {
+      "source_id": "hyg:41586",
+      "name": "Muscida",
+      "ra_deg": 128.11754482773543,
+      "dec_deg": 60.625835344018874,
+      "source_ra_deg": 127.56646500000001,
+      "source_dec_deg": 60.718169,
+      "magnitude": 3.35,
+      "altitude_deg": 1.4682248236720674,
+      "azimuth_deg": 13.286392929216133,
+      "unit_vector": [
+        -0.3027809845481478,
+        0.3859074788539893,
+        0.8714350768477317
+      ]
+    },
+    {
+      "source_id": "hyg:95207",
+      "name": "",
+      "ra_deg": 291.7122480651656,
+      "dec_deg": 3.170165853542377,
+      "source_ra_deg": 291.37458,
+      "source_dec_deg": 3.114775,
+      "magnitude": 3.36,
+      "altitude_deg": 41.0558202114589,
+      "azimuth_deg": 247.71997782043138,
+      "unit_vector": [
+        0.3693792394922537,
+        -0.9276317749448354,
+        0.055301605264390874
+      ]
+    },
+    {
+      "source_id": "hyg:109146",
+      "name": "",
+      "ra_deg": 332.9470376153232,
+      "dec_deg": 58.33403369769356,
+      "source_ra_deg": 332.71362,
+      "source_dec_deg": 58.201261,
+      "magnitude": 3.39,
+      "altitude_deg": 59.5398128028759,
+      "azimuth_deg": 356.7902820495165,
+      "unit_vector": [
+        0.46752778415719043,
+        -0.23876192649314373,
+        0.8511230895107654
+      ]
+    }
+  ],
+  "geometric_horizon_deg": -0.0,
+  "quality_mask": {
+    "source_positions": "confirmed_factual",
+    "astrometry": "approximate_inference",
+    "weather": "incomplete",
+    "fictional_overlay": "separate"
+  },
+  "method": "HYG proper-motion geodesic + IAU1976 precession + IAU1982 GMST; UTC approximates UT1",
+  "uncertainty": "Game-scale mean positions, not precision apparent astrometry; refraction/nutation/aberration/parallax omitted.",
+  "weather_mask": "unknown; visibility is geometric only",
+  "fictional_overlay": null
+}

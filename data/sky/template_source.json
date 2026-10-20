@@ -1,0 +1,12 @@
+{
+  "template_source": "Stellarium modern skyculture",
+  "template_source_sha256": "1f2f5ffd6c9e25a7d0dcfdbf1f756e2db03dd3b8ed4ec016a2839b09f6b0fe1e",
+  "revision": "daace2add6a1bf886e8ee1934f51e9c69f818d18",
+  "source_url": "https://raw.githubusercontent.com/Stellarium/stellarium/daace2add6a1bf886e8ee1934f51e9c69f818d18/skycultures/modern/index.json",
+  "retrieved_at": "2026-10-20T21:49:55.190041+00:00",
+  "terms": "Text and data: CC BY-SA 4.0",
+  "authors": "Stellarium's team",
+  "lookup_policy": "Benchmark loaded only after raw-position mining, freeze hash, and heldout calibration.",
+  "terms_evidence": "STELLARIUM_DESCRIPTION.md ## License",
+  "terms_evidence_sha256": "4b58344f63168d7c816fdfef405103b5770fda2e1f4a4bf5c8871041ce042586"
+}

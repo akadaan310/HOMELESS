@@ -1,0 +1,234 @@
+{
+  "environment": {
+    "machine": "x86_64",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "cpu_count": 5,
+    "max_rss_kib": 705836
+  },
+  "tts": {
+    "clips": 23,
+    "voices": 4,
+    "encoded_bytes": 251549,
+    "duration_ms": 41047.328,
+    "synthesis_p50_ms": 1138.4758629992575,
+    "synthesis_p95_ms": 2388.2809720016667,
+    "real_time_factor_p50": 0.6022436702885103,
+    "model_loads": [
+      {
+        "model": "en_US-libritts_r-medium",
+        "cold_load_ms": 11512.52726599887
+      }
+    ],
+    "cache_repeat_elapsed_ms": 1315.56172800083,
+    "cache_reused_clips": 23,
+    "cache_hit_fraction": 1.0
+  },
+  "asr": [
+    {
+      "fixture": "data/voice/asr/sherpa-onnx-moonshine-tiny-en-int8/test_wavs/0.wav",
+      "fixture_sha256": "6bc58a4efdf20daac252b6b1502632601a71efe0308f6757dc1eda34891a7e4f",
+      "kind": "bundled-read-speech",
+      "reference_text": "AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS",
+      "locale": "en-US",
+      "engine": "moonshine",
+      "observed": {
+        "status": "transcribed",
+        "text": "After early nightfall, the yellow lamps would light up here and there the squalid quarter of the brothels.",
+        "confidence": null,
+        "confidence_source": "backend exposes no calibrated confidence; never fabricated",
+        "locale": "en-US",
+        "engine": "sherpa-onnx/moonshine",
+        "duration_ms": 6625.0,
+        "elapsed_ms": 10997.92937699931,
+        "model_load_ms": 8636.252669999521,
+        "real_time_factor": 1.6600648116225372,
+        "signal_rms_dbfs": -26.541198904942753,
+        "intent": {
+          "status": "clarify",
+          "intent": null,
+          "text": "After early nightfall, the yellow lamps would light up here and there the squalid quarter of the brothels.",
+          "reason": "ambiguous-or-outside-utterance-grammar",
+          "effects": []
+        },
+        "retained_audio": false,
+        "retained_transcript": false
+      },
+      "word_error_rate": 0.0,
+      "status": "executed"
+    },
+    {
+      "fixture": "artifacts/voice/40d0441f4773d8120c1be2af66a7cad31d69ffab8099e3bdcee0f4e475f717aa.wav",
+      "fixture_sha256": "cf2b9bf0b34b13440dff6c2e986c4d397fbb9af2eb04134366ed66280e12202c",
+      "kind": "synthesized-NPC-clean",
+      "reference_text": "Hello. We were just talking about the sign.",
+      "locale": "en-US",
+      "engine": "moonshine",
+      "observed": {
+        "status": "transcribed",
+        "text": "Hello, we were just talking about the sign.",
+        "confidence": null,
+        "confidence_source": "backend exposes no calibrated confidence; never fabricated",
+        "locale": "en-US",
+        "engine": "sherpa-onnx/moonshine",
+        "duration_ms": 1822.8125,
+        "elapsed_ms": 892.8336749995651,
+        "model_load_ms": 0.17889599985210225,
+        "real_time_factor": 0.4898110337731199,
+        "signal_rms_dbfs": -14.933822595139253,
+        "intent": {
+          "status": "recognized",
+          "intent": "greet",
+          "text": "Hello, we were just talking about the sign.",
+          "effects": [],
+          "authorization": "intent proposal only; world authority validates before effect"
+        },
+        "retained_audio": false,
+        "retained_transcript": false
+      },
+      "word_error_rate": 0.0,
+      "status": "executed"
+    },
+    {
+      "fixture": "data/voice/asr/sherpa-onnx-moonshine-tiny-en-int8/test_wavs/0.wav",
+      "fixture_sha256": "6bc58a4efdf20daac252b6b1502632601a71efe0308f6757dc1eda34891a7e4f",
+      "kind": "bundled-read-speech",
+      "reference_text": "AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS",
+      "locale": "en-US",
+      "engine": "whisper",
+      "observed": {
+        "status": "transcribed",
+        "text": "After early nightfall, the yellow lamps would light up here and there the squalid quarter of the brothels.",
+        "confidence": null,
+        "confidence_source": "backend exposes no calibrated confidence; never fabricated",
+        "locale": "en-US",
+        "engine": "sherpa-onnx/whisper",
+        "duration_ms": 6625.0,
+        "elapsed_ms": 28248.9600480003,
+        "model_load_ms": 3407.645302999299,
+        "real_time_factor": 4.263993969509479,
+        "signal_rms_dbfs": -26.541198904942753,
+        "intent": {
+          "status": "clarify",
+          "intent": null,
+          "text": "After early nightfall, the yellow lamps would light up here and there the squalid quarter of the brothels.",
+          "reason": "ambiguous-or-outside-utterance-grammar",
+          "effects": []
+        },
+        "retained_audio": false,
+        "retained_transcript": false
+      },
+      "word_error_rate": 0.0,
+      "status": "executed"
+    },
+    {
+      "fixture": "artifacts/voice/40d0441f4773d8120c1be2af66a7cad31d69ffab8099e3bdcee0f4e475f717aa.wav",
+      "fixture_sha256": "cf2b9bf0b34b13440dff6c2e986c4d397fbb9af2eb04134366ed66280e12202c",
+      "kind": "synthesized-NPC-clean",
+      "reference_text": "Hello. We were just talking about the sign.",
+      "locale": "en-US",
+      "engine": "whisper",
+      "observed": {
+        "status": "transcribed",
+        "text": "Hello, we were just talking about the sign.",
+        "confidence": null,
+        "confidence_source": "backend exposes no calibrated confidence; never fabricated",
+        "locale": "en-US",
+        "engine": "sherpa-onnx/whisper",
+        "duration_ms": 1822.8125,
+        "elapsed_ms": 3223.9759269996284,
+        "model_load_ms": 0.15719400107627735,
+        "real_time_factor": 1.768682147505368,
+        "signal_rms_dbfs": -14.933822595139253,
+        "intent": {
+          "status": "recognized",
+          "intent": "greet",
+          "text": "Hello, we were just talking about the sign.",
+          "effects": [],
+          "authorization": "intent proposal only; world authority validates before effect"
+        },
+        "retained_audio": false,
+        "retained_transcript": false
+      },
+      "word_error_rate": 0.0,
+      "status": "executed"
+    },
+    {
+      "fixture": "artifacts/voice/2612dc252317dacb7ff63c94445257c762374e72e065d35f35a4f63076f5f485.wav",
+      "fixture_sha256": "9bf09a63a00f0773c9c0449633ca735e4d261160efdfd8091c97ef30aadc610e",
+      "kind": "synthesized-Arabic-Jordanian",
+      "reference_text": "مَرْحَبًا. مَسَاءُ الْخَيْرِ.",
+      "locale": "ar-JO",
+      "engine": "whisper",
+      "observed": {
+        "status": "transcribed",
+        "text": "مرحرون مساء الخير",
+        "confidence": null,
+        "confidence_source": "backend exposes no calibrated confidence; never fabricated",
+        "locale": "ar-JO",
+        "engine": "sherpa-onnx/whisper",
+        "duration_ms": 2016.0,
+        "elapsed_ms": 21990.59678500089,
+        "model_load_ms": 12526.297211999918,
+        "real_time_factor": 10.908034119544093,
+        "signal_rms_dbfs": -15.93527098338904,
+        "intent": {
+          "status": "clarify",
+          "intent": null,
+          "text": "مرحرون مساء الخير",
+          "reason": "ambiguous-or-outside-utterance-grammar",
+          "effects": []
+        },
+        "retained_audio": false,
+        "retained_transcript": false
+      },
+      "word_error_rate": 0.3333333333333333,
+      "status": "executed"
+    },
+    {
+      "fixture": "artifacts/voice/asr_noisy_10db.wav",
+      "fixture_sha256": "13efa85dbfb2364b16eb71c5755f59ace0df45f8e2c168b28a20414572e9e9e7",
+      "kind": "synthesized-NPC-10dB-white-noise",
+      "reference_text": "Hello. We were just talking about the sign.",
+      "locale": "en-US",
+      "engine": "moonshine",
+      "observed": {
+        "status": "transcribed",
+        "text": "Hello, you were just talking about the sign.",
+        "confidence": null,
+        "confidence_source": "backend exposes no calibrated confidence; never fabricated",
+        "locale": "en-US",
+        "engine": "sherpa-onnx/moonshine",
+        "duration_ms": 1822.8125,
+        "elapsed_ms": 1216.7085410001164,
+        "model_load_ms": 0.10285200005455408,
+        "real_time_factor": 0.6674896847591929,
+        "signal_rms_dbfs": -14.635352335667854,
+        "intent": {
+          "status": "recognized",
+          "intent": "greet",
+          "text": "Hello, you were just talking about the sign.",
+          "effects": [],
+          "authorization": "intent proposal only; world authority validates before effect"
+        },
+        "retained_audio": false,
+        "retained_transcript": false
+      },
+      "word_error_rate": 0.125,
+      "status": "executed"
+    }
+  ],
+  "elapsed_s": 68.41845354799989,
+  "blockers": {
+    "Oracle2vCPU_ARM64": "not connected; no resource/service-health or concurrency1vs2 claims",
+    "physical_microphone": "no physical microphone/Samsung hardware in container",
+    "Arabic_human_accuracy": "only synthesized Arabic candidate tested; dialect/noise/native-speaker corpus untested",
+    "human_audition": "no human listening scores captured",
+    "latency_target": "device cached-onset p95<250ms must be tested by client audio traces"
+  },
+  "limitations": [
+    "small scripted sample set; no population-level ASR accuracy conclusion",
+    "backend has no calibrated confidence; confidence null is explicit",
+    "cold model load included in elapsed times; warm and cold distinguished by model_load_ms",
+    "white-noise stress fixture is synthetic and not a validated live traffic recording"
+  ]
+}

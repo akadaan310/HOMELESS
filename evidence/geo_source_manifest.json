@@ -1,0 +1,141 @@
+{
+  "gaps": [
+    "No Overture adapter/download yet",
+    "No global route coverage beyond the three acquired OSM windows",
+    "No surveyed lane or sidewalk widths; mapped tags and centerlines only",
+    "No FAA airways, flight traces, navigable maritime/AIS lanes",
+    "No WorldPop/GHSL population grid",
+    "No weather outside pinned Tampa model snapshot",
+    "No terrain, photogrammetry or building interiors"
+  ],
+  "sources": [
+    {
+      "attribution": "\u00a9 OpenStreetMap contributors",
+      "bbox": [
+        -82.516,
+        27.952,
+        -82.498,
+        27.967
+      ],
+      "building_footprints": 1298,
+      "highway_ways": 1867,
+      "id": "osm:tampa",
+      "license": "ODbL 1.0",
+      "node_count": 17280,
+      "normalized_path": "data/geo/tampa.json",
+      "normalized_sha256": "8492aaeb7900a5653c2d7c5b7964c32100b9c81ae787b916913601f6ce8a2fe5",
+      "path": "data/geo/raw/tampa.osm",
+      "release": "OSM API 0.6 live snapshot; per-object versions/timestamps preserved",
+      "retrieval_time_precision": "HTTP response Date; preserved raw/*.headers",
+      "retrieved_utc": "2026-10-20T19:27:51Z",
+      "sha256": "4d66584a9cc11492440f3b61834b5ad5e08a814c9face1dcefe69ec2829f1b91",
+      "source_url": "https://www.openstreetmap.org/api/0.6/map?bbox=-82.516,27.952,-82.498,27.967",
+      "terms_url": "https://www.openstreetmap.org/copyright",
+      "water_geometries": 32
+    },
+    {
+      "attribution": "\u00a9 OpenStreetMap contributors",
+      "bbox": [
+        -118.461,
+        33.978,
+        -118.449,
+        33.986
+      ],
+      "building_footprints": 232,
+      "highway_ways": 385,
+      "id": "osm:marina",
+      "license": "ODbL 1.0",
+      "node_count": 9463,
+      "normalized_path": "data/geo/marina.json",
+      "normalized_sha256": "8d1944bdd2b5016b90fba22c0835f18e03c8bf7555c6e86697101012d91bb6a4",
+      "path": "data/geo/raw/marina.osm",
+      "release": "OSM API 0.6 live snapshot; per-object versions/timestamps preserved",
+      "retrieval_time_precision": "HTTP response Date; preserved raw/*.headers",
+      "retrieved_utc": "2026-10-20T19:28:07Z",
+      "sha256": "53b54b63c6d88a4c3785b5ec69e0fa721e44ad55ac73ce09c58616cdc597bd3b",
+      "source_url": "https://www.openstreetmap.org/api/0.6/map?bbox=-118.461,33.978,-118.449,33.986",
+      "terms_url": "https://www.openstreetmap.org/copyright",
+      "water_geometries": 1
+    },
+    {
+      "attribution": "\u00a9 OpenStreetMap contributors",
+      "bbox": [
+        -0.131,
+        51.505,
+        -0.123,
+        51.511
+      ],
+      "building_footprints": 362,
+      "highway_ways": 1031,
+      "id": "osm:london",
+      "license": "ODbL 1.0",
+      "node_count": 10816,
+      "normalized_path": "data/geo/london.json",
+      "normalized_sha256": "1e7bf4faae0d2609fab2f4b1d6f06308d0914082eda4ac07f1eee0291c81e782",
+      "path": "data/geo/raw/london.osm",
+      "release": "OSM API 0.6 live snapshot; per-object versions/timestamps preserved",
+      "retrieval_time_precision": "HTTP response Date; preserved raw/*.headers",
+      "retrieved_utc": "2026-10-20T19:28:07Z",
+      "sha256": "1a2b8a5e1dc3d6ee96ded224f7161f0b4c7719d017a286ed60392470c0485baf",
+      "source_url": "https://www.openstreetmap.org/api/0.6/map?bbox=-0.131,51.505,-0.123,51.511",
+      "terms_url": "https://www.openstreetmap.org/copyright",
+      "water_geometries": 1
+    },
+    {
+      "acquisition": "unaltered masterpack input; remote revision not verified",
+      "id": "airports",
+      "license": "public domain",
+      "path": "data/geo/raw/airports.geojson",
+      "release": "Natural Earth 10m; imported release unknown",
+      "retrieved_utc": null,
+      "sha256": "28892a892f670f1cf654c62253c6169fdc2504b92c956addb4ac8224f50cebe0",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_airports.geojson",
+      "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    {
+      "acquisition": "unaltered masterpack input; remote revision not verified",
+      "id": "ports",
+      "license": "public domain",
+      "path": "data/geo/raw/ports.geojson",
+      "release": "Natural Earth 10m; imported release unknown",
+      "retrieved_utc": null,
+      "sha256": "c5a5028f5187a5e1b9fe7f0fab99804a8be7482099a2365d404fb7e9dd6b5457",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_ports.geojson",
+      "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    {
+      "acquisition": "unaltered masterpack input; remote revision not verified",
+      "id": "places",
+      "license": "public domain",
+      "path": "data/geo/raw/places.geojson",
+      "release": "Natural Earth 10m; imported release unknown",
+      "retrieved_utc": null,
+      "sha256": "fd3fa867a320cbd5c5b6bb5bc550afeec2939fb2cef688e508007282a55ac42f",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places_simple.geojson",
+      "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    {
+      "acquisition": "unaltered masterpack input; remote revision not verified",
+      "id": "wb_population",
+      "license": "CC BY 4.0 (World Bank data)",
+      "path": "data/geo/raw/wb_population.csv",
+      "release": "World Bank SP.POP.TOTL; years in rows; imported snapshot",
+      "retrieved_utc": null,
+      "sha256": "2c697c3e668c8cb06ee467cd0d475b37b52844fdc48cb7725b79b58f18bf0b02",
+      "source_url": "https://raw.githubusercontent.com/datasets/population/master/data/population.csv",
+      "terms_url": "https://data.worldbank.org/summary-terms-of-use"
+    },
+    {
+      "attribution": "Weather data by Open-Meteo.com",
+      "id": "weather:tampa",
+      "license": "CC BY 4.0",
+      "path": "data/geo/raw/weather_tampa.json",
+      "release": "model estimate 2026-10-20T19:15 UTC; 900s interval",
+      "retrieved_utc": "2026-10-20T19:27:57Z",
+      "sha256": "f40c31b8af0d405684db4ce4ad84540e30ab120d3c17d01091a10ce8d924005e",
+      "source_url": "https://api.open-meteo.com/v1/forecast?latitude=27.9586&longitude=-82.505&current=temperature_2m,relative_humidity_2m,precipitation,cloud_cover,wind_speed_10m,weather_code&timezone=UTC",
+      "terms_url": "https://open-meteo.com/en/terms"
+    }
+  ],
+  "version": 1
+}

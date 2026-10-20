@@ -1,0 +1,36 @@
+{
+  "version": "worldloom-native-1",
+  "commands": [
+    [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-fno-fast-math",
+      "-Wall",
+      "-Wextra",
+      "-shared",
+      "-fPIC",
+      "-DWORLDLOOM_LIBRARY",
+      "/workspace/HOMELESS/native/worldloom_math.cpp",
+      "-o",
+      "/workspace/HOMELESS/artifacts/native/libworldloom_math.so"
+    ],
+    [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-fno-fast-math",
+      "-Wall",
+      "-Wextra",
+      "/workspace/HOMELESS/native/worldloom_math.cpp",
+      "-o",
+      "/workspace/HOMELESS/artifacts/native/worldloom-math"
+    ]
+  ],
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "source_hash": "df8074ec3cf4d9af88a8cb41c524cf5cf3e2a642b75690c94782f4967b718b28",
+  "outputs": {
+    "artifacts/native/libworldloom_math.so": "5dc6d6ba2c2f03e1c9813b6051df36952c6fda45744fa5221be97adf63703811",
+    "artifacts/native/worldloom-math": "6e382163ab4d7d513d39d487b7f5813a4cbbc54538b746723c060d603d9b054e"
+  }
+}

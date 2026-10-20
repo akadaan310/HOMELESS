@@ -1,7 +1,9 @@
+test_invalid_operation_returns_typed_error (test_world_session.Session.test_invalid_operation_returns_typed_error) ... ok
 test_player_effect_persists_without_founder_impersonation (test_world_session.Session.test_player_effect_persists_without_founder_impersonation) ... ok
 test_read_and_prepare_do_not_commit (test_world_session.Session.test_read_and_prepare_do_not_commit) ... ok
+test_shell_query_sees_current_frozen_world_without_deadlock (test_world_session.Session.test_shell_query_sees_current_frozen_world_without_deadlock) ... ok
 
 ----------------------------------------------------------------------
-Ran 2 tests in 0.008s
+Ran 4 tests in 0.914s
 
 OK

@@ -7,7 +7,7 @@ name = "worldloom-homeless"
 version = "0.1.0"
 description = "Independent grammar, world, protocol and media engine for HOMELESS"
 requires-python = ">=3.11"
-dependencies = ["cbor2==6.1.5", "quickjs==1.19.4", "wasmtime==49.0.0", "numpy==2.3.5"]
+dependencies = ["cbor2==6.1.5", "quickjs==1.19.4", "wasmtime==49.0.0", "numpy==2.3.5", "geographiclib==2.1"]
 
 [project.scripts]
 darkctl = "worldloom.cli:main"

@@ -1,0 +1,18 @@
+test_actor_decisions_have_solver_witness_and_schedules (test_society.WorldTests.test_actor_decisions_have_solver_witness_and_schedules) ... ok
+test_actual_realms_counterfactual_adapter (test_society.WorldTests.test_actual_realms_counterfactual_adapter) ... ok
+test_distinct_knowledge_and_social_outcomes (test_society.WorldTests.test_distinct_knowledge_and_social_outcomes) ... ok
+test_founder_identity_and_ambient_life_preexist_entry (test_society.WorldTests.test_founder_identity_and_ambient_life_preexist_entry) ... ok
+test_founder_role_cannot_be_claimed_by_name (test_society.WorldTests.test_founder_role_cannot_be_claimed_by_name) ... ok
+test_journey_and_coauthor_adoption_have_unfold_witness (test_society.WorldTests.test_journey_and_coauthor_adoption_have_unfold_witness) ... ok
+test_missions_have_no_arbitrary_lifetime_count_ceiling (test_society.WorldTests.test_missions_have_no_arbitrary_lifetime_count_ceiling) ... ok
+test_npc_coauthor_chooses_and_records_own_consent (test_society.WorldTests.test_npc_coauthor_chooses_and_records_own_consent) ... ok
+test_population_is_lazy_and_does_not_decrement_on_join (test_society.WorldTests.test_population_is_lazy_and_does_not_decrement_on_join) ... ok
+test_refusal_and_observer_limited_memory (test_society.WorldTests.test_refusal_and_observer_limited_memory) ... ok
+test_replay_and_restore_after_time_passes (test_society.WorldTests.test_replay_and_restore_after_time_passes) ... ok
+test_speech_intents_clarify_and_never_run_commands (test_society.WorldTests.test_speech_intents_clarify_and_never_run_commands) ... ok
+test_two_equilibria_recorded_and_tie_break_changes_outcome (test_society.WorldTests.test_two_equilibria_recorded_and_tie_break_changes_outcome) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.414s
+
+OK

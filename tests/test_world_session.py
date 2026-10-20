@@ -13,4 +13,15 @@ class Session(unittest.TestCase):
   with tempfile.TemporaryDirectory() as t:
    w=WorldSession(pathlib.Path(t)/'db');before=w.store.verify()['count'];w.invoke({'operation':'billboard.inspect','payload':{}});w.invoke({'operation':'gate.plan','payload':{'position':[0,0,0],'velocity':[1,0,0]}})
    self.assertEqual(w.store.verify()['count'],before);w.close()
+ def test_invalid_operation_returns_typed_error(self):
+  with tempfile.TemporaryDirectory() as t:
+   w=WorldSession(pathlib.Path(t)/'db');self.assertEqual(w.invoke({'operation':[],'payload':{}})['status'],'error');w.close()
+ def test_shell_query_sees_current_frozen_world_without_deadlock(self):
+  import json
+  with tempfile.TemporaryDirectory() as t:
+   w=WorldSession(pathlib.Path(t)/'db');w.world.tick(1)
+   r=w.invoke({'operation':'shell.run','payload':{'source':'darkctl query'},'actor':'dark','capability':w.store.operator_token})
+   self.assertEqual(r['data']['exit_code'],0)
+   output=json.loads(r['data']['stdout'])['data']['data']
+   self.assertEqual(output['world']['tick'],w.world.tick_count);self.assertEqual(len(output['world']['actors']),24);w.close()
 if __name__=='__main__':unittest.main()

@@ -1,0 +1,34 @@
+{
+  "global_query_ms": {
+    "max_including_cold": 321.3446619993192,
+    "median": 10.923368499788921,
+    "samples": 30
+  },
+  "graph_cache": {
+    "currsize": 0,
+    "hits": 0,
+    "maxsize": 2,
+    "misses": 0
+  },
+  "reference_cache": {
+    "currsize": 3,
+    "hits": 87,
+    "maxsize": 3,
+    "misses": 3
+  },
+  "rss_max_kib": 43816,
+  "scope": "CPU in current container; no renderer or GPU quality claim",
+  "tile_capacity_probe": {
+    "cache": {
+      "address_scheme": "equirectangular quadtree; polar cells shrink in area",
+      "evictions": 9936,
+      "hits": 0,
+      "level": 12,
+      "loaded_tiles": 64,
+      "max_tiles": 64
+    },
+    "requests": 10000,
+    "tracemalloc_current_bytes": 28680,
+    "tracemalloc_peak_bytes": 32171
+  }
+}

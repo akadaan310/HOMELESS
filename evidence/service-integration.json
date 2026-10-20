@@ -1,0 +1,119 @@
+{
+  "status": "pass",
+  "transport": "AF_UNIX + framed canonical CBOR",
+  "http_required": false,
+  "channels": [
+    {
+      "channel": "continuity",
+      "operation": "HELLO",
+      "status": "ok",
+      "elapsed_ms": 3.950123000322492,
+      "result_hash": "3827610e64f905fb9ad9e60d1551a21bf07a34169859d95fa9dcd9b2d20db058",
+      "trace_digest": "a84fa13b7cd59f39ca67d66551211ea8648cbd9371fb6c4451aa2e8b21ee99ee",
+      "commit_id": null
+    },
+    {
+      "channel": "sound",
+      "operation": "audio.resolve",
+      "status": "ok",
+      "elapsed_ms": 12.749465000524651,
+      "result_hash": "e6cb528eea51e3f4d453b656f4a7e0f4fb8a9949b82281fb2e86cdd873d15e1a",
+      "trace_digest": "63794abe7ec1c6283ee6dd2bab96a70704a109c0233bbdff67a5ecb1aca5a9a2",
+      "commit_id": null
+    },
+    {
+      "channel": "sky",
+      "operation": "sky.observer",
+      "status": "ok",
+      "elapsed_ms": 289.4746029996895,
+      "result_hash": "e98e8b2a6f9db0467dfa2c43771976fc0ca0dc8ea39ce7c3f2a669e9c9f3d290",
+      "trace_digest": "dd9a94cb0de36a7598a61008341c2e0b3ed5e3c082fd35898855a4818ae35f08",
+      "commit_id": null
+    },
+    {
+      "channel": "physics",
+      "operation": "physics.integrate",
+      "status": "ok",
+      "elapsed_ms": 0.26910299857263453,
+      "result_hash": "5fb993207436681dda4c2950c258dc6ac0437277f8c4eaa15550952a03273c89",
+      "trace_digest": "620699e7c12720392aadde21c69543aabeb44c4fb992983c5cee4886cbafb62b",
+      "commit_id": null
+    },
+    {
+      "channel": "math",
+      "operation": "math.solve",
+      "status": "ok",
+      "elapsed_ms": 11.945922000450082,
+      "result_hash": "baf33b40e4b784ef2ed1c34d8df3f1b17551bdab7be33db9e94f9da42427e9ca",
+      "trace_digest": "beed458536c4b2a6054f80d39aea26653415c0649c1b2e2dc285cd2996833974",
+      "commit_id": null
+    },
+    {
+      "channel": "grammar",
+      "operation": "grammar.compile",
+      "status": "ok",
+      "elapsed_ms": 9.447981999983313,
+      "result_hash": "f04b988322c8e991a23b26b684d98d655df619e2c3305a63e828d07d7c313dd4",
+      "trace_digest": "b356652e18f0d291aa206a404bde65fd13b3acf83639c2787d5b7d376e4bcd95",
+      "commit_id": null
+    },
+    {
+      "channel": "script.js",
+      "operation": "script.js",
+      "status": "ok",
+      "elapsed_ms": 126.48713199996564,
+      "result_hash": "3519e7047d13227f0a3935dacee3b317867555adb8aa69a7a2280f5ff99cdcf1",
+      "trace_digest": "3e63f9721f096befe44f21e03ea113fa6655c22469a5839e380eced13d59caea",
+      "commit_id": null
+    },
+    {
+      "channel": "script.wasm",
+      "operation": "script.wasm",
+      "status": "ok",
+      "elapsed_ms": 215.10903400121606,
+      "result_hash": "5b6558f2d3b0f746bfa0818e39af00c2f839b663e4b14022aa5c3acd8544d5dc",
+      "trace_digest": "d3fba05ccd8f412ef0a0158a091683d9f7998550fe49c591db0029dfaf422b1c",
+      "commit_id": null
+    },
+    {
+      "channel": "shell.run",
+      "operation": "shell.run",
+      "status": "ok",
+      "elapsed_ms": 172.56111499955296,
+      "result_hash": "e7b780b0f4c8d0d32f5e4397158a22db85e986312a9114c72b72efa9a44969fe",
+      "trace_digest": "ce6fb2eb0126b609402e5fd9ea21e98c1be696c915f8089831e8dc2acc961052",
+      "commit_id": null
+    },
+    {
+      "channel": "gate",
+      "operation": "gate.plan",
+      "status": "ok",
+      "elapsed_ms": 865.1479609998205,
+      "result_hash": "834baf4cba3047274aeb7dc8b0d2ede7452c1dec795538f25abffe70746f6187",
+      "trace_digest": "122ce5c30c6e5f7cbc416305d5c7c42f7a48d19e2bdd263d5d6834c13e19133c",
+      "commit_id": null
+    },
+    {
+      "channel": "gate",
+      "operation": "gate.prepare",
+      "status": "ok",
+      "elapsed_ms": 9.392458998263464,
+      "result_hash": "ae62087edc032c6954ae2098817d349346cd831aad53be033151195e9340ef5f",
+      "trace_digest": "98eaa1308de999290d718bd0ae738732d2b778b4003ba1f5a96a73d73aa346a6",
+      "commit_id": null
+    }
+  ],
+  "media_prepare_committed_events": 0,
+  "speech_reply": "Hello. We were just talking about the sign.",
+  "speech_commit": "670c6f5c2820a93c72a9d19728f70f1576a7d58c14029224270e9048a420e4d3",
+  "checkpoint": {
+    "head": "670c6f5c2820a93c72a9d19728f70f1576a7d58c14029224270e9048a420e4d3",
+    "count": 1,
+    "valid": true,
+    "state_hash": "835e33ea9d064131fd5818a8eea28d2cf6333939415e96e44f18f8106a2206e3"
+  },
+  "restart_replay_identical": true,
+  "duplicate_retry_exactly_once": true,
+  "authority": "local operator fixture; token excluded",
+  "source_commit": "f0e32a2e7a2f19397ed8ab4bfc1882ea0abb04cd"
+}

@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+date: Tue, 20 Oct 2026 19:28:06 GMT
+server: envoy
+
+HTTP/2 200 
+cache-control: private, max-age=0, must-revalidate
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-disposition: attachment; filename="map.osm"
+content-type: application/xml; charset=utf-8
+content-encoding: identity
+server: envoy
+accept-ranges: bytes
+date: Tue, 20 Oct 2026 19:28:07 GMT
+via: 1.1 varnish
+x-served-by: cache-pao-kpao1770047-PAO, cache-pao-kpao1770024-PAO
+x-cache: MISS, MISS
+x-cache-hits: 0, 0
+x-timer: S1792524487.556603,VS0,VE1216
+vary: Accept-Encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+x-envoy-upstream-service-time: 1235
+

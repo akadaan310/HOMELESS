@@ -4,7 +4,7 @@ PURL/SEURL syntax here is the v1 adapter defined by the commission, not a claim
 of compatibility with every historical research repository.
 """
 from __future__ import annotations
-import hashlib, json, math, os, secrets, socket, sqlite3, struct, time, uuid
+import hashlib, io, json, math, os, secrets, socket, sqlite3, struct, time, uuid
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
 import cbor2
@@ -17,6 +17,11 @@ def canonical(value):
  except (ValueError,TypeError) as e:raise ProtocolError('invalid/nonfinite JSON value') from e
 
 def digest(value):return hashlib.sha256(canonical(value).encode()).hexdigest()
+
+def public_projection(value):
+ if isinstance(value,list):return [public_projection(x) for x in value]
+ if isinstance(value,dict):return {k:public_projection(v) for k,v in value.items() if not any(word in k.lower() for word in ['memory','memories','knowledge','belief','capabilit','token','private']) and k not in ['schedule','preferences','goals','relations']}
+ return value
 
 def clock(tick=0):return {'monotonic_engine_tick':tick,'real_UTC':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'world_epoch':'2026-10-20T19:00:00Z','presentation_clock':tick/60}
 
@@ -32,7 +37,7 @@ class Store:
    fd=os.open(tokenpath,os.O_WRONLY|os.O_CREAT|os.O_EXCL,0o600)
    with os.fdopen(fd,'w') as f:f.write(secrets.token_urlsafe(32))
   self.operator_token=tokenpath.read_text().strip()
-  if not self.authorized(self.operator_token,'dark','*'):self._grant(self.operator_token,'dark',['*'],time.time()+365*86400)
+  if not self.db.execute('SELECT 1 FROM grants WHERE token_hash=?',(hashlib.sha256(self.operator_token.encode()).hexdigest(),)).fetchone():self._grant(self.operator_token,'dark',['*'],time.time()+365*86400)
  def close(self):self.db.close()
  def _grant(self,token,actor,scopes,expires):
   self.db.execute('INSERT OR REPLACE INTO grants VALUES(?,?,?,?,0)',(hashlib.sha256(token.encode()).hexdigest(),actor,canonical(scopes),expires));self.db.commit();return token
@@ -52,10 +57,18 @@ class Store:
   check=self.verify()
   if not check['valid']:raise ProtocolError('journal corruption')
   return {**check,'state_hash':digest(self.state())}
- def replay(self):return [json.loads(row[0]) for row in self.db.execute('SELECT body FROM events ORDER BY seq')]
- def state(self):
+ def replay(self,until_hash=None):
+  if not self.verify()['valid']:raise ProtocolError('journal corruption')
+  if until_hash=='0'*64:return []
+  rows=[]
+  for body,h in self.db.execute('SELECT body,hash FROM events ORDER BY seq'):
+   rows.append(json.loads(body))
+   if h==until_hash:return rows
+  if until_hash is not None:raise ProtocolError('unknown pinned context')
+  return rows
+ def state(self,until_hash=None):
   state={'objects':{},'sessions':{},'world':None}
-  for e in self.replay():
+  for e in self.replay(until_hash):
    p=e['payload'];kind=p['kind']
    if kind=='sign.rename':state['objects'][p['object']]={'text':p['text'],'author':e['actor'],'event_id':e['event_id']}
    elif kind=='journey.append':state['sessions'].setdefault(e['session'],[]).append(p)
@@ -115,7 +128,18 @@ class Engine:
     if kind=='sign.rename':
      if not isinstance(payload.get('text'),str) or not 1<=len(payload['text'])<=160:raise ProtocolError('sign text length')
      if not isinstance(payload.get('object'),str) or not payload['object']:raise ProtocolError('object required')
-    if len(canonical(payload))>65536:raise ProtocolError('effect too large')
+    elif kind=='world.snapshot':
+     if not isinstance(payload.get('snapshot'),dict):raise ProtocolError('world snapshot required')
+     try:
+      from .society import World
+      World.from_snapshot(payload['snapshot'])
+     except (ImportError,ValueError,KeyError,TypeError,AttributeError) as e:raise ProtocolError('invalid versioned world snapshot') from e
+    elif kind=='event.activate':
+     if not isinstance(payload.get('object'),str) or not payload['object']:raise ProtocolError('event object required')
+    elif kind=='journey.append':
+     position=payload.get('position')
+     if not isinstance(position,list) or len(position)!=3 or not all(isinstance(x,(int,float)) and math.isfinite(x) for x in position):raise ProtocolError('journey position required')
+    if len(canonical(payload))>512*1024:raise ProtocolError('effect too large')
     event={'version':1,'event_id':q['event_id'],'session':q['session'],'actor':actor,'payload':payload,'source_revision':q.get('source_revision','worldloom-v1'),'parents':q.get('parents',[]),'world_tick':q.get('world_tick',0)}
     try:h=self.store.append(event,q.get('expected_head'))
     except ProtocolError as e:return {**base,'status':'conflict','warnings':[str(e)]}
@@ -129,8 +153,10 @@ class Engine:
   if u.scheme!='purl' or u.netloc!='dark' or u.fragment:raise ProtocolError('invalid PURL scheme/authority/fragment')
   path=unquote(u.path)
   if '..' in path.split('/'):raise ProtocolError('invalid path')
+  if path.startswith('/world/state@') and path!='/world/state@v1':context=path.split('@',1)[1];path='/world/state'
   if path in ['/world/state','/world/state@v1']:
-   s=self.store.state();return {'objects':s['objects'],'world':s['world'],'context_hash':context,'revision':self.store.verify()['head']}
+   pinned=context.removeprefix('sha256:') if isinstance(context,str) else context
+   s=self.store.state(pinned);return {'objects':s['objects'],'world':public_projection(s['world']),'context_hash':context,'revision':pinned if pinned is not None else self.store.verify()['head']}
   if path=='/continuity/checkpoint':return self.store.checkpoint()
   if path.startswith('/journey/') and path.endswith('/program'):
    session=path.split('/')[2]
@@ -149,7 +175,12 @@ def _receive(sock,n):
 def receive(sock):
  n=struct.unpack('!I',_receive(sock,4))[0]
  if n>MAX_MESSAGE or n==0:raise ProtocolError('message budget exceeded')
- return cbor2.loads(_receive(sock,n))
+ stream=io.BytesIO(_receive(sock,n))
+ try:
+  value=cbor2.CBORDecoder(stream).decode()
+  if stream.tell()!=n:raise ProtocolError('trailing CBOR data')
+  return value
+ except (cbor2.CBORDecodeError,RecursionError,OverflowError) as e:raise ProtocolError('invalid CBOR frame') from e
 
 def send(sock,obj):
  b=cbor2.dumps(obj,canonical=True)
@@ -172,7 +203,7 @@ def serve(socket_path,engine):
     with c:
      c.settimeout(2)
      try:send(c,engine.invoke(receive(c)))
-     except (ProtocolError,ValueError,OSError) as e:
+     except (ProtocolError,ValueError,OSError,RecursionError) as e:
       try:send(c,{'status':'error','warnings':[str(e)]})
       except OSError:pass
   finally:p.unlink(missing_ok=True)

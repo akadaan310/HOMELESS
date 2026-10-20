@@ -71,6 +71,7 @@ def shell(script,wall_time_ms=1000,max_output_bytes=65536,engine=None):
   for a in ['ash','sh','cat','printf','echo','tr','wc','sort','head','tail','sed','cut','true','false','test','pwd','ls','mkdir','date','kill']:
    cmd+=['--symlink','busybox','/bin/'+a]
   cmd+=['--','/bin/ash','/work/job.sh']
+  cmd=['prlimit','--as=134217728','--fsize=8388608','--core=0','--',*cmd]
   try:r=_bounded(cmd,timeout=wall_time_ms/1000,limit=max_output_bytes,env={'PATH':os.environ.get('PATH','/usr/bin:/bin')})
   finally:
    stop.set();broker.close();thread.join(timeout=3)
@@ -80,7 +81,7 @@ def shell(script,wall_time_ms=1000,max_output_bytes=65536,engine=None):
 def _script(kind,source,wall_time_ms,**kwargs):
  if not isinstance(source,str) or len(source.encode())>65536:raise ValueError('program budget')
  q={'kind':kind,'source':source,'wall_time_ms':wall_time_ms,**kwargs}
- r=_bounded([sys.executable,'-m','worldloom.workers','--child'],input_text=canonical(q),timeout=wall_time_ms/1000+2,limit=65536,env={'PATH':os.environ.get('PATH',''),'PYTHONPATH':str(ROOT),'PYTHONUSERBASE':os.environ.get('PYTHONUSERBASE',str(Path.home()/'.local'))})
+ r=_bounded([sys.executable,'-m','worldloom.workers','--child'],input_text=canonical(q),timeout=wall_time_ms/1000+5,limit=65536,env={'PATH':os.environ.get('PATH',''),'PYTHONPATH':str(ROOT),'PYTHONUSERBASE':os.environ.get('PYTHONUSERBASE',str(Path.home()/'.local')),'RAYON_NUM_THREADS':'1','OMP_NUM_THREADS':'1'})
  if r['timed_out']:return {**r,'status':'timeout'}
  try:return {**json.loads(r['stdout']),'elapsed_ms':r['elapsed_ms']}
  except (json.JSONDecodeError,TypeError):return {**r,'status':'error'}
@@ -99,7 +100,7 @@ def _child(q):
    if not isinstance(event,dict) or event.get('kind') not in ['sky.overlay','sound.cue','sign.proposal']:raise ValueError('unadmitted event kind')
   else:
    import wasmtime
-   config=wasmtime.Config();config.consume_fuel=True;engine=wasmtime.Engine(config);module=wasmtime.Module(engine,q['source'])
+   config=wasmtime.Config();config.consume_fuel=True;config.parallel_compilation=False;engine=wasmtime.Engine(config);module=wasmtime.Module(engine,q['source'])
    if list(module.imports):raise ValueError('host imports forbidden')
    store=wasmtime.Store(engine);store.set_fuel(q['fuel']);store.set_limits(memory_size=32*1024*1024,instances=1,memories=1,tables=1)
    instance=wasmtime.Instance(store,module,[]);value=instance.exports(store)['event'](store);event={'kind':'wasm.event','value':value}

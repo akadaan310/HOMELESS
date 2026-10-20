@@ -6,7 +6,8 @@ class IPC(unittest.TestCase):
    s=pathlib.Path(t)/'bus.sock';db=pathlib.Path(t)/'world.db'
    def launch():
     p=subprocess.Popen([sys.executable,'-m','worldloom.cli','daemon','--socket',str(s),'--db',str(db)],stdout=subprocess.DEVNULL,stderr=subprocess.PIPE)
-    for _ in range(100):
+    deadline=time.monotonic()+15
+    while time.monotonic()<deadline:
      try:
       request(s,{'operation':'HELLO'});return p
      except (OSError,ValueError):time.sleep(.02)

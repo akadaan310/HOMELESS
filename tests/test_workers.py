@@ -8,6 +8,7 @@ class Workers(unittest.TestCase):
   r=shell('cat /etc/passwd');self.assertNotEqual(r['exit_code'],0)
   r=shell('while true; do echo aaaaaaaaaaaaaaaaaaaaaaaaaaaaa; done',wall_time_ms=150,max_output_bytes=1000)
   self.assertLessEqual(len(r['stdout'].encode()),1000);self.assertTrue(r['timed_out'] or r['output_limited'])
+  self.assertEqual(shell('ulimit -v')['stdout'].strip(),'131072')
  def test_actual_javascript_budgets_and_no_system(self):
   r=javascript("JSON.stringify({kind:'sky.overlay',intensity:0.2})");self.assertEqual(r['event']['kind'],'sky.overlay')
   self.assertEqual(javascript('while(true){}',wall_time_ms=50)['status'],'timeout')

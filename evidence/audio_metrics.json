@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "sample_rate": 24000,
+  "channels": 2,
+  "format": "PCM16 WAV",
+  "duration_s": 10,
+  "sources": {
+    "engine": {
+      "file": "engine.wav",
+      "url": "/artifacts/audio/engine.wav",
+      "azimuth_deg": -70.0,
+      "distance_m": 4,
+      "onset_s": 0.03,
+      "sample_index": 720,
+      "provenance": {
+        "kind": "procedural",
+        "generator": "worldloom.audio.synthesize/v1",
+        "seed": 11
+      },
+      "sha256": "f00ab2fab31b3b7432aa0390e18bf6f2868b2c7b0113ee203bafc735409ddaf7"
+    },
+    "traffic": {
+      "file": "traffic.wav",
+      "url": "/artifacts/audio/traffic.wav",
+      "azimuth_deg": -46.66666666666667,
+      "distance_m": 6,
+      "onset_s": 0.167,
+      "sample_index": 4008,
+      "provenance": {
+        "kind": "procedural",
+        "generator": "worldloom.audio.synthesize/v1",
+        "seed": 12
+      },
+      "sha256": "9fbf1b928198e9634c678503bec26a3f951e02a73ba8eb523129bfe280df4aaa"
+    },
+    "voice": {
+      "file": "voice.wav",
+      "url": "/artifacts/audio/voice.wav",
+      "azimuth_deg": -23.333333333333336,
+      "distance_m": 8,
+      "onset_s": 0.30400000000000005,
+      "sample_index": 7296,
+      "provenance": {
+        "kind": "neural-tts",
+        "model": "piper/en_US-libritts_r-medium",
+        "source": "artifacts/voice/ddd09c9bb5272e4fb78d6f79ef7eb315acfe43e37e2f070154609c987c1eb6d8.wav"
+      },
+      "sha256": "9c591a5204a9a9cd116074f374903316e8b45a1b52e88138b4028362cd6c5314"
+    },
+    "pedestrian": {
+      "file": "pedestrian.wav",
+      "url": "/artifacts/audio/pedestrian.wav",
+      "azimuth_deg": 0.0,
+      "distance_m": 10,
+      "onset_s": 0.44100000000000006,
+      "sample_index": 10584,
+      "provenance": {
+        "kind": "procedural",
+        "generator": "worldloom.audio.synthesize/v1",
+        "seed": 14
+      },
+      "sha256": "bb5c027b7b34f377c77191597e6f6971f4a1c239761472ff787a6fb58630d63d"
+    },
+    "airplane": {
+      "file": "airplane.wav",
+      "url": "/artifacts/audio/airplane.wav",
+      "azimuth_deg": 23.33333333333333,
+      "distance_m": 12,
+      "onset_s": 0.5780000000000001,
+      "sample_index": 13872,
+      "provenance": {
+        "kind": "procedural",
+        "generator": "worldloom.audio.synthesize/v1",
+        "seed": 15
+      },
+      "sha256": "ace6f525d707db664cfd8019bd326e24749270519456c97819deeab7bdd3f4ea"
+    },
+    "music": {
+      "file": "music.wav",
+      "url": "/artifacts/audio/music.wav",
+      "azimuth_deg": 46.66666666666667,
+      "distance_m": 14,
+      "onset_s": 0.7150000000000001,
+      "sample_index": 17160,
+      "provenance": {
+        "kind": "procedural",
+        "generator": "worldloom.audio.synthesize/v1",
+        "seed": 16
+      },
+      "sha256": "f60e867109d8219a59b427bff661a29ae80998a5bd03e27805d6ea51a85e222a"
+    },
+    "weather": {
+      "file": "weather.wav",
+      "url": "/artifacts/audio/weather.wav",
+      "azimuth_deg": 70.0,
+      "distance_m": 16,
+      "onset_s": 0.8520000000000001,
+      "sample_index": 20448,
+      "provenance": {
+        "kind": "procedural",
+        "generator": "worldloom.audio.synthesize/v1",
+        "seed": 17
+      },
+      "sha256": "dc918fbb80492977f182ffaa8f5cee226954225e7388fa63e4d5a90883e3bd85"
+    }
+  },
+  "events": [
+    {
+      "source": "engine",
+      "requested_s": 0.03,
+      "sample_index": 720,
+      "error_samples": 0.0,
+      "buffer_size": 512,
+      "buffer_dispatch_lateness_samples": 304
+    },
+    {
+      "source": "traffic",
+      "requested_s": 0.167,
+      "sample_index": 4008,
+      "error_samples": 4.547473508864641e-13,
+      "buffer_size": 512,
+      "buffer_dispatch_lateness_samples": 88
+    },
+    {
+      "source": "voice",
+      "requested_s": 0.30400000000000005,
+      "sample_index": 7296,
+      "error_samples": 9.094947017729282e-13,
+      "buffer_size": 512,
+      "buffer_dispatch_lateness_samples": 384
+    },
+    {
+      "source": "pedestrian",
+      "requested_s": 0.44100000000000006,
+      "sample_index": 10584,
+      "error_samples": 1.8189894035458565e-12,
+      "buffer_size": 512,
+      "buffer_dispatch_lateness_samples": 168
+    },
+    {
+      "source": "airplane",
+      "requested_s": 0.5780000000000001,
+      "sample_index": 13872,
+      "error_samples": 1.8189894035458565e-12,
+      "buffer_size": 512,
+      "buffer_dispatch_lateness_samples": 464
+    },
+    {
+      "source": "music",
+      "requested_s": 0.7150000000000001,
+      "sample_index": 17160,
+      "error_samples": 3.637978807091713e-12,
+      "buffer_size": 512,
+      "buffer_dispatch_lateness_samples": 248
+    },
+    {
+      "source": "weather",
+      "requested_s": 0.8520000000000001,
+      "sample_index": 20448,
+      "error_samples": 3.637978807091713e-12,
+      "buffer_size": 512,
+      "buffer_dispatch_lateness_samples": 32
+    }
+  ],
+  "metrics": {
+    "sample_peak": 0.4852112838577767,
+    "sample_peak_dbfs": -6.281382158574898,
+    "rms_dbfs": -17.25707180798893,
+    "max_adjacent_sample_delta": 0.05719591317699235,
+    "heavy_click_count": 0,
+    "heavy_click_threshold": 0.15,
+    "stereo_correlation": 0.5865229707338084,
+    "event_error_max_samples": 3.637978807091713e-12,
+    "buffer_dispatch_max_samples": 464,
+    "master_gain": 1
+  },
+  "mix_sha256": "5b8add74b6b30c6a412d99dd3dcdbea623d4bea468befa7fcad42dd79f50814f",
+  "limits": [
+    "offline synthetic stereo fixture; no rendered Unreal/MetaSound mix",
+    "equal-power panning, no HRTF localization measurement",
+    "RMS/sample-peak measured; LUFS/true peak and human intelligibility not certified",
+    "buffer dispatch is a simulated 512-sample scheduler, not device dropout measurement"
+  ],
+  "loop_metrics": {
+    "engine": {
+      "boundary_sample_jump": 0.0,
+      "boundary_correlation": 0.03976029993507727,
+      "window_samples": 1024,
+      "limitation": "correlation at declared segment alignment; no perceptual seamless-loop claim"
+    },
+    "traffic": {
+      "boundary_sample_jump": 0.0,
+      "boundary_correlation": 0.21852077666488878,
+      "window_samples": 1024,
+      "limitation": "correlation at declared segment alignment; no perceptual seamless-loop claim"
+    },
+    "music": {
+      "boundary_sample_jump": 0.0,
+      "boundary_correlation": -0.3096674945235964,
+      "window_samples": 1024,
+      "limitation": "correlation at declared segment alignment; no perceptual seamless-loop claim"
+    },
+    "weather": {
+      "boundary_sample_jump": 0.0,
+      "boundary_correlation": -0.033292211555404634,
+      "window_samples": 1024,
+      "limitation": "correlation at declared segment alignment; no perceptual seamless-loop claim"
+    }
+  },
+  "crossfade_metrics": {
+    "equal_power_gain_error": 2.220446049250313e-16,
+    "max_adjacent_delta": 0.01586596383480787,
+    "window_samples": 100
+  }
+}

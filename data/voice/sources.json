@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "en_US-libritts_r-medium.onnx",
+      "kind": "tts-model",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/en/en_US/libritts_r/medium/en_US-libritts_r-medium.onnx",
+      "path": "data/voice/models/en_US-libritts_r-medium.onnx",
+      "sha256": "10bb85e071d616fcf4071f369f1799d0491492ab3c5d552ec19fb548fac13195",
+      "bytes": 78580914,
+      "revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "license": "CC BY 4.0 dataset; Piper runtime GPL-3.0",
+      "required": true
+    },
+    {
+      "id": "en_US-libritts_r-medium.onnx.json",
+      "kind": "tts-config",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/en/en_US/libritts_r/medium/en_US-libritts_r-medium.onnx.json",
+      "path": "data/voice/models/en_US-libritts_r-medium.onnx.json",
+      "sha256": "b471dc60d2d8335e819c393d196d6fbf792817f40051257b269878505bc9afb3",
+      "bytes": 20123,
+      "revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "license": "CC BY 4.0 dataset; Piper runtime GPL-3.0",
+      "required": true
+    },
+    {
+      "id": "ar_JO-kareem-low.onnx",
+      "kind": "tts-model",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/ar/ar_JO/kareem/low/ar_JO-kareem-low.onnx",
+      "path": "data/voice/models/ar_JO-kareem-low.onnx",
+      "sha256": "2887e9d68b125965c747e1371fa21e1cef19555ea98d0795a0d5d71188b13890",
+      "bytes": 63201294,
+      "revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "license": "upstream dataset license unresolved; local evaluation candidate",
+      "required": true
+    },
+    {
+      "id": "ar_JO-kareem-low.onnx.json",
+      "kind": "tts-config",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/ar/ar_JO/kareem/low/ar_JO-kareem-low.onnx.json",
+      "path": "data/voice/models/ar_JO-kareem-low.onnx.json",
+      "sha256": "da328e52896826135508f797c1c77b45b35117e967c71befc377d654f100f328",
+      "bytes": 5022,
+      "revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "license": "upstream dataset license unresolved; local evaluation candidate",
+      "required": true
+    },
+    {
+      "id": "en_US-lessac-medium.onnx",
+      "kind": "tts-model",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/en/en_US/lessac/medium/en_US-lessac-medium.onnx",
+      "path": "data/voice/models/en_US-lessac-medium.onnx",
+      "sha256": "5efe09e69902187827af646e1a6e9d269dee769f9877d17b16b1b46eeaaf019f",
+      "bytes": 63201294,
+      "revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "license": "upstream Lessac dataset license linked in model card; not active release voice",
+      "required": false
+    },
+    {
+      "id": "en_US-lessac-medium.onnx.json",
+      "kind": "tts-config",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/en/en_US/lessac/medium/en_US-lessac-medium.onnx.json",
+      "path": "data/voice/models/en_US-lessac-medium.onnx.json",
+      "sha256": "efe19c417bed055f2d69908248c6ba650fa135bc868b0e6abb3da181dab690a0",
+      "bytes": 4885,
+      "revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "license": "upstream Lessac dataset license linked in model card; not active release voice",
+      "required": false
+    },
+    {
+      "id": "en_US-ryan-low.onnx",
+      "kind": "tts-model",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/en/en_US/ryan/low/en_US-ryan-low.onnx",
+      "path": "data/voice/models/en_US-ryan-low.onnx",
+      "sha256": "8d21a085cc4c0010f1f3e91d5008c8691277ccfa744eb0d747becd33a3444baf",
+      "bytes": 63104526,
+      "revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "license": "CC BY-NC-SA 4.0 dataset; rejected from active catalog",
+      "required": false
+    },
+    {
+      "id": "en_US-ryan-low.onnx.json",
+      "kind": "tts-config",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/en/en_US/ryan/low/en_US-ryan-low.onnx.json",
+      "path": "data/voice/models/en_US-ryan-low.onnx.json",
+      "sha256": "b27147e56b0525962609f82f58171f4618cbf17c6fb043d7d724ff28cc4aed60",
+      "bytes": 4165,
+      "revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "license": "CC BY-NC-SA 4.0 dataset; rejected from active catalog",
+      "required": false
+    },
+    {
+      "id": "en_US-amy-low.onnx",
+      "kind": "tts-model",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/en/en_US/amy/low/en_US-amy-low.onnx",
+      "path": "data/voice/models/en_US-amy-low.onnx",
+      "sha256": "a5a91abb7de0f104358a25aded480ddacf1ff0762886325886ec406a2e86aab3",
+      "bytes": 63104526,
+      "revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "license": "upstream dataset license unresolved; not active release voice",
+      "required": false
+    },
+    {
+      "id": "en_US-amy-low.onnx.json",
+      "kind": "tts-config",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/5041a7a49ae5b3a0f30e6837769eb03fdbb231bd/en/en_US/amy/low/en_US-amy-low.onnx.json",
+      "path": "data/voice/models/en_US-amy-low.onnx.json",
+      "sha256": "2250a9a605b8dc35a116717fadc5056695dd809e34a15d02f72a0f52d53d3ebb",
+      "bytes": 4164,
+      "revision": "5041a7a49ae5b3a0f30e6837769eb03fdbb231bd",
+      "license": "upstream dataset license unresolved; not active release voice",
+      "required": false
+    },
+    {
+      "id": "sherpa-onnx-moonshine-tiny-en-int8",
+      "kind": "asr-model",
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-moonshine-tiny-en-int8.tar.bz2",
+      "path": "data/voice/asr/moonshine-tiny-en-int8.tar.bz2",
+      "sha256": "d5fe6ec4334fef36255b2a4010412cad4c007e33103fec62fb5d17cad88086f2",
+      "bytes": 107600538,
+      "required": true,
+      "extract_to": "data/voice/asr",
+      "license": "MIT (Moonshine / Whisper upstream; keep bundled notices)"
+    },
+    {
+      "id": "sherpa-onnx-whisper-tiny",
+      "kind": "asr-model",
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-whisper-tiny.tar.bz2",
+      "path": "data/voice/asr/whisper-tiny.tar.bz2",
+      "sha256": "c46116994e539aa165266d96b325252728429c12535eb9d8b6a2b10f129e66b1",
+      "bytes": 116204861,
+      "required": true,
+      "extract_to": "data/voice/asr",
+      "license": "MIT (Moonshine / Whisper upstream; keep bundled notices)"
+    },
+    {
+      "id": "kokoro-v1.0.int8.onnx",
+      "kind": "tts-evaluation",
+      "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.int8.onnx",
+      "path": "data/voice/kokoro/kokoro-v1.0.int8.onnx",
+      "sha256": "6e742170d309016e5891a994e1ce1559c702a2ccd0075e67ef7157974f6406cb",
+      "bytes": 92361271,
+      "required": false,
+      "license": "Kokoro upstream Apache-2.0; model/voice licensing review separate from quality ranking"
+    },
+    {
+      "id": "voices-v1.0.bin",
+      "kind": "tts-evaluation",
+      "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin",
+      "path": "data/voice/kokoro/voices-v1.0.bin",
+      "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+      "bytes": 28214398,
+      "required": false,
+      "license": "Kokoro upstream Apache-2.0; model/voice licensing review separate from quality ranking"
+    }
+  ],
+  "policy": "URLs pinned to revision or independently checked SHA256; explicit offline fetch only; no model download on application startup",
+  "environment": "x86_64 container; Oracle ARM64 not connected"
+}

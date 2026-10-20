@@ -6,8 +6,9 @@ from .protocol import Store,Engine,request,serve,canonical
 def main():
  p=argparse.ArgumentParser(prog='darkctl');p.add_argument('command',choices=['daemon','time','query','inspect','propose','invoke','checkpoint','verify']);p.add_argument('args',nargs='*');p.add_argument('--socket',default='.runtime/worldloom.sock');p.add_argument('--db',default='.runtime/worldloom.db');p.add_argument('--json');a=p.parse_args()
  if a.command=='daemon':
-  store=Store(a.db)
-  try:serve(a.socket,Engine(store))
+  from .session import WorldSession
+  engine=WorldSession(a.db);store=engine.store
+  try:serve(a.socket,engine)
   except KeyboardInterrupt:pass
   finally:store.close()
   return 0

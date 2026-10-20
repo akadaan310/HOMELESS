@@ -11,3 +11,12 @@ android/**/build/
 unreal/**/Intermediate/
 unreal/**/Saved/
 unreal/**/Binaries/
+data/voice/models/*.onnx
+data/voice/asr/
+web/dist/
+web/.gradle/
+data/voice/kokoro/
+assets/originals/
+android/local.properties
+android/app/src/main/assets/public/
+artifacts/web/

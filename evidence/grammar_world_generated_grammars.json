@@ -1,0 +1,424 @@
+{
+  "walk": {
+    "version": 1,
+    "subject": "walk",
+    "alphabet": [
+      "walk",
+      "Node"
+    ],
+    "sorts": {
+      "nodes": "Node+"
+    },
+    "productions": [
+      "Walk := walk Node Node+"
+    ],
+    "form": "retial-path",
+    "semantics": "connected-walk",
+    "constraints": [
+      "adjacent",
+      "walkable"
+    ],
+    "effects": [
+      "journey.step"
+    ],
+    "budget": {
+      "max_steps": 3000
+    },
+    "generator": "Grammatica-Generatrix.bounded-template.v1",
+    "limitations": [
+      "finite symbolic domain; no unrestricted grammar induction",
+      "effect interpretation proposes, never commits"
+    ],
+    "revision": "22ae8ef4d5132d7ac38a2c5084724b937a995f1b9f3b07879d00a70fcc22b18c",
+    "model_id": "grammar:world.walk.v1@22ae8ef4d5132d7ac38a2c5084724b937a995f1b9f3b07879d00a70fcc22b18c",
+    "fixtures": [
+      {
+        "partition": "positive",
+        "source": "walk a b c",
+        "context_hash": "d2c90a8ec0d24f81d27fbd8d63fef3e9992614c71f24b399aa86c55ae88b4bab",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      },
+      {
+        "partition": "negative",
+        "source": "walk a c",
+        "context_hash": "5913aab32ab809284296ebb8c2aa93988eeed08ff4e581845c1167237c0acb7a",
+        "accepted": false,
+        "expected": false,
+        "diagnostics": [
+          {
+            "code": "SEMANTIC_IMPOSSIBLE",
+            "message": "route uses a disconnected edge"
+          }
+        ]
+      },
+      {
+        "partition": "negative",
+        "source": "fly a b",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "accepted": false,
+        "expected": false,
+        "diagnostics": [
+          {
+            "code": "SYNTAX_INVALID",
+            "message": "expected walk Node Node+"
+          }
+        ]
+      },
+      {
+        "partition": "heldout",
+        "source": "walk x y",
+        "context_hash": "29e93bf4c83223e42fc87f8def66746e559fc4d558bc4f3077db4d4743a74612",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      }
+    ],
+    "certificate": {
+      "passed": true,
+      "heldout_passed": 1,
+      "fixture_digest": "1f42dc31545577be3d30b47994297aa6726e74be4e89c44e845a037f7ff793a5",
+      "checks": [
+        "type-safety",
+        "admissibility",
+        "counterexamples",
+        "heldout",
+        "bounded-evaluator"
+      ]
+    },
+    "derivation": [
+      "select retial-path",
+      "instantiate typed sorts",
+      "bind semantic interpreter",
+      "run separated fixture partitions"
+    ]
+  },
+  "audio": {
+    "version": 1,
+    "subject": "audio",
+    "alphabet": [
+      "emit",
+      "bell",
+      "footstep",
+      "voice",
+      "balloon",
+      "music",
+      "aircraft"
+    ],
+    "sorts": {
+      "cue": "Cue",
+      "gain": "Float[0,1]",
+      "duration_ms": "Int[1,10000]"
+    },
+    "productions": [
+      "Gesture := emit Cue Gain DurationMs"
+    ],
+    "form": "attribute-grammar",
+    "semantics": "bounded-audio-gesture",
+    "constraints": [
+      "gain-bounded",
+      "duration-bounded",
+      "balloon-event-geometry"
+    ],
+    "effects": [
+      "sound.cue"
+    ],
+    "budget": {
+      "max_steps": 3000
+    },
+    "generator": "Grammatica-Generatrix.bounded-template.v1",
+    "limitations": [
+      "finite symbolic domain; no unrestricted grammar induction",
+      "effect interpretation proposes, never commits"
+    ],
+    "revision": "3a402615d824f4e47882d8bf3493593b35f6dfc094793d012f96c3d7491b4847",
+    "model_id": "grammar:world.audio.v1@3a402615d824f4e47882d8bf3493593b35f6dfc094793d012f96c3d7491b4847",
+    "fixtures": [
+      {
+        "partition": "positive",
+        "source": "emit bell 0.4 200",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      },
+      {
+        "partition": "positive",
+        "source": "emit voice 0.7 1500",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      },
+      {
+        "partition": "negative",
+        "source": "emit bell 3 200",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "accepted": false,
+        "expected": false,
+        "diagnostics": [
+          {
+            "code": "TYPE_INVALID",
+            "message": "gain 0..1, duration integer 1..10000 required"
+          }
+        ]
+      },
+      {
+        "partition": "negative",
+        "source": "emit bell 0.5 -1",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "accepted": false,
+        "expected": false,
+        "diagnostics": [
+          {
+            "code": "TYPE_INVALID",
+            "message": "gain 0..1, duration integer 1..10000 required"
+          }
+        ]
+      },
+      {
+        "partition": "heldout",
+        "source": "emit footstep 0.3 110",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      },
+      {
+        "partition": "heldout",
+        "source": "emit balloon 0.1 850",
+        "context_hash": "ada55e47f10abd4b3708d49d498f8a68253893444dc0452c9b90bbf63f311d59",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      }
+    ],
+    "certificate": {
+      "passed": true,
+      "heldout_passed": 2,
+      "fixture_digest": "ce4e61088c354e2f5312052265aa4a03470a0294b375c6572f2ba6870b324b5d",
+      "checks": [
+        "type-safety",
+        "admissibility",
+        "counterexamples",
+        "heldout",
+        "bounded-evaluator"
+      ]
+    },
+    "derivation": [
+      "select attribute-grammar",
+      "instantiate typed sorts",
+      "bind semantic interpreter",
+      "run separated fixture partitions"
+    ]
+  },
+  "naming": {
+    "version": 1,
+    "subject": "naming",
+    "alphabet": [
+      "name",
+      "cafe",
+      "market",
+      "garage",
+      "books",
+      "bakery",
+      "studio"
+    ],
+    "sorts": {
+      "kind": "ShopKind",
+      "name": "FictionalName"
+    },
+    "productions": [
+      "Sign := name ShopKind FictionalName"
+    ],
+    "form": "attribute-grammar",
+    "semantics": "fictional-sign-proposal",
+    "constraints": [
+      "fictional-name",
+      "unicode-letters",
+      "length-bounded"
+    ],
+    "effects": [
+      "sign.propose"
+    ],
+    "budget": {
+      "max_steps": 3000
+    },
+    "generator": "Grammatica-Generatrix.bounded-template.v1",
+    "limitations": [
+      "finite symbolic domain; no unrestricted grammar induction",
+      "effect interpretation proposes, never commits"
+    ],
+    "revision": "5c36975b43a1f3e4a72f62327cef5e913aae2555cc74b53e26643d0e9be2723c",
+    "model_id": "grammar:world.naming.v1@5c36975b43a1f3e4a72f62327cef5e913aae2555cc74b53e26643d0e9be2723c",
+    "fixtures": [
+      {
+        "partition": "positive",
+        "source": "name cafe Amber Fold",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      },
+      {
+        "partition": "positive",
+        "source": "name market Harbor Thread",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      },
+      {
+        "partition": "negative",
+        "source": "name cafe Real Shop",
+        "context_hash": "a333352e073acbc0f85be625a38dce8dd7ad7a062c04b520ed03ac87169a1718",
+        "accepted": false,
+        "expected": false,
+        "diagnostics": [
+          {
+            "code": "SEMANTIC_IMPOSSIBLE",
+            "message": "name collides with a declared factual business"
+          }
+        ]
+      },
+      {
+        "partition": "negative",
+        "source": "name warshop X",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "accepted": false,
+        "expected": false,
+        "diagnostics": [
+          {
+            "code": "SYNTAX_INVALID",
+            "message": "expected name ShopKind FictionalName"
+          }
+        ]
+      },
+      {
+        "partition": "heldout",
+        "source": "name bakery Silver Tide",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      },
+      {
+        "partition": "heldout",
+        "source": "name books باب Fold",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      }
+    ],
+    "certificate": {
+      "passed": true,
+      "heldout_passed": 2,
+      "fixture_digest": "5ad7fcb56f2381a15708d3ec226c7cb90e93bac91266e9df871273e723daee9e",
+      "checks": [
+        "type-safety",
+        "admissibility",
+        "counterexamples",
+        "heldout",
+        "bounded-evaluator"
+      ]
+    },
+    "derivation": [
+      "select attribute-grammar",
+      "instantiate typed sorts",
+      "bind semantic interpreter",
+      "run separated fixture partitions"
+    ]
+  },
+  "haven": {
+    "version": 1,
+    "subject": "haven",
+    "alphabet": [
+      "meet",
+      "report",
+      "Place",
+      "EventID"
+    ],
+    "sorts": {
+      "place": "Place",
+      "evidence": "EventID+"
+    },
+    "productions": [
+      "RENDEZVOUS_HAVEN := meet Place report EventID+"
+    ],
+    "form": "typed-effect-grammar",
+    "semantics": "evidence-based-meeting",
+    "constraints": [
+      "evidence-exists",
+      "governed-place",
+      "voluntary-attendance"
+    ],
+    "effects": [
+      "meeting.propose"
+    ],
+    "budget": {
+      "max_steps": 3000
+    },
+    "generator": "Grammatica-Generatrix.bounded-template.v1",
+    "limitations": [
+      "finite symbolic domain; no unrestricted grammar induction",
+      "effect interpretation proposes, never commits"
+    ],
+    "revision": "0e3084c6f63b9ce5faf39c898f70af4d2847405556a0997bc83b250c93d3efd5",
+    "model_id": "grammar:world.haven.v1@0e3084c6f63b9ce5faf39c898f70af4d2847405556a0997bc83b250c93d3efd5",
+    "fixtures": [
+      {
+        "partition": "positive",
+        "source": "meet haven report e1",
+        "context_hash": "2382ee73f70ba64ae21fff18b076572c49123a6d78467eb4893678b6e65027e3",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      },
+      {
+        "partition": "negative",
+        "source": "meet haven report e2",
+        "context_hash": "d0d5c15d5fb1000259b153d297efce60d1a73bb448d227196000e4e879183000",
+        "accepted": false,
+        "expected": false,
+        "diagnostics": [
+          {
+            "code": "MISSING_INFORMATION",
+            "message": "report refers to unrecorded event evidence"
+          },
+          {
+            "code": "REFUSED",
+            "message": "meeting needs governed venue and voluntary participants"
+          }
+        ]
+      },
+      {
+        "partition": "heldout",
+        "source": "meet marina report e3 e4",
+        "context_hash": "72688d123e6cda6d508fe13fb50f8fa1de34d6a020b3ebce19a23a562cdd0da8",
+        "accepted": true,
+        "expected": true,
+        "diagnostics": []
+      }
+    ],
+    "certificate": {
+      "passed": true,
+      "heldout_passed": 1,
+      "fixture_digest": "0252c97853e0d3d58b5dc421a1a76ed126ddebe66ab50db4634fa7e15887ab5a",
+      "checks": [
+        "type-safety",
+        "admissibility",
+        "counterexamples",
+        "heldout",
+        "bounded-evaluator"
+      ]
+    },
+    "derivation": [
+      "select typed-effect-grammar",
+      "instantiate typed sorts",
+      "bind semantic interpreter",
+      "run separated fixture partitions"
+    ]
+  }
+}

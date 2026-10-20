@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "channels": 11,
+  "checkpoint": {
+    "head": "670c6f5c2820a93c72a9d19728f70f1576a7d58c14029224270e9048a420e4d3",
+    "count": 1,
+    "valid": true,
+    "state_hash": "835e33ea9d064131fd5818a8eea28d2cf6333939415e96e44f18f8106a2206e3"
+  },
+  "restart": true
+}

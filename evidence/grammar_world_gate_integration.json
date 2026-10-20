@@ -1,0 +1,147 @@
+{
+  "environment": "local Linux x86_64; not Oracle ARM or Samsung hardware",
+  "traces": [
+    {
+      "input": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "velocity": [
+          0,
+          0,
+          -2
+        ]
+      },
+      "plan_id": "a74c1312a4ccd97b5246982eed495161a606029d7b1b0ea1f1fbc91263fd6003",
+      "eligible_gates": [
+        "asset-cell:car_concept",
+        "asset-cell:covered_car",
+        "asset-cell:fire_hydrant",
+        "asset-cell:npc_hv_girl",
+        "asset-cell:sponza",
+        "asset-cell:street_lamp_01",
+        "billboard:world-record",
+        "haven:tampa",
+        "tampa-cafe-independent",
+        "vehicle:passenger-entry"
+      ],
+      "canceled": [],
+      "selected": [
+        {
+          "id": "billboard_program:5e2759f62c7482937785d26788aa27f278968e44e318655de6a9f554528e819d",
+          "kind": "billboard_program",
+          "bytes": 518,
+          "hash": "5e2759f62c7482937785d26788aa27f278968e44e318655de6a9f554528e819d"
+        },
+        {
+          "id": "amber-cafe.sign-c9f25b13",
+          "kind": "npc_speech",
+          "bytes": 14106,
+          "hash": "39bcd98a531d314d106a24c0b699b87bb4a5a4b051654e82d9d50aea13b446bf"
+        },
+        {
+          "id": "asset:npc_hv_girl@7307f3e870aafdff86ba32b40ed3d0f929ff4022d9b8790ec0ee54cb6eea7c07",
+          "kind": "animated_glb",
+          "bytes": 2920100,
+          "hash": "7307f3e870aafdff86ba32b40ed3d0f929ff4022d9b8790ec0ee54cb6eea7c07"
+        },
+        {
+          "id": "haven_report:7ef4ba1561366adab95ce4d5ea505a551007984c8aa175bb38f69c82f7ca052f",
+          "kind": "haven_report",
+          "bytes": 526,
+          "hash": "7ef4ba1561366adab95ce4d5ea505a551007984c8aa175bb38f69c82f7ca052f"
+        }
+      ],
+      "staged_bytes": 2935250,
+      "memory_estimate_bytes": 3142940,
+      "decode_estimate_ms": 14.0,
+      "plan_wall_ms": 406.152,
+      "prepare_wall_ms": 11.078,
+      "cpu_ms": 179.599
+    },
+    {
+      "input": {
+        "position": [
+          13,
+          0,
+          -20
+        ],
+        "velocity": [
+          0,
+          0,
+          -1
+        ]
+      },
+      "plan_id": "ec67e451c5922aed6ffa52da82d0a970d6146db2f29d9d334812f89e6d64ffb5",
+      "eligible_gates": [
+        "asset-cell:car_concept",
+        "haven:tampa",
+        "vehicle:passenger-entry"
+      ],
+      "canceled": [
+        "asset-cell:covered_car",
+        "asset-cell:fire_hydrant",
+        "asset-cell:npc_hv_girl",
+        "asset-cell:sponza",
+        "asset-cell:street_lamp_01",
+        "billboard:world-record",
+        "tampa-cafe-independent"
+      ],
+      "selected": [
+        {
+          "id": "haven_report:7ef4ba1561366adab95ce4d5ea505a551007984c8aa175bb38f69c82f7ca052f",
+          "kind": "haven_report",
+          "bytes": 526,
+          "hash": "7ef4ba1561366adab95ce4d5ea505a551007984c8aa175bb38f69c82f7ca052f"
+        },
+        {
+          "id": "asset:npc_hv_girl@7307f3e870aafdff86ba32b40ed3d0f929ff4022d9b8790ec0ee54cb6eea7c07",
+          "kind": "animated_glb",
+          "bytes": 2920100,
+          "hash": "7307f3e870aafdff86ba32b40ed3d0f929ff4022d9b8790ec0ee54cb6eea7c07"
+        }
+      ],
+      "staged_bytes": 2920626,
+      "memory_estimate_bytes": 2920626,
+      "decode_estimate_ms": 9,
+      "plan_wall_ms": 334.536,
+      "prepare_wall_ms": 27.722,
+      "cpu_ms": 150.332
+    },
+    {
+      "input": {
+        "position": [
+          1000,
+          0,
+          1000
+        ],
+        "velocity": [
+          0,
+          0,
+          0
+        ]
+      },
+      "plan_id": "b9feefb2207553ec0a8552fd1bcea8bb0ee06dc29000d66167ff7ae37355e07d",
+      "eligible_gates": [],
+      "canceled": [
+        "asset-cell:car_concept",
+        "haven:tampa",
+        "vehicle:passenger-entry"
+      ],
+      "selected": [],
+      "staged_bytes": 0,
+      "memory_estimate_bytes": 0,
+      "decode_estimate_ms": 0,
+      "plan_wall_ms": 369.469,
+      "prepare_wall_ms": 0.147,
+      "cpu_ms": 160.412
+    }
+  ],
+  "committed_events_before": 0,
+  "committed_events_after": 0,
+  "maxrss_kib_process": 94168,
+  "decode_and_memory_costs": "estimates; browser/device decoding not measured by this server fixture",
+  "claim": "actual catalog audio/GLB bytes hash checked and cached; no world effect committed during prediction/preparation"
+}

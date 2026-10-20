@@ -1,0 +1,25 @@
+{
+  "source_catalog": "HYG",
+  "source_release": "4.1",
+  "source_revision": "c7f7f883fe678cc7680169a50ccd7dcc49b060ce",
+  "source_url": "https://raw.githubusercontent.com/astronexus/HYG-Database/c7f7f883fe678cc7680169a50ccd7dcc49b060ce/hyg/CURRENT/hygdata_v41.csv",
+  "source_sha256": "d9f69fd86bbf90a4e4d52b4c5c53eacfa6dfc0bfdef85bfd94f095e0bebe4ebd",
+  "source_bytes": 33932548,
+  "source_count": 119625,
+  "retrieved_at": "2026-10-20T21:48:13.313300+00:00",
+  "source_epoch": 2000.0,
+  "source_equinox": 2000.0,
+  "source_terms": "CC BY-SA 4.0",
+  "source_terms_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "HYG Database, David Nash / Astronexus; derived from Hipparcos, Yale Bright Star and Gliese catalogs",
+  "upstream_input_sha256": "d9f69fd86bbf90a4e4d52b4c5c53eacfa6dfc0bfdef85bfd94f095e0bebe4ebd",
+  "upstream_matches_download": true,
+  "derived_index_sha256": "708a71603a2cee31cd98de2ac981ddad404132370aad7d789c36a1c114aea2bd",
+  "labels_separate_from_miner": true,
+  "gaps": [
+    "No Gaia DR3 ingest: HYG is regression-scale fixture.",
+    "No apparent topocentric parallax, nutation, annual aberration or atmospheric refraction.",
+    "No source-error covariance; 1900\u20132100 proper-motion approximation only.",
+    "No live weather or Moon ephemeris in HYG."
+  ]
+}

@@ -1,0 +1,24 @@
+test_buildings_admissible (test_realms.Generative.test_buildings_admissible) ... ok
+test_event_kernel_is_subcritical (test_realms.Generative.test_event_kernel_is_subcritical) ... ok
+test_mission_requires_facts (test_realms.Generative.test_mission_requires_facts) ... ok
+test_names_are_admissible_and_fictional (test_realms.Generative.test_names_are_admissible_and_fictional) ... /workspace/HOMELESS/upstream/homeless-realms-0.1/realms/models.py:55: ResourceWarning: unclosed file <_io.TextIOWrapper name='/workspace/HOMELESS/upstream/homeless-realms-0.1/data/raw/places.geojson' mode='r' encoding='UTF-8'>
+  places = json.load(open(DATA / "raw" / "places.geojson"))["features"]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_schedules_satisfy_grammar (test_realms.Generative.test_schedules_satisfy_grammar) ... ok
+test_every_id_resolves_and_is_deterministic (test_realms.Population.test_every_id_resolves_and_is_deterministic) ... ok
+test_history_never_contradicted (test_realms.Population.test_history_never_contradicted) ... ok
+test_quadtree_counts_are_exact (test_realms.Population.test_quadtree_counts_are_exact) ... ok
+test_residents_query_is_sound (test_realms.Population.test_residents_query_is_sound) ... ok
+test_total_is_world_population (test_realms.Population.test_total_is_world_population) ... ok
+test_workplace_permutation_is_invertible (test_realms.Population.test_workplace_permutation_is_invertible) ... ok
+test_epoch_recovery (test_realms.Sky.test_epoch_recovery) ... ok
+test_polaris_altitude_equals_latitude (test_realms.Sky.test_polaris_altitude_equals_latitude) ... ok
+test_authorship_by_impact_not_money (test_realms.Society.test_authorship_by_impact_not_money) ... ok
+test_impact_counterfactual_and_shapley_efficiency (test_realms.Society.test_impact_counterfactual_and_shapley_efficiency) ... ok
+test_walk_word_and_match (test_realms.Walks.test_walk_word_and_match) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 2.416s
+
+OK

@@ -23,6 +23,28 @@ class Continuity(unittest.TestCase):
  def test_revoke_scoped_capability(self):
   cap=self.store.grant('alice',['sign.rename']);a=self.commit(actor='alice',capability=cap);self.assertEqual(a['status'],'ok')
   self.store.revoke(cap);self.assertEqual(self.commit(actor='alice',capability=cap,event_id='e2')['status'],'refused')
+ def test_public_observer_does_not_gain_private_npc_memory(self):
+  from worldloom.society import World
+  snapshot=World(seed=7).snapshot();snapshot['actors'][0]['memory']=[{'secret':'hidden'}]
+  self.commit(payload={'kind':'world.snapshot','snapshot':snapshot})
+  r=self.engine.invoke({'operation':'query'})
+  self.assertNotIn('memory',r['data']['world']['actors'][0]);self.assertNotIn('schedule',r['data']['world']['actors'][0])
+ def test_operator_revocation_survives_restart(self):
+  token=self.store.operator_token;self.store.revoke(token);self.store.close();self.store=Store(self.db)
+  self.assertFalse(self.store.authorized(token,'dark','*'))
+ def test_incomplete_typed_effects_never_enter_the_ledger(self):
+  for payload in [{'kind':'world.snapshot'},{'kind':'event.activate'},{'kind':'journey.append','position':'bad'}]:
+   self.assertEqual(self.commit(payload=payload)['status'],'error')
+  self.assertEqual(self.store.verify()['count'],0)
+ def test_pinned_context_replays_old_version_without_side_effects(self):
+  first=self.commit()['commit_id']
+  q={'operation':'query','program':'purl://dark/world/state','context_hash':first}
+  before=self.engine.invoke(q)
+  self.commit(event_id='e2',payload={'kind':'sign.rename','object':'cafe','text':'Second Name'})
+  count=self.store.verify()['count'];after=self.engine.invoke(q)
+  self.assertEqual(before,after);self.assertEqual(after['data']['objects']['cafe']['text'],'Golden Haven')
+  self.assertEqual(self.store.verify()['count'],count)
+  self.assertEqual(self.engine.invoke({**q,'context_hash':'unknown'})['status'],'error')
  def test_corruption_detected(self):
   self.commit();self.store.db.execute("UPDATE events SET body='{}'");self.store.db.commit();self.assertFalse(self.store.verify()['valid'])
 

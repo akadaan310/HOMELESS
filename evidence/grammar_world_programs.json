@@ -1,0 +1,834 @@
+{
+  "walk": {
+    "compiled": {
+      "valid": true,
+      "diagnostics": [],
+      "program": {
+        "op": "walk",
+        "nodes": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "subject": "walk",
+      "grammar_revision": "22ae8ef4d5132d7ac38a2c5084724b937a995f1b9f3b07879d00a70fcc22b18c",
+      "source": "walk a b c",
+      "context": {
+        "graph": {
+          "a": [
+            "b"
+          ],
+          "b": [
+            "c"
+          ]
+        }
+      },
+      "context_hash": "d2c90a8ec0d24f81d27fbd8d63fef3e9992614c71f24b399aa86c55ae88b4bab",
+      "semantics": "connected-walk",
+      "effects_declared": [
+        "journey.step"
+      ],
+      "identity_depth": "chain",
+      "budget": {
+        "max_steps": 3000
+      },
+      "usage_logprob": -0.47928602197499226,
+      "usage_backend": "upstream/ingram-0.1/ingram/ingrammar.py:KN3",
+      "observable": "route-and-step-trace",
+      "diagnosis": "ADMITTED",
+      "fold": {
+        "letters": [
+          273,
+          271,
+          272,
+          277,
+          279,
+          275,
+          278
+        ],
+        "tower": {
+          "merges": [
+            [
+              44,
+              34
+            ],
+            [
+              34,
+              58
+            ],
+            [
+              34,
+              256
+            ],
+            [
+              34,
+              93
+            ],
+            [
+              34,
+              97
+            ],
+            [
+              34,
+              110
+            ],
+            [
+              34,
+              119
+            ],
+            [
+              34,
+              125
+            ],
+            [
+              91,
+              260
+            ],
+            [
+              97,
+              108
+            ],
+            [
+              98,
+              258
+            ],
+            [
+              99,
+              259
+            ],
+            [
+              100,
+              101
+            ],
+            [
+              107,
+              263
+            ],
+            [
+              111,
+              112
+            ],
+            [
+              111,
+              268
+            ],
+            [
+              115,
+              257
+            ],
+            [
+              123,
+              261
+            ],
+            [
+              256,
+              270
+            ],
+            [
+              257,
+              262
+            ],
+            [
+              258,
+              266
+            ],
+            [
+              264,
+              276
+            ],
+            [
+              265,
+              269
+            ],
+            [
+              267,
+              274
+            ]
+          ]
+        },
+        "derivation_address": "ig:3NP332BPTP7Q.PJ6G"
+      },
+      "address": "purl://dark/grammatical/walk/22ae8ef4d5132d7ac38a2c5084724b937a995f1b9f3b07879d00a70fcc22b18c/4bde9b0eac33c130ca86226e4dbfcf401fcdd4134258d35e77e60e16aa6b5cea",
+      "witness": {
+        "parse_roundtrip": true,
+        "fold_unfold": true,
+        "source_digest": "f1323456f76f5676863f8468f2daf59ab313ca5ff18ca791f1deb52f63d38dfa",
+        "context_hash": "d2c90a8ec0d24f81d27fbd8d63fef3e9992614c71f24b399aa86c55ae88b4bab",
+        "grammar_certificate": {
+          "passed": true,
+          "heldout_passed": 1,
+          "fixture_digest": "1f42dc31545577be3d30b47994297aa6726e74be4e89c44e845a037f7ff793a5",
+          "checks": [
+            "type-safety",
+            "admissibility",
+            "counterexamples",
+            "heldout",
+            "bounded-evaluator"
+          ]
+        }
+      }
+    },
+    "execution": {
+      "address": "purl://dark/grammatical/walk/22ae8ef4d5132d7ac38a2c5084724b937a995f1b9f3b07879d00a70fcc22b18c/4bde9b0eac33c130ca86226e4dbfcf401fcdd4134258d35e77e60e16aa6b5cea",
+      "effects": [
+        {
+          "kind": "journey.step",
+          "channel": "movement",
+          "from": "a",
+          "to": "b",
+          "index": 0
+        },
+        {
+          "kind": "journey.step",
+          "channel": "movement",
+          "from": "b",
+          "to": "c",
+          "index": 1
+        }
+      ],
+      "trace": [
+        {
+          "from": "a",
+          "to": "b",
+          "index": 0
+        },
+        {
+          "from": "b",
+          "to": "c",
+          "index": 1
+        }
+      ],
+      "effect_policy": "propose-only",
+      "semantics": "connected-walk",
+      "grammar_revision": "22ae8ef4d5132d7ac38a2c5084724b937a995f1b9f3b07879d00a70fcc22b18c",
+      "trace_digest": "628e3a111b929e8da79ad4d2c492447cdfaa760a4078acf03de1976bb0d000ee"
+    }
+  },
+  "audio": {
+    "compiled": {
+      "valid": true,
+      "diagnostics": [],
+      "program": {
+        "op": "emit",
+        "cue": "balloon",
+        "gain": 0.1,
+        "duration_ms": 850
+      },
+      "subject": "audio",
+      "grammar_revision": "3a402615d824f4e47882d8bf3493593b35f6dfc094793d012f96c3d7491b4847",
+      "source": "emit balloon 0.1 850",
+      "context": {
+        "balloon_audience": true,
+        "geometry_valid": true
+      },
+      "context_hash": "ada55e47f10abd4b3708d49d498f8a68253893444dc0452c9b90bbf63f311d59",
+      "semantics": "bounded-audio-gesture",
+      "effects_declared": [
+        "sound.cue"
+      ],
+      "identity_depth": "chain",
+      "budget": {
+        "max_steps": 3000
+      },
+      "usage_logprob": -13.983592780133629,
+      "usage_backend": "upstream/ingram-0.1/ingram/ingrammar.py:KN3",
+      "observable": "spatial-sound-cue",
+      "diagnosis": "UNUSUAL_LEGITIMATE",
+      "fold": {
+        "letters": [
+          123,
+          260,
+          117,
+          275,
+          272,
+          279,
+          258,
+          262,
+          273,
+          114,
+          271,
+          278,
+          268,
+          115,
+          256,
+          267,
+          276,
+          110,
+          256,
+          265,
+          257,
+          111,
+          112,
+          259,
+          274,
+          277,
+          261
+        ],
+        "tower": {
+          "merges": [
+            [
+              34,
+              58
+            ],
+            [
+              44,
+              34
+            ],
+            [
+              111,
+              110
+            ],
+            [
+              256,
+              34
+            ],
+            [
+              34,
+              99
+            ],
+            [
+              34,
+              125
+            ],
+            [
+              34,
+              257
+            ],
+            [
+              46,
+              49
+            ],
+            [
+              48,
+              257
+            ],
+            [
+              48,
+              263
+            ],
+            [
+              53,
+              264
+            ],
+            [
+              56,
+              266
+            ],
+            [
+              95,
+              109
+            ],
+            [
+              97,
+              105
+            ],
+            [
+              97,
+              108
+            ],
+            [
+              97,
+              116
+            ],
+            [
+              98,
+              270
+            ],
+            [
+              100,
+              117
+            ],
+            [
+              101,
+              109
+            ],
+            [
+              101,
+              259
+            ],
+            [
+              103,
+              269
+            ],
+            [
+              105,
+              116
+            ],
+            [
+              105,
+              258
+            ],
+            [
+              108,
+              111
+            ]
+          ]
+        },
+        "derivation_address": "ig:A0ZM0A7BGX0X6N5XXN8H5AP2YNQC5Z9F25APGH8404YP.VDSE"
+      },
+      "address": "purl://dark/grammatical/audio/3a402615d824f4e47882d8bf3493593b35f6dfc094793d012f96c3d7491b4847/4b682d35238e25782d843700b859b632ccd2166f6ad4ba16eef8a3c3118aa1c8",
+      "witness": {
+        "parse_roundtrip": true,
+        "fold_unfold": true,
+        "source_digest": "d0dbfc0b67fc97b473eca9a46e38516d94c6f618e54bc6341b1291de21d2ca7d",
+        "context_hash": "ada55e47f10abd4b3708d49d498f8a68253893444dc0452c9b90bbf63f311d59",
+        "grammar_certificate": {
+          "passed": true,
+          "heldout_passed": 2,
+          "fixture_digest": "ce4e61088c354e2f5312052265aa4a03470a0294b375c6572f2ba6870b324b5d",
+          "checks": [
+            "type-safety",
+            "admissibility",
+            "counterexamples",
+            "heldout",
+            "bounded-evaluator"
+          ]
+        }
+      }
+    },
+    "execution": {
+      "address": "purl://dark/grammatical/audio/3a402615d824f4e47882d8bf3493593b35f6dfc094793d012f96c3d7491b4847/4b682d35238e25782d843700b859b632ccd2166f6ad4ba16eef8a3c3118aa1c8",
+      "effects": [
+        {
+          "kind": "sound.cue",
+          "channel": "sound",
+          "cue": "balloon",
+          "duration_ms": 850,
+          "gain": 0.1
+        }
+      ],
+      "trace": [
+        {
+          "cue": "balloon",
+          "duration_ms": 850,
+          "gain": 0.1
+        }
+      ],
+      "effect_policy": "propose-only",
+      "semantics": "bounded-audio-gesture",
+      "grammar_revision": "3a402615d824f4e47882d8bf3493593b35f6dfc094793d012f96c3d7491b4847",
+      "trace_digest": "4405e4dd7cac2e567527a1eea1725d1f9446d096e9ad6170c95d14c27c3b3c72"
+    }
+  },
+  "naming": {
+    "compiled": {
+      "valid": true,
+      "diagnostics": [],
+      "program": {
+        "op": "name",
+        "kind": "cafe",
+        "name": "Amber Fold",
+        "source_kind": "constructed-fiction"
+      },
+      "subject": "naming",
+      "grammar_revision": "5c36975b43a1f3e4a72f62327cef5e913aae2555cc74b53e26643d0e9be2723c",
+      "source": "name cafe Amber Fold",
+      "context": {},
+      "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "semantics": "fictional-sign-proposal",
+      "effects_declared": [
+        "sign.propose"
+      ],
+      "identity_depth": "chain",
+      "budget": {
+        "max_steps": 3000
+      },
+      "usage_logprob": -0.9329742357773521,
+      "usage_backend": "upstream/ingram-0.1/ingram/ingrammar.py:KN3",
+      "observable": "fictional-sign",
+      "diagnosis": "ADMITTED",
+      "fold": {
+        "letters": [
+          123,
+          271,
+          276,
+          263,
+          266,
+          101,
+          257,
+          273,
+          277,
+          114,
+          32,
+          274,
+          108,
+          279,
+          111,
+          112,
+          257,
+          266,
+          263,
+          115,
+          111,
+          117,
+          114,
+          278,
+          275,
+          267,
+          115,
+          116,
+          114,
+          117,
+          261,
+          101,
+          100,
+          272,
+          105,
+          261,
+          105,
+          267,
+          270
+        ],
+        "tower": {
+          "merges": [
+            [
+              34,
+              58
+            ],
+            [
+              256,
+              34
+            ],
+            [
+              34,
+              44
+            ],
+            [
+              258,
+              34
+            ],
+            [
+              97,
+              109
+            ],
+            [
+              99,
+              116
+            ],
+            [
+              100,
+              257
+            ],
+            [
+              101,
+              259
+            ],
+            [
+              105,
+              110
+            ],
+            [
+              107,
+              264
+            ],
+            [
+              110,
+              260
+            ],
+            [
+              111,
+              110
+            ],
+            [
+              262,
+              99
+            ],
+            [
+              265,
+              268
+            ],
+            [
+              34,
+              125
+            ],
+            [
+              34,
+              269
+            ],
+            [
+              45,
+              102
+            ],
+            [
+              65,
+              109
+            ],
+            [
+              70,
+              111
+            ],
+            [
+              95,
+              269
+            ],
+            [
+              97,
+              102
+            ],
+            [
+              98,
+              101
+            ],
+            [
+              99,
+              101
+            ],
+            [
+              100,
+              259
+            ]
+          ]
+        },
+        "derivation_address": "ig:1TT8A185DP32EXD5PMTD93ZPCRJ4CB6C7YXWM0QAJ5AFSGTNXBCN65WH1GDPVP5F.6HTW"
+      },
+      "address": "purl://dark/grammatical/naming/5c36975b43a1f3e4a72f62327cef5e913aae2555cc74b53e26643d0e9be2723c/e89580c8a6b4ff77741cc473a454fca5051c22af20274b9f7d7d95ecd1a42f86",
+      "witness": {
+        "parse_roundtrip": true,
+        "fold_unfold": true,
+        "source_digest": "42c6a69d1c83e0f884ca282dee5fd016daa354ca7c3e60f88bf2839b1d42520c",
+        "context_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "grammar_certificate": {
+          "passed": true,
+          "heldout_passed": 2,
+          "fixture_digest": "5ad7fcb56f2381a15708d3ec226c7cb90e93bac91266e9df871273e723daee9e",
+          "checks": [
+            "type-safety",
+            "admissibility",
+            "counterexamples",
+            "heldout",
+            "bounded-evaluator"
+          ]
+        }
+      }
+    },
+    "execution": {
+      "address": "purl://dark/grammatical/naming/5c36975b43a1f3e4a72f62327cef5e913aae2555cc74b53e26643d0e9be2723c/e89580c8a6b4ff77741cc473a454fca5051c22af20274b9f7d7d95ecd1a42f86",
+      "effects": [
+        {
+          "kind": "sign.propose",
+          "channel": "signage",
+          "fictional_name": "Amber Fold",
+          "shop_kind": "cafe"
+        }
+      ],
+      "trace": [
+        {
+          "fictional_name": "Amber Fold",
+          "shop_kind": "cafe"
+        }
+      ],
+      "effect_policy": "propose-only",
+      "semantics": "fictional-sign-proposal",
+      "grammar_revision": "5c36975b43a1f3e4a72f62327cef5e913aae2555cc74b53e26643d0e9be2723c",
+      "trace_digest": "eb47128955195f0970565bfbd12881183399cfd96b33f40067f8cfb17eb5f5c7"
+    }
+  },
+  "haven": {
+    "compiled": {
+      "valid": true,
+      "diagnostics": [],
+      "program": {
+        "op": "meet",
+        "place": "tampa-haven",
+        "evidence": [
+          "e1"
+        ]
+      },
+      "subject": "haven",
+      "grammar_revision": "0e3084c6f63b9ce5faf39c898f70af4d2847405556a0997bc83b250c93d3efd5",
+      "source": "meet tampa-haven report e1",
+      "context": {
+        "events": [
+          "e1"
+        ],
+        "governed": true,
+        "consenting": true
+      },
+      "context_hash": "2382ee73f70ba64ae21fff18b076572c49123a6d78467eb4893678b6e65027e3",
+      "semantics": "evidence-based-meeting",
+      "effects_declared": [
+        "meeting.propose"
+      ],
+      "identity_depth": "chain",
+      "budget": {
+        "max_steps": 3000
+      },
+      "usage_logprob": -7.391109029752802,
+      "usage_backend": "upstream/ingram-0.1/ingram/ingrammar.py:KN3",
+      "observable": "evidence-report",
+      "diagnosis": "ADMITTED",
+      "fold": {
+        "letters": [
+          123,
+          257,
+          118,
+          274,
+          259,
+          256,
+          267,
+          266,
+          258,
+          277,
+          261,
+          276,
+          116,
+          264,
+          279,
+          261,
+          116,
+          268,
+          278,
+          269,
+          260,
+          263
+        ],
+        "tower": {
+          "merges": [
+            [
+              34,
+              58
+            ],
+            [
+              34,
+              101
+            ],
+            [
+              44,
+              34
+            ],
+            [
+              99,
+              101
+            ],
+            [
+              101,
+              110
+            ],
+            [
+              256,
+              34
+            ],
+            [
+              34,
+              93
+            ],
+            [
+              34,
+              125
+            ],
+            [
+              34,
+              258
+            ],
+            [
+              45,
+              104
+            ],
+            [
+              49,
+              262
+            ],
+            [
+              91,
+              257
+            ],
+            [
+              97,
+              109
+            ],
+            [
+              97,
+              118
+            ],
+            [
+              97,
+              259
+            ],
+            [
+              97,
+              265
+            ],
+            [
+              100,
+              260
+            ],
+            [
+              101,
+              101
+            ],
+            [
+              105,
+              272
+            ],
+            [
+              108,
+              270
+            ],
+            [
+              109,
+              273
+            ],
+            [
+              111,
+              112
+            ],
+            [
+              112,
+              271
+            ],
+            [
+              112,
+              275
+            ]
+          ]
+        },
+        "derivation_address": "ig:6D1M3HP3JN05EF0C4RY83MQZ69QQF1DRQ200.BNHD"
+      },
+      "address": "purl://dark/grammatical/haven/0e3084c6f63b9ce5faf39c898f70af4d2847405556a0997bc83b250c93d3efd5/81b37867891d1ff8eb89c2899de7c82a291584d6b9e09c450c346cefc07ffbfa",
+      "witness": {
+        "parse_roundtrip": true,
+        "fold_unfold": true,
+        "source_digest": "095f296eb99fc71d6dedbcd514079cb1ee0ad308533961f4b959298f54c4e26a",
+        "context_hash": "2382ee73f70ba64ae21fff18b076572c49123a6d78467eb4893678b6e65027e3",
+        "grammar_certificate": {
+          "passed": true,
+          "heldout_passed": 1,
+          "fixture_digest": "0252c97853e0d3d58b5dc421a1a76ed126ddebe66ab50db4634fa7e15887ab5a",
+          "checks": [
+            "type-safety",
+            "admissibility",
+            "counterexamples",
+            "heldout",
+            "bounded-evaluator"
+          ]
+        }
+      }
+    },
+    "execution": {
+      "address": "purl://dark/grammatical/haven/0e3084c6f63b9ce5faf39c898f70af4d2847405556a0997bc83b250c93d3efd5/81b37867891d1ff8eb89c2899de7c82a291584d6b9e09c450c346cefc07ffbfa",
+      "effects": [
+        {
+          "kind": "meeting.propose",
+          "channel": "society",
+          "place": "tampa-haven",
+          "verified_evidence": [
+            "e1"
+          ]
+        }
+      ],
+      "trace": [
+        {
+          "place": "tampa-haven",
+          "verified_evidence": [
+            "e1"
+          ]
+        }
+      ],
+      "effect_policy": "propose-only",
+      "semantics": "evidence-based-meeting",
+      "grammar_revision": "0e3084c6f63b9ce5faf39c898f70af4d2847405556a0997bc83b250c93d3efd5",
+      "trace_digest": "cb2005c614ea84cc470d3375f3c3853aed5d3831a3046fdc4bece7807363b01b"
+    }
+  }
+}

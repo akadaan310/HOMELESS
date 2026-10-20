@@ -2,3 +2,4 @@ cbor2==6.1.5
 quickjs==1.19.4
 wasmtime==49.0.0
 numpy==2.3.5
+geographiclib==2.1

@@ -1,0 +1,63 @@
+test_grammar (unittest.loader._FailedTest.test_grammar) ... ERROR
+
+======================================================================
+ERROR: test_grammar (unittest.loader._FailedTest.test_grammar)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_grammar
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/HOMELESS/tests/test_grammar.py", line 4, in <module>
+    from worldloom.grammar import GrammarFactory, Grammatical, compile_program, registry
+ModuleNotFoundError: No module named 'worldloom.grammar'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+test_society (unittest.loader._FailedTest.test_society) ... ERROR
+
+======================================================================
+ERROR: test_society (unittest.loader._FailedTest.test_society)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_society
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/HOMELESS/tests/test_society.py", line 4, in <module>
+    from worldloom.society import World, ride_equilibria
+ModuleNotFoundError: No module named 'worldloom.society'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+test_bootstrap (unittest.loader._FailedTest.test_bootstrap) ... ERROR
+
+======================================================================
+ERROR: test_bootstrap (unittest.loader._FailedTest.test_bootstrap)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_bootstrap
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/HOMELESS/tests/test_bootstrap.py", line 5, in <module>
+    from worldloom.bootstrap import BootstrapScheduler
+ModuleNotFoundError: No module named 'worldloom.bootstrap'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
