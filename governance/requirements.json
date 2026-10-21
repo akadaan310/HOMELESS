@@ -54,14 +54,21 @@
       "source_clause": "\u00a74",
       "owner": "orchestration",
       "status": "NOT_RUN",
-      "implementation": [],
+      "implementation": [
+        "delivery/recover_sources.py",
+        "governance/SOURCE_RECONCILIATION.md"
+      ],
       "verification": "Document inspection",
-      "observed_result": "Not yet verified",
-      "command": null,
-      "build": null,
-      "evidence": [],
-      "reviewer": null,
-      "limitations": "Initial inventory; existence of code is not acceptance"
+      "observed_result": "Six missing historical sources recovered, SHA-256/size verified and safely extracted; current Commission unchanged. Full source reconciliation remains open.",
+      "command": "python3 delivery/recover_sources.py",
+      "build": "source recovery commit f1f1d992f71a085669b310fd2dbee9f4fa9601c0; continuation uncommitted",
+      "evidence": [
+        "delivery/source-recovery-inventory.json",
+        "delivery/recovered-kernel-review.md",
+        "delivery/recovered-visual-review.md"
+      ],
+      "reviewer": "integrator with independent kernel and visual source reviewers",
+      "limitations": "PASS applies to six recovery entries only; repository/API/rights review and production reuse remain pending. No native acceptance."
     },
     {
       "id": "HD-005",

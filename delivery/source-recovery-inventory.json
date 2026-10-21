@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "clauses": [
+    "HD-004",
+    "HD-009",
+    "HD-048",
+    "HD-085"
+  ],
+  "constitution_revision": "1.1",
+  "constitution_sha256": "e9327cbf55e496f3ad5029e409d6201f68d6095753a5ad95c58328cb6e8a4104",
+  "archive_sha256": "ae2c20840df5737342d02d1e31db0c4ddb88f552c08e7d690c5da502a21fdaa3",
+  "manifest_sha256": "2deedbca1c23df76ca19c95755ad2684f93d99589736b9a063d4cb082d46a0ab",
+  "status": "PASS",
+  "historical_sources_verified": 6,
+  "metadata_entries_verified": 2,
+  "members": [
+    {
+      "path": "historical/WORLD_LOOM_FOUNDATION.md",
+      "bytes": 16591,
+      "sha256": "ec70e552667a7ea9e21895c3befec0bb0bdd80e6cc7e1062f94d3f1fcac77959"
+    },
+    {
+      "path": "historical/CARMEN Research Commission — Muse, 2026-10-20.md",
+      "bytes": 31029,
+      "sha256": "789cdfb9ae1e20f706b8b77dc3a35bfbe50cf9d03e2c2413f8e4212247e2c858"
+    },
+    {
+      "path": "historical/HOMELESS_GLM_WORLDLOOM_V01.zip",
+      "bytes": 36330,
+      "sha256": "e4d15f538460383c72ca6cd07797e03d1bcacf6d8855d1b08c33fa4067bf526b",
+      "members": [
+        {
+          "path": "HOMELESS_GLM_WORLDLOOM_V01/WORLD_LOOM_FOUNDATION.md",
+          "bytes": 16591,
+          "sha256": "ec70e552667a7ea9e21895c3befec0bb0bdd80e6cc7e1062f94d3f1fcac77959"
+        },
+        {
+          "path": "HOMELESS_GLM_WORLDLOOM_V01/demo.py",
+          "bytes": 1787,
+          "sha256": "e86eb98d3258e7059e287fb64a97953bf6a23534c4e3132d7f4fc5fa94007935"
+        },
+        {
+          "path": "HOMELESS_GLM_WORLDLOOM_V01/demo-result.json",
+          "bytes": 1817,
+          "sha256": "c4b6f0d77549731ddccbb2f2b9a521de8a266a03557a298b42f39ea32b866d17"
+        },
+        {
+          "path": "HOMELESS_GLM_WORLDLOOM_V01/SHA256SUMS.txt",
+          "bytes": 170,
+          "sha256": "f5562a65e6a3da0241788c4cfdc3f56eb911355538f963be4fc67709acd1f8c0"
+        },
+        {
+          "path": "HOMELESS_GLM_WORLDLOOM_V01/test-results.txt",
+          "bytes": 1585,
+          "sha256": "9e3e214522ebaaa3ee175c6020e1d9a7281871b34bd4e148a6def47827626ea5"
+        },
+        {
+          "path": "HOMELESS_GLM_WORLDLOOM_V01/__pycache__/test_worldloom.cpython-313.pyc",
+          "bytes": 12564,
+          "sha256": "cf3874b7d6555cc21191aa8209ad056cb003418ac77587b09b78b9165a43b95d"
+        },
+        {
+          "path": "HOMELESS_GLM_WORLDLOOM_V01/__pycache__/worldloom.cpython-313.pyc",
+          "bytes": 22317,
+          "sha256": "931925ea8e234150b13acfdbac43d9de663b0ee30b6a3b277ff4627c689fd7dc"
+        },
+        {
+          "path": "HOMELESS_GLM_WORLDLOOM_V01/worldloom.py",
+          "bytes": 14251,
+          "sha256": "9f3a165aeab589f58338627b857a1b4bbe62cf245af2ad69caa537f25528c9fb"
+        },
+        {
+          "path": "HOMELESS_GLM_WORLDLOOM_V01/README.md",
+          "bytes": 1974,
+          "sha256": "485cd02fd07849e8caa0d2f4bda2f4eb236eee45ec5c1711e7e820acb8ca1d88"
+        },
+        {
+          "path": "HOMELESS_GLM_WORLDLOOM_V01/test_worldloom.py",
+          "bytes": 5023,
+          "sha256": "e1f780196d3e771b424b640b7cf874eb240a369a883ebe6471964ffab9fee8e3"
+        }
+      ]
+    },
+    {
+      "path": "historical/HOMELESS_RENDEZVOUS_RELEASE_RIDER_V1.zip",
+      "bytes": 16839,
+      "sha256": "c84c44769c8d71c8e8bac70249fc5798777823653ea2a30809af29bbf46a36a0",
+      "members": [
+        {
+          "path": "HOMELESS_RENDEZVOUS_RELEASE_RIDER_V1/CODEX_ONE_SHOT.md",
+          "bytes": 3487,
+          "sha256": "4cd72d93457fef71feaac5ade91a1494236e2d5cec7821877b0abe4cda35481b"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_RELEASE_RIDER_V1/ORIGINAL_MASTERPACK_SHA256.txt",
+          "bytes": 121,
+          "sha256": "3fa6632fd280f8df0e8e63ec5fadbeb2952186262dc200ab225ab6ae97e4f1ca"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_RELEASE_RIDER_V1/PERFORMANCE_BUILD_GATES.md",
+          "bytes": 6079,
+          "sha256": "4ea8eeaaca1a9240b8a2605b2a85fb23ee805bca1b5aa458fda9e6d4a6174dfa"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_RELEASE_RIDER_V1/README.md",
+          "bytes": 2006,
+          "sha256": "1485d5b40202f196b3fa3e3e45a0f15a70908c37b31eef084911b8bbf77a7204"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_RELEASE_RIDER_V1/RENDERER_ASSETS_PHYSICS.md",
+          "bytes": 3798,
+          "sha256": "6a5d7df6b7668145bcab916b4f6eda799b9ac4a740fdca27fd5d786e5e972a5c"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_RELEASE_RIDER_V1/RENDEZVOUS_RELEASE_DIRECTIVE.md",
+          "bytes": 14059,
+          "sha256": "38567a4251ed667631a93712e7c1da0f890769eb46381dc0590995cf452c024b"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_RELEASE_RIDER_V1/RIDER_MANIFEST.json",
+          "bytes": 1123,
+          "sha256": "8a421ce167ecaaee5f08ba8e83447d9b34db553f9d01def5402f58d329717b56"
+        }
+      ]
+    },
+    {
+      "path": "historical/HOMELESS_RENDEZVOUS_FIDELITY_ASSET_RIDER_V2.zip",
+      "bytes": 10873,
+      "sha256": "5163b063d47473df0ba3f8747df4e7eca2bcdba71b549f22c7f10c37f6fca1c1",
+      "members": [
+        {
+          "path": "HOMELESS_RENDEZVOUS_FIDELITY_ASSET_RIDER_V2/CODEX_ONE_SHOT_ADDENDUM.md",
+          "bytes": 2345,
+          "sha256": "3b638b7d68ea27452c46e4cde5e997fd7408562368ac51c274a33c11c7254b55"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_FIDELITY_ASSET_RIDER_V2/MANIFEST.json",
+          "bytes": 592,
+          "sha256": "93dcc102d31993012790009ec06fe3149d1f697ada8b58eb8a71162271683334"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_FIDELITY_ASSET_RIDER_V2/README.md",
+          "bytes": 687,
+          "sha256": "6dd1f42810b09edf107ac5203e5df170ae763e476792adf4c2f4a16ef650c72b"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_FIDELITY_ASSET_RIDER_V2/RENDEZVOUS_HIGH_FIDELITY_ASSET_PIPELINE.md",
+          "bytes": 15071,
+          "sha256": "bbde56ced475aced440146500fc4ab7ac94f4ac851f66d4f74a01c13b8d53baa"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_FIDELITY_ASSET_RIDER_V2/sources.json",
+          "bytes": 2385,
+          "sha256": "c1bf84598cc0ce4fec7e414ae761c838da1fc579aa6a4f5b54bff2ea62a3b39b"
+        }
+      ]
+    },
+    {
+      "path": "historical/HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3.zip",
+      "bytes": 46338,
+      "sha256": "fbf50b98e30d36fee7507ecddb55b902309d8d5131ed1dfd0f76dbcb2f4220f7",
+      "members": [
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/CODEX_ONE_SHOT.md",
+          "bytes": 4533,
+          "sha256": "b4b2d764a9395aec58c707a8fb2cc8c4526e39f82188f34d5b02415869534a9a"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/DIEGETIC_WORLD_EXPERIENCE.md",
+          "bytes": 6325,
+          "sha256": "44aaec9d539fe917c954ba5eba776d0ebcf3bbdaa21c08d886f758f3cd6f80c9"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/GRAMMATICALS_BOOTSTRAP_GATES.md",
+          "bytes": 10028,
+          "sha256": "760b76268b2bf164af814e8b4bb4d000a19543028bd1e04b5cd96bfbbe17a3ad"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/MANIFEST.json",
+          "bytes": 2584,
+          "sha256": "7c0045ad2a6f41bd1dfe880cb81bf4b9a14c061f2e58059a56878f5ad50ac056"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/NPC_VOICE_AND_ORACLE.md",
+          "bytes": 9763,
+          "sha256": "d58c5fef754586b2155bedee0e7cbc223cf78d4255cafac0e92f2d99cfbcb364"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/PROTOTYPE_DEMO.json",
+          "bytes": 829,
+          "sha256": "7b71ffa6f281f94b039dfe86b69f54984bc3884b827462dced7acad8eb56a67f"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/README.md",
+          "bytes": 2024,
+          "sha256": "572c74df7f08f33c4c12665c4746e7913043c090a65ed921568c3f77c609ec27"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/VERIFICATION_AND_INTEGRATION.md",
+          "bytes": 6151,
+          "sha256": "fdf7ba569e41dda36b8a05597be74a90e573a1eb296cd9693e4d1fcf46649eaf"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/prototype/demo.py",
+          "bytes": 1323,
+          "sha256": "bb43df57f13841502352715293c3a789df50392efd85426d52bc245a63c8a3b0"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/prototype/gate_kernel.py",
+          "bytes": 5809,
+          "sha256": "d376b83e42f9cc5b5dbc5f6c7f54898b1c1724d2644323d26d11a04569a13ec1"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/prototype/test_gate_kernel.py",
+          "bytes": 4720,
+          "sha256": "74e55610bd7a73aa2fc54a2605b3e7a297701db4caa9ba14922d87277a1919c5"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/source_riders/CODEX_ONE_SHOT_ADDENDUM.md",
+          "bytes": 2345,
+          "sha256": "3b638b7d68ea27452c46e4cde5e997fd7408562368ac51c274a33c11c7254b55"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/source_riders/PERFORMANCE_BUILD_GATES.md",
+          "bytes": 6079,
+          "sha256": "4ea8eeaaca1a9240b8a2605b2a85fb23ee805bca1b5aa458fda9e6d4a6174dfa"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/source_riders/RENDEZVOUS_HIGH_FIDELITY_ASSET_PIPELINE.md",
+          "bytes": 15071,
+          "sha256": "bbde56ced475aced440146500fc4ab7ac94f4ac851f66d4f74a01c13b8d53baa"
+        },
+        {
+          "path": "HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3/source_riders/RENDEZVOUS_RELEASE_DIRECTIVE.md",
+          "bytes": 14059,
+          "sha256": "38567a4251ed667631a93712e7c1da0f890769eb46381dc0590995cf452c024b"
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "bytes": 877,
+      "sha256": "760b686135d3f928416e290024da873617c5962f214e01d2f7fa39c55480dd6c"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 1265,
+      "sha256": "2deedbca1c23df76ca19c95755ad2684f93d99589736b9a063d4cb082d46a0ab"
+    }
+  ],
+  "scripts_executed": false,
+  "native_acceptance": false
+}

@@ -11480,5 +11480,14 @@
     "status": "BLOCKED",
     "reason": "No Unity Editor or Android toolchain on PATH or inspected standard locations; ARM host, no inspected GPU or attached Android device. No supported build worker entitlement established.",
     "release_acceptance": false
+  },
+  "source_recovery": {
+    "status": "PASS",
+    "historical_sources_verified": 6,
+    "inventory": "delivery/source-recovery-inventory.json",
+    "manifest": "reference/SOURCE_RECOVERY_MANIFEST.json",
+    "extraction": "reference/recovered",
+    "source_commit": "f1f1d992f71a085669b310fd2dbee9f4fa9601c0",
+    "scope": "separate source recovery only; original host and archive observations retained"
   }
 }

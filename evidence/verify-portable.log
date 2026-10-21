@@ -7,6 +7,6 @@ test_exact_allocation_and_stable_ties (test_reference.PopulationTests) ... ok
 test_ranges_realization_migration (test_reference.PopulationTests) ... ok
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.070s
+Ran 7 tests in 0.071s
 
 OK

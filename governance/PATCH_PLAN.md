@@ -8,3 +8,7 @@ All batches use commission revision 1.1, SHA-256 e9327cbf55e496f3ad5029e409d6201
 - Runtime/QA lead: §4, §8, §48, §76–83, §85, §95–99 — habitat, source inventory, validation and blockers.
 
 Three concurrent leads cover the nine §86.1 responsibilities with one integrator because the harness supports four active agents. Leads own disjoint directories and never modify the git index. Native acceptance remains independent of portable checks.
+
+## Source recovery continuation (HD-004/009/048/083/085/099)
+
+Integrator verifies/extracts sources and preserves checkpoint history. Independent kernel reviewer owns delivery/recovered-kernel-review.md; independent visual/audio reviewer owns delivery/recovered-visual-review.md. Current scope reconciles recovered references and reproduces inspected fixtures; existing Unity and portable implementation are retained. Infrastructure selection remains a separate pending workstream.

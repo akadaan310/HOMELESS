@@ -3,7 +3,7 @@
   "constitution_revision": "1.1",
   "constitution_sha256": "e9327cbf55e496f3ad5029e409d6201f68d6095753a5ad95c58328cb6e8a4104",
   "branch": "main",
-  "base_commit": "758abf81a94b76d7194da39864085e398f601d2e",
+  "base_commit": "f1f1d992f71a085669b310fd2dbee9f4fa9601c0",
   "stage": "internal source milestone; native acceptance blocked",
   "completed_requirements": [],
   "last_tests": [
@@ -30,15 +30,21 @@
       "exit_code": 0,
       "evidence": "portable/evidence/numerics.json",
       "scope": "1005 forward ECEF comparisons to Octave6.4.0; max residual3.67e-9m <=1e-7m"
+    },
+    {
+      "command": "python3 delivery/recover_sources.py",
+      "exit_code": 0,
+      "evidence": "delivery/source-recovery-inventory.json",
+      "scope": "six exact source digests, embedded metadata, recursive archive safety; no native acceptance"
     }
   ],
   "active_failures": [
     "No supported Unity Editor/build worker found",
     "No attached native Android device found",
     "Git metadata read-only: fetch/commit/push blocked",
-    "World Loom original, Rendezvous riders and Muse exact source missing from supplied ZIP inventory",
     "Production assets/models/speech not acquired",
-    "Global source partitions and demographic epoch not acquired/selected"
+    "Global source partitions and demographic epoch not acquired/selected",
+    "Recovered research kernels have finite-input, mutable-state and persistence limitations; no production port admitted"
   ],
   "datasets": {
     "global_coverage": "NOT_RUN",
@@ -50,7 +56,8 @@
   },
   "next_actions": [
     "Make current shared Git metadata writable, review source diff then commit on main; fetch before normal push, preserve concurrent changes",
-    "Recover exact World Loom/Rendezvous/Muse source gaps and inspect explicit research repositories/license/tests",
+    "Inspect/pin explicit research repositories and rights/tests; recovery availability is closed, API/source reuse review remains pending",
+    "Use recovered source reviews to define preparation/activation and World Loom adapter fixtures; reject non-finite inputs and repair identity/memory aliasing before any production port",
     "Import pinned Unity project on supported licensed worker, resolve package lock and run scene preparation/build with logs",
     "Acquire/validate production assets, speech and recordings through declared lifecycle",
     "Select/version global data and demographic baseline; estimate storage before ingest",
@@ -106,5 +113,36 @@
   },
   "git_delivery_status": "BLOCKED_READ_ONLY_METADATA",
   "build_host_state": "Ubuntu22.04 aarch64; no Unity/Android toolchain/GPU/USB device; supported licensed worker unverified",
-  "source_snapshot": "evidence/source-snapshot.json"
+  "source_snapshot": "evidence/source-snapshot.json",
+  "resumed_from": {
+    "base_commit": "758abf81a94b76d7194da39864085e398f601d2e",
+    "source_snapshot": "evidence/source-snapshot.json",
+    "preserved_implemented_subsets": true
+  },
+  "source_recovery": {
+    "status": "VERIFIED_EXTRACTED_INSPECTED",
+    "source_commit": "f1f1d992f71a085669b310fd2dbee9f4fa9601c0",
+    "inventory": "delivery/source-recovery-inventory.json",
+    "sources": 6,
+    "current_commission_unchanged": true,
+    "historical_tests": "World Loom 14 and V3 17 pass; adversarial probes expose limits, see delivery/recovered-kernel-review.md",
+    "reviews": [
+      "delivery/recovered-kernel-review.md",
+      "delivery/recovered-visual-review.md"
+    ]
+  },
+  "git_observation": {
+    "local_main": "f1f1d992f71a085669b310fd2dbee9f4fa9601c0",
+    "remote_main": "f1f1d992f71a085669b310fd2dbee9f4fa9601c0",
+    "method": "fresh HTTPS clone into /tmp; local main already matches remote",
+    "local_fetch": "BLOCKED: .git/FETCH_HEAD read-only",
+    "ssh_transport": "publickey authentication unavailable",
+    "fast_forward": "NOT_NEEDED: local and fetched remote heads equal",
+    "local_changes": "source recovery continuation remains uncommitted because .git is read-only"
+  },
+  "infrastructure_decisions": {
+    "status": "separate pending workstream; unchanged by source recovery",
+    "gpu_purchase_authorized": false,
+    "provisioning_performed": false
+  }
 }

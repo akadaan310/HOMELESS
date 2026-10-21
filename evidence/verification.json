@@ -44,7 +44,7 @@
       ],
       "exit_code": 0,
       "evidence": "evidence/verify-portable.log",
-      "sha256": "ff2e2f7dd7d3130dd61a12235f798e27770b722ad22fff1b2f702f8198774723"
+      "sha256": "53bc06f63a03e67b923d1811c143d779494ad6905a4a6bd52ff9e1fd0fe31dd9"
     },
     {
       "check": "unity_file_integrity",
