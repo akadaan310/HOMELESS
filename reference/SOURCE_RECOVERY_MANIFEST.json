@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "authority": "HOMELESS_DARK_CONSTITUTIONAL_COMMISSION.md",
+  "role": "historical_reference_only",
+  "files": [
+    {
+      "path": "historical/WORLD_LOOM_FOUNDATION.md",
+      "bytes": 16591,
+      "sha256": "ec70e552667a7ea9e21895c3befec0bb0bdd80e6cc7e1062f94d3f1fcac77959"
+    },
+    {
+      "path": "historical/CARMEN Research Commission — Muse, 2026-10-20.md",
+      "bytes": 31029,
+      "sha256": "789cdfb9ae1e20f706b8b77dc3a35bfbe50cf9d03e2c2413f8e4212247e2c858"
+    },
+    {
+      "path": "historical/HOMELESS_GLM_WORLDLOOM_V01.zip",
+      "bytes": 36330,
+      "sha256": "e4d15f538460383c72ca6cd07797e03d1bcacf6d8855d1b08c33fa4067bf526b"
+    },
+    {
+      "path": "historical/HOMELESS_RENDEZVOUS_RELEASE_RIDER_V1.zip",
+      "bytes": 16839,
+      "sha256": "c84c44769c8d71c8e8bac70249fc5798777823653ea2a30809af29bbf46a36a0"
+    },
+    {
+      "path": "historical/HOMELESS_RENDEZVOUS_FIDELITY_ASSET_RIDER_V2.zip",
+      "bytes": 10873,
+      "sha256": "5163b063d47473df0ba3f8747df4e7eca2bcdba71b549f22c7f10c37f6fca1c1"
+    },
+    {
+      "path": "historical/HOMELESS_RENDEZVOUS_GRAMMATICAL_AUDIO_RIDER_V3.zip",
+      "bytes": 46338,
+      "sha256": "fbf50b98e30d36fee7507ecddb55b902309d8d5131ed1dfd0f76dbcb2f4220f7"
+    }
+  ]
+}
