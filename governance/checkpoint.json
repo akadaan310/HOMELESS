@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "constitution_revision": "1.1",
+  "constitution_sha256": "e9327cbf55e496f3ad5029e409d6201f68d6095753a5ad95c58328cb6e8a4104",
+  "branch": "main",
+  "base_commit": "758abf81a94b76d7194da39864085e398f601d2e",
+  "stage": "internal source milestone; native acceptance blocked",
+  "completed_requirements": [],
+  "last_tests": [
+    {
+      "command": "python3 governance/verify.py",
+      "exit_code": 0,
+      "evidence": "evidence/verification.json",
+      "scope": "COP, ledger integrity, portable reference checks only"
+    },
+    {
+      "command": "python3 delivery/inspect_foundations.py",
+      "exit_code": 0,
+      "evidence": "delivery/inventory.json",
+      "scope": "host/archive metadata and integrity"
+    },
+    {
+      "command": "python3 Unity/Tools/check_fixture.py",
+      "exit_code": 0,
+      "evidence": "evidence/unity-integrity.json",
+      "scope": "file/WAV integrity only; no Unity compilation"
+    },
+    {
+      "command": "PYTHONPATH=portable python3 portable/verify_numerics.py",
+      "exit_code": 0,
+      "evidence": "portable/evidence/numerics.json",
+      "scope": "1005 forward ECEF comparisons to Octave6.4.0; max residual3.67e-9m <=1e-7m"
+    }
+  ],
+  "active_failures": [
+    "No supported Unity Editor/build worker found",
+    "No attached native Android device found",
+    "Git metadata read-only: fetch/commit/push blocked",
+    "World Loom original, Rendezvous riders and Muse exact source missing from supplied ZIP inventory",
+    "Production assets/models/speech not acquired",
+    "Global source partitions and demographic epoch not acquired/selected"
+  ],
+  "datasets": {
+    "global_coverage": "NOT_RUN",
+    "population_epoch": "not selected",
+    "original_archive": "/home/ubuntu/homeless/masterpack/masterpack.zip"
+  },
+  "asset_stages": {
+    "production_art": "not acquired"
+  },
+  "next_actions": [
+    "Make current shared Git metadata writable, review source diff then commit on main; fetch before normal push, preserve concurrent changes",
+    "Recover exact World Loom/Rendezvous/Muse source gaps and inspect explicit research repositories/license/tests",
+    "Import pinned Unity project on supported licensed worker, resolve package lock and run scene preparation/build with logs",
+    "Acquire/validate production assets, speech and recordings through declared lifecycle",
+    "Select/version global data and demographic baseline; estimate storage before ingest",
+    "Install Android ARM64 artifact and execute HD-087..HD-099 including continuous footage, performance, recovery and independent look review"
+  ],
+  "release_accepted": false,
+  "implemented_subsets": [
+    {
+      "clauses": [
+        "HD-005.1"
+      ],
+      "paths": [
+        "governance/cop.py"
+      ],
+      "scope": "bounded JSON admission reference only"
+    },
+    {
+      "clauses": [
+        "HD-012.1",
+        "HD-016",
+        "HD-025",
+        "HD-060",
+        "HD-063",
+        "HD-065"
+      ],
+      "paths": [
+        "portable/dark"
+      ],
+      "scope": "synthetic portable reference kernels; not global/native conformance"
+    },
+    {
+      "clauses": [
+        "HD-007",
+        "HD-037",
+        "HD-038",
+        "HD-042",
+        "HD-054.1",
+        "HD-079"
+      ],
+      "paths": [
+        "Unity"
+      ],
+      "scope": "uncompiled native fixture source; production art absent"
+    }
+  ],
+  "acceptance_counts": {
+    "top_level_sections": "HD-087..HD-099",
+    "PASS": 0,
+    "FAIL": 0,
+    "BLOCKED": 11,
+    "NOT_RUN": 2,
+    "NOT_APPLICABLE": 0
+  },
+  "git_delivery_status": "BLOCKED_READ_ONLY_METADATA",
+  "build_host_state": "Ubuntu22.04 aarch64; no Unity/Android toolchain/GPU/USB device; supported licensed worker unverified",
+  "source_snapshot": "evidence/source-snapshot.json"
+}

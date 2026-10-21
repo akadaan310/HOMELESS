@@ -1,0 +1,10 @@
+test_canonical_independent_compilation (test_cop.Admission) ... ok
+test_consent_and_readiness (test_cop.Admission) ... ok
+test_malformed_schema_and_inputs (test_cop.Admission) ... ok
+test_reject_unsupported_duplicate_contradictory (test_cop.Admission) ... ok
+test_unknown_is_not_permission (test_cop.Admission) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

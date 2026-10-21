@@ -1,0 +1,28 @@
+WARNING: The directory '/home/ubuntu/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Collecting numpy
+  Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (14.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.3/14.3 MB 108.3 MB/s eta 0:00:00
+Collecting nltk
+  Downloading nltk-3.10.3-py3-none-any.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 316.6 MB/s eta 0:00:00
+Collecting scipy
+  Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (35.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.5/35.5 MB 214.3 MB/s eta 0:00:00
+Collecting joblib
+  Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 306.1/306.1 KB 297.3 MB/s eta 0:00:00
+Collecting tqdm
+  Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.2/80.2 KB 312.1 MB/s eta 0:00:00
+Collecting regex>=2021.8.3
+  Downloading regex-2026.9.29-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (793 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 793.1/793.1 KB 301.6 MB/s eta 0:00:00
+Collecting click
+  Downloading click-8.5.0-py3-none-any.whl (125 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.3/125.3 KB 311.4 MB/s eta 0:00:00
+Collecting defusedxml
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting cloudpickle>=3.0
+  Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Installing collected packages: tqdm, regex, numpy, defusedxml, cloudpickle, click, scipy, joblib, nltk
+Successfully installed click-8.5.0 cloudpickle-3.1.2 defusedxml-0.7.1 joblib-1.6.0 nltk-3.10.3 numpy-2.2.6 regex-2026.9.29 scipy-1.15.3 tqdm-4.70.1

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "scope": "portable file and WAV integrity only",
+  "audio_assets": 3,
+  "unique_meta_guids": 17,
+  "unity_compile": "NOT_RUN",
+  "native_gameplay": "NOT_RUN"
+}

@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "kind": "source_snapshot_not_native_build_or_commit",
+  "sha256": "58a5d427d11cc4cf8813e261c0dd12a8d1b5a3aa8391f107ff4f328488970f62",
+  "files": [
+    {
+      "path": "Unity/.gitignore",
+      "bytes": 69,
+      "sha256": "9b71c35dc00beeef4e08c366bedd54d864ac66ea9591bbcfd3b8622dabc2d303"
+    },
+    {
+      "path": "Unity/Assets/Dark/Editor/Dark.Unity.Editor.asmdef",
+      "bytes": 202,
+      "sha256": "d157c14e24e9a63c2ca47d185aa7c257a8d6058031da3f1f1ffbe046e799656b"
+    },
+    {
+      "path": "Unity/Assets/Dark/Editor/Dark.Unity.Editor.asmdef.meta",
+      "bytes": 163,
+      "sha256": "f9ebb288a0c523f4a2aa8c931866f2e09e707fa7caf40a656b8ddccfe553b45b"
+    },
+    {
+      "path": "Unity/Assets/Dark/Editor/NativeBuild.cs",
+      "bytes": 5142,
+      "sha256": "80000f891880b8bae647961acdcf54c7eb835c3eaa40e5bf021fc4a4ee66f76b"
+    },
+    {
+      "path": "Unity/Assets/Dark/Editor/NativeBuild.cs.meta",
+      "bytes": 240,
+      "sha256": "17c68418c1fdb1838e6c5b701c785724ec3181bcc0e491ab66378197dd71bd9c"
+    },
+    {
+      "path": "Unity/Assets/Dark/Editor.meta",
+      "bytes": 169,
+      "sha256": "8d4c5173faf90b6d09a5ca5228c6ef5f1fc3d30278f7b346ad3e6bde56f45455"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/Dark.Unity.asmdef",
+      "bytes": 89,
+      "sha256": "a1ca52934814fd7d676852c3804c4cfc0b11ac13d5c1fa02a03a681896d1b194"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/Dark.Unity.asmdef.meta",
+      "bytes": 163,
+      "sha256": "3882b0db893cbb164c23e3f7e64c69724d3919496eb77cd417815d812547c1b9"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureBootstrap.cs",
+      "bytes": 13962,
+      "sha256": "a32e309a8603e3f1e5fb20805f7c6b5ae6c98f5091a0799bb27525b57ed3a4b2"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureBootstrap.cs.meta",
+      "bytes": 240,
+      "sha256": "d6a9422440556104dc5e7ac8e0d0cf347e236acd50f97d3009b08afe91e8420c"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureCamera.cs",
+      "bytes": 2005,
+      "sha256": "523f13723715bc1159907fa0baa524e50935fa3257b8b23800ab9275afb48948"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureCamera.cs.meta",
+      "bytes": 240,
+      "sha256": "b9f3c574b898e6b98a3e0a772e74451646473ea6ef16e20f26171bb0a01f980a"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureCar.cs",
+      "bytes": 3282,
+      "sha256": "fb41b4e08a90b8cbae26bd647d5c10bfb7f70b58e94c94b4c239a587ce6e9600"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureCar.cs.meta",
+      "bytes": 240,
+      "sha256": "99621e9ab6266177dfb6c1327b7fef31cfd0fe981a94b16e21efe75c0dc0bcc9"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureInterface.cs",
+      "bytes": 4058,
+      "sha256": "879851908049ca2f2602a40b81219695508a37c3965123dcf3a7c470ae4ebf21"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureInterface.cs.meta",
+      "bytes": 240,
+      "sha256": "24e6b85c95005542ed748917c0f38a366e58cda66cd404df10160c06f173a226"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixturePlayer.cs",
+      "bytes": 2596,
+      "sha256": "de6ab70f68a77747305ae3a53900a557a41b7a15478b55628879d223cc23ab9e"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixturePlayer.cs.meta",
+      "bytes": 240,
+      "sha256": "138a0de29661baeb477d6d3e4227e98b97b93abc1e2a7944756ad24824277ecc"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureWalker.cs",
+      "bytes": 837,
+      "sha256": "aca02478635459b7acff62902a1a803865a78a09a56dbe295f5985e435c10897"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureWalker.cs.meta",
+      "bytes": 240,
+      "sha256": "7fc98e42659c8bf43f4b2b9d86dd48241401878f3fa7a7b6db0bac25d3616864"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/SpatialAudio.cs",
+      "bytes": 1397,
+      "sha256": "16c9e2cc32d913e76b1956f992ed4229923869ef9d964821ce38e72ae297e523"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/SpatialAudio.cs.meta",
+      "bytes": 240,
+      "sha256": "dc74733d081cbdc105a322891843cdb82f9f7430af2d78e465ff7fb85a4faa94"
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime.meta",
+      "bytes": 169,
+      "sha256": "421c21785464194096ff4904bf7792b4e534173a2fd6ca03c484214607e82074"
+    },
+    {
+      "path": "Unity/Assets/Dark.meta",
+      "bytes": 169,
+      "sha256": "1587d2f201c84594aaa62c82d783a40b918591f06ab75f15611f0ff6700cbf16"
+    },
+    {
+      "path": "Unity/Assets/Resources/Audio/cafe.wav",
+      "bytes": 288044,
+      "sha256": "73a8029c95bda884636b3a51a7de75a890c816ab7af997041aed8e67cc8e5d84"
+    },
+    {
+      "path": "Unity/Assets/Resources/Audio/engine.wav",
+      "bytes": 288044,
+      "sha256": "692cd8872ad70b3612f075517d9843340d9320e6f0424aa8937a9dae28d6ef9a"
+    },
+    {
+      "path": "Unity/Assets/Resources/Audio/step.wav",
+      "bytes": 8684,
+      "sha256": "bbdadd914752ed7ac967cd8395fadb3686e4780d0c623bde33c90f5ef5610b50"
+    },
+    {
+      "path": "Unity/Assets/Resources/Audio.meta",
+      "bytes": 169,
+      "sha256": "12058ce89a08ba317f0589f1b0c31c38195fd82d69168da65b62020f1a0156f6"
+    },
+    {
+      "path": "Unity/Assets/Resources.meta",
+      "bytes": 169,
+      "sha256": "b9a9366d99cc0687e4f3f3a33eb68020b286a2ef347a090fd6d159795ad40295"
+    },
+    {
+      "path": "Unity/Assets/Scenes/StreetFixture.unity",
+      "bytes": 1315,
+      "sha256": "6c7fc8a386b8b6e7d6d9cc7f3faf203179b713c5b2c4e695226fac5c1f3484f2"
+    },
+    {
+      "path": "Unity/Assets/Scenes/StreetFixture.unity.meta",
+      "bytes": 152,
+      "sha256": "3ada7dced40fec9a5596db5dd07de53c1b02edacffdf10103ff1b4db81fccb79"
+    },
+    {
+      "path": "Unity/Assets/Scenes.meta",
+      "bytes": 169,
+      "sha256": "8edde593e33ba0e80b814d089966d928a0f07045f95db62a349ab34f6268b8d7"
+    },
+    {
+      "path": "Unity/Evidence/audio-manifest.json",
+      "bytes": 1889,
+      "sha256": "ef5833b63e28de4fdd16bf562d84dac3edf3e75f7a0d84c9b321a267df2652ef"
+    },
+    {
+      "path": "Unity/Evidence/csharp-syntax.json",
+      "bytes": 935,
+      "sha256": "4953b54ed62f4adf162e89a93a410ba6fdb0b611e10de5769ebde64b16f9559c"
+    },
+    {
+      "path": "Unity/Evidence/portable-integrity.json",
+      "bytes": 184,
+      "sha256": "37f5b59472ff78bd424cfd3202391815406580c12704bfd0a9f87e3b092ba055"
+    },
+    {
+      "path": "Unity/Evidence/source-hashes.json",
+      "bytes": 4844,
+      "sha256": "b18060fe4a00275858883ec36efafeb9cfb12039a7815d9e7fa2563e8984b459"
+    },
+    {
+      "path": "Unity/IMPLEMENTATION_PLAN.md",
+      "bytes": 1500,
+      "sha256": "6a0e7c3d92835f2afbf8154fa86e0a1e933441ea65fe1f41881b50038958682f"
+    },
+    {
+      "path": "Unity/NATIVE_SCENARIO_CHECKLIST.md",
+      "bytes": 1990,
+      "sha256": "4760e7178f6150e79062b8899b1f417f78f2346992622af0b480fe5865a5a28b"
+    },
+    {
+      "path": "Unity/Packages/manifest.json",
+      "bytes": 288,
+      "sha256": "93b2dc6b74237a4c5bb043cc7cd1e0ab039d9d9a26ef6c21212cacc0d904187f"
+    },
+    {
+      "path": "Unity/ProjectSettings/EditorBuildSettings.asset",
+      "bytes": 259,
+      "sha256": "47c5330d4a753a708f5cef9fb758550228500003236e8fa4a0aca3225b24d49f"
+    },
+    {
+      "path": "Unity/ProjectSettings/ProjectVersion.txt",
+      "bytes": 29,
+      "sha256": "59bd3d3d48d6160f5a95c93b4034be4382ca10518c4b18ac37eeee0e9f9f1541"
+    },
+    {
+      "path": "Unity/README.md",
+      "bytes": 4496,
+      "sha256": "809935e0c82e1e8a5e8dbb58632d345e1970e0c474076439c013d084173a7843"
+    },
+    {
+      "path": "Unity/TEAM_EVIDENCE.md",
+      "bytes": 3542,
+      "sha256": "758e75c962ba5aecf9cb4f2765435515aa9a0cc3d32b550ba33299825b17169f"
+    },
+    {
+      "path": "Unity/Tools/check_fixture.py",
+      "bytes": 1629,
+      "sha256": "c406fbfb396f88170f360575dc936e8bbd11257d4339b7ef0d78bbb29a196912"
+    },
+    {
+      "path": "Unity/Tools/generate_audio.py",
+      "bytes": 1987,
+      "sha256": "b376f05c32aa3e44755dcce2e998ea7e771c32c155db16f0870ec365e0baf4b5"
+    },
+    {
+      "path": "portable/README.md",
+      "bytes": 3779,
+      "sha256": "e98989f38e304e18763e556f4712b6b90794ee913073cc7d9f7872e2e3bb26a9"
+    },
+    {
+      "path": "portable/TEAM_EVIDENCE.md",
+      "bytes": 8548,
+      "sha256": "ed4620e098bb973952e9fd569d4cc531ac753f1a5f60546682c905901841cc42"
+    },
+    {
+      "path": "portable/dark/__init__.py",
+      "bytes": 76,
+      "sha256": "aaa92cd8f843343377a1b1b1a651d02a3f2c118a4ae30c90c9770025f73f2e53"
+    },
+    {
+      "path": "portable/dark/geo.py",
+      "bytes": 1667,
+      "sha256": "b269d7daa22638da427af5353244e3786f45ff2d8eaa6a12d1128961322a8dcc"
+    },
+    {
+      "path": "portable/dark/life.py",
+      "bytes": 3860,
+      "sha256": "6a66c5c88e9d6a87bc58286334929fffc52576feaf645363724f64d4895938df"
+    },
+    {
+      "path": "portable/dark/plates.py",
+      "bytes": 3869,
+      "sha256": "9d0b47e18b9ead7f231d7358bbd790adf4f9cd14e87d8d2a11d27bb331153d8d"
+    },
+    {
+      "path": "portable/dark/population.py",
+      "bytes": 3234,
+      "sha256": "ff45daa3f5b3884ba19b331bc8e18edf55a3ae709c9d7a26503ced70ae39a33c"
+    },
+    {
+      "path": "portable/reproduce_foundations.py",
+      "bytes": 3383,
+      "sha256": "5f170e1a1e13e6a0ef1cfe0ed966e87160d70aac20a332cf10ab4b1b7c2eeff5"
+    },
+    {
+      "path": "portable/tests/test_numeric_evidence.py",
+      "bytes": 403,
+      "sha256": "aa20df04e0a7c0ba67aacdacb7c2d9cfdba3834097a2278fbd03187833d05cd0"
+    },
+    {
+      "path": "portable/tests/test_reference.py",
+      "bytes": 5830,
+      "sha256": "ce2200315dc9560a966d48718839ec5dea00b4099ea183a6e7d2948d5a59e1e2"
+    },
+    {
+      "path": "portable/verify_numerics.py",
+      "bytes": 2808,
+      "sha256": "d291e29bc2809fdc52bdbc5f7fa0cc238743b5d1b4267194950d7519b62d2f85"
+    },
+    {
+      "path": "portable/wgs84_reference.m",
+      "bytes": 463,
+      "sha256": "391118cbbfead2e2e336e24f237b8987839cdec47e9801edc95d7a462ab92baf"
+    },
+    {
+      "path": "governance/CONFLICTS.md",
+      "bytes": 1273,
+      "sha256": "4db55ee78b06ebb08b376f69ba84785945c871e8deb058358f8b7ba5e6e767f2"
+    },
+    {
+      "path": "governance/PATCH_PLAN.md",
+      "bytes": 885,
+      "sha256": "928a7b90804e27c40207e4bcc77c157dd1285f2ed1a71c7890eaf59dabf6578d"
+    },
+    {
+      "path": "governance/README.md",
+      "bytes": 1276,
+      "sha256": "fd1c3da02967efc7c480db9783942e43607e6f3732b9b40dc9fff609eefdee37"
+    },
+    {
+      "path": "governance/SOURCE_RECONCILIATION.md",
+      "bytes": 2283,
+      "sha256": "2979ace616628ddf4f6e835a9a323be367711c32c6965421b2cd8f3448dcdce1"
+    },
+    {
+      "path": "governance/checkpoint.json",
+      "bytes": 3779,
+      "sha256": "ac2449b4e0153b83a93ec5c24b4ec3fe53f99e62103d40ae90c88582b44eb6e6"
+    },
+    {
+      "path": "governance/cop.py",
+      "bytes": 4557,
+      "sha256": "ecc1a26e4151f5d95d43b5e5bfef8356c203e1fa623ca6baab32746e5de15863"
+    },
+    {
+      "path": "governance/requirements.json",
+      "bytes": 54335,
+      "sha256": "c14caa506799a7fc71e38b85b9ed2c7b29e71581620874c640501a2cacbc9109"
+    },
+    {
+      "path": "governance/snapshot.py",
+      "bytes": 1071,
+      "sha256": "d42b8cb82580e38767fb313bcbbd08f95963fdce0323862d05fd1212bfeeeabc"
+    },
+    {
+      "path": "governance/test_cop.py",
+      "bytes": 2865,
+      "sha256": "effc6ee778d61f9d81c6a92fcc1915493f5bcdd431668c059f0a7e125874c843"
+    },
+    {
+      "path": "governance/validate_ledger.py",
+      "bytes": 1606,
+      "sha256": "18fa81646994934da3af5bbe34f63edfaa7f53fc9b7428d3b9cf112dbddfaefe"
+    },
+    {
+      "path": "governance/verify.py",
+      "bytes": 1272,
+      "sha256": "b11eabf843c141e9fec9361f79421ad4f0d1ecaebec122a567bf913f3e6dfb9d"
+    },
+    {
+      "path": "delivery/README.md",
+      "bytes": 5681,
+      "sha256": "2bfc1ccac3b8199a70c036e1ea71b3b3a55cd7c54a1888a95fb68e1e7bf0da67"
+    },
+    {
+      "path": "delivery/archive-checksums.json",
+      "bytes": 7862,
+      "sha256": "f92d2df808c30881bb6ec407fd3dfbcb14afe17fec7c13f77d35cc7dc151349a"
+    },
+    {
+      "path": "delivery/final-review.md",
+      "bytes": 4437,
+      "sha256": "5455a5a3abe6dfbe982deaeb8711aa807e3fdcfdf541d87d038f172952af33ea"
+    },
+    {
+      "path": "delivery/inspect_foundations.py",
+      "bytes": 4049,
+      "sha256": "1cd20fbbc17add0ac17ef84f2795979487463afd7e33f73a5ede0b9e3085700b"
+    },
+    {
+      "path": "delivery/inventory.json",
+      "bytes": 523053,
+      "sha256": "761fadfdda073164415e64e58e514c1890f3d689762608fdb0f2255b0c7cf851"
+    },
+    {
+      "path": "delivery/reviewed-unity-hashes.json",
+      "bytes": 1386,
+      "sha256": "50607472012eda619073a8fe182129d82ae9da57a6b82ce22895ce8c7e44b0c4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2633,
+      "sha256": "359cbdd03577a518ee0d8b5e04c81f9c18a7070b21bb3888c977fd869717e987"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 142,
+      "sha256": "7ce44292f063adba3a93cc3aa36ba33971ae3d870bea1e1cce7e2b4735507136"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 640,
+      "sha256": "61266dcd18af385c490588786f08bcdc786b7a578dbf13e8e71efed6473538d7"
+    },
+    {
+      "path": "HOMELESS_DARK_CONSTITUTIONAL_COMMISSION.md",
+      "bytes": 107652,
+      "sha256": "e9327cbf55e496f3ad5029e409d6201f68d6095753a5ad95c58328cb6e8a4104"
+    }
+  ]
+}

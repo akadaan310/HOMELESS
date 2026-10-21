@@ -1,0 +1,38 @@
+{
+  "scope": "tree-sitter syntax only; not C# compilation or Unity API checking",
+  "status": "PASS",
+  "files": [
+    {
+      "path": "Unity/Assets/Dark/Editor/NativeBuild.cs",
+      "syntax_errors": false
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureBootstrap.cs",
+      "syntax_errors": false
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureCamera.cs",
+      "syntax_errors": false
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureCar.cs",
+      "syntax_errors": false
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureInterface.cs",
+      "syntax_errors": false
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixturePlayer.cs",
+      "syntax_errors": false
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/FixtureWalker.cs",
+      "syntax_errors": false
+    },
+    {
+      "path": "Unity/Assets/Dark/Runtime/SpatialAudio.cs",
+      "syntax_errors": false
+    }
+  ]
+}

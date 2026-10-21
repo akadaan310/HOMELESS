@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "status": "BLOCKED",
+  "reason": "No worldwide dataset acquisition/verified ingestion exists in this portable batch; archive point/country samples are not coverage closure.",
+  "computed_partitions": 0,
+  "required_layers": [
+    {
+      "layer": "terrain",
+      "status": "missing",
+      "required_source": "Copernicus DEM GLO-30, complete declared baseline with gap policy",
+      "release": null,
+      "license": null,
+      "integrity": null,
+      "coverage": null
+    },
+    {
+      "layer": "coastline_water",
+      "status": "missing",
+      "required_source": "OSM/Overture declared release",
+      "release": null,
+      "license": null,
+      "integrity": null,
+      "coverage": null
+    },
+    {
+      "layer": "roads_paths_rail",
+      "status": "missing",
+      "required_source": "Overture transportation/OSM planet declared partitions",
+      "release": null,
+      "license": null,
+      "integrity": null,
+      "coverage": null
+    },
+    {
+      "layer": "buildings_land_use",
+      "status": "missing",
+      "required_source": "Overture buildings/OSM declared partitions",
+      "release": null,
+      "license": null,
+      "integrity": null,
+      "coverage": null
+    },
+    {
+      "layer": "population",
+      "status": "missing",
+      "required_source": "WorldPop/GHSL selected release and common epoch",
+      "release": null,
+      "license": null,
+      "integrity": null,
+      "coverage": null
+    },
+    {
+      "layer": "aviation_nodes",
+      "status": "missing",
+      "required_source": "OurAirports exact release and FAA NASR cycle",
+      "release": null,
+      "license": null,
+      "integrity": null,
+      "coverage": null
+    },
+    {
+      "layer": "maritime_networks",
+      "status": "missing",
+      "required_source": "licensed navigable network, declared geographic extent",
+      "release": null,
+      "license": null,
+      "integrity": null,
+      "coverage": null
+    },
+    {
+      "layer": "weather",
+      "status": "missing",
+      "required_source": "provider model release, timestamp and terms",
+      "release": null,
+      "license": null,
+      "integrity": null,
+      "coverage": null
+    },
+    {
+      "layer": "time_zones",
+      "status": "missing",
+      "required_source": "IANA tz database release and geographic boundaries",
+      "release": null,
+      "license": null,
+      "integrity": null,
+      "coverage": null
+    },
+    {
+      "layer": "celestial",
+      "status": "missing",
+      "required_source": "Gaia DR3 quality-filtered subset and JPL Horizons epoch requests",
+      "release": null,
+      "license": null,
+      "integrity": null,
+      "coverage": null
+    }
+  ]
+}

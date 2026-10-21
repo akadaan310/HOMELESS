@@ -1,0 +1,7 @@
+WARNING: The directory '/home/ubuntu/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Collecting shapely
+  Downloading shapely-2.1.2-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.whl (3.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 21.3 MB/s eta 0:00:00
+Requirement already satisfied: numpy>=1.21 in /tmp/homeless-reference-venv/lib/python3.10/site-packages (from shapely) (2.2.6)
+Installing collected packages: shapely
+Successfully installed shapely-2.1.2

@@ -1,0 +1,26 @@
+test_buildings_admissible (test_realms.Generative) ... ok
+test_event_kernel_is_subcritical (test_realms.Generative) ... ok
+test_mission_requires_facts (test_realms.Generative) ... ok
+test_names_are_admissible_and_fictional (test_realms.Generative) ... /tmp/homeless-portable-reference-review/homeless-realms-0.1/realms/models.py:55: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/homeless-portable-reference-review/homeless-realms-0.1/data/raw/places.geojson' mode='r' encoding='UTF-8'>
+  places = json.load(open(DATA / "raw" / "places.geojson"))["features"]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_schedules_satisfy_grammar (test_realms.Generative) ... ok
+test_every_id_resolves_and_is_deterministic (test_realms.Population) ... ok
+test_history_never_contradicted (test_realms.Population) ... ok
+test_quadtree_counts_are_exact (test_realms.Population) ... ok
+test_residents_query_is_sound (test_realms.Population) ... ok
+test_total_is_world_population (test_realms.Population) ... ok
+test_workplace_permutation_is_invertible (test_realms.Population) ... ok
+test_epoch_recovery (test_realms.Sky) ... ok
+test_polaris_altitude_equals_latitude (test_realms.Sky) ... ok
+test_authorship_by_impact_not_money (test_realms.Society) ... ok
+test_impact_counterfactual_and_shapley_efficiency (test_realms.Society) ... ok
+test_walk_word_and_match (test_realms.Walks) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 2.336s
+
+OK
+
+EXIT_STATUS=0

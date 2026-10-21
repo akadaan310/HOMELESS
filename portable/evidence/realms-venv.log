@@ -1,0 +1,26 @@
+test_realms (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_realms (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_realms
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.10/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/tmp/homeless-portable-reference-review/homeless-realms-0.1/tests/test_realms.py", line 11, in <module>
+    E = Earth()
+  File "/tmp/homeless-portable-reference-review/homeless-realms-0.1/realms/earth.py", line 101, in __init__
+    self._build(rural_res)
+  File "/tmp/homeless-portable-reference-review/homeless-realms-0.1/realms/earth.py", line 119, in _build
+    from shapely.geometry import Point, shape
+ModuleNotFoundError: No module named 'shapely'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+
+EXIT_STATUS=1

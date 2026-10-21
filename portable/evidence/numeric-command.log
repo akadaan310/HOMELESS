@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "clause_ids": [
+    "HD-016",
+    "HD-055",
+    "HD-087"
+  ],
+  "commission_revision": "1.1",
+  "commission_sha256": "e9327cbf55e496f3ad5029e409d6201f68d6095753a5ad95c58328cb6e8a4104",
+  "method": "WGS84 forward ECEF: Python math vs Octave vector arithmetic",
+  "seed": 20261021,
+  "units": "meters",
+  "datum": "WGS84 ellipsoid",
+  "samples": 1005,
+  "output_rows": 1005,
+  "input_sha256": "b23bd5e167a6883c81d77e7fa92e169d261b94c2a0f7a448b51ffe5013578986",
+  "output_sha256": "3f133857bcd99441f55ccf86b937398d977fbf7b9b0089694164ac1a30f30d1d",
+  "max_residual": 3.666620642883615e-09,
+  "tolerance": 1e-07,
+  "exit_code": 0,
+  "octave_version": "octave: X11 DISPLAY environment variable not set",
+  "stderr": "error: ignoring const execution_exception& while preparing to exit\n",
+  "status": "PASS"
+}

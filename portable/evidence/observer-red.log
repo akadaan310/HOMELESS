@@ -1,0 +1,50 @@
+test_known_axes_and_stratified_roundtrip (test_reference.CoordinatesTests) ... ok
+test_scoped_history_replay_idempotency_and_policies (test_reference.LifeTests) ... FAIL
+test_all_policies_and_atomic_refusals (test_reference.PlateTests) ... ok
+test_reconnection_carriage_and_inverse (test_reference.PlateTests) ... FAIL
+test_exact_allocation_and_stable_ties (test_reference.PopulationTests) ... ok
+test_ranges_realization_migration (test_reference.PopulationTests) ... ok
+
+======================================================================
+FAIL: test_scoped_history_replay_idempotency_and_policies (test_reference.LifeTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ubuntu/homeless/HOMELESS-main/portable/tests/test_reference.py", line 67, in test_scoped_history_replay_idempotency_and_policies
+    self.assertEqual(w.entities['car']['observations'],['e1','e3'])
+AssertionError: Lists differ: ['e1', 'e3', 'e3'] != ['e1', 'e3']
+
+First list contains 1 additional elements.
+First extra element 2:
+'e3'
+
+- ['e1', 'e3', 'e3']
+?        ------
+
++ ['e1', 'e3']
+
+======================================================================
+FAIL: test_reconnection_carriage_and_inverse (test_reference.PlateTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ubuntu/homeless/HOMELESS-main/portable/tests/test_reference.py", line 83, in test_reconnection_carriage_and_inverse
+    self.assertEqual(w.snapshot(),expected)
+AssertionError: {'nod[145 chars], 'position': (2.0, 0.0), 'straddling': False}}, 'revision': 0} != {'nod[145 chars], 'position': (2.0, 0.0), 'straddling': False}}, 'revision': 2}
+  {'edges': [('a', 'b'), ('c', 'd')],
+   'nodes': {'a': (0.0, 0.0),
+             'b': (2.0, 0.0),
+             'c': (10.0, 0.0),
+             'd': (12.0, 0.0)},
+   'occupants': {'cup': {'node': 'b',
+                         'position': (2.0, 0.0),
+                         'straddling': False}},
+-  'revision': 0}
+?              ^
+
++  'revision': 2}
+?              ^
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.069s
+
+FAILED (failures=2)

@@ -1,0 +1,24 @@
+test_ingram (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_ingram (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_ingram
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.10/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/tmp/homeless-portable-reference-review/ingram-0.1/tests/test_ingram.py", line 12, in <module>
+    from ingram.converse import Session, definitional_path
+  File "/tmp/homeless-portable-reference-review/ingram-0.1/ingram/converse.py", line 21, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+
+EXIT_STATUS=1

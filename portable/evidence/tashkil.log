@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: T1 every word is a lift of its own skeleton (no information is lost that a lift cannot restore)
+ok 1 - T1 every word is a lift of its own skeleton (no information is lost that a lift cannot restore)
+  ---
+  duration_ms: 1.716159
+  type: 'test'
+  ...
+# Subtest: T2 degree equals the size of the full lift product
+ok 2 - T2 degree equals the size of the full lift product
+  ---
+  duration_ms: 0.698439
+  type: 'test'
+  ...
+# Subtest: T3 harnessed lifting = filter of the full product (product search is sound and complete)
+ok 3 - T3 harnessed lifting = filter of the full product (product search is sound and complete)
+  ---
+  duration_ms: 15.000268
+  type: 'test'
+  ...
+# Subtest: T4 silent group: orders, and a medial-only silence is visible at the end of a word
+ok 4 - T4 silent group: orders, and a medial-only silence is visible at the end of a word
+  ---
+  duration_ms: 0.936799
+  type: 'test'
+  ...
+# Subtest: T5 weight is order-blind, skeleton is dot-blind, and stacking them separates more
+ok 5 - T5 weight is order-blind, skeleton is dot-blind, and stacking them separates more
+  ---
+  duration_ms: 0.44352
+  type: 'test'
+  ...
+# Subtest: T6 root space and taqlib orbits (Burnside): 28^3 ordered, C(30,3) orbits
+ok 6 - T6 root space and taqlib orbits (Burnside): 28^3 ordered, C(30,3) orbits
+  ---
+  duration_ms: 0.42396
+  type: 'test'
+  ...
+# Subtest: T7 root x pattern round-trips, and the inverse may be multivalued
+ok 7 - T7 root x pattern round-trips, and the inverse may be multivalued
+  ---
+  duration_ms: 0.874439
+  type: 'test'
+  ...
+# Subtest: T8 Khalil feet fall into exactly three rotation orbits
+ok 8 - T8 Khalil feet fall into exactly three rotation orbits
+  ---
+  duration_ms: 0.34996
+  type: 'test'
+  ...
+# Subtest: T9 pulse reads motion, not vowel quality, and is silent without marks
+ok 9 - T9 pulse reads motion, not vowel quality, and is silent without marks
+  ---
+  duration_ms: 1.068759
+  type: 'test'
+  ...
+# Subtest: T10 face is a function of neighbours; non-connectors end runs
+ok 10 - T10 face is a function of neighbours; non-connectors end runs
+  ---
+  duration_ms: 0.930119
+  type: 'test'
+  ...
+# Subtest: T11 world: ledger verifies, tamper is caught, replay is exact, borne ⊇ moved, early cutoff
+ok 11 - T11 world: ledger verifies, tamper is caught, replay is exact, borne ⊇ moved, early cutoff
+  ---
+  duration_ms: 1.825038
+  type: 'test'
+  ...
+# Subtest: T12 the kernel is domain-agnostic: a two-class fibration over a 4-letter alphabet
+ok 12 - T12 the kernel is domain-agnostic: a two-class fibration over a 4-letter alphabet
+  ---
+  duration_ms: 0.21768
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 108.395112

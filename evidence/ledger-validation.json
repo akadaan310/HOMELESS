@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "clauses": 100,
+  "constitution_sha256": "e9327cbf55e496f3ad5029e409d6201f68d6095753a5ad95c58328cb6e8a4104",
+  "scope": "projection integrity only; not implementation acceptance"
+}

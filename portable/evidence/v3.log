@@ -1,0 +1,228 @@
+TAP version 13
+# Subtest: A1 keyed chance is a pure function of its address
+ok 1 - A1 keyed chance is a pure function of its address
+  ---
+  duration_ms: 28.557417
+  type: 'test'
+  ...
+# Subtest: B1 nothing is realized until someone looks (lazy), and a fixed thing never changes
+ok 2 - B1 nothing is realized until someone looks (lazy), and a fixed thing never changes
+  ---
+  duration_ms: 0.80124
+  type: 'test'
+  ...
+# Subtest: B2 observation pins: a reactive sign does not change in front of you; it follows the facts at the next epoch
+ok 3 - B2 observation pins: a reactive sign does not change in front of you; it follows the facts at the next epoch
+  ---
+  duration_ms: 1.879598
+  type: 'test'
+  ...
+# Subtest: B3 epochal things turn over each epoch; live things re-realize at every look
+ok 4 - B3 epochal things turn over each epoch; live things re-realize at every look
+  ---
+  duration_ms: 0.772119
+  type: 'test'
+  ...
+# Subtest: B4 dev time uses the same ledger: a commit is an event; the build it invalidates can say which commit
+ok 5 - B4 dev time uses the same ledger: a commit is an event; the build it invalidates can say which commit
+  ---
+  duration_ms: 0.35796
+  type: 'test'
+  ...
+# Subtest: C1 the world replays exactly: same spec, same roots, same events
+ok 6 - C1 the world replays exactly: same spec, same roots, same events
+  ---
+  duration_ms: 64.001228
+  type: 'test'
+  ...
+# Subtest: D1 causal cone: with keyed chance, everything that disappears when a deed is undone was borne by that deed
+ok 7 - D1 causal cone: with keyed chance, everything that disappears when a deed is undone was borne by that deed
+  ---
+  duration_ms: 35.514411
+  type: 'test'
+  ...
+# Subtest: D2 fake butterflies: a shared random stream makes undoing one deed change unrelated places
+ok 8 - D2 fake butterflies: a shared random stream makes undoing one deed change unrelated places
+  ---
+  duration_ms: 12.68927
+  type: 'test'
+  ...
+# Subtest: D3 light cone: no difference travels faster than one street per tick
+ok 9 - D3 light cone: no difference travels faster than one street per tick
+  ---
+  duration_ms: 39.779848
+  type: 'test'
+  ...
+# Subtest: D4 every undone deed gets a class; masked deeds exist and so do scars (memory without ripples)
+ok 10 - D4 every undone deed gets a class; masked deeds exist and so do scars (memory without ripples)
+  ---
+  duration_ms: 1215.004416
+  type: 'test'
+  ...
+# Subtest: E1 the butterfly dial: spectral radius of the coupling decides whether cascades die out
+ok 11 - E1 the butterfly dial: spectral radius of the coupling decides whether cascades die out
+  ---
+  duration_ms: 7952.624161
+  type: 'test'
+  ...
+# Subtest: F1 attribution: independent deeds always add up; under social amplification they often do not, and Shapley shares sum to the whole
+ok 12 - F1 attribution: independent deeds always add up; under social amplification they often do not, and Shapley shares sum to the whole
+  ---
+  duration_ms: 1970.826485
+  type: 'test'
+  ...
+# Subtest: G1 recurring cascade shapes are mined and promoted into letters that unfold back
+ok 13 - G1 recurring cascade shapes are mined and promoted into letters that unfold back
+  ---
+  duration_ms: 48.363121
+  type: 'test'
+  ...
+# Subtest: G2 a MOVEMENT is a place where many people's ripples meet; it is reproducible from the ledger
+ok 14 - G2 a MOVEMENT is a place where many people's ripples meet; it is reproducible from the ledger
+  ---
+  duration_ms: 249.535958
+  type: 'test'
+  ...
+# Subtest: H1 firmament: Polaris stands at the observer's latitude; a convergence raises the same stars for anyone who recomputes
+ok 15 - H1 firmament: Polaris stands at the observer's latitude; a convergence raises the same stars for anyone who recomputes
+  ---
+  duration_ms: 5.070796
+  type: 'test'
+  ...
+# Subtest: H2 the sunset is computed, not painted: the sun sits on the horizon over Los Angeles near 18:12 local on 20 Oct 2026
+ok 16 - H2 the sunset is computed, not painted: the sun sits on the horizon over Los Angeles near 18:12 local on 20 Oct 2026
+  ---
+  duration_ms: 0.26476
+  type: 'test'
+  ...
+# Subtest: A1 closure: a returning alphabet is complete, a terminating one is severed
+ok 17 - A1 closure: a returning alphabet is complete, a terminating one is severed
+  ---
+  duration_ms: 1.545239
+  type: 'test'
+  ...
+# Subtest: B1 explicate/implicate round-trips at rank 1 and rank 2
+ok 18 - B1 explicate/implicate round-trips at rank 1 and rank 2
+  ---
+  duration_ms: 4.219717
+  type: 'test'
+  ...
+# Subtest: B2 implicate refuses a word that is not a fold of the rules
+ok 19 - B2 implicate refuses a word that is not a fold of the rules
+  ---
+  duration_ms: 0.20912
+  type: 'test'
+  ...
+# Subtest: C1 the latch returns home from any state
+ok 20 - C1 the latch returns home from any state
+  ---
+  duration_ms: 0.31052
+  type: 'test'
+  ...
+# Subtest: C2 same string, different program — at holonomy depth a crossing is remembered
+ok 21 - C2 same string, different program — at holonomy depth a crossing is remembered
+  ---
+  duration_ms: 2.008998
+  type: 'test'
+  ...
+# Subtest: C3 a loop that undoes itself is forgotten at holonomy depth, remembered at chain depth
+ok 22 - C3 a loop that undoes itself is forgotten at holonomy depth, remembered at chain depth
+  ---
+  duration_ms: 0.63144
+  type: 'test'
+  ...
+# Subtest: C4 inadmissible events are rejected, never narrated
+ok 23 - C4 inadmissible events are rejected, never narrated
+  ---
+  duration_ms: 0.19828
+  type: 'test'
+  ...
+# Subtest: D1 mining finds the crossing and the visit; promotion makes them letters that unfold back
+ok 24 - D1 mining finds the crossing and the visit; promotion makes them letters that unfold back
+  ---
+  duration_ms: 2.084838
+  type: 'test'
+  ...
+# Subtest: E1 why 5, 7, 12: stacked fifths give two step sizes exactly at 2,3,5,7,12,17,29,41,53
+ok 25 - E1 why 5, 7, 12: stacked fifths give two step sizes exactly at 2,3,5,7,12,17,29,41,53
+  ---
+  duration_ms: 4.376356
+  type: 'test'
+  ...
+# Subtest: E2 three-gap theorem holds for any generator (never more than 3 step sizes)
+ok 26 - E2 three-gap theorem holds for any generator (never more than 3 step sizes)
+  ---
+  duration_ms: 10.443112
+  type: 'test'
+  ...
+# Subtest: F1 harness: the cheapest walk that obeys the house rules, not the cheapest walk
+ok 27 - F1 harness: the cheapest walk that obeys the house rules, not the cheapest walk
+  ---
+  duration_ms: 0.925959
+  type: 'test'
+  ...
+# Subtest: G1 walk-words are invariant under rotation, scaling and translation
+ok 28 - G1 walk-words are invariant under rotation, scaling and translation
+  ---
+  duration_ms: 0.465359
+  type: 'test'
+  ...
+# Subtest: G2 tri-world walks exist and become rare as the word grows (seeded, synthetic cities)
+ok 29 - G2 tri-world walks exist and become rare as the word grows (seeded, synthetic cities)
+  ---
+  duration_ms: 84.281052
+  type: 'test'
+  ...
+# Subtest: same seed + actions => same trace and outcome
+ok 30 - same seed + actions => same trace and outcome
+  ---
+  duration_ms: 17.218306
+  type: 'test'
+  ...
+# Subtest: invalid physical reachability rejected
+ok 31 - invalid physical reachability rejected
+  ---
+  duration_ms: 0.370679
+  type: 'test'
+  ...
+# Subtest: resource conservation: cannot offer same item twice
+ok 32 - resource conservation: cannot offer same item twice
+  ---
+  duration_ms: 0.48452
+  type: 'test'
+  ...
+# Subtest: declining choice does not force player punishment
+ok 33 - declining choice does not force player punishment
+  ---
+  duration_ms: 0.595839
+  type: 'test'
+  ...
+# Subtest: valid event trace reproduces
+ok 34 - valid event trace reproduces
+  ---
+  duration_ms: 1.167319
+  type: 'test'
+  ...
+# Subtest: inspecting never mutates state
+ok 35 - inspecting never mutates state
+  ---
+  duration_ms: 0.4122
+  type: 'test'
+  ...
+# Subtest: manifest marks effectful operations non-safe
+ok 36 - manifest marks effectful operations non-safe
+  ---
+  duration_ms: 0.43208
+  type: 'test'
+  ...
+1..36
+# tests 36
+# suites 0
+# pass 36
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 12035.145295
+
+EXIT_STATUS=0

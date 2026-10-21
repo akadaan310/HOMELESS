@@ -1,0 +1,11 @@
+test_known_axes_and_stratified_roundtrip (test_reference.CoordinatesTests) ... ok
+test_scoped_history_replay_idempotency_and_policies (test_reference.LifeTests) ... ok
+test_all_policies_and_atomic_refusals (test_reference.PlateTests) ... ok
+test_reconnection_carriage_and_inverse (test_reference.PlateTests) ... ok
+test_exact_allocation_and_stable_ties (test_reference.PopulationTests) ... ok
+test_ranges_realization_migration (test_reference.PopulationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.068s
+
+OK

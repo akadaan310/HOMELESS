@@ -1,0 +1,29 @@
+test_address_roundtrip_all_scripts (test_ingram.P1Tower) ... ok
+test_bijective_numeral_roundtrip (test_ingram.P1Tower) ... ok
+test_corruption_detected (test_ingram.P1Tower) ... ok
+test_fold_unfold_identity (test_ingram.P1Tower) ... ok
+test_closure_converges_to_common_core (test_ingram.P2Lexicon) ... ok
+test_path_exists (test_ingram.P2Lexicon) ... ok
+test_resolution_rate (test_ingram.P2Lexicon) ... ok
+test_er_scene (test_ingram.P3Glossary) ... ok
+test_sense_selection (test_ingram.P3Glossary) ... ok
+test_generation_meets_anchors_and_harness (test_ingram.P4Duality) ... ok
+test_harness_separates_real_from_shuffled (test_ingram.P4Duality) ... ok
+test_in_grammar_prefers_natural_order (test_ingram.P4Duality) ... ok
+test_two_kinds_of_undefined (test_ingram.P5Arithmetic) ... ok
+test_every_reply_is_recorded_and_chain_verifies (test_ingram.P6P7Conversation) ... ok
+test_hi_converses (test_ingram.P6P7Conversation) ... ok
+test_identity_depths (test_ingram.P6P7Conversation) ... ok
+test_refuses_to_invent (test_ingram.P6P7Conversation) ... ok
+test_research_glossary_overrides_general (test_ingram.P6P7Conversation) ... ok
+test_get_is_pure_post_records (test_ingram.P8Server) ... /usr/lib/python3.10/unittest/case.py:549: ResourceWarning: unclosed <socket.socket fd=3, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35965)>
+  method()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 14.232s
+
+OK
+
+EXIT_STATUS=0

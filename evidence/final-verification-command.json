@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "scope": "portable integration only",
+  "checks": [
+    {
+      "check": "cop",
+      "command": [
+        "/usr/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "governance",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "evidence": "evidence/verify-cop.log",
+      "sha256": "d1d5fb969f96276c6a6e5cd1ab393f4513ccc7cc9997389c07c11421de59c36c"
+    },
+    {
+      "check": "ledger",
+      "command": [
+        "/usr/bin/python3",
+        "governance/validate_ledger.py"
+      ],
+      "exit_code": 0,
+      "evidence": "evidence/verify-ledger.log",
+      "sha256": "6dd8f1bc41a549485c87cb199a5a3a2acef5973ad3dcaee9a188ed624d50322c"
+    },
+    {
+      "check": "portable",
+      "command": [
+        "/usr/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "portable/tests",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "evidence": "evidence/verify-portable.log",
+      "sha256": "ff2e2f7dd7d3130dd61a12235f798e27770b722ad22fff1b2f702f8198774723"
+    },
+    {
+      "check": "unity_file_integrity",
+      "command": [
+        "/usr/bin/python3",
+        "Unity/Tools/check_fixture.py"
+      ],
+      "exit_code": 0,
+      "evidence": "evidence/verify-unity_file_integrity.log",
+      "sha256": "37f5b59472ff78bd424cfd3202391815406580c12704bfd0a9f87e3b092ba055"
+    }
+  ],
+  "native_status": "BLOCKED",
+  "release_accepted": false
+}

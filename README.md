@@ -20,3 +20,9 @@ Read AGENTS.md and HOMELESS_DARK_CONSTITUTIONAL_COMMISSION.md. Execute the autho
 The supplied HOMELESS_DARK_CLI_FOUNDATIONS.zip contains the same commission, selected mathematical kernels, tests, corpus/data fixtures, and provenance hashes. Reference source does not override the commission. Source archives are evidence, not a prebuilt game. Do not run source scripts without inspecting them.
 
 The prior implementation branch remains historical evidence, outside the current implementation baseline. Its instructions and code are not automatically inherited. No native game build is certified by this documentation commit.
+
+## Current implementation evidence
+
+This checkout now includes a synthetic native scene fixture in `Unity/`, portable reference kernels in `portable/`, and a bounded admission evaluator in `governance/`. These source artifacts have not been imported or built in Unity. No playable Android artifact or worldwide game is certified.
+
+Start with [acceptance status](evidence/ACCEPTANCE.md), [resumable checkpoint](governance/checkpoint.json), [runtime/source inspection](delivery/README.md), and [requirement ledger](governance/requirements.json). The source ZIP remains unchanged at `/home/ubuntu/homeless/masterpack/masterpack.zip` in this environment. Its source gaps and rights limitations remain visible in the evidence.

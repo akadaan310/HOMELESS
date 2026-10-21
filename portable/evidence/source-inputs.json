@@ -1,0 +1,56 @@
+[
+  {
+    "path": "/home/ubuntu/homeless/masterpack/extracted/DARK_HOMELESS_CODEX_MASTERPACK_2026_10_20/inputs/FOUNDATIONS.md",
+    "sha256": "0928400fb8e9a34f9bd343c8b8837b7922ddfd82f945d9882a0fc8619de6a0a7",
+    "bytes": 32279,
+    "disposition": "read-only reference; no source copied into portable"
+  },
+  {
+    "path": "/home/ubuntu/homeless/masterpack/extracted/DARK_HOMELESS_CODEX_MASTERPACK_2026_10_20/inputs/HOMELESS_AI_NATIVE_ENGINE_GODSEED_V2.zip",
+    "sha256": "008bf8601b450bf696707c063455a6222511daf21f6fec04c6d3f38eaadf4026",
+    "bytes": 24634,
+    "disposition": "read-only reference; no source copied into portable"
+  },
+  {
+    "path": "/home/ubuntu/homeless/masterpack/extracted/DARK_HOMELESS_CODEX_MASTERPACK_2026_10_20/inputs/HOMELESS_AI_NATIVE_ENGINE_V3_BORNE.zip",
+    "sha256": "f224b513b42d7094b9517545b78681682d58642d40570de102220bdab2861510",
+    "bytes": 82146,
+    "disposition": "read-only reference; no source copied into portable"
+  },
+  {
+    "path": "/home/ubuntu/homeless/masterpack/extracted/DARK_HOMELESS_CODEX_MASTERPACK_2026_10_20/inputs/Ingrammatica \u2014 Breaking Matrices.md",
+    "sha256": "47ffdac44bbe8d4a0c13b48a5c778a8ea56c8dcae3d15206f157356ff338bfa0",
+    "bytes": 19432,
+    "disposition": "read-only reference; no source copied into portable"
+  },
+  {
+    "path": "/home/ubuntu/homeless/masterpack/extracted/DARK_HOMELESS_CODEX_MASTERPACK_2026_10_20/inputs/PLICASTRATUM.md",
+    "sha256": "3a11ee1c6998d740cd556847ae8b64115bdac17c21e78efa85c5701e2606fcdd",
+    "bytes": 28088,
+    "disposition": "read-only reference; no source copied into portable"
+  },
+  {
+    "path": "/home/ubuntu/homeless/masterpack/extracted/DARK_HOMELESS_CODEX_MASTERPACK_2026_10_20/inputs/al-bab-seven-strata.md",
+    "sha256": "15a033fea26f2a636578504bec40fe6dd194889c2cda7f582385f6fa71a7f357",
+    "bytes": 4827,
+    "disposition": "read-only reference; no source copied into portable"
+  },
+  {
+    "path": "/home/ubuntu/homeless/masterpack/extracted/DARK_HOMELESS_CODEX_MASTERPACK_2026_10_20/inputs/homeless-realms-0.1.zip",
+    "sha256": "4c786d0cbb5b73c56953ccc19f4e4d6456829c5aaac79e071fd01987b30a7c45",
+    "bytes": 55851604,
+    "disposition": "read-only reference; no source copied into portable"
+  },
+  {
+    "path": "/home/ubuntu/homeless/masterpack/extracted/DARK_HOMELESS_CODEX_MASTERPACK_2026_10_20/inputs/ingram-0.1.zip",
+    "sha256": "220c6f4771e29816219b8c833f3e749d82e187b98ba91d92f881932861980ec6",
+    "bytes": 39670817,
+    "disposition": "read-only reference; no source copied into portable"
+  },
+  {
+    "path": "/home/ubuntu/homeless/masterpack/extracted/DARK_HOMELESS_CODEX_MASTERPACK_2026_10_20/inputs/tashkil-kernel-v0.1.zip",
+    "sha256": "f62843e6a3af1b8e9d42dbbd5a7d175f18cfcaddf08415e78a0457d8c86862b8",
+    "bytes": 31929,
+    "disposition": "read-only reference; no source copied into portable"
+  }
+]

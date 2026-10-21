@@ -1,0 +1,1 @@
+{"name":"Dark.Unity.Editor","rootNamespace":"Dark.Unity.Editor","references":["Dark.Unity","Unity.RenderPipelines.Universal.Runtime","Unity.RenderPipelines.Core.Runtime"],"includePlatforms":["Editor"]}

@@ -1,0 +1,54 @@
+octave: X11 DISPLAY environment variable not set
+octave: disabling GUI features
+test_numeric_evidence (unittest.loader._FailedTest) ... ERROR
+test_known_axes_and_stratified_roundtrip (test_reference.CoordinatesTests) ... ok
+test_scoped_history_replay_idempotency_and_policies (test_reference.LifeTests) ... ok
+test_all_policies_and_atomic_refusals (test_reference.PlateTests) ... ok
+test_reconnection_carriage_and_inverse (test_reference.PlateTests) ... ok
+test_exact_allocation_and_stable_ties (test_reference.PopulationTests) ... ok
+test_ranges_realization_migration (test_reference.PopulationTests) ... ok
+
+======================================================================
+ERROR: test_numeric_evidence (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_numeric_evidence
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.10/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/home/ubuntu/homeless/HOMELESS-main/portable/tests/test_numeric_evidence.py", line 2, in <module>
+    from verify_numerics import residual_for_rows
+  File "/home/ubuntu/homeless/HOMELESS-main/portable/verify_numerics.py", line 32, in <module>
+    raise SystemExit(0 if result['status']=='PASS' else 1)
+SystemExit: 0
+
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.069s
+
+FAILED (errors=1)
+{
+  "schema": 1,
+  "clause_ids": [
+    "HD-016",
+    "HD-055",
+    "HD-087"
+  ],
+  "commission_revision": "1.1",
+  "commission_sha256": "e9327cbf55e496f3ad5029e409d6201f68d6095753a5ad95c58328cb6e8a4104",
+  "method": "WGS84 forward ECEF: Python math vs Octave vector arithmetic",
+  "seed": 20261021,
+  "units": "meters",
+  "datum": "WGS84 ellipsoid",
+  "samples": 1005,
+  "output_rows": 1005,
+  "input_sha256": "b23bd5e167a6883c81d77e7fa92e169d261b94c2a0f7a448b51ffe5013578986",
+  "output_sha256": "3f133857bcd99441f55ccf86b937398d977fbf7b9b0089694164ac1a30f30d1d",
+  "max_residual": 3.666620642883615e-09,
+  "tolerance": 1e-07,
+  "exit_code": 0,
+  "octave_version": "GNU Octave, version 6.4.0",
+  "stderr": "error: ignoring const execution_exception& while preparing to exit\n",
+  "status": "PASS"
+}

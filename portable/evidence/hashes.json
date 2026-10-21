@@ -1,0 +1,130 @@
+[
+  {
+    "path": "portable/README.md",
+    "sha256": "e98989f38e304e18763e556f4712b6b90794ee913073cc7d9f7872e2e3bb26a9"
+  },
+  {
+    "path": "portable/TEAM_EVIDENCE.md",
+    "sha256": "ed4620e098bb973952e9fd569d4cc531ac753f1a5f60546682c905901841cc42"
+  },
+  {
+    "path": "portable/dark/__init__.py",
+    "sha256": "aaa92cd8f843343377a1b1b1a651d02a3f2c118a4ae30c90c9770025f73f2e53"
+  },
+  {
+    "path": "portable/dark/geo.py",
+    "sha256": "b269d7daa22638da427af5353244e3786f45ff2d8eaa6a12d1128961322a8dcc"
+  },
+  {
+    "path": "portable/dark/life.py",
+    "sha256": "6a66c5c88e9d6a87bc58286334929fffc52576feaf645363724f64d4895938df"
+  },
+  {
+    "path": "portable/dark/plates.py",
+    "sha256": "9d0b47e18b9ead7f231d7358bbd790adf4f9cd14e87d8d2a11d27bb331153d8d"
+  },
+  {
+    "path": "portable/dark/population.py",
+    "sha256": "ff45daa3f5b3884ba19b331bc8e18edf55a3ae709c9d7a26503ced70ae39a33c"
+  },
+  {
+    "path": "portable/evidence/foundation-runner-command.log",
+    "sha256": "b5d09f4330ccc63f3264b2a8916fc0214fb6a30bd0996ba7e7526e837cee9066"
+  },
+  {
+    "path": "portable/evidence/global-coverage.json",
+    "sha256": "babcc4c25543ca3a88f1bf6a9a7272f1aac434fc0f7b70db10ead982a8ca3077"
+  },
+  {
+    "path": "portable/evidence/ingram-venv.log",
+    "sha256": "d9a2131eb7341d98a96b0c1d790f77b0660fb305b9352bd120316d7af992a162"
+  },
+  {
+    "path": "portable/evidence/ingram.log",
+    "sha256": "58ddfa81d3af7f603589bb023423d817f26cf6e242fa5e1c9a0d34dcd4197d5a"
+  },
+  {
+    "path": "portable/evidence/inverse-red.log",
+    "sha256": "c56aa6ea3492226cc1f78cdd5913fb8bc7def9404619bf34ad8e4337c3fc0ffb"
+  },
+  {
+    "path": "portable/evidence/numeric-command.log",
+    "sha256": "c950fce63d879f12bba4acf06d2fa0a111d84d665a8b4e2293b2dc4804c287a2"
+  },
+  {
+    "path": "portable/evidence/numeric-validation-red.log",
+    "sha256": "12d0feed3dddaf55acd4a608c41b12ad0993261b967964bc33d43748b459575c"
+  },
+  {
+    "path": "portable/evidence/numerics.json",
+    "sha256": "c950fce63d879f12bba4acf06d2fa0a111d84d665a8b4e2293b2dc4804c287a2"
+  },
+  {
+    "path": "portable/evidence/observer-red.log",
+    "sha256": "7636a2f4a119cd8ca3e9023a1cd01f324b12ba8e0183f13924f9fdbf8b774556"
+  },
+  {
+    "path": "portable/evidence/realms-final.log",
+    "sha256": "1166f950c7110d637951770fe63d636aa0563614c55ea44176a5758590b9afc1"
+  },
+  {
+    "path": "portable/evidence/realms-venv.log",
+    "sha256": "fff98e21bfcc045e6cb72082b5a54ba62ff9b078e57b07996349648f92a93a2c"
+  },
+  {
+    "path": "portable/evidence/realms.log",
+    "sha256": "29a7c137edcf3f04fe75074c1da3a35ef99e673fff88a375d0be981962b33ff4"
+  },
+  {
+    "path": "portable/evidence/reference-dependencies.log",
+    "sha256": "e0080fa462a75532b1dc0e27263d5bcf27cbcea41802835ed5753be40cc1e1a6"
+  },
+  {
+    "path": "portable/evidence/reference-green.log",
+    "sha256": "53bc06f63a03e67b923d1811c143d779494ad6905a4a6bd52ff9e1fd0fe31dd9"
+  },
+  {
+    "path": "portable/evidence/reference-red.log",
+    "sha256": "c881b46642890c1312e3ef85c42e89942f1fc9593e395a234eb0a85cebc06737"
+  },
+  {
+    "path": "portable/evidence/reference-shapely-dependency.log",
+    "sha256": "26e7f11617b1d565572dc8697deebc2d4814eaad54521c821bb1ca4d7d0c42a6"
+  },
+  {
+    "path": "portable/evidence/source-inputs.json",
+    "sha256": "442575aef00d62f74bd579d274eba2e8ef375f0245b6203ae2ce19909658cbed"
+  },
+  {
+    "path": "portable/evidence/tashkil-reproduced.log",
+    "sha256": "b5d09f4330ccc63f3264b2a8916fc0214fb6a30bd0996ba7e7526e837cee9066"
+  },
+  {
+    "path": "portable/evidence/tashkil.log",
+    "sha256": "09af3fb8c34fb9c187bdd2dca42bda1c9b6f70782e307fc7ccf56ae9c90dcecd"
+  },
+  {
+    "path": "portable/evidence/v3.log",
+    "sha256": "5356eb3aa0548072dccab6be7d9331fc3560c5ad77d8d0741b81584b47b24636"
+  },
+  {
+    "path": "portable/reproduce_foundations.py",
+    "sha256": "5f170e1a1e13e6a0ef1cfe0ed966e87160d70aac20a332cf10ab4b1b7c2eeff5"
+  },
+  {
+    "path": "portable/tests/test_numeric_evidence.py",
+    "sha256": "aa20df04e0a7c0ba67aacdacb7c2d9cfdba3834097a2278fbd03187833d05cd0"
+  },
+  {
+    "path": "portable/tests/test_reference.py",
+    "sha256": "ce2200315dc9560a966d48718839ec5dea00b4099ea183a6e7d2948d5a59e1e2"
+  },
+  {
+    "path": "portable/verify_numerics.py",
+    "sha256": "d291e29bc2809fdc52bdbc5f7fa0cc238743b5d1b4267194950d7519b62d2f85"
+  },
+  {
+    "path": "portable/wgs84_reference.m",
+    "sha256": "391118cbbfead2e2e336e24f237b8987839cdec47e9801edc95d7a462ab92baf"
+  }
+]
