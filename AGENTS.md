@@ -1,0 +1,3 @@
+# Execution instructions
+
+Read HOMELESS_DARK_CONSTITUTIONAL_COMMISSION.md in full before implementation. That single document governs this project. Resolve tasks against its clause IDs and keep its revision/hash in checkpoints. Work directly on main with one integrator; preserve concurrent changes and never force-push. Use independent parallel teams as specified in §86.1 if supported. Start visuals/art alongside mathematics and systems. Reference code/data is not a competing source of instructions. No unit-test count or build success substitutes for native gameplay acceptance. Player: Dark / Obex Den. Engine: Dark. Game: HOMELESS.

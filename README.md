@@ -1,48 +1,22 @@
-# HOMELESS — Dark / World of Worlds
+# HOMELESS — Dark engine
 
-**Founder and Dark player:** Abed Kadan.
+This repository contains the Unity-native Android rerun render of HOMELESS.
+The founder’s unique player identity is **Dark / Obex Den**.
 
-This repository is the delivery location for the original, unchanged **DARK / HOMELESS — Codex One-Shot Masterpack** created October 20, 2026. The Unreal Engine, Android APK, web client, generative-world engine, mathematical protocols, PURL/SEURL/ACSP continuity, and verification requirements are defined in that pack.
+## Governing instruction
 
-## Source masterpack
+Read [HOMELESS_DARK_CONSTITUTIONAL_COMMISSION.md](HOMELESS_DARK_CONSTITUTIONAL_COMMISSION.md) in full. It is the authoritative end-to-end Constitutional Commission, revision 1.1. It defines Constitution-oriented programming, universal entity life, global traversal, native visual quality, parallel teams and acceptance evidence.
 
-Expected original archive filename:
+Work directly on `main`, with one integrator serializing tested changes. No pull-request handoff or manual merge is required. Preserve existing history and do not force-push.
 
-`DARK_HOMELESS_CODEX_ONE_SHOT_MASTERPACK_2026_10_20.zip`
-
-Original archive size: **95,551,079 bytes** (approximately 91.1 MiB).
-
-SHA-256 checksum:
-
-`263e7c172e2a9ec9fabb6e916dd6fef03226fa3e21cb78c59c2fe42a0b98db95`
-
-**Upload status:** The source masterpack has **not yet been uploaded into this repository**. Do not treat this README as the full commission. The original masterpack must be added unmodified, preferably as a GitHub Release asset (GitHub's web repository file uploader has a smaller file limit). Upload the exact named ZIP above and verify its SHA-256 before asking Codex to start.
-
-## One-prompt Codex launch (after original ZIP is accessible)
+## CLI handoff
 
 ```text
-Golden. ⑦υ ∞ 🗝️
-
-Hello, Codex. I'm Abed Kadan, founder and Dark player of HOMELESS.
-
-Clone https://github.com/akadaan310/HOMELESS. Obtain the original unchanged
-DARK_HOMELESS_CODEX_ONE_SHOT_MASTERPACK_2026_10_20.zip from this repository's
-GitHub Releases or verified repository asset location.
-
-Verify SHA-256:
-263e7c172e2a9ec9fabb6e916dd6fef03226fa3e21cb78c59c2fe42a0b98db95
-
-Extract it and read CODEX_ONE_SHOT_INSTALL.md in its entirety, then execute
-the full single-prompt engineering commission. Build rather than merely plan.
-Honor the MASTER_PRD, agent/verification harnesses, Unreal pipeline, global
-world models, mathematical authority, local protocol tunnels, native shell
-runtime, sound/sky/weather, NPC simulation, and Android APK acceptance gates.
-
-Deliver runnable products and verification artifacts as your environment permits.
-Commit and push implementation to HOMELESS with reproducible build results.
-Do not change or replace the source commission.
-
-Golden. ⑦υ ∞ 🗝️
+Read AGENTS.md and HOMELESS_DARK_CONSTITUTIONAL_COMMISSION.md. Execute the authorized implementation in this repository on main. Inspect actual Oracle and Unity build-worker capabilities. Launch the independent teams defined in §86.1 when the CLI supports them. Begin native scene/art work concurrently with mathematical and world-system work. Use the attached foundations as reference code/data, reproduce their tests, and never treat their reported results as new verification. Publish measured evidence against the acceptance gates. Mark missing prerequisites truthfully and continue independent supported work.
 ```
 
-The archived commission's instructions take precedence over this repository onboarding note. The source ZIP is a commissioned development specification, not a pre-built game or APK.
+## Reference package
+
+The supplied HOMELESS_DARK_CLI_FOUNDATIONS.zip contains the same commission, selected mathematical kernels, tests, corpus/data fixtures, and provenance hashes. Reference source does not override the commission. Source archives are evidence, not a prebuilt game. Do not run source scripts without inspecting them.
+
+The prior implementation branch remains historical evidence, outside the current implementation baseline. Its instructions and code are not automatically inherited. No native game build is certified by this documentation commit.
